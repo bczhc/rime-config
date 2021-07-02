@@ -57,7 +57,7 @@ patch:
       # 上下翻页 - =
       - {accept: minus, send: Page_Up, when: paging}
       - {accept: equal, send: Page_Down, when: has_menu}
-#      - {accept: Return, send: Escape, when: composing}   # 回车清码
+      - {accept: Return, send: Escape, when: composing}   # 回车清码
 
       # emacs key bindings, copy from https://github.com/rime/rime-prelude/blob/master/key_bindings.yaml
       - { when: composing, accept: Control+p, send: Up }
@@ -147,3 +147,5 @@ patch:
       email: "^[-_.0-9A-Za-z]+@.*$"
       uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"
       url: "^(www[.]|https?:|ftp[.:]|mailto:|file:|localhost).*$|^[a-z]+[.].+$"
+  style:
+    horizontal: true

@@ -54,7 +54,7 @@ speller:
 translator:
   dictionary: wubi86_jidian             # 翻译器将调取此字典文件
   enable_charset_filter: true           # 开启字符集过滤
-  enable_completion: true               # 是否显示编码未输入完整的词条
+  enable_completion: false               # 是否显示编码未输入完整的词条
   enable_sentence: false                # 句子输入模式
   enable_user_dict: false               # 是否开启用户词典（用户词典记录动态字词频，用户词）
   enable_encoder: false
@@ -77,7 +77,13 @@ punctuator:
   import_preset: default
 
 key_binder:
-  import_preset: default
+    bindings:
+      - { when: composing, accept: Return, send: Escape }
+      - { when: has_menu, accept: semicolon, send: 2 }
+      - { when: has_menu, accept: apostrophe, send: 3 }
+
+      - {when: has_menu, accept: space, send: space}
+      - {when: composing, accept: space, send: Escape}
 
 recognizer:
   import_preset: default

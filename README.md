@@ -1,12 +1,14 @@
-![Rime](https://user-images.githubusercontent.com/12215982/99625640-a1d6ac80-2a6b-11eb-91b0-ba55003bc3b1.png)
+![rime_all](https://user-images.githubusercontent.com/12215982/128606213-b418558c-ff2e-4368-9fb3-f078ad3d3cde.png)
+
+该库是 Rime 办法的一个 86 版极点五笔的输入方案，支持多平台，并配有词条管理工具 [五笔词条工具](https://github.com/KyleBing/wubi-dict-editor)
 
 ## 一、前言
 
-Rime（中州韵） 是一款跨平台的优秀输入法的内核，不同平台的名字也有不同：
+Rime 是一款跨平台的优秀输入法的内核，不同平台的名字也有不同：
 
-- `Windows` - 小狼毫 (weasel)
-- `macOS` - 鼠须管 (squirrel)
-- `Linux` - 中州韵 (ibus-rime)
+- `Windows` - 小狼毫 ( `weasel` )
+- `macOS` - 鼠须管 ( `squirrel` )
+- `Linux` - 中州韵 ( `ibus-rime` )
 
 Rime 输入法的优势在于它高度的可自定义化，不单单可以定义输入法码表，还可以定义输入法翻译码表的方式，标点对应等等等等。
 
@@ -18,7 +20,24 @@ Rime 输入法的优势在于它高度的可自定义化，不单单可以定义
 
 ### 皮肤
 
+__macOS__
+
 <img width="435" alt="Screen Shot 2020-12-09 at 12 15 57" src="https://user-images.githubusercontent.com/12215982/101584309-56833e80-3a18-11eb-9b83-a43204ad363c.png">
+
+__Windows__
+
+皮肤可以通过修改 `weasel.custom.yaml` 文件内的 color_scheme 实现修改，对应正文的颜色方案
+```yaml
+patch:
+  style:
+    color_scheme: WhiteAqua  # 匹配正文的颜色方案，对应正文的颜色方案名
+```
+
+<img width="400" alt="auto-create-words" src="https://user-images.githubusercontent.com/12215982/127078734-41584c0f-96b8-4630-8cd4-3522d9ce384e.jpg">
+
+<img width="400" alt="auto-create-words" src="https://user-images.githubusercontent.com/12215982/127078737-9b6fb1c9-3b32-42e9-970f-baeb68c024b0.jpg">
+
+<img width="400" alt="auto-create-words" src="https://user-images.githubusercontent.com/12215982/127078741-c4eb7b20-2199-4eea-a6da-491ff620a695.jpg">
 
 ## 二、文件说明
 
@@ -36,7 +55,7 @@ Rime 输入法的优势在于它高度的可自定义化，不单单可以定义
 ├── wubi86_jidian_trad.schema.yaml          # 输入方案 - 五笔简入繁出
 ├── pinyin_simp.dict.yaml                   # 词库文件 - 简体拼音码表 - 五笔中拼音输入需要的
 ├── wubi86_jidian.dict.yaml                 # 词库文件 - 极点五笔主码表
-├── wubi86_jidian_addition.dict.yaml        # 词库文件 - WubiBuddy 用户词添加工具主操作文件
+├── wubi86_jidian_addition.dict.yaml        # 词库文件 - 旧版 WubiBuddy 用户词添加工具主操作文件
 ├── wubi86_jidian_user.dict.yaml            # 词库文件 - 用户私人词库
 └── wubi86_jidian_extra.dict.yaml           # 词库文件 - 扩展词库
 ```
@@ -49,7 +68,8 @@ Rime 输入法的优势在于它高度的可自定义化，不单单可以定义
 1. 下载 五笔配置文件 [https://github.com/KyleBing/rime-wubi86-jidian](https://github.com/KyleBing/rime-wubi86-jidian)
 2. macOS 上的 鼠须管 配置文件存放目录是 `~/Library/Rime`，把下载后的`rime-wubi86-jidian`内的所有文件移到 `Rime` 目录中，
 3. 点击状态栏上的输入法图标，下拉菜单中选择 <kbd>部署</kbd> (英文是<kbd>Deploy</kbd>），或者可以直接使用快捷键 <kbd>control</kbd> + <kbd>option</kbd> + <kbd>~</kbd>
-**注意：**`Rime` 目录下的 `Build` 目录是程序生成的，不要把配置文件放在那里面，无视它即可。
+
+**注意：** `Rime` 目录下的 `Build` 目录是程序生成的，不要把配置文件放在那里面，无视它即可。
 
 放的时候目录结构是这样的：
 ```bash
@@ -85,10 +105,10 @@ Windows 中的配置方法：
 弹出的菜单中，处于第一位的是当前使用的输入法方案，其后跟着是该方案中的输入法菜单，有【半角 - 全角】【简 - 繁】等常见功能菜单，再后面是其它可选的输入法方案，对应 [`default.custom.yaml`](https://github.com/KyleBing/rime-wubi86-jidian/blob/master/default.custom.yaml) 中 `schema_list` 字段内容
 
 ### 3. 默认二三候选
-默认的二三候选是 <kbd>;</kbd>，<kbd>'</kbd> 两个键
+默认的二三候选是 <kbd>;</kbd> <kbd>'</kbd> 两个键
 
 ### 4. 候选翻页
-方向 <kbd>上</kbd><kbd>下</kbd>，<kbd>-</kbd> <kbd>=</kbd>，<kbd>[</kbd> <kbd>]</kbd>
+方向 <kbd>上</kbd><kbd>下</kbd>、<kbd>-</kbd> <kbd>=</kbd>、<kbd>[</kbd> <kbd>]</kbd>
 
 ### 5. 临时拼音输入
 在忘了某字的五笔编码时，<kbd>z</kbd>键可以进入临时拼音输入模式
@@ -106,17 +126,17 @@ Windows 中的配置方法：
 在这个模式下：具体可以看源文件 [`numbers.schema.yaml`](https://github.com/KyleBing/rime-wubi86-jidian/blob/master/numbers.schema.yaml)
 
 
-| 键 | 对应值        | | 键 (按住 shift)  | 对应值         |
-|-------------|------------|---|------------|-------------|
-| 1234567890  | 壹贰叁肆伍陆柒捌玖零 | | 1234567890 | 一二三四五六七八九〇  |
-| wqbsjfd.     | 万仟佰拾角分第点    | | wqbsjfd.    | 万千百十角分点     |
-| z           | 整之         | | z          | 整之          |
-| y           | 元月亿        | | y          | 元月亿         |
+| 键           | 对应值             | | 键 (按住 shift) | 对应值            |
+|-------------|--------------------|---|-----------|-------------------|
+| 1234567890  | 壹贰叁肆伍陆柒捌玖零  | | 1234567890 | 一二三四五六七八九〇  |
+| wqbsjfd.    | 万仟佰拾角分第点     | | wqbsjfd.   | 万千百十角分点       |
+| z           | 整之               | | z          | 整之               |
+| y           | 元月亿             | | y          | 元月亿             |
 
 
 
 ## 五、自定义功能
-所有配置说明都在配置文件中说明了，如果有其它问题可以在 `issue` 中提出，或者在群里（QQ群：878750538）讨论，有需要就 `@青枫`，一定要 `@` 哟，不我看不到
+所有配置说明都在配置文件中说明了，如果有其它问题可以在 `issue` 中提出，或者在群里（QQ群：878750538）讨论，有需要就 `@十月`，一定要 `@` 哟，不然我看不到的
 
 ### 1. 回车清码
 默认是关闭的
@@ -135,13 +155,13 @@ Windows 中的配置方法：
 ```
 
 ### 3. 关于手动造词功能
-手动往词库中添加词组，并重新布署
+一种方式是，手动往词库中添加词组，并重新布署
 > 这个操作要注意的是词组与编码之间的符号是`tab`，写错了这个词是不会被识别的
 
-目前 `macOS` 可以通过工具 [码表助手](https://github.com/KyleBing/WubiBuddy/releases) 来实现用户词的添加功能，仅支持 `macOS`  
+另一种是使用工具。Rime 默认是没有词条管理工具的，所以就写了一个工具，基本满足日常需求，如果有什么其它需要的功能，可以跟我说。
+[五笔词条工具](https://github.com/KyleBing/wubi-dict-editor)
 
-<img width="703" alt="main" src="https://user-images.githubusercontent.com/12215982/80705752-8cbf1e00-8b19-11ea-8f0f-7134f3cd9585.png">
-
+<img width="600" alt="Screen Shot 2021-08-07 at 23 38 13" src="https://user-images.githubusercontent.com/12215982/128605586-47399a2e-c036-4729-aeef-8c67281b45ba.png">
 
 ### 4. 输出系统变量
 自 Rime `v0.13` 之后可自定义输出系统变量，如日期等
@@ -171,8 +191,12 @@ translator:
 
 
 ## 六、其它相关链接
+
+__工具链接__
+- [x] 五笔码表助手： [https://github.com/KyleBing/wubi-dict-editor](https://github.com/KyleBing/wubi-dict-editor)
+
 __资源链接__
-- [x] Rime github 地址：   [https://github.com/rime]( https://github.com/rime)
+- [x] Rime github 地址：  [https://github.com/rime]( https://github.com/rime)
 - [x] Rime 输入方案集合：  [https://github.com/rime/plum]( https://github.com/rime/plum)
 - [x] Rime 官方五笔码表：  [https://github.com/rime/rime-wubi](https://github.com/rime/rime-wubi)
 - [x] Rime 简拼输入方案：  [https://github.com/rime/rime-pinyin-simp](https://github.com/rime/rime-pinyin-simp)

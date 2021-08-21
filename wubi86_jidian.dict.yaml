@@ -25,7 +25,6 @@ encoder:
     - length_in_range: [4, 10]  # 对于四至十字词
       formula: "AaBaCaZa"       # 取第一字首码，第二字尾码、第三字首码、最后一字尾码
 ...
-
 工	a
 戈	a
 式	aa
@@ -12517,6 +12516,7 @@ Apple	appl
 腌渍	edig
 腓	edjd
 腌	edjn
+朋友圈	edlu
 须	edm
 腼	edmd
 腝	edmd
@@ -12994,7 +12994,7 @@ Apple	appl
 胚体	egws
 助人	egww
 悬念	egwy
-雎	egwy
+悬停	egwy
 胰	egx
 县级	egxe
 膆	egxi
@@ -22239,6 +22239,7 @@ Apple	appl
 正襟危坐	gpqw
 珍宝岛	gpqy
 GoPro	gpr
+雎	egwy
 不客气	gprn
 瑸	gprw
 列宁格勒	gpsa
@@ -30461,6 +30462,7 @@ iPod	ipod
 浏览	iyjt
 游览	iyjt
 流星	iyjt
+游曳	iyjx
 洋为中用	iyke
 滖	iyke
 瀼	iyke
@@ -44632,9 +44634,8 @@ MacbookPro	mbp
 心坎	nyfq
 尽孝	nyft
 心境	nyfu
-以致	nygc
-以至	nygc
 迟到	nygc
+以至	nygc
 屡试不爽	nygd
 心静	nyge
 忙于	nygf
@@ -47499,6 +47500,7 @@ MacbookPro	mbp
 寂	phi
 寂	phic
 安步当车	phil
+视频号	phkg
 寊	phmu
 宐	phng
 鼏	phnn
@@ -48520,6 +48522,7 @@ MacbookPro	mbp
 实战	puhk
 袩	puhk
 裭	puhm
+裸眼	puhv
 初具	puhw
 补	puhy
 衤	pui
@@ -48791,6 +48794,7 @@ MacbookPro	mbp
 袝	puwf
 袵	puwf
 实例	puwg
+补全	puwg
 襳	puwg
 补修	puwh
 补偿	puwi
@@ -65430,8 +65434,8 @@ MacbookPro	mbp
 生路	tgkh
 衙	tgkh
 重唱	tgkj
+管理器	tgkk
 处理器	tgkk
-生殖器	tgkk
 稫	tgkl
 管理员	tgkm
 垂吊	tgkm
@@ -67163,6 +67167,8 @@ MacbookPro	mbp
 处心积虑	tnth
 自导自演	tnti
 T恤	tntl
+制表符	rgtw
+生殖器	tgkk
 物以稀为贵	tntk
 秘	tntt
 知己知彼	tntt
@@ -77093,6 +77099,7 @@ m³	uuyy
 頜	wgkm
 顩	wgkm
 龥	wgkm
+全员	wgkm
 翕	wgkn
 翖	wgkn
 鴿	wgko
@@ -77879,6 +77886,8 @@ m³	uuyy
 何罪之有	wlpd
 佃农	wlpe
 候车室	wlpg
+欲加之罪，何患无辞	wlpl
+欲加之罪	wlpl
 保国安民	wlpn
 僆	wlpy
 偎抱	wlrq
@@ -79132,8 +79141,6 @@ m³	uuyy
 余杰	wtso
 人造棉	wtsr
 作梦	wtss
-人行横道	wtsu
-傻样	wtsu
 叙述	wtsy
 途径	wttc
 作乱	wttd
@@ -83024,6 +83031,7 @@ m³	uuyy
 弓弩手	xvrt
 绿树	xvsc
 绿枝	xvsf
+绿植	xvsf
 绿林	xvss
 绿毛	xvtf
 纪录片	xvth
@@ -83374,6 +83382,7 @@ m³	uuyy
 纟	xxxx
 丝弦	xxxy
 比试	xxya
+经纬度	xxya
 比诸	xxyf
 纽约市	xxym
 比肩	xxyn
@@ -86939,6 +86948,8 @@ m³	uuyy
 放荒	ytay
 施	ytb
 YouTube	ytb
+任务栏	wtsu
+人行横道	wtsu
 旗子	ytbb
 诈取	ytbc
 州际	ytbf

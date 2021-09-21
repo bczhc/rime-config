@@ -1,8 +1,11 @@
 ![rime_all](https://user-images.githubusercontent.com/12215982/128606213-b418558c-ff2e-4368-9fb3-f078ad3d3cde.png)
 
-该库是 Rime 办法的一个 86 版极点五笔的输入方案，支持多平台，并配有词条管理工具 [五笔词条工具](https://github.com/KyleBing/wubi-dict-editor)
+该库是 Rime 输入法的一个 86 版极点五笔的输入方案，支持多平台（Windows macOS Linux）
+并配有词条管理工具 [五笔词条工具](https://github.com/KyleBing/wubi-dict-editor)
 
 ## 一、前言
+
+**什么是 Rime 输入法**
 
 Rime 是一款跨平台的优秀输入法的内核，不同平台的名字也有不同：
 
@@ -33,11 +36,18 @@ patch:
     color_scheme: WhiteAqua  # 匹配正文的颜色方案，对应正文的颜色方案名
 ```
 
-<img width="400" alt="auto-create-words" src="https://user-images.githubusercontent.com/12215982/127078734-41584c0f-96b8-4630-8cd4-3522d9ce384e.jpg">
+<img width="400" alt="windows-skin" src="https://user-images.githubusercontent.com/12215982/127078734-41584c0f-96b8-4630-8cd4-3522d9ce384e.jpg">
 
-<img width="400" alt="auto-create-words" src="https://user-images.githubusercontent.com/12215982/127078737-9b6fb1c9-3b32-42e9-970f-baeb68c024b0.jpg">
+<img width="400" alt="windows-skin" src="https://user-images.githubusercontent.com/12215982/127078737-9b6fb1c9-3b32-42e9-970f-baeb68c024b0.jpg">
 
-<img width="400" alt="auto-create-words" src="https://user-images.githubusercontent.com/12215982/127078741-c4eb7b20-2199-4eea-a6da-491ff620a695.jpg">
+<img width="400" alt="windows-skin" src="https://user-images.githubusercontent.com/12215982/127078741-c4eb7b20-2199-4eea-a6da-491ff620a695.jpg">
+
+
+__Linux: Ubuntu__
+
+<img width="350" alt="skin-ubuntu" src="https://user-images.githubusercontent.com/12215982/131607073-0b3dfe0e-bfc8-4be0-91c7-b304702acdda.png">
+
+
 
 ## 二、文件说明
 
@@ -95,6 +105,15 @@ Windows 中的配置方法：
 4. 点击开始菜单中的【部署】即可
 
 
+### 3. 配置 ibus-rime (Ubuntu)
+
+执行下面指令安装 ibus-rime 输入法
+
+```bash
+sudo apt-get install ibus-rime
+```
+
+ubuntu 的配置文件目录在 `~/.config/ibus/rime/`
 
 ## 四、使用说明
 
@@ -114,7 +133,13 @@ Windows 中的配置方法：
 在忘了某字的五笔编码时，<kbd>z</kbd>键可以进入临时拼音输入模式
 
 ### 6. 支持 简入繁出
-是以切换输入方案的形式实现的，使用时，调出菜单，选择 `极点五笔繁体` 方案即可
+是以切换输入方案的形式实现的，使用时，调出菜单，选择 `简入繁出` 方案即可
+简繁转换的功能能实现：
+- 转繁体
+- 转香港繁体
+- 转台湾繁体
+具体可以看这个文件内的说明： [wubi86_jidian_trad.schema.yaml](https://github.com/KyleBing/rime-wubi86-jidian/blob/master/wubi86_jidian_trad.schema.yaml)
+> 以不切换文字的形式使用只是暂时转繁，换个程序就会恢复简体了。如果你想一直使用简入繁出就选择 「简入繁出」这个方案
 
 ### 7. 系统 `时间` 和 `日期`
 输入对应词，获取当前日期和时间
@@ -204,6 +229,7 @@ __资源链接__
 __配置教程链接__
 - [x] Rime 官网：   [https://rime.im/](https://rime.im/)
 - [x] 中英切换自定义：[https://gist.github.com/lotem/2981316](https://gist.github.com/lotem/2981316)
+- [x] 簡繁配置說明關於 OpenCC ：[https://github.com/rime/home/issues/420](https://github.com/rime/home/issues/420)
 
 __本库 Wiki__
 - [x] [schema.yaml 详解](https://github.com/KyleBing/rime-wubi86-jidian/wiki/Schema.yaml-%E8%AF%A6%E8%A7%A3)

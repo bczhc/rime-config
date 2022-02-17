@@ -1,12 +1,11 @@
-
 ---
 name: wubi86_jidian
 version: "4.3"
-sort: original #by_weight/权重 original/原始
-import_tables: #此处是添加用户自定义词库的地方
-  - wubi86_jidian_addition            # WubiBuddy用户词存储位置
+sort: by_weight # by_weight=权重 original=原始
+import_tables: # 此处是添加用户自定义词库的地方
   - wubi86_jidian_user                # 个人私有词库
   - wubi86_jidian_extra               # 扩展词库
+#  - wubi86_jidian_english             # 常用英文词库 3w 词
 
 
 columns:    # 码表格式
@@ -763,6 +762,7 @@ encoder:
 菜	aes
 藤椅	aesd
 菜梗	aesg
+菜椒	aesh
 散板	aesr
 菜	aesu
 菜根	aesv
@@ -1213,7 +1213,6 @@ encoder:
 薑	aglg
 萰	agli
 莆田	agll
-莆田	agll
 巧思	agln
 劻	agln
 荆轲	agls
@@ -1432,7 +1431,7 @@ encoder:
 牙质	ahrf
 邪气	ahrn
 熙攘	ahry
-卧槽	ahsa
+卧槽	ahsg
 雅相	ahsh
 卧榻	ahsj
 雅歌	ahsk
@@ -1736,6 +1735,7 @@ AirPower	airp
 草草	ajaj
 草黄	ajam
 墓茔	ajap
+蓝莓	ajat
 草莓	ajat
 草菇	ajav
 草芥	ajaw
@@ -2326,7 +2326,7 @@ AirPower	airp
 恐怖	amnd
 恐惧	amnh
 萵	amnk
-项羽	amnn
+项羽	adnn
 薖	amnp
 恐怕	amnr
 慐	amnu
@@ -2413,6 +2413,7 @@ AirPower	airp
 跫	amyh
 蛩	amyj
 英亩	amyl
+恐高	amym
 恐	amyn
 英豪	amyp
 銎	amyq
@@ -2731,6 +2732,7 @@ AirPower	airp
 荧	apou
 营寨	appf
 Apple	appl
+或缺	akrm
 劳军	appl
 蒙冤	appq
 劳神	appy
@@ -3143,7 +3145,7 @@ Apple	appl
 匠气	arrn
 萨拉热窝	arrp
 藠	arrr
-斯特拉	arru
+斯特拉	atru
 颐指气使	arrw
 东拉西扯	arsr
 东拼西凑	arsu
@@ -3306,6 +3308,7 @@ Apple	appl
 芊	atfj
 攻击	atfm
 芼	atfn
+花生壳	atfp
 蓬勃	atfp
 莛	atfp
 获得者	atft
@@ -3401,7 +3404,6 @@ Apple	appl
 共和制	atrm
 攻打	atrs
 莪	atrt
-斯特拉	atru
 营私舞弊	atru
 攻势	atrv
 医护	atry
@@ -4955,6 +4957,7 @@ Apple	appl
 阢	bgq
 耳饰	bgqn
 阢	bgqn
+耳钉	bgqs
 隞	bgqt
 耳镜	bgqu
 卫报	bgrb
@@ -5661,7 +5664,34 @@ Apple	appl
 聦	bqrn
 出尔反尔	bqrq
 陶醉	bqsg
-版权所有	bqsy
+阻生齿	bthw
+　	cokg		全角空格
+大扫除	drbw
+支路	fckh
+志愿者	fdft
+过去式	ffaa
+到付	gcwf
+残疾人	guww
+竖屏	jcnu
+口臭	kkth
+驾驶人	lcww
+辅道	lgut
+内存卡	mdhh
+刚发现	mngm
+祝福	pkpg
+祈祷	prpd
+神经衰弱	pxyx
+触底	qeyq
+把控	rcrp
+提示框	rfsa
+返回值	rlwf
+抱拳	rqud
+横屏	sanu
+SD卡	sdhh
+查错	sjqa
+样例	suwg
+智齿	tdhw
+版权所有	tsrd
 聊	bqt
 聊	bqtb
 隐私	bqtc
@@ -5898,6 +5928,7 @@ Apple	appl
 降低	btwq
 櫱	btws
 辥	btwu
+联系人	btww
 陌生人	btww
 降价	btww
 耶和华	btwx
@@ -6254,6 +6285,7 @@ Apple	appl
 防雨	byfg
 防雷	byfl
 聊斋志异	byfn
+防雾	byft
 出谋献策	byft
 出言无状	byfu
 出言不逊	bygb
@@ -89574,8 +89606,8 @@ u	copu
 骓	cwy
 难度	cwya
 駖	cwyc
-难	cwyg
 验证	cwyg
+难	cwyg
 骓	cwyg
 騅	cwyg
 难为	cwyl
@@ -89774,6 +89806,7 @@ u	copu
 百花争艳	daqd
 左角	daqe
 砸钱	daqg
+泰戈尔	daqi
 布莱尔	daqi
 砸锅	daqk
 厮杀	daqs
@@ -90257,6 +90290,7 @@ u	copu
 大乱	ddtd
 大敌	ddtd
 大盘	ddte
+大赞	ddtf
 大街	ddtf
 大选	ddtf
 万古长青	ddtg
@@ -92030,7 +92064,8 @@ u	copu
 面霜	dmfs
 面坊	dmfy
 硐	dmg
-正则表达式	dmga
+胎压	ecdf
+正则表达式	gmga
 耍弄	dmga
 而至	dmgc
 布下	dmgh
@@ -93474,6 +93509,7 @@ u	copu
 春晓	dwja
 奉贤	dwjc
 奏明	dwje
+百公里	dwjf
 春	dwjf
 砎	dwjh
 蠢	dwjj
@@ -93773,7 +93809,6 @@ u	copu
 砯	dyiy
 丈量	dyjg
 太早	dyjh
-太早	dyjh
 太晚	dyjq
 太监	dyjt
 太暗	dyju
@@ -94067,7 +94102,6 @@ u	copu
 腌	ed
 腌菜	edae
 爱克斯光	edai
-爱奇艺	edan
 爱奇艺	edan
 膸	edap
 肱	edc
@@ -94615,6 +94649,7 @@ u	copu
 爱滋病	eiug
 胆小如鼠	eivv
 膌	eiwe
+助学贷款	eiwf
 膛线	eixg
 胆	ej
 胆子	ejbb
@@ -96382,6 +96417,7 @@ u	copu
 运行	fctf
 动迁	fctf
 支行	fctf
+去重	fctg
 去处	fcth
 运算	fcth
 运程	fctk
@@ -96726,7 +96762,6 @@ u	copu
 卦	ffhy
 款	ffi
 填满	ffia
-填满	ffia
 土法	ffif
 超声波	ffih
 坑坑洼洼	ffii
@@ -96813,7 +96848,6 @@ u	copu
 土气	ffrn
 坛坛罐罐	ffrr
 堪培拉	ffru
-填权	ffsc
 垃圾桶	ffsc
 封顶	ffsd
 志趣相投	ffsr
@@ -97103,6 +97137,7 @@ u	copu
 坏处	fgth
 动画片	fgth
 博得	fgtj
+动平衡	fgtq
 博物	fgtr
 喜不自禁	fgts
 干笑	fgtt
@@ -97545,6 +97580,7 @@ u	copu
 走人	fhww
 起价	fhww
 真货	fhwx
+起停	fhwy
 真伪	fhwy
 赶集	fhwy
 埧	fhwy
@@ -99305,9 +99341,9 @@ u	copu
 无度	fqya
 远离	fqyb
 无序	fqyc
+无语	fqyg
 无证	fqyg
 无主	fqyg
-无语	fqyg
 均应	fqyi
 朮	fqyi
 无误	fqyk
@@ -99692,7 +99728,7 @@ u	copu
 博物馆	ftqn
 煮饭	ftqn
 老鸟	ftqy
-超管	ftrc
+超管	fhtp
 教授	ftre
 老挝	ftrf
 老兵	ftrg
@@ -100239,7 +100275,7 @@ u	copu
 夫权	fwsc
 堆栈	fwsg
 才华横溢	fwsi
-元歌	fwsk
+元歌	fqsk
 无人机	fwsm
 规格	fwst
 干什么	fwtc
@@ -100385,6 +100421,7 @@ u	copu
 霁	fyjj
 霭	fyjn
 靄	fyjn
+增广贤文	fyjy
 壤	fyk
 壤	fyke
 坑口	fykk
@@ -100813,7 +100850,6 @@ u	copu
 两院制	gbrm
 屯扎	gbrn
 不出所料	gbro
-顿挫	gbrw
 顿挫	gbrw
 五子棋	gbsa
 顿生	gbtg
@@ -101306,7 +101342,7 @@ u	copu
 青衫	gepu
 静安	gepv
 静	geq
-天助我也	geqb
+天助我也	getb
 青色	geqc
 靘	geqc
 表针	geqf
@@ -101947,6 +101983,7 @@ u	copu
 下期	ghad
 瓛	ghad
 璩	ghae
+下葬	ghag
 正巧	ghag
 下落	ghai
 下划	ghaj
@@ -102577,7 +102614,7 @@ u	copu
 不为	giyl
 天津市	giym
 不忘	giyn
-不该	giyn
+不该	giyy
 不变	giyo
 不义	giyq
 不许	giyt
@@ -102585,7 +102622,6 @@ u	copu
 不良	giyv
 否认	giyw
 不论	giyw
-不该	giyy
 理	gj
 理工	gjaa
 更甚	gjad
@@ -103228,6 +103264,7 @@ u	copu
 瑞士	gmfg
 天崩地裂	gmfg
 珃	gmfg
+两趟	gmfh
 再起	gmfh
 琱	gmfk
 现场	gmfn
@@ -103235,7 +103272,6 @@ u	copu
 再者	gmft
 専	gmfu
 瑞雪	gmfv
-正则表达式	gmga
 现形	gmga
 两顿	gmgb
 遭到	gmgc
@@ -103814,6 +103850,9 @@ u	copu
 正襟危坐	gpqw
 珍宝岛	gpqy
 GoPro	gpr
+防噪	bykk
+速溶	gkip
+两周	gmmf
 不客气	gprn
 瑸	gprw
 列宁格勒	gpsa
@@ -105571,6 +105610,7 @@ GoPro	gpr
 頉	hdmy
 	hdqg
 凸面镜	hdqu
+HDR	hdr
 狊	hdu
 瞭	hdui
 睶	hdwj
@@ -105895,6 +105935,7 @@ GoPro	gpr
 上抛	hhrv
 上树	hhsc
 目标	hhsf
+卡槽	hhsg
 上相	hhsh
 上档	hhsi
 上可	hhsk
@@ -108057,6 +108098,7 @@ GoPro	gpr
 法释	ifto
 潜移	iftq
 污物	iftr
+滚动条	ifts
 法条	ifts
 漖	iftt
 法科	iftu
@@ -108525,6 +108567,7 @@ GoPro	gpr
 小财	ihmf
 波幅	ihmh
 小山	ihmm
+滤网	ihmq
 小风	ihmq
 小贩	ihmr
 波峰	ihmt
@@ -108800,7 +108843,6 @@ GoPro	gpr
 湿漉漉	iiiy
 渁	iiiy
 沙尘暴	iija
-沙尘暴	iija
 混淆是非	iijd
 水暖	iije
 水里	iijf
@@ -108982,6 +109024,7 @@ GoPro	gpr
 水绿	iixv
 水纹	iixy
 沝	iiy
+温湿度	iiya
 深沟高垒	iiyc
 游泳衣	iiye
 洗染店	iiyh
@@ -109231,7 +109274,10 @@ GoPro	gpr
 漶	ikkn
 湂	ikkn
 澡	ikks
-另当别论	ikky
+河马	iscn
+蜘蛛网	jjmq
+螵虫	jsjh
+另当别论	kiky
 溃围	iklf
 举足轻重	iklt
 涡轮	iklw
@@ -109380,6 +109426,8 @@ GoPro	gpr
 澧	imau
 淟	imaw
 IMAX	imax
+未成年	fdrh
+两张	gmxt
 小册子	imbb
 测出	imbm
 没了	imbn
@@ -109430,6 +109478,7 @@ IMAX	imax
 油井	imfj
 敞露	imfk
 淍	imfk
+滑块	imfn
 尚志	imfn
 滑过	imfp
 尚无	imfq
@@ -109844,6 +109893,8 @@ IMAX	imax
 淡抹	iorg
 水煤气	iorn
 iOS	ios
+清零	igfw
+淡蓝	ioaj
 消火栓	iosw
 淡季	iotb
 消炎片	ioth
@@ -109876,6 +109927,7 @@ iPad	ipad
 沉冤莫白	ipar
 学医	ipat
 深切	ipav
+浓茶	ipaw
 黉	ipaw
 泻药	ipax
 学	ipb
@@ -111965,6 +112017,7 @@ iPod	ipod
 游动	iyfc
 泳坛	iyff
 流干	iyfg
+游走	iyfh
 深谋远虑	iyfh
 流离颠沛	iyfi
 流进	iyfj
@@ -112006,7 +112059,6 @@ iPod	ipod
 流水	iyii
 流淌	iyii
 浪漫	iyij
-漩涡	iyik
 漩涡	iyik
 淤泥	iyin
 游学	iyip
@@ -112573,6 +112625,7 @@ iPod	ipod
 紧裹	jcyj
 归马放牛	jcyr
 贤良	jcyv
+贤文	jcyy
 晨	jd
 是非功过	jdaf
 景泰蓝	jdaj
@@ -113519,6 +113572,7 @@ iPod	ipod
 晶体	jjws
 晃晃悠悠	jjww
 日化	jjwx
+电量仪	jjwy
 日食	jjwy
 日经	jjxc
 蝴蝶结	jjxf
@@ -113858,7 +113912,6 @@ iPod	ipod
 电扇	jnyn
 暴发户	jnyn
 电摩	jnys
-电摩	jnys
 电话	jnyt
 日心说	jnyu
 电文	jnyy
@@ -114178,6 +114231,7 @@ iPod	ipod
 蛛网	jrmq
 暣	jrno
 蝗害	jrpd
+暖手宝	jrpg
 易拉宝	jrpg
 蝗灾	jrpo
 螝	jrqc
@@ -115590,7 +115644,6 @@ iPod	ipod
 哭丧棒	kfsd
 叶枝	kfsf
 叶柄	kfsg
-吐槽	kfsg
 吐槽	kfsg
 中直机关	kfsu
 喷枪	kfsw
@@ -117027,7 +117080,7 @@ iPod	ipod
 别论	klyw
 另议	klyy
 员	km
-km/h	km
+km/h	kmh
 嗣	kma
 员工	kmaa
 吐刚茹柔	kmac
@@ -118209,6 +118262,7 @@ km/h	km
 只言片语	kyty
 忠言逆耳	kyub
 哼着	kyud
+中州韵	kyuj
 咳痰	kyuo
 啷	kyv
 啷	kyvb
@@ -119106,6 +119160,7 @@ km/h	km
 因事制宜	lgrp
 四两拨千斤	lgrr
 国手	lgrt
+辅热	lgrv
 国势	lgrv
 车模	lgsa
 国权	lgsc
@@ -120776,6 +120831,10 @@ km/h	km
 曲子	mabb
 曲阳	mabj
 Macbook	macb
+朝朝暮暮	ffaa
+一箱	ggts
+水利局	itnn
+紧实	jcpu
 旺旺	jgjg
 macOS	maco
 曲	mad
@@ -120910,6 +120969,9 @@ macOS	maco
 邮发	mbnt
 邮戳	mbnw
 MacbookPro	mbp
+都是	ftjg
+唉呀	kcka
+啥意思	kuln
 邮寄	mbpd
 邮包	mbqn
 邮报	mbrb
@@ -121750,6 +121812,7 @@ MacbookPro	mbp
 帐户	mhyn
 贴谱	mhyu
 由谁	mhyw
+帧率	mhyx
 峭	mi
 巌	midt
 峭	mie
@@ -123792,6 +123855,7 @@ MacbookPro	mbp
 懓	nept
 心腹之交	nepu
 愮	nerm
+必须的	nerq
 民胞物与	netg
 心脑血管	nett
 心脏病	neug
@@ -125433,11 +125497,10 @@ MacbookPro	mbp
 改动	ntfc
 屐	ntfc
 必需	ntfd
+必填	ntff
 尾款	ntff
 屗	ntff
 屛	ntff
-必填	ntff
-必填	ntff
 发坏	ntfg
 发起	ntfh
 忏	ntfh
@@ -125875,6 +125938,7 @@ MacbookPro	mbp
 飞檐	nusq
 飞升	nuta
 愱	nutd
+飞盘	nute
 飞船	nute
 飞行	nutf
 屏息	nuth
@@ -131586,6 +131650,7 @@ MacbookPro	mbp
 色彩	qces
 勾脸	qcew
 铎	qcf
+色域	qcfa
 勾魂	qcfc
 勾起	qcfh
 铎	qcfh
@@ -132096,6 +132161,7 @@ MacbookPro	mbp
 釫	qfnn
 鋕	qfny
 鋍	qfpb
+乌云密布	qfpd
 镇守	qfpf
 镇定	qfpg
 鎍	qfpi
@@ -132660,6 +132726,7 @@ MacbookPro	mbp
 外界	qhlw
 外贼	qhma
 外财	qhmf
+外网	qhmq
 外见	qhmq
 鍞	qhmy
 外层	qhnf
@@ -133127,6 +133194,7 @@ MacbookPro	mbp
 名氏	qkqa
 免	qkqb
 名角	qkqe
+鳄鱼	qkqg
 鸲	qkqg
 多吃多占	qkqh
 逸乐	qkqi
@@ -134344,6 +134412,7 @@ MacbookPro	mbp
 钧	qqug
 鈞	qqug
 多音	qquj
+独角兽	qqul
 多端	qqum
 憌	qqun
 多次	qquq
@@ -135050,6 +135119,7 @@ MacbookPro	mbp
 锈蚀	qtqn
 狍	qtqn
 多种多样	qtqs
+猩猩	qtqt
 猖獗	qtqt
 狡猾	qtqt
 狼狈	qtqt
@@ -135577,6 +135647,7 @@ MacbookPro	mbp
 争先	qvtf
 银牌	qvth
 急得	qvtj
+键程	qvtk
 急务	qvtl
 银币	qvtm
 煞	qvto
@@ -136804,6 +136875,7 @@ MacbookPro	mbp
 排	rdjd
 擫	rdjd
 拜盟	rdje
+持有量	rdjg
 拜师	rdjg
 掩映	rdjm
 掩	rdjn
@@ -137861,7 +137933,6 @@ MacbookPro	mbp
 牛仔	rhwb
 年仅	rhwc
 年会	rhwf
-年会	rhwf
 扑倒	rhwg
 看似	rhwn
 年假	rhwn
@@ -137969,6 +138040,7 @@ MacbookPro	mbp
 挑明	rije
 排水量	rijg
 挑剔	rijq
+牛油果	rijs
 挑唆	rikc
 挡路	rikh
 热水器	rikk
@@ -138131,6 +138203,7 @@ MacbookPro	mbp
 气昂昂	rjjq
 看电影	rjjy
 摱	rjlc
+提车	rjlg
 揾	rjlg
 担架	rjlk
 揭帖	rjmh
@@ -138646,6 +138719,7 @@ MacbookPro	mbp
 投手	rmrt
 投掷	rmru
 所见所闻	rmru
+制热	rmrv
 缺失	rmrw
 抽搐	rmry
 投票	rmsf
@@ -138958,7 +139032,6 @@ MacbookPro	mbp
 氥	rnsf
 氨酸	rnsg
 气相	rnsh
-搅屎棍	rnsj
 据查	rnsj
 搅屎棍	rnsj
 气概	rnsv
@@ -139734,6 +139807,7 @@ MacbookPro	mbp
 踅	rrkh
 折中	rrkh
 白喝	rrkj
+控制器	rrkk
 手舞足蹈	rrkk
 指挥员	rrkm
 折转	rrlf
@@ -139780,8 +139854,8 @@ MacbookPro	mbp
 拆穿	rrpw
 折福	rrpy
 掀	rrq
-魄	rrqc
 白色	rrqc
+魄	rrqc
 欣欣然	rrqd
 拆解	rrqe
 銴	rrqf
@@ -141320,6 +141394,7 @@ MacbookPro	mbp
 指甲	rxlh
 拗	rxln
 白纸黑字	rxlp
+折线图	rxlt
 批办	rxlw
 指骨	rxme
 批购	rxmq
@@ -143081,6 +143156,7 @@ MacbookPro	mbp
 相安	shpv
 相容	shpw
 相视	shpy
+相迎	shqb
 想象	shqj
 梘	shqn
 板上钉钉	shqq
@@ -143313,6 +143389,7 @@ MacbookPro	mbp
 槛	sjt
 查私	sjtc
 查知	sjtd
+查重	sjtg
 查处	sjth
 槛	sjtl
 榄	sjtq
@@ -144267,6 +144344,7 @@ MacbookPro	mbp
 模模糊糊	ssoo
 木料	ssou
 焚	ssou
+棒棒糖	ssoy
 榻榻米	ssoy
 樮	ssoy
 林农	sspe
@@ -144537,6 +144615,7 @@ MacbookPro	mbp
 西装革履	suan
 校区	suaq
 校医	suat
+西兰花	suaw
 校花	suaw
 梅兰芳	suay
 样子	subb
@@ -144843,6 +144922,7 @@ MacbookPro	mbp
 松花	swaw
 松蘑	sway
 枪	swb
+橙子	swbb
 松子	swbb
 检出	swbm
 枪	swbn
@@ -145946,7 +146026,6 @@ MacbookPro	mbp
 乔装	tduf
 甜美	tdug
 辞	tduh
-刮痧	tdui
 簝	tdui
 刮痧	tdui
 知音	tduj
@@ -146220,7 +146299,7 @@ MacbookPro	mbp
 航模	tesa
 航权	tesc
 透顶	tesd
-筋膜枪	tese
+筋膜枪	tesw
 船票	tesf
 航标	tesf
 般配	tesg
@@ -147364,6 +147443,7 @@ MacbookPro	mbp
 处	thi
 自满	thia
 自治	thic
+片源	thid
 鼻尖	thid
 算法	thif
 臭汗	thif
@@ -147650,6 +147730,7 @@ MacbookPro	mbp
 稍	tieg
 箾	tiej
 衍	tif
+生源地	tifb
 策源地	tifb
 衍	tifh
 愆	tifn
@@ -147752,9 +147833,9 @@ MacbookPro	mbp
 复苏	tjal
 香茗	tjaq
 香薰	tjat
-香薰	tjat
 香菇	tjav
 笑里藏刀	tjav
+向日葵	tjaw
 香蕉	tjaw
 篮子	tjbb
 筛子	tjbb
@@ -148520,6 +148601,7 @@ MacbookPro	mbp
 向	tmk
 向	tmkd
 徽号	tmkg
+微距	tmkh
 射中	tmkh
 身患	tmkk
 穨	tmkm
@@ -148748,6 +148830,7 @@ MacbookPro	mbp
 自导自演	tnti
 物以稀为贵	tntk
 T恤	tntl
+内心活动	mnif
 数独	ovqt
 拟物	rntr
 秘	tntt
@@ -149673,6 +149756,7 @@ T恤	tntl
 毛毛雨	ttfg
 笔直	ttfh
 筕	ttfh
+TF卡	ttfhh
 秊	ttfj
 秊	ttfj
 筶	ttfk
@@ -149846,6 +149930,7 @@ T恤	tntl
 笔刀	ttvn
 长舌妇	ttvv
 笔伐	ttwa
+冬奥会	ttwf
 笔会	ttwf
 筹委会	ttwf
 奥委会	ttwf
@@ -150321,6 +150406,7 @@ T恤	tntl
 黏糊	twod
 答数	twov
 黏米	twoy
+生僻字	twpb
 签字	twpb
 籂	twph
 知人之明	twpj
@@ -152160,7 +152246,6 @@ T恤	tntl
 病害	ugpd
 病家	ugpe
 新型冠状病毒	ugpg
-新型冠状病毒	ugpg
 美军	ugpl
 间不容发	ugpn
 盖被	ugpu
@@ -152385,6 +152470,7 @@ T恤	tntl
 冰城	uifd
 冰封	uiff
 冰块	uifn
+冰壶	uifp
 冰雹	uifq
 冰霜	uifs
 冰雾	uift
@@ -154511,7 +154597,7 @@ T恤	tntl
 立说	uuyu
 立论	uuyw
 立方	uuyy
-m³	uuyy
+m³	uuyy		立方
 农业银行	poqt
 拟人	rnww
 妆	uv
@@ -156633,6 +156719,7 @@ m³	uuyy
 嫁接	vpru
 嫔	vprw
 巡查	vpsj
+九宫格	vpst
 巡检	vpsw
 姹	vpt
 姹	vpta
@@ -156737,6 +156824,7 @@ m³	uuyy
 婚姻	vqvl
 婚嫁	vqvp
 如解倒悬	vqwe
+娘儿俩	vqwg
 如狼似虎	vqwh
 如饥似渴	vqwi
 婚介	vqwj
@@ -158491,6 +158579,7 @@ m³	uuyy
 全区	wgaq
 伊丽莎白	wgar
 倒茶	wgaw
+鸽子	wgbb
 例子	wgbb
 盒子	wgbb
 凳子	wgbb
@@ -158909,6 +158998,7 @@ m³	uuyy
 全优	wgwd
 全会	wgwf
 例会	wgwf
+便便	wgwg
 使命	wgwg
 愈合	wgwg
 全天候	wgwh
@@ -159468,7 +159558,7 @@ m³	uuyy
 何罪之有	wlpd
 佃农	wlpe
 候车室	wlpg
-欲加之罪，何患无辞	wlpl
+欲加之罪，何患无辞	wlpl		欲加之罪
 欲加之罪	wlpl
 保国安民	wlpn
 僆	wlpy
@@ -160287,6 +160377,7 @@ m³	uuyy
 傀	wrqc
 伯乐	wrqi
 佚名	wrqk
+斜挎包	wrqn
 倒挂金钟	wrqq
 俽	wrqw
 信手拈来	wrrg
@@ -160388,6 +160479,7 @@ m³	uuyy
 何足	wskh
 何患	wskk
 售票员	wskm
+坐标轴	wslm
 体力	wslt
 体罚	wsly
 体贴	wsmh
@@ -160609,6 +160701,7 @@ m³	uuyy
 作派	wtir
 余兴	wtiw
 俐	wtj
+偏移量	wtjg
 俐	wtjh
 休息日	wtjj
 余暇	wtjn
@@ -161520,6 +161613,7 @@ m³	uuyy
 代代相传	wwsw
 凭什么	wwtc
 众筹	wwtd
+命令行	wwtf
 人选	wwtf
 人造	wwtf
 坐等	wwtf
@@ -161682,7 +161776,7 @@ m³	uuyy
 华贵	wxkh
 货品	wxkk
 倾听	wxkr
-粉丝团	wxlf
+粉丝团	oxlf
 货车	wxlg
 货架	wxlk
 倾轧	wxln
@@ -163429,6 +163523,7 @@ m³	uuyy
 强师	xkjg
 犟	xkjh
 勥	xkjl
+强电	xkjn
 绳	xkjn
 强	xkjy
 謽	xkjy
@@ -164004,7 +164099,6 @@ m³	uuyy
 绝响	xqkt
 纔	xqky
 幼儿园	xqlf
-幼儿园	xqlf
 纸边	xqlp
 约略	xqlt
 约同	xqmg
@@ -164426,6 +164520,7 @@ m³	uuyy
 弱	xu
 弱项	xuad
 絣	xuah
+弹幕	xuaj
 織	xuaj
 缓冲区	xuaq
 红颜薄命	xuaw
@@ -165705,7 +165800,7 @@ m³	uuyy
 诚	ydn
 应有尽有	ydnd
 庬	ydne
-太慢	ydnj
+太慢	dynj
 请愿书	ydnn
 訧	ydnn
 诚	ydnt
@@ -166676,7 +166771,6 @@ m³	uuyy
 螤	yjjw
 裹足	yjkh
 齐唱	yjkj
-充电器	yjkk
 谩骂	yjkk
 充电器	yjkk
 齐鸣	yjkq
@@ -167300,6 +167394,7 @@ m³	uuyy
 高级	ymxe
 高强	ymxk
 设疑	ymxt
+高弹	ymxu
 高度	ymya
 调试	ymya
 调度	ymya
@@ -167862,7 +167957,7 @@ m³	uuyy
 变质	yorf
 挛	yorj
 变换	yorq
-弯折	yorx
+弯折	yorr
 栾	yos
 蛮横	yosa
 恋栈	yosg
@@ -168274,6 +168369,7 @@ m³	uuyy
 诛	yriy
 誅	yriy
 庍	yrk
+方括号	yrkg
 诟骂	yrkk
 高抬贵手	yrkr
 调兵遣将	yrku
@@ -168534,11 +168630,15 @@ m³	uuyy
 放荒	ytay
 施	ytb
 YouTube	ytb
+触屏	qenu
+QQ	qq
 招商银行	ruqt
 竹海	ttit
 Ubuntu	ubun
+背景乐	ujqi
 建设银行	vyqt
 Windows	wind
+袋熊	wace
 途经点	wxhk
 旗子	ytbb
 诈取	ytbc
@@ -169833,3 +169933,4 @@ Windows	wind
 言	yyyy
 方言	yyyy
 文言	yyyy
+计时器	yjkk

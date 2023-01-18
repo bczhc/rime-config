@@ -17,6 +17,7 @@ encoder:
     - length_in_range: [4, 10]  # 对于四至十字词
       formula: "AaBaCaZa"       # 取第一字首码，第二字尾码、第三字首码、最后一字尾码
 ...
+	
 工	a
 戈	a
 式	aa
@@ -7969,6 +7970,7 @@ B站	buh
 à	copa
 a	copa
 •	copd
+·	copd
 ē	cope
 é	cope
 ě	cope
@@ -12561,6 +12563,7 @@ u	copu
 砼	dwag
 硝化甘油	dwai
 春草	dwaj
+非你莫属	dwan
 夏令营	dwap
 奉敬	dwaq
 百合花	dwaw
@@ -26573,6 +26576,7 @@ GoPro	gpr
 凼	ibk
 池中	ibkh
 濻	ibkm
+消防员	ibkm
 泐	ibl
 渎职罪	ibld
 消防车	iblg
@@ -29368,6 +29372,7 @@ iPod	ipod
 沉重	iptg
 深重	iptg
 深处	ipth
+演算	ipth
 觉得	iptj
 沉积	iptk
 喾	iptk
@@ -38290,6 +38295,7 @@ km/h	km
 国民	lgna
 国剧	lgnd
 辅导	lgnf
+畏怯	lgnf
 国情	lgng
 畏惧	lgnh
 车	lgnh
@@ -42748,6 +42754,7 @@ MacbookPro	mbp
 恻隐之心	nbpn
 憨实	nbpu
 憨然	nbqd
+屈折	nbrr
 敢打	nbrs
 屈指	nbrx
 屙	nbs
@@ -43196,6 +43203,7 @@ MacbookPro	mbp
 导	nfu
 情真意切	nfua
 丑闻	nfub
+心无旁骛	nfuc
 层状	nfud
 熨斗	nfuf
 悻	nfuf
@@ -43766,6 +43774,7 @@ MacbookPro	mbp
 尼泊尔	niqi
 恍	niqn
 恌	niqn
+尿急	niqv
 犀鸟	niqy
 犀	nir
 犀牛	nirh
@@ -44913,6 +44922,7 @@ MacbookPro	mbp
 居委会	ntwf
 性命	ntwg
 必修	ntwh
+㞞	ntwh
 以身作则	ntwm
 尾追	ntwn
 鴓	ntwo
@@ -57492,6 +57502,7 @@ QQ	qq
 撔	rjyi
 提高	rjym
 提讯	rjyn
+提词	rjyn
 揭底	rjyq
 打电话	rjyt
 提议	rjyy
@@ -60811,6 +60822,7 @@ QQ	qq
 摝	rynx
 攍	ryny
 抗燃	ryoq
+摔炮	ryoq
 扩宽	rypa
 邀宠	rypd
 批评家	rype
@@ -64748,6 +64760,7 @@ QQ	qq
 籆	tawc
 升值	tawf
 长剑	tawg
+长凳	tawg
 衖	tawh
 簭	tawk
 长假	tawn
@@ -66543,6 +66556,7 @@ Telegram	tg
 处	th
 算	tha
 版式	thaa
+算式	thaa
 延期	thad
 自荐	thad
 自若	thad
@@ -67789,6 +67803,7 @@ Telegram	tg
 徵	tmgt
 徴	tmgt
 黴	tmgt
+躺平	tmgu
 币	tmh
 秈	tmh
 身上	tmhh
@@ -68154,6 +68169,7 @@ T恤	tntl
 愁惨	tonc
 释怀	tong
 秋收	tonh
+翻书	tonn
 簖	tonr
 翻悔	tont
 愁	tonu
@@ -68240,6 +68256,7 @@ T恤	tntl
 自视甚高	tpay
 管子	tpbb
 迁客骚人	tpcw
+奥密克戎	tpda
 千军万马	tpdc
 处之泰然	tpdq
 行之有效	tpdu
@@ -69674,6 +69691,7 @@ T恤	tntl
 秂	twu
 徐闻	twub
 答卷	twud
+黏着	twud
 签单	twuj
 答问	twuk
 答道	twut
@@ -76257,6 +76275,7 @@ m³	uuyy
 娇小	vtih
 九洲	vtiy
 群贤	vtjc
+群里	vtjf
 建筑师	vtjg
 娳	vtjh
 群星	vtjt
@@ -81085,6 +81104,7 @@ m³	uuyy
 倾翻	wxto
 货物	wxtr
 货箱	wxts
+化简	wxtu
 佛系	wxtx
 化冻	wxua
 化疗	wxub
@@ -86116,6 +86136,7 @@ m³	uuyy
 识破	ykdh
 衰迈	ykdn
 话中有话	ykdy
+训服	ykeb
 襄助	ykeg
 衷肠	yken
 误用	yket

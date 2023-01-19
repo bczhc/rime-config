@@ -471,6 +471,7 @@ encoder:
 藏历	addl
 甚而	addm
 茂盛	addn
+斯克	addq
 莽原	addr
 蒙太奇	adds
 匪帮	addt
@@ -507,6 +508,7 @@ encoder:
 若夫	adfw
 葳	adg
 巧夺天工	adga
+斯顿	adgb
 甚至	adgc
 藏青	adge
 基于	adgf
@@ -729,6 +731,7 @@ encoder:
 萶	adwj
 蜝	adwj
 蟴	adwj
+斯堡	adwk
 勘	adwl
 甚	adwn
 惎	adwn
@@ -2004,6 +2007,7 @@ AirPower	airp
 驀	ajdc
 莫大	ajdd
 墓	ajdf
+莫三	ajdg
 幕	ajdh
 划破	ajdh
 暮	ajdj
@@ -2576,6 +2580,7 @@ AirPower	airp
 巩膜	amea
 匝月	amee
 蓇	amef
+黄胸	ameq
 苒	amf
 苖	amf
 匝地	amfb
@@ -2619,6 +2624,7 @@ AirPower	airp
 黄河	amis
 黄酒	amis
 黄海	amit
+黄梁	amiv
 黄雀	amiw
 黄蜡	amja
 英明	amje
@@ -2973,6 +2979,7 @@ Android	andr
 工业园	aolf
 工业国	aolg
 工业界	aolw
+薮眉	aonh
 工业局	aonn
 工业局长	aont
 黄灿灿	aoom
@@ -4399,6 +4406,7 @@ Apple	appl
 花束	awgk
 匼	awgk
 荅	awgk
+花残	awgq
 芥末	awgs
 蔹	awgt
 蘞	awgt
@@ -5556,6 +5564,7 @@ Apple	appl
 隫	bfam
 陈志荣	bfap
 孔夫子	bfbb
+陆陆	bfbf
 陈规陋习	bfbn
 随声附和	bfbt
 陡险	bfbw
@@ -5883,6 +5892,7 @@ Apple	appl
 出污泥而不染	biii
 阴沉沉	biip
 孙派	biir
+逊河	biis
 隙	bij
 孙坚	bijc
 陶渊明	bije
@@ -8614,6 +8624,7 @@ B站	buh
 驶出	ckbm
 台联	ckbu
 台阶	ckbw
+台戏	ckca
 巴哈马	ckcn
 难兄难弟	ckcu
 台大	ckdd
@@ -11957,6 +11968,7 @@ u	copu
 硬质	dgrf
 三年	dgrh
 硬撑	dgri
+硬拽	dgrj
 研制	dgrm
 硬气	dgrn
 威迫	dgrp
@@ -13196,6 +13208,7 @@ u	copu
 碘伏	dmwd
 面值	dmwf
 布什	dmwf
+而愈	dmwg
 布偶	dmwj
 碉堡	dmwk
 硶	dmwn
@@ -13521,6 +13534,7 @@ u	copu
 灰雾	doft
 顾炎武	doga
 破烂不堪	dogf
+灰不	dogi
 礏	dogw
 灰卡	dohh
 灰紫	dohx
@@ -14824,6 +14838,7 @@ u	copu
 研修生	dwtg
 成人版	dwth
 故伎重演	dwti
+泰利	dwtj
 春种	dwtk
 泰币	dwtm
 春秋	dwto
@@ -15545,6 +15560,7 @@ u	copu
 月考	eeft
 脟	eefy
 朋	eeg
+月吞	eegd
 月球	eegf
 腻腻歪歪	eegg
 豠	eegg
@@ -20383,6 +20399,7 @@ u	copu
 无尾熊	fnce
 喜忧参半	fncu
 声码	fndc
+志大	fndd
 专有	fnde
 声压	fndf
 声威	fndg
@@ -20698,6 +20715,7 @@ u	copu
 赫氏	foqa
 赩	foqc
 赫然	foqd
+赫鲁	foqg
 埃米尔	foqi
 赦免	foqk
 赤金	foqq
@@ -21554,6 +21572,7 @@ u	copu
 老彭	ftfk
 考场	ftfn
 雮	ftfn
+者赤	ftfo
 教过	ftfp
 霆	ftfp
 老远	ftfq
@@ -21668,6 +21687,7 @@ u	copu
 才怪	ftnc
 教导	ftnf
 才情	ftng
+才疏	ftnh
 教书	ftnn
 教科书	ftnn
 圪	ftnn
@@ -24075,6 +24095,7 @@ u	copu
 一号	ggkg
 珸	ggkg
 一路	ggkh
+一唱	ggkj
 吞吞吐吐	ggkk
 一别	ggkl
 一员	ggkm
@@ -24165,6 +24186,7 @@ u	copu
 赖玉镜	ggqu
 琴键	ggqv
 至理名言	ggqy
+一搭	ggra
 一把	ggrc
 一排	ggrd
 王质	ggrf
@@ -24195,6 +24217,7 @@ u	copu
 列表机	ggsm
 一楼	ggso
 环环相扣	ggsr
+一梦	ggss
 一枚	ggst
 一样	ggsu
 琹	ggsu
@@ -24645,6 +24668,7 @@ u	copu
 璖	gias
 还治其人之身	giat
 不恭	giaw
+不药	giax
 不肖子孙	gibb
 不耻	gibh
 不逊	gibi
@@ -26115,6 +26139,7 @@ u	copu
 来了	gobn
 严防	goby
 来劲	goca
+亚马	gocn
 严	god
 严厉	godd
 恶感	godg
@@ -28712,6 +28737,7 @@ GoPro	gpr
 上桌	hhhj
 睁眼瞎	hhhp
 眼睁睁	hhhq
+上眼	hhhv
 卡具	hhhw
 目眩	hhhy
 上涌	hhic
@@ -33911,6 +33937,7 @@ iPod	ipod
 漪	iqtk
 淘箩	iqtl
 光秃	iqtm
+溜秋	iqto
 淡然处之	iqtp
 活色生香	iqtt
 逃税	iqtu
@@ -34057,6 +34084,7 @@ iPod	ipod
 派购	irmq
 小牛肉	irmw
 汽	irn
+派屈	irnb
 激剧	irnd
 激愤	irnf
 激情	irng
@@ -34443,6 +34471,7 @@ iPod	ipod
 洗垢	itfr
 学科考	itft
 洗雪	itfv
+洛夫	itfw
 沃壤	itfy
 活到	itgc
 海天	itgd
@@ -35868,6 +35897,7 @@ iPod	ipod
 晓雾	jaft
 暴增	jafu
 暴雪	jafv
+晓夫	jafw
 虹	jag
 蝶形	jaga
 星期天	jagd
@@ -36665,6 +36695,7 @@ iPod	ipod
 时效	jfuq
 时新	jfus
 里道	jfut
+里兹	jfux
 量才录用	jfve
 果真如此	jfvh
 野鼠	jfvn
@@ -40703,6 +40734,7 @@ Kéké	keke
 嘬	kjbc
 唱出	kjbm
 唱戏	kjca
+唱对	kjcf
 唱碟	kjda
 吴昌硕	kjdd
 顺时而动	kjdf
@@ -42259,6 +42291,7 @@ km/h	km
 只有	kwde
 唯有	kwde
 只在	kwdh
+哈布	kwdm
 哈达	kwdp
 只愿	kwdr
 鄂伦春	kwdw
@@ -42293,6 +42326,7 @@ km/h	km
 噔	kwgu
 噞	kwgw
 哈皮	kwhc
+哈卜	kwhh
 只占	kwhk
 吃拿卡要	kwhs
 只消	kwii
@@ -44618,8 +44652,11 @@ km/h	km
 软协	lqfl
 罗勃	lqfp
 斩钉截铁	lqfq
+罗夫	lqfw
 罗致	lqgc
 罗青	lqge
+罗瓦	lqgn
+罗亚	lqgo
 罗列	lqgq
 国色天香	lqgt
 国色天姿	lqgu
@@ -56280,6 +56317,7 @@ AirPods	pro
 安闲	pvus
 案首	pvut
 安好	pvvb
+安那	pvvf
 安妮	pvvn
 安群	pvvt
 安娜	pvvv
@@ -56692,6 +56730,7 @@ AirPods	pro
 突变	pwyo
 空谈	pwyo
 鶴	pwyo
+罕亮	pwyp
 空话	pwyt
 容许	pwyt
 空座	pwyw
@@ -57660,6 +57699,7 @@ AirPods	pro
 然后	qdrg
 危迫	qdrp
 多面手	qdrt
+希拉	qdru
 铸模	qdsa
 杀威棒	qdsd
 錡	qdsk
@@ -58383,6 +58423,7 @@ AirPods	pro
 鲦	qgts
 鳆	qgtt
 乐天知命	qgtw
+印第	qgtx
 稣	qgty
 鲜	qgu
 名列前茅	qgua
@@ -58742,6 +58783,7 @@ AirPods	pro
 昏沉沉	qiip
 乌溜溜	qiiq
 乐派	qiir
+尔河	qiis
 乐滋滋	qiiu
 销量	qijg
 乐师	qijg
@@ -60560,10 +60602,12 @@ QQ	qq
 铢	qriy
 銖	qriy
 刎	qrj
+忽明	qrje
 兜里	qrjf
 曶	qrjf
 刎	qrjh
 镍氢电池	qrji
+忽暗	qrju
 铁路	qrkh
 铁器	qrkk
 名扬中外	qrkq
@@ -64050,6 +64094,7 @@ QQ	qq
 卸下	rhgh
 掉下	rhgh
 挊	rhgh
+看不	rhgi
 牛逼	rhgk
 年画	rhgl
 卸责	rhgm
@@ -65687,6 +65732,7 @@ QQ	qq
 探家	rppe
 擦写	rppg
 挥军	rppl
+挥之	rppp
 挖补	rppu
 探案	rppv
 探究	rppw
@@ -65708,6 +65754,7 @@ QQ	qq
 按捺	rprd
 擦抹	rprg
 近年	rprh
+近朱	rpri
 按揭	rprj
 按扣	rprk
 挥舞	rprl
@@ -67059,6 +67106,7 @@ QQ	qq
 拼成	rudn
 魁北克	rudq
 搼	rudr
+拉帮	rudt
 择善而从	rudw
 接龙	rudx
 撞碎	rudy
@@ -67281,6 +67329,7 @@ QQ	qq
 气壮如牛	ruvr
 拉杂	ruvs
 白头如新	ruvu
+拉姆	ruvx
 摇头丸	ruvy
 白头翁	ruwc
 后半段	ruwd
@@ -70300,6 +70349,7 @@ QQ	qq
 可喜	skfk
 歌声	skfn
 歌者	skft
+可夫	skfw
 枵	skg
 桯	skgg
 林顺正	skgh
@@ -71375,6 +71425,7 @@ QQ	qq
 飘飘然	ssqd
 木鱼	ssqg
 柯尔	ssqi
+林鸲	ssqk
 禁锢	ssql
 机械键盘	ssqt
 禁猎	ssqt
@@ -71441,6 +71492,7 @@ QQ	qq
 林产	ssut
 林立	ssuu
 林林总总	ssuu
+栗背	ssux
 木门	ssuy
 婪	ssv
 焚毁	ssva
@@ -73717,6 +73769,7 @@ QQ	qq
 毛孩	tfby
 丢	tfc
 先驱	tfca
+先驰	tfcb
 街垒	tfcc
 行驶	tfck
 篕	tfcl
@@ -74509,6 +74562,7 @@ Telegram	tg
 重托	tgrt
 重播	tgrt
 生手	tgrt
+生拉	tgru
 重挫	tgrw
 生擒	tgrw
 先下手为强	tgrx
@@ -74694,6 +74748,7 @@ Telegram	tg
 片面	thdm
 版面	thdm
 自成	thdn
+鼻克	thdq
 自愿	thdr
 乘虚而入	thdt
 穢	thdt
@@ -75282,6 +75337,7 @@ Telegram	tg
 利	tjh
 生日卡	tjhh
 复旧	tjhj
+得点	tjhk
 利眠	tjhn
 千里眼	tjhv
 利齿	tjhw
@@ -75360,6 +75416,7 @@ Telegram	tg
 利禄	tjpy
 鋫	tjqf
 复印	tjqg
+香销	tjqi
 得名	tjqk
 利多	tjqq
 犁铧	tjqw
@@ -76172,6 +76229,7 @@ Telegram	tg
 微信	tmwy
 和风细雨	tmxf
 射线	tmxg
+身强	tmxk
 微细	tmxl
 微缩	tmxp
 冬山乡	tmxt
@@ -81558,6 +81616,7 @@ Unicode	unic
 资料档	uosi
 普查	uosj
 剪烛西窗	uosp
+普林	uoss
 普适	uotd
 普选	uotf
 瘘管	uotp
@@ -83892,6 +83951,7 @@ m³	uuyy
 即达	vcdp
 姢	vceg
 即用	vcet
+即去	vcfc
 既无	vcfq
 奴才	vcft
 妈	vcg
@@ -89535,6 +89595,7 @@ m³	uuyy
 体委	wstv
 体系	wstx
 休养	wsud
+体壮	wsuf
 何意	wsuj
 何况	wsuk
 何曾	wsul
@@ -92213,6 +92274,7 @@ m³	uuyy
 頴	xfim
 颕	xfim
 结党	xfip
+结派	xfir
 贯注	xfiy
 絿	xfiy
 结盟	xfje
@@ -92319,6 +92381,7 @@ m³	uuyy
 结伴	xfwu
 结仇	xfwv
 续集	xfwy
+续续	xfxf
 纬线	xfxg
 纬纱	xfxi
 续费	xfxj
@@ -92730,6 +92793,7 @@ m³	uuyy
 緹	xjgh
 费事	xjgk
 弗瑞	xjgm
+弗列	xjgq
 张曼玉	xjgy
 绅	xjh
 绅	xjhh
@@ -92773,6 +92837,7 @@ m³	uuyy
 张景森	xjss
 綶	xjsy
 缆	xjt
+费德	xjtf
 张临生	xjtg
 弗里德曼	xjtj
 缆	xjtq
@@ -96810,6 +96875,7 @@ m³	uuyy
 为此	ylhx
 库泽	ylic
 褱	ylie
+库沙	ylii
 为学	ylip
 为最	yljb
 禀明	ylje
@@ -96854,6 +96920,7 @@ m³	uuyy
 为数	ylov
 为害	ylpd
 为宜	ylpe
+为宝	ylpg
 主力军	ylpl
 为官	ylpn
 为之	ylpp
@@ -97878,6 +97945,7 @@ m³	uuyy
 谜语	yoyg
 变为	yoyl
 变调	yoym
+变废	yoyn
 谈谈	yoyo
 变亮	yoyp
 谜底	yoyq

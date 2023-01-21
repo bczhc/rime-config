@@ -1,0 +1,452 @@
+# Trime default style settings
+# encoding: utf-8
+
+name: 咖啡·机械键盘
+author: 咖啡
+
+Custom: #自定义
+  ①: &底部增高 3
+  ②: &空白行 4
+  ③: &选单图形y偏移 -4
+  ④: &选单文字y偏移 -5
+  ⑤: &选单返回y偏移 -5
+  ⑥: &空格文字y偏移 1
+  ⑦: &空格符号y偏移 8
+  ⑧: &简洁键盘逗号高度 -10
+  ⑨: &简洁键盘句号高度 -10
+offset: #按键偏移
+  key_text_offset_x: 0 #按键文本x方向偏移量
+  key_text_offset_y: -1.8 #按键文本y方向偏移量
+  key_symbol_offset_x: 2.5 #长按符号x方向偏移量
+  key_symbol_offset_y: 1 #长按符号y方向偏移量
+  key_hint_offset_x: 0 #助记符号x方向偏移量（向右为正）
+  key_hint_offset_y: -4.5 #助记符号y方向偏移量（向下为正）
+
+jj: #简洁键盘，。高度
+  'keys/@42/key_text_offset_y': *简洁键盘逗号高度
+  'keys/@44/key_text_offset_y': *简洁键盘句号高度
+zgh: #26键键盘空白行增高行高度
+  "keys/@0/height": *空白行
+  "keys/@47/height": *底部增高
+szzgh: #数字、编辑、菜单键盘空白行增高行高度
+  "keys/@0/height": *空白行
+  "keys/@29/height": *底部增高
+fhzgh: #符号键盘空白行增高行高度
+  "keys/@0/height": *空白行
+  "keys/@53/height": *底部增高
+kg: #空格文字偏移
+  "keys/@43/key_text_offset_y": *空格文字y偏移
+  "keys/@43/key_symbol_offset_y": *空格符号y偏移
+menu: #菜单文字偏移
+  key_text_offset_x: 0
+  key_text_offset_y: *选单图形y偏移
+  key_hint_offset_x: 0
+  key_hint_offset_y: *选单文字y偏移
+  "keys/@27/key_text_offset_y": *选单返回y偏移
+
+style:
+  __include: 咖啡.trime:/style
+android_keys:
+  __include: 咖啡.trime:/android_keys
+preset_keys:
+  __include: 咖啡.trime:/preset_keys
+fallback_colors:
+  __include: 咖啡.trime:/fallback_colors
+preset_keyboards:
+  __include: 咖啡.trime:/preset_keyboards
+  default:
+    __include: 咖啡.trime:/preset_keyboards/default
+    __patch: offset
+    __patch: zgh
+    __patch: kg
+  defaultmd:
+    __include: 咖啡.trime:/preset_keyboards/defaultmd
+    __patch: offset
+    __patch: zgh
+  defaultjj:
+    __include: 咖啡.trime:/preset_keyboards/defaultjj
+    __patch: offset
+    __patch: zgh
+    __patch: kg
+    __patch: jj
+  defaultzj:
+    __include: 咖啡.trime:/preset_keyboards/defaultzj
+    __patch: offset
+    __patch: zgh
+    __patch: kg
+  letter:
+    __include: 咖啡.trime:/preset_keyboards/letter
+    __patch: offset
+    __patch: zgh
+    __patch: kg
+  menu:
+    __include: 咖啡.trime:/preset_keyboards/menu
+    __patch: menu
+    __patch: szzgh
+  number:
+    __include: 咖啡.trime:/preset_keyboards/number
+    __patch: offset
+    __patch: szzgh
+  _edit_board:
+    __include: 咖啡.trime:/preset_keyboards/_edit_board
+    __patch: offset
+    __patch: szzgh
+  symbols:
+    __include: 咖啡.trime:/preset_keyboards/symbols
+    __patch: offset
+    __patch: zgh
+    __patch: kg
+  symbols_cy:
+    __include: 咖啡.trime:/preset_keyboards/symbols_cy
+    __patch: offset
+    __patch: fhzgh
+  symbols_en:
+    __include: 咖啡.trime:/preset_keyboards/symbols_en
+    __patch: offset
+    __patch: fhzgh
+  symbols_cn:
+    __include: 咖啡.trime:/preset_keyboards/symbols_cn
+    __patch: offset
+    __patch: fhzgh
+  symbols_pair:
+    __include: 咖啡.trime:/preset_keyboards/symbols_pair
+    __patch: offset
+    __patch: fhzgh
+  symbols_math:
+    __include: 咖啡.trime:/preset_keyboards/symbols_math
+    __patch: offset
+    __patch: fhzgh
+  symbols_shu:
+    __include: 咖啡.trime:/preset_keyboards/symbols_shu
+    __patch: offset
+    __patch: fhzgh
+  symbols_special:
+    __include: 咖啡.trime:/preset_keyboards/symbols_special
+    __patch: offset
+    __patch: fhzgh
+  symbols_special2:
+    __include: 咖啡.trime:/preset_keyboards/symbols_special2
+    __patch: offset
+    __patch: fhzgh
+  symbols_sequence:
+    __include: 咖啡.trime:/preset_keyboards/symbols_sequence
+    __patch: offset
+    __patch: fhzgh
+  symbols_sequence2:
+    __include: 咖啡.trime:/preset_keyboards/symbols_sequence2
+    __patch: offset
+    __patch: fhzgh
+
+preset_color_schemes:
+  default:
+    name: 咖啡·CHERRY·经典黑
+    author: 咖啡·资源来自百度
+    #悬浮窗
+    text_color: 0xffffffff #编码色
+    text_back_color: 0xff484848
+    hilited_back_color: 0x00 #高亮编码背景
+    #候选栏
+    candidate_back_color:  0xff484848
+    back_color: 0xff131313 #候选栏背景#底色色值，下巴色可设置此值
+    comment_text_color: 0xffB5B5B5 #候选项注释
+    #键盘
+    hilited_key_text_color: 0xff888888 #高亮按键文字
+    key_back_color: kafei/CHERRY_kb.9.png #按键背景
+    hilited_key_back_color: kafei/CHERRY_ka.9.png #高亮按键背景
+    key_symbol_color: 0xff888888 #按键符号
+    hilited_key_symbol_color: 0x00 #高亮按键符号
+    #功能键和Shift键
+    on_key_back_color: kafei/CHERRY_ka.9.png #shift键锁定时背景图/色=高亮按键背景
+    on_key_text_color: 0xffffffff #shift键锁定时文字=高亮按键文字
+    hilited_on_key_text_color: 0xff888888 #shift键锁定时的高亮文字（按下时）=高亮按键文字
+    #空格
+    Space_text_color: 0xff888888
+    hilited_Space_text_color: 0xffffffff
+    #回车
+    Return_back_color: kafei/CHERRY_gnb.9.png
+    hilited_Return_back_color: kafei/CHERRY_gna.9.png
+    Return_text_color: 0xffffffff
+    hilited_Return_text_color: 0xffffffff
+   #
+    hilited_back_color: 0x00
+    hilited_key_symbol_color: 0x00
+    Symbol_symbol_color: 0x00
+    hilited_Symbol_Symbol_color: 0x00
+    Symbol2_symbol_color: 0x00
+    hilited_Symbol2_Symbol_color: 0x00
+    Return_symbol_color: 0x00
+    hilited_Return_Symbol_color: 0x00
+    m_kf: 0xff333333
+    m_kfa: 0xff333333
+
+  CHERRYjdl:
+    name: 咖啡·CHERRY·经典白
+    author: 咖啡·资源来自百度
+    vertical_gap: 2 #按键上下间距
+    #悬浮窗
+    text_color: 0xff606060 #编码色
+    text_back_color: 0xffF6F6F6
+    hilited_back_color: 0x00 #高亮编码背景
+    #候选栏
+    candidate_back_color: kafei/cherry_lhxl.png
+    back_color: 0xff969696 #候选栏背景#底色色值，下巴色可设置此值
+    hilited_candidate_text_color: 0xff2181D9
+    comment_text_color: 0xff93959C #候选项注释
+    #键盘
+    key_text_color: 0xff606060
+    hilited_key_text_color: 0xff2181D9 #高亮按键文字
+    key_back_color: kafei/cherry_lkb.9.png #按键背景
+    hilited_key_back_color: kafei/cherry_lka.9.png #高亮按键背景
+    key_symbol_color: 0xff93959C #按键符号
+    hilited_key_symbol_color: 0x00 #高亮按键符号
+    #功能键和Shift键
+    on_key_back_color: kafei/cherry_lka.9.png #shift键锁定时背景图/色=高亮按键背景
+    on_key_text_color: 0xff2181D9 #shift键锁定时文字=高亮按键文字
+    hilited_on_key_text_color: 0xff2181D9 #shift键锁定时的高亮文字（按下时）=高亮按键文字
+    #空格
+    #Space_text_color: 0xff2181D9
+    #hilited_Space_text_color: 0xff2181D9
+    #回车
+    Return_back_color: kafei/cherry_lgnb.9.png
+    hilited_Return_back_color: kafei/cherry_lgna.9.png
+    Return_text_color: 0xffffffff
+    hilited_Return_text_color: 0xffffffff
+   #
+    hilited_back_color: 0x00
+    hilited_key_symbol_color: 0x00
+    Symbol_symbol_color: 0x00
+    hilited_Symbol_Symbol_color: 0x00
+    Symbol2_symbol_color: 0x00
+    hilited_Symbol2_Symbol_color: 0x00
+    Return_symbol_color: 0x00
+    hilited_Return_Symbol_color: 0x00
+    m_kf: 0xffaaaaaa
+    m_kfa: 0xffaaaaaa
+
+  nm:
+    name: 咖啡·怒喵·冰霜圣诞
+    author: 咖啡·资源来自百度
+    #悬浮窗
+    text_color: 0xff2DB59D #编码色
+    text_back_color: 0xff2C2C2C
+    hilited_back_color: 0x00 #高亮编码背景
+    #候选栏
+    candidate_back_color: kafei/ nm_cand.png
+    back_color: 0xff2C2C2C #候选栏背景#底色色值，下巴色可设置此值
+    hilited_candidate_text_color: 0xff2DB59D
+    comment_text_color: 0xff2E8D7C #候选项注释
+    #键盘
+    keyboard_back_color: kafei/nm_bj.png
+    key_text_color: 0xff342D2F
+    hilited_key_text_color: 0xff342D2F #高亮按键文字
+    key_back_color: kafei/nm_kb.9.png #按键背景
+    hilited_key_back_color: kafei/nm_ka.9.png #高亮按键背景
+    key_symbol_color: 0xff342D2F #按键符号
+    hilited_key_symbol_color: 0xff342D2F #高亮按键符号
+    key_font: hd.ttf
+    symbol_font: hd.ttf
+    number_bk: 0xff2C2C2C
+    #功能键和Shift键
+    off_key_back_color: kafei/nm_gnb.9.png #功能键背景图/色=按键背景
+    hilited_off_key_back_color: kafei/nm_gna.9.png
+    on_key_back_color: kafei/nm_gna.9.png #shift键锁定时背景图/色=高亮按键背景
+    hilited_on_key_back_color: kafei/nm_gna.9.png
+    on_key_text_color: 0xffffffff #shift键锁定时文字=高亮按键文字
+    hilited_on_key_text_color: 0xffffffff #shift键锁定时的高亮文字（按下时）=高亮按键文字
+    #符号
+    Symbol_back_color: kafei/nm_fhb.9.png #符号1=功能键
+    hilited_Symbol_back_color: kafei/nm_fha.9.png
+    #回车
+    Return_back_color: kafei/nm_hcb.9.png
+    hilited_Return_back_color: kafei/nm_hca.9.png
+    #数字键盘
+    number_bk: kafei/nmcd.png
+    Sz0_back_color: kafei/nm_fhb.9.png
+    hilited_Sz0_back_color: kafei/nm_fha.9.png
+    #
+    hilited_back_color: 0x00
+    Symbol_symbol_color: 0x00
+    hilited_Symbol_Symbol_color: 0x00
+    Symbol2_symbol_color: 0x00
+    hilited_Symbol2_Symbol_color: 0x00
+    Return_symbol_color: 0x00
+    hilited_Return_Symbol_color: 0x00
+    m_kf: 0xff444444
+    m_kfa: 0xff444444
+
+  jixplb:
+    name: 咖啡·CHERRY·蓝白
+    author: 咖啡·资源来自百度
+    horizontal_gap: 2 #按键左右间距
+    vertical_gap: 2 #按键上下间距
+    #悬浮窗
+    text_color: 0xff6D6D6D #编码色
+    text_back_color: 0xffF6F6F7
+    hilited_back_color: 0x00 #高亮编码背景
+    #候选栏
+    candidate_back_color:  0xffF6F6F7
+    back_color: 0xffDFE2E7 #候选栏背景#底色色值，下巴色可设置此值
+    comment_text_color: 0xff6D6D6D #候选项注释
+    #键盘
+    key_text_color: 0xff767889
+    hilited_key_text_color: 0xff8798F8 #高亮按键文字
+    key_back_color: kafei/lbkb.9.png #按键背景
+    hilited_key_back_color: kafei/lbka.9.png  #高亮按键背景
+    key_symbol_color: 0xffA5A6B3 #按键符号
+    hilited_key_symbol_color: 0x00 #高亮按键符号
+    #功能键和Shift键
+    off_key_back_color: kafei/lbhb.9.png #功能键背景图/色=按键背景
+    hilited_off_key_back_color: kafei/lbha.9.png
+    off_key_text_color: 0xffffffff
+    hilited_off_key_text_color: 0xffffffff
+    on_key_back_color: kafei/lbha.9.png #shift键锁定时背景图/色=高亮按键背景
+    hilited_on_key_back_color: kafei/lbha.9.png
+    on_key_text_color: 0xff767889 #shift键锁定时文字=高亮按键文字
+    hilited_on_key_text_color: 0xff767889 #shift键锁定时的高亮文字（按下时）=高亮按键文字
+    #回车
+    Return_back_color: kafei/lbgb.9.png
+    hilited_Return_back_color: kafei/lbga.9.png
+    Return_text_color: 0xffffffff
+    hilited_Return_text_color: 0xffffffff
+   #
+    hilited_back_color: 0x00
+    Symbol_symbol_color: 0x00
+    hilited_Symbol_Symbol_color: 0x00
+    Symbol2_symbol_color: 0x00
+    hilited_Symbol2_Symbol_color: 0x00
+    Return_symbol_color: 0x00
+    hilited_Return_Symbol_color: 0x00
+    m_kf: 0xffcccccc
+    m_kfa: 0xffcccccc
+
+  jixplh:
+    name: 咖啡·CHERRY·蓝黑
+    author: 咖啡·资源来自百度
+    horizontal_gap: 2 #按键左右间距
+    vertical_gap: 1 #按键上下间距
+    #悬浮窗
+    text_color: 0xffEDEDED #编码色
+    text_back_color: 0xff454545
+    hilited_back_color: 0x00 #高亮编码背景
+    #候选栏
+    candidate_back_color: 0xff454545
+    back_color: 0xff131313 #候选栏背景#底色色值，下巴色可设置此值
+    comment_text_color: 0xffEDEDED #候选项注释
+    #键盘
+    key_text_color: 0xffEEEEEE
+    hilited_key_text_color: 0xff5a71ed #高亮按键文字
+    key_back_color: kafei/lb1.9.png #按键背景
+    hilited_key_back_color: kafei/lb1a.9.png  #高亮按键背景
+    key_symbol_color: 0xffA6A6A6 #按键符号
+    hilited_key_symbol_color: 0x00 #高亮按键符号
+    #功能键和Shift键
+    off_key_back_color: kafei/lb2.9.png #功能键背景图/色=按键背景
+    hilited_off_key_back_color: kafei/lb2a.9.png
+    off_key_text_color: 0xffffffff
+    hilited_off_key_text_color: 0xffffffff
+    on_key_back_color: kafei/lb2a.9.png #shift键锁定时背景图/色=高亮按键背景
+    hilited_on_key_back_color: kafei/lb2a.9.png
+    on_key_text_color: 0xff767889 #shift键锁定时文字=高亮按键文字
+    hilited_on_key_text_color: 0xff767889 #shift键锁定时的高亮文字（按下时）=高亮按键文字
+    #回车
+    Return_back_color: kafei/lb3.9.png
+    hilited_Return_back_color: kafei/lb3a.9.png
+    Return_text_color: 0xffffffff
+    hilited_Return_text_color: 0xffffffff
+   #
+    hilited_back_color: 0x00
+    hilited_key_symbol_color: 0x00
+    Symbol_symbol_color: 0x00
+    hilited_Symbol_Symbol_color: 0x00
+    Symbol2_symbol_color: 0x00
+    hilited_Symbol2_Symbol_color: 0x00
+    Return_symbol_color: 0x00
+    hilited_Return_Symbol_color: 0x00
+    m_kf: 0xff353535
+    m_kfa: 0xff353535
+
+  jixplv:
+    name: 咖啡·FLICO·奶酪绿
+    author: 咖啡·资源来自百度
+    horizontal_gap: 2 #按键左右间距
+    vertical_gap: 0 #按键上下间距
+    #悬浮窗
+    text_color: 0xff88B278 #编码
+    text_back_color: 0xffF1F2EB
+    hilited_back_color: 0x00 #高亮编码背景
+    #候选栏
+    back_color: 0xffF1F2EB #候选栏背景#底色色值，下巴色可设置此值
+    #键盘
+    keyboard_back_color: kafei/lvbj.png
+    key_back_color: kafei/lv03.9.png #按键背景
+    hilited_key_back_color: kafei/lv04.9.png  #高亮按键背景
+    key_symbol_color: 0xffACC9A1 #按键符号
+    hilited_key_symbol_color: 0xffACC9A1 #高亮按键符号
+    #数字键盘
+    key_font: hd.ttf
+    symbol_font: hd.ttf
+    number_bk: kafei/lvbjcd.png
+    #功能键和Shift键
+    off_key_back_color: kafei/lv01.9.png #功能键背景图/色=按键背景
+    hilited_off_key_back_color: kafei/lv02.9.png
+    off_key_text_color: 0XFFE7FAE1
+    hilited_off_key_text_color: 0XFFE7FAE1
+    on_key_back_color: kafei/lv02.9.png #shift键锁定时背景图/色=高亮按键背景
+    hilited_on_key_back_color: kafei/lv02.9.png
+    on_key_text_color: 0XFFE7FAE1 #shift键锁定时文字=高亮按键文字
+    hilited_on_key_text_color: 0XFFE7FAE1 #shift键锁定时的高亮文字（按下时）=高亮按键文字
+    #
+    Symbol_symbol_color: 0x00
+    hilited_Symbol_Symbol_color: 0x00
+    Symbol2_symbol_color: 0x00
+    hilited_Symbol2_Symbol_color: 0x00
+    Return_symbol_color: 0x00
+    hilited_Return_Symbol_color: 0x00
+    m_kf: 0xff9da189
+    m_kfa: 0xff9da189
+
+  jixpmc:
+    name: 咖啡·FLICO·迷彩
+    author: 咖啡·资源来自百度
+    horizontal_gap: 2 #按键左右间距
+    vertical_gap: 1 #按键上下间距
+    #悬浮窗
+    text_color: 0xffA79F8B #编码
+    text_back_color: 0xff57563C
+    hilited_back_color: 0x00 #高亮编码背景
+    #候选栏
+    candidate_back_color: kafei/mchxl.png
+    back_color: 0xff57563C #候选栏背景#底色色值，下巴色可设置此值
+    hilited_candidate_text_color: 0xffE7E3D8
+    #comment_text_color: 0xff7C7F70 #候选项注释
+    #键盘
+    keyboard_back_color: kafei/mcbj.png
+    key_text_color: 0xffE7E3D8
+    hilited_key_text_color: 0xffa0916f #高亮按键文字
+    key_back_color: kafei/mckb.9.png #按键背景
+    hilited_key_back_color: kafei/mcka.9.png  #高亮按键背景
+    key_symbol_color: 0xffBAB29D #按键符号
+    hilited_key_symbol_color: 0xff95886d #高亮按键符号
+    #数字键盘
+    key_font: hd.ttf
+    symbol_font: hd.ttf
+    number_bk: kafei/mccd.png
+    #功能键和Shift键
+    off_key_back_color: kafei/mcgn.9.png #功能键背景图/色=按键背景
+    hilited_off_key_back_color: kafei/mcgna.9.png
+    off_key_text_color: 0XFFB5BDB9
+    hilited_off_key_text_color: 0XFF747A75
+    on_key_back_color: kafei/mcgna.9.png #shift键锁定时背景图/色=高亮按键背景
+    hilited_on_key_back_color: kafei/mcgna.9.png
+    on_key_text_color: 0XFFB5B093 #shift键锁定时文字=高亮按键文字
+    hilited_on_key_text_color: 0XFFB5B093 #shift键锁定时的高亮文字（按下时）=高亮按键文字
+    hilited_key_symbol_color: 0XFF95886D
+    Symbol_symbol_color: 0x00
+    hilited_Symbol_Symbol_color: 0x00
+    Symbol2_symbol_color: 0x00
+    hilited_Symbol2_Symbol_color: 0x00
+    Return_symbol_color: 0x00
+    hilited_Return_Symbol_color: 0x00
+    m_kf: 0XFF333333
+    m_kfa: 0XFF333333
+

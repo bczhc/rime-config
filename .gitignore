@@ -1,11 +1,2 @@
-!.gitignore
-.idea/*
-.git/*
-.DS_Store
-build/*
-installation.yaml
-user.yaml
-sync/*
-luna_pinyin.userdb/*
-wubi86_jidian.userdb
-user.txt
+/build/
+/easy_english.userdb/

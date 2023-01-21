@@ -1,0 +1,25 @@
+像 拼音 拆分 常用字集 这些滤镜，除开常用字集滤镜默认开启，其他都是默认关闭的
+	即便手动用快捷键开启或关闭，换个方案或换到其他软件，也会自动回到默认状态
+
+如要修改默认状态
+单字版找到 tiger.schema.yaml
+字词版找到 tigress.schema.yaml
+
+搜索 switches:
+有个 reset:     后面加 0 就是关闭 ，加 1 就是开启
+
+举例1：
+默认关闭 常用字集滤镜，这样就默认显示全字集
+  - name: extended_char  #自定义字集
+    reset: 1
+    states: [ 全字集 , 常用字 ]
+将  reset: 1  改成 reset: 0
+
+举例2：
+默认开启 拼音滤镜 
+  - name: pinyin  #拼音滤镜
+    reset: 0
+    states: [ 拼, pīn ]
+将 reset: 0  改成 reset: 1
+
+改完后重新部署

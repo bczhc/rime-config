@@ -1,0 +1,120 @@
+# Trime default style settings
+# encoding: utf-8
+
+name: 咖啡•增高
+author: 咖啡
+
+#自定义
+key_height_last: 30 #底部增高行
+
+zgh: #26键盘增高行
+  "keys/@47/height": {__include: key_height_last}
+fhzgh: #符号键盘增高行
+  "keys/@53/height": {__include: key_height_last}
+szzgh: #数字、编辑、菜单键盘增高行
+  "keys/@29/height": {__include: key_height_last}
+jsgh: #计算键盘增高行
+  "keys/@49/height": {__include: key_height_last}
+
+style:
+  __include: 咖啡.trime:/style
+android_keys:
+  __include: 咖啡.trime:/android_keys
+preset_keys:
+  __include: 咖啡.trime:/preset_keys
+fallback_colors:
+  __include: 咖啡.trime:/fallback_colors
+preset_keyboards:
+  __include: 咖啡.trime:/preset_keyboards
+  default:
+    __include: 咖啡.trime:/preset_keyboards/default
+    __patch: zgh
+  defaultmd:
+    __include: 咖啡.trime:/preset_keyboards/defaultmd
+    __patch: zgh
+  defaultjj:
+    __include: 咖啡.trime:/preset_keyboards/defaultjj
+    __patch: zgh
+  defaultzj:
+    __include: 咖啡.trime:/preset_keyboards/defaultzj
+    __patch: zgh
+  letter:
+    __include: 咖啡.trime:/preset_keyboards/letter
+    __patch: zgh
+  symbols:
+    __include: 咖啡.trime:/preset_keyboards/symbols
+    __patch: zgh
+  symbols_cy:
+    __include: 咖啡.trime:/preset_keyboards/symbols_cy
+    __patch: fhzgh
+  symbols_en:
+    __include: 咖啡.trime:/preset_keyboards/symbols_en
+    __patch: fhzgh
+  symbols_cn:
+    __include: 咖啡.trime:/preset_keyboards/symbols_cn
+    __patch: fhzgh
+  symbols_pair:
+    __include: 咖啡.trime:/preset_keyboards/symbols_pair
+    __patch: fhzgh
+  symbols_math:
+    __include: 咖啡.trime:/preset_keyboards/symbols_math
+    __patch: fhzgh
+  symbols_shu:
+    __include: 咖啡.trime:/preset_keyboards/symbols_shu
+    __patch: fhzgh
+  symbols_special:
+    __include: 咖啡.trime:/preset_keyboards/symbols_special
+    __patch: fhzgh
+  symbols_special2:
+    __include: 咖啡.trime:/preset_keyboards/symbols_special2
+    __patch: fhzgh
+  symbols_sequence:
+    __include: 咖啡.trime:/preset_keyboards/symbols_sequence
+    __patch: fhzgh
+  symbols_sequence2:
+    __include: 咖啡.trime:/preset_keyboards/symbols_sequence2
+    __patch: fhzgh
+  number:
+    __include: 咖啡.trime:/preset_keyboards/number
+    __patch: szzgh
+  jisuan:
+    __include: 咖啡.trime:/preset_keyboards/jisuan
+    __patch: jsgh
+  menu:
+    __include: 咖啡.trime:/preset_keyboards/menu
+    __patch: szzgh
+  _edit_board:
+    __include: 咖啡.trime:/preset_keyboards/_edit_board
+    __patch: szzgh
+
+preset_color_schemes: #增高背景图
+  __include: 咖啡.trime:/preset_color_schemes
+  kfa12:
+    __include: 咖啡.trime:/preset_color_schemes/kfa12
+    __patch:
+        "keyboard_back_color": kafei/mbj1.png
+  kfa13:
+    __include: 咖啡.trime:/preset_color_schemes/kfa13
+    __patch:
+        "keyboard_back_color": kafei/mabj1.png
+  kfa14:
+    __include: 咖啡.trime:/preset_color_schemes/kfa14
+    __patch:
+        "keyboard_back_color": kafei/qbj1.png
+  kfa15:
+    __include: 咖啡.trime:/preset_color_schemes/kfa15
+    __patch:
+        "keyboard_back_color": kafei/qanbj1.png
+  kfa16:
+    __include: 咖啡.trime:/preset_color_schemes/kfa16
+    __patch:
+        "keyboard_back_color": kafei/ybj1.png
+  kfa17:
+    __include: 咖啡.trime:/preset_color_schemes/kfa17
+    __patch:
+        "keyboard_back_color": kafei/yabj1.png
+  kfa24:
+    __include: 咖啡.trime:/preset_color_schemes/kfa24
+    __patch:
+        "keyboard_back_color": kafei/mbbg1.png
+        "number_bk": kafei/mbcd1.png

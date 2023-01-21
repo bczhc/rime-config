@@ -1,0 +1,12 @@
+右键 右下角的小狼毫图标
+点击 『输入法设定』
+点击 底部中间的 『中』，会进入配色选择界面
+选好你要的配色 例如：Win11Light
+
+也可直接在源文件里修改
+	打开 weasel.custom.yaml文件，最后一行 style/color_scheme": so_young_qmod_01
+		so_young_qmod_01  就是配色名字
+	其他的配色名，可搜索  preset_color_schemes/
+		例如： preset_color_schemes/blackpink ，配色名就是 blackpink （后面有个显示名 name: "脏粉"）
+			在 style/color_scheme": 后面，加上 blackpink，变成 style/color_scheme": blackpink
+			之后再重新部署，即可生效

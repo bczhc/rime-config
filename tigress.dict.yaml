@@ -1,5 +1,5 @@
 name: tigress
-version: "2023.01.23"
+version: "2023.01.24"
 sort: by_weight
 columns:
   - text
@@ -9052,6 +9052,7 @@ import_tables:
 啁	392	dmgd
 悭	392	hpr
 悭	392	hprg
+東	392	eor
 熘	392	cbq
 熘	392	cbqt
 锕	392	ztz
@@ -15026,7 +15027,6 @@ import_tables:
 魚	138	wv
 罵	137	ynm
 鎮	137	znqh
-東	135	eor
 練	134	ixhb
 億	133	jxhx
 貓	132	mlqt

@@ -1,6 +1,6 @@
 
 name: tiger
-version: "2023.01.23"
+version: "2023.01.24"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -8533,6 +8533,7 @@ columns:
 啁	dmgd	392
 悭	hpr	392
 悭	hprg	392
+東	eor	392
 熘	cbq	392
 熘	cbqt	392
 锕	ztz	392
@@ -15034,7 +15035,6 @@ columns:
 魚	wv	138
 罵	ynm	137
 鎮	znqh	137
-東	eor	135
 練	ixhb	134
 億	jxhx	133
 貓	mlqt	132

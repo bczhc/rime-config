@@ -100,7 +100,7 @@ engine:
     # - charset_filter@gb2312
     # - charset_filter@big5
     - simplifier@simplification  #简繁滤镜
-    - simplifier@fanjian  #繁简滤镜
+    # - simplifier@fanjian  #繁简滤镜
     # - reverse_lookup_filter@reverse_lookup #反查词典滤镜
     - simplifier@pinyin  #拼音滤镜
     - simplifier@chaifen #拆分滤镜

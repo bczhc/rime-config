@@ -82,7 +82,6 @@ engine:
   translators:
     # - echo_translator # 没有其他结果时，创建一个与编码串一样的候选项
     - punct_translator # 转换标点符号
-    - "table_translator@custom_phrase"
     - script_translator # 脚本表转换
     # - table_translator@custom_phrase
     - table_translator
@@ -105,7 +104,7 @@ engine:
     # - charset_filter@gb2312
     # - charset_filter@big5
     - simplifier@simplification  #简繁滤镜
-    - simplifier@fanjian  #繁简滤镜
+    # - simplifier@fanjian  #繁简滤镜
     - simplifier@pinyin  #拼音滤镜
     - simplifier@emoji_cn  #表情滤镜
     - lua_filter@charset_comment_filter #Unicode分区提示滤镜
@@ -234,7 +233,7 @@ reverse_lookup:
   suffix: "'"
   tips: 〔笔画〕
   preedit_format:
-    - xlit/hspnz/一丨丿丶乙/
+    - xlit/hspnz/一丨丿丶ㄥ/
   comment_format:
     # - xform/([nl])v/$1ü/
     - "xform/^/ /"
@@ -242,7 +241,7 @@ reverse_lookup:
 
 # ↓简繁(+部分异体)滤镜
 simplification:  #⇩四选一
-  opencc_config: st_tu.json        # 简 ➡ 繁（OpenCC标准） 
+  opencc_config: st_tu.json        # 简 ➡ 繁（秃版CC标准） 
  # opencc_config: s2tw.json    # 简 ➡ 台湾正体
  # opencc_config: s2hk.json    # 简 ➡ 香港繁体
  # opencc_config: s2twp.json  # 简 ➡ 台湾正体（含常用词汇如：软体→軟體、鼠标→滑鼠）
@@ -250,9 +249,9 @@ simplification:  #⇩四选一
   tips: all  # # 转换文字段 all字词|char字 
 
 # ↓繁简滤镜
-fanjian:
-  opencc_config: t2s.json   # 繁 ➡ 简（OpenCC标准）
-  option_name: fanjian
+# fanjian:
+#   opencc_config: t2s.json   # 繁 ➡ 简（OpenCC标准）
+#   option_name: fanjian
 
 # ↓拼音滤镜
 pinyin:

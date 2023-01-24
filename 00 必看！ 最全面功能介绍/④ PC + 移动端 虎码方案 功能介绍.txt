@@ -222,13 +222,32 @@ Lua功能：
 	输入 hppn  为  仄  可用 ctrl + p 开启带声调的拼音滤镜
 		 和虎码一样，按 ctrl + shift + 回车 可上屏滤镜内容  (zè)
 
+
 --------
+
+用斜杠引导可快速打加一些网址
+内置了6个，引导编码有三种，全拼 小鹤双拼 虎码
 
 输入 /huma 或 /zhmn 可打开虎码官网
 	仅在PC端小狼毫有效
-输入 /baidu 或 /bddu 或 /fuxl 可打开百度
+输入 /baidu 或 /bddu 或 /fuxl 可打开百度搜索
+	仅在PC端小狼毫有效
+输入 /biying 或 /biyk 或 /htxk 可打开微软必应搜索
+	仅在PC端小狼毫有效
+输入 /guge 或 /guge 或 /hgzz 可打开谷歌搜索
 	仅在PC端小狼毫有效
 输入 /wangpan 或 /whpj 或 /mbia 可打开虎码网盘
 	仅在PC端小狼毫有效
 输入 /genda 或 /gfda 或 /piua 可打开网页版木易跟打器（由群友 木易某某 开发）
 	仅在PC端小狼毫有效
+
+
+如需自己添加其他网址，打开lua文件夹中的 exe.lua
+
+按以下格式继续追加
+  elseif (context.input == "/引导字母" or context.input == "/引导字母") then
+    generic_open("所需网址")
+    context:clear()
+
+or 代表可以有多个引导方式，例如：全拼简拼，虎码……
+网址注意看我前面添加的格式，建议直接从网址栏复制

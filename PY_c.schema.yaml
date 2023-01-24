@@ -7,6 +7,7 @@ schema:
   version: "0.18"
   dependencies:
     - stroke
+    - easy_english
 
 switches: # 0 默认关，1 默认开
   - name: ascii_mode
@@ -84,8 +85,8 @@ engine:
     - "table_translator@custom_phrase"
     - script_translator # 脚本表转换
     # - table_translator@custom_phrase
-    - table_translator@easy_english #临时英文
     - table_translator
+    - table_translator@easy_english #临时英文
     - reverse_lookup_translator # 反查翻译器
     - history_translator@historyDM # 历史上屏 电脑
     # - history_translator@historyDM2 # 历史上屏 电脑2
@@ -233,9 +234,9 @@ reverse_lookup:
   suffix: "'"
   tips: 〔笔画〕
   preedit_format:
-    - xlit/hspnz/一丨丿丶ㄥ/
+    - xlit/hspnz/一丨丿丶乙/
   comment_format:
-    - xform/([nl])v/$1ü/
+    # - xform/([nl])v/$1ü/
     - "xform/^/ /"
 
 
@@ -307,13 +308,13 @@ menu:
 style:
   horizontal: false # 默认false竖排显示,改为true可横排显示
   inline_preedit: false # 嵌入编码模式，改为true可开启
-  preedit_type: composition # 有3个选项可设：input 嵌入输入码 | composition 嵌入编码 | preview 嵌入首选项
-  font_face: "Consolas, Noto Color Emoji, TumanPUA, LXGW WenKai GB Screen R, SimSun, SimSun-ExtB, SimSun-ExtG, TH-Tshyn-P0, TH-Tshyn-P1, TH-Tshyn-P2, TH-Tshyn-P16, FSung-1, FSung-2, FSung-3, FSung-F, FSung-X"
-  font_point: 15 # 字号大小
-  label_font_face: "Consolas, Noto Color Emoji, TumanPUA, LXGW WenKai GB Screen R, SimSun, SimSun-ExtB, SimSun-ExtG, TH-Tshyn-P0, TH-Tshyn-P1, TH-Tshyn-P2, TH-Tshyn-P16, FSung-1, FSung-2, FSung-3, FSung-F, FSung-X"
-  label_font_point: 15
-  comment_font_face: "LXGW WenKai GB Screen R, SimSun, SimSun-ExtB, SimSun-ExtG, TH-Tshyn-P0, TH-Tshyn-P1, TH-Tshyn-P2, TH-Tshyn-P16, FSung-1, FSung-2, FSung-3, FSung-F, FSung-X"
-  comment_font_point: 15
+  # preedit_type: composition # 有3个选项可设：input 嵌入输入码 | composition 嵌入编码 | preview 嵌入首选项
+  # font_face: "Consolas, Noto Color Emoji, TumanPUA, LXGW WenKai GB Screen R, SimSun, SimSun-ExtB, SimSun-ExtG, TH-Tshyn-P0, TH-Tshyn-P1, TH-Tshyn-P2, TH-Tshyn-P16, FSung-1, FSung-2, FSung-3, FSung-F, FSung-X"
+  # font_point: 15 # 字号大小
+  # label_font_face: "Consolas, Noto Color Emoji, TumanPUA, LXGW WenKai GB Screen R, SimSun, SimSun-ExtB, SimSun-ExtG, TH-Tshyn-P0, TH-Tshyn-P1, TH-Tshyn-P2, TH-Tshyn-P16, FSung-1, FSung-2, FSung-3, FSung-F, FSung-X"
+  # label_font_point: 15
+  # comment_font_face: "LXGW WenKai GB Screen R, SimSun, SimSun-ExtB, SimSun-ExtG, TH-Tshyn-P0, TH-Tshyn-P1, TH-Tshyn-P2, TH-Tshyn-P16, FSung-1, FSung-2, FSung-3, FSung-F, FSung-X"
+  # comment_font_point: 15
 
 punctuator: # 设定符号表，这里直接导入外部的symbols文件夹
   import_preset: symbols

@@ -25,6 +25,10 @@ local function exe(key, env)
     context:clear()
   elseif (context.input == "/baidu" or context.input == "/bddu" or context.input == "/fuxl") then
     generic_open("https://www.baidu.com")
+  elseif (context.input == "/biying" or context.input == "/biyk" or context.input == "/htxk") then
+    generic_open("https://cn.bing.com")
+  elseif (context.input == "/guge" or context.input == "/guge" or context.input == "/hgzz") then
+    generic_open("https://www.google.com")
     context:clear()
   elseif (context.input == "/wangpan" or context.input == "/whpj" or context.input == "/mbia") then
     generic_open("http://huma.ysepan.com/")

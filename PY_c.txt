@@ -1,7 +1,0 @@
-# Rime table
-#@/db_name	PY_c
-#@/db_type	tabledb
-#@/rime_version	1.7.3
-#@/tick	2
-发	fa	2
-完美的	wan mei de	2

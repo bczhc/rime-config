@@ -21,7 +21,7 @@
 	方案配置文件： PY_c.schema.yaml （该文件不推荐 Rime小白用户改动）
 	小鹤双拼扩展文件：PY_c.custom.yaml
 		该文件在  文件夹01 小鹤双拼反查配置  内，如何使用请看同文件夹下的 小鹤双拼反查必看说明.txt
-	
+
 stroke.schema.yaml 与 stroke.dict.yaml  是用于拼音方案下 笔画反查辅助方案的配置文件及码表
 
 4. 英语词库（该方案默认未启用，也不要启用）
@@ -44,6 +44,10 @@ stroke.schema.yaml 与 stroke.dict.yaml  是用于拼音方案下 笔画反查�
 配色文件
 	weasel.custom.yaml：电脑端 小狼毫上的自定配色文件 （Win）
 	squirrel.custom.yaml：电脑端 鼠须管上的自定配色文件 （Mac）
+
+双拼反查配置
+	位于文件夹 ”01 双拼反查配置（自然码 小鹤 微软）” ，内置3种双拼，用来更改拼音反查（默认是全拼）
+	具体使用详见 该文件夹内的  “双拼反查配置 必看说明.txt”
 
 仅用于安卓中文输入法的相关文件
 	名字里带 trime.yaml 的：都是 主题皮肤 文件

@@ -29,13 +29,9 @@ switches: # 0 默认关，1 默认开
   - name: chaifen
     reset: 0 
     states: [ 拆隐, 拆显 ]
-  # - options: [utf8, gbk, gb2312]
+  # - options: [ gb2312, gbk, utf8 ]
+  #   states: [ gb2312, GBK, UTF-8 ]
   #   reset: 0
-  #   states:
-  #     - UTF-8
-  #     - GBK
-  #     - GB2312
-  #     - BIG5
   - name: simplification  #简转繁滤镜
     reset: 0
     states: [ 简中, 繁中 ]
@@ -85,8 +81,8 @@ engine:
   translators:
     - punct_translator
     - reverse_lookup_translator #拼音反查
-    - table_translator@easy_english #临时英文
     - table_translator
+    - table_translator@easy_english #临时英文
     - history_translator@historyDM # 重复上屏 电脑
     # - history_translator@historyDM2 # 重复上屏 电脑2
     - history_translator@historyDM3 # 重复上屏 电脑3
@@ -105,7 +101,7 @@ engine:
     # - charset_filter@big5
     - simplifier@simplification  #简繁滤镜
     - simplifier@fanjian  #繁简滤镜
-    # - reverse_lookup_filter@reverse_lookup #反查词典滤镜，iz# - reverse_lookup_filter@reverse_lookup #反查词典，即拼音，用下面的替代
+    # - reverse_lookup_filter@reverse_lookup #反查词典滤镜
     - simplifier@pinyin  #拼音滤镜
     - simplifier@chaifen #拆分滤镜
     - simplifier@emoji_cn  #表情滤镜
@@ -138,15 +134,15 @@ translator:
 
 reverse_lookup:
   dictionary: PY_c
+  prefix: "`"
+  tips: "〔拼音〕"
   preedit_format:
     - "xform/([nl])v/$1ü/"
     - "xform/([nl])ue/$1üe/"
     - "xform/([jqxy])v/$1u/"
   comment_format:
     - "xform/^/ /"
-  prefix: "`"
   # suffix: "'"
-  tips: "〔拼音〕"
 
 
 
@@ -207,10 +203,10 @@ historyDM:
   initial_quality: 999
 
 
-# historyDM2:
-#   input: "'"
-#   size: 1
-#   initial_quality: -999
+historyDM2:
+  input: "'"
+  size: 1
+  initial_quality: -999
 
 historyDM3:
   input: "]"
@@ -227,9 +223,9 @@ simplification:  #⇩四选一
   tips: all  #all字词|char字
 
 # ↓繁简滤镜
-fanjian:
-  opencc_config: t2s.json   # 繁 ➡ 简（OpenCC标准）
-  option_name: fanjian
+# fanjian:
+#   opencc_config: t2s.json   # 繁 ➡ 简（OpenCC标准）
+#   option_name: fanjian
 
 # ↓拼音滤镜
 pinyin:
@@ -238,13 +234,13 @@ pinyin:
   show_in_comment: true #作为注解在后面显示
   comment_format:
     - 'xform/&nbsp;/ /'
-    - "xform/^/ /"
+    # - "xform/^/ /"
   tips: char
-  tags:  #设立tags是为了不影响反查
+  tags:
     - abc
     - tiger
     - tigress
-    # - reverse_lookup
+    - reverse_lookup
 
 
 # ↓emoji表情滤镜

@@ -1,5 +1,5 @@
 name: tigress_simp_ci
-version: "2023.01.18"
+version: "2023.01.23"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -2216,7 +2216,6 @@ encoder:
 矿泉水	153	muk
 阶段性	153	tuh
 老东西	153	qrv
-婚姻法	153	bbk
 掉眼泪	153	uqk
 武汉市	153	fkz
 试试看	153	ssu
@@ -2500,7 +2499,6 @@ encoder:
 里程碑	132	dxm
 程序员	132	xxd
 惹不起	132	lcp
-手术室	132	uew
 穆斯林	132	xze
 性教育	132	hqb
 小提琴	132	yun
@@ -2747,6 +2745,7 @@ encoder:
 建筑师	120	brp
 充其量	120	bzo
 建设性	120	bsh
+多渠道	120	lkh
 大都市	120	mqz
 又怎样	120	rwe
 都应该	120	qxs
@@ -2842,7 +2841,6 @@ encoder:
 正中间	117	fda
 呆婆鸭	117	dks
 另一段	117	dfu
-铁了心	117	zrh
 地下水	117	gfk
 运动鞋	117	bbt
 适合于	117	ajf
@@ -3090,6 +3088,7 @@ encoder:
 了下来	108	rfa
 四合院	108	yjt
 游乐场	108	kbg
+重量级	108	loi
 高新区	108	gin
 家长会	108	wpj
 播放器	108	uld
@@ -3373,7 +3372,6 @@ encoder:
 即日起	102	iop
 那一日	102	afo
 交换膜	102	auv
-巴旦木	102	moe
 乌眼青	102	xqa
 高大上	102	gmy
 舒适区	102	jan
@@ -3860,6 +3858,7 @@ encoder:
 替死鬼	93	hga
 直流电	93	nko
 大法官	93	mkw
+菟丝子	93	lih
 小儿科	93	ypx
 建议书	93	bsa
 回形针	93	rfz
@@ -4021,7 +4020,6 @@ encoder:
 载畜量	90	nzo
 拿摩温	90	jzk
 苛性钠	90	lhz
-有蹄类	90	npp
 灭音器	90	fxd
 商籁体	90	irj
 派力司	90	ksa
@@ -4211,6 +4209,7 @@ encoder:
 性冷淡	87	hwk
 鬼吹灯	87	adc
 父亲节	87	hil
+生理学	87	lnk
 老毛病	87	qva
 东南角	87	rnx
 书卷气	87	ahv

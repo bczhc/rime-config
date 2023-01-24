@@ -20,7 +20,7 @@ patch:
   #style/preedit_type: preview # 嵌入首选项内容，而非编码。有3个选项可设：input 嵌入输入码 | composition 嵌入编码 | preview 嵌入首选项
   #style/layout/margin_y : -300 # 启用后可隐藏候选框(盲打)，建议配合上面的嵌入首选项，一起使用
   #style/inline_preedit: false # 嵌入编码模式，默认是true开启，若想关闭，取消注释即可（删除前面的#号）
-  #speller/auto_select_pattern: ^;\w+|^\w{4}$  # 开启四码上屏功能
+  speller/auto_select_pattern: ^;\w+|^\w{4}$  # 开启四码上屏功能
   # 滤镜内容字体
   #style/comment_font_face: "Consolas, Noto Color Emoji, TumanPUA, LXGW WenKai GB Screen R, SimSun, SimSun-ExtB, SimSun-ExtG, TH-Tshyn-P0, TH-Tshyn-P1, TH-Tshyn-P2, TH-Tshyn-P16, FSung-1, FSung-2, FSung-3, FSung-F, FSung-X"
   #style/comment_font_point: 15 # 滤镜内容字号

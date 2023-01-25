@@ -240,7 +240,7 @@ pinyin:
     - abc
     - tiger
     - tigress
-    - reverse_lookup
+    # - reverse_lookup
 
 
 # ↓emoji表情滤镜

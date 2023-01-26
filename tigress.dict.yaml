@@ -1,5 +1,5 @@
 name: tigress
-version: "2023.01.24"
+version: "2023.01.26"
 sort: by_weight
 columns:
   - text
@@ -110921,7 +110921,7 @@ import_tables:
 ⿊	0	ph
 ⿋	0	cfb
 ⿌	0	dm
-⿍	0	qd
+⿍	0	qaap
 ⿎	0	hci
 ⿏	0	ps
 ⿐	0	oqlc

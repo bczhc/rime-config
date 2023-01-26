@@ -1,5 +1,5 @@
 name: tigress_ci
-version: "2023.01.24"
+version: "2023.01.26"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -24904,6 +24904,8 @@ encoder:
 天选	500	fmqp
 没网	500	krmb
 算力	500	rqsl
+太菜	500	mily
+乌军	500	xuwy
 巨大的	499	nmun
 死地	498	gvge
 兴国	498	khrn
@@ -87144,6 +87146,7 @@ encoder:
 无惨	200	duhk
 停更	200	jgfo
 破坏神	200	mgfo
+战五渣	200	ywke
 管你	199	rwjx
 十八大	199	nhmd
 又开始	199	rfbk
@@ -95225,6 +95228,7 @@ encoder:
 榜三	100	eits
 国祚	100	rnfw
 转变者	100	yzqo
+小北	100	yxav
 一杯水	99	feks
 向人	99	tmjr
 将成为	99	anis
@@ -140827,6 +140831,10 @@ encoder:
 铃村爱里	50	zeyd
 田中宁宁	50	qdww
 明里紬	50	odid
+本庄铃	50	exzj
+工藤拉拉	50	uluu
+早川濑里奈	50	ookm
+神海莉亚	50	fklf
 沙月芽衣	50	kvlt
 新井里真	50	iqdn
 山岸逢花	50	vvhl
@@ -140876,6 +140884,8 @@ encoder:
 凛音桃花	50	wxel
 彩美旬果	50	ygnq
 永濑唯	50	ikdu
+桐乃杏澄	50	evek
+枫富爱	50	ewyw
 松下纱荣子	50	efih
 里美尤利娅	50	dgob
 明日花绮罗	50	ooly
@@ -140893,6 +140903,7 @@ encoder:
 三原穗香	50	txxx
 吉高宁宁	50	ggww
 永濑未萌	50	ikal
+前田桃杏	50	hqee
 东凛	50	rywz
 宝生莉莉	50	wlll
 芽森滴	50	leki
@@ -140903,10 +140914,12 @@ encoder:
 永纱奈	50	iimf
 黑川纱里奈	50	poim
 岬梓沙	50	veky
+今田美玲	50	jqgn
 河北春菜	50	kaal
 织田真子	50	iqnh
 纱纱原百合	50	iixj
 本庄玲	50	exnj
+神木丽	50	fefv
 星野娜美	50	odbg
 大浦真奈美	50	mkng
 宝田萌奈美	50	wqlg
@@ -140920,10 +140933,14 @@ encoder:
 新村明里	50	ieod
 纱仓真奈	50	ijnm
 美咲佳奈	50	gdjm
-白木优子	50	uejh
+松冈玲	50	emnj
+羽月希	50	zvbn
+花宫亚梦	50	lwfe
+美园和花	50	grxl
 阿部乃美久	50	tivx
 冬月枫	50	hveo
 桐谷茉莉	50	ehll
+成濑心美	50	nkhg
 香苗玲音	50	xlnx
 妃月留衣	50	bvbt
 中野七绪	50	ddri
@@ -140973,7 +140990,6 @@ encoder:
 辻本杏	50	need
 西野翔	50	vdgz
 奏自由	50	aody
-羽月希	50	zvbn
 长谷川瑠衣	50	phot
 白川柚子	50	uoeh
 益坂美亚	50	kggf
@@ -141074,6 +141090,9 @@ encoder:
 善逸	50	ghwu
 伊之助	50	jrfs
 喵斯	50	dlzh
+噗叽	50	dcdo
+太火	50	mich
+泼赖	50	ksxx
 挂羊头卖狗肉	49	ugwm
 国土资源部	49	rgwi
 柳传志	49	ejgh
@@ -160437,8 +160456,12 @@ encoder:
 龙腾	39	tlvh
 只囙码	30	drmn
 猫码	30	mlmn
+运直	30	bunq
+轻筒	30	yrrm
+多着	30	llgq
 只因哥	20	drzz
 未亡人	20	afjr
+摘菜	20	uily
 怂了	10	jjrl
 㨃人	10	ugjr
 稗子	10	xuhi

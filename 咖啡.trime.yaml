@@ -51,7 +51,7 @@ Custom: #以下参数自行调整，测试手机分辨率1080*2400。
   B: &候选区高度 25 #candidate_view_height
   C: &候选字间距 5 #candidate_padding
   #主键盘
-  ①: &主键高 53 #主键盘行高 key_height
+  ①: &主键高 52 #主键盘行高 key_height
   ②: &底部增高 3
   ③: &曲面屏左 1.25 #左右留空位置不一致，请调整为1，横屏显示有问题也可改这里
   ④: &曲面屏右 1.25 #左右留空位置不一致，请调整为1，横屏显示有问题也可改这里
@@ -86,7 +86,7 @@ Custom: #以下参数自行调整，测试手机分辨率1080*2400。
   Ⅺ: &空格符号y偏移 12
 
 style:
-  keyboards: [.default, default, defaultmd, defaultjj, defaultzj, letter, jisuan, number, menu, _edit_board, symbols, symbols_cy, symbols_en, symbols_cn, symbols_pair, symbols_math, symbols_shu, symbols_special, symbols_special2, symbols_sequence, symbols_sequence2]
+  keyboards: [.default, default, default_land, defaultmd, defaultjj, defaultzj, letter, jisuan, number, menu, _edit_board, symbols, symbols_cy, symbols_en, symbols_cn, symbols_pair, symbols_math, symbols_shu, symbols_special, symbols_special2, symbols_sequence, symbols_sequence2]
   #键盘配置：自动键盘、盲打、无符号、助记、英文、数字、菜单、编辑、符号等
   auto_caps: false #自动句首大写:true|false|ascii
   background_dim_amount: 0.5 ##同文晢无作用，备用参数，暂无功能
@@ -646,6 +646,94 @@ preset_keyboards:
     - {width: 12, composing: CX, click: '.', long_click: '?', swipe_up: '?', key_symbol_offset_x: 0, key_symbol_offset_y: 10, key_back_color: Period_back_color, key_text_color: Period_text_color, key_symbol_color: Period_symbol_color, hilited_key_back_color: hilited_Period_back_color, hilited_key_text_color: hilited_Period_text_color, hilited_key_symbol_color: hilited_Period_Symbol_color, key_border_color: Period_key_border_color, key_border: *key_border}
     - {click: Return, width: *回车宽度, swipe_up: Theme_settings, long_click: Color_settings, key_symbol_offset_x: 0, key_back_color: Return_back_color, key_text_color: Return_text_color, key_symbol_color: Return_symbol_color, hilited_key_back_color: hilited_Return_back_color, hilited_key_text_color: hilited_Return_text_color, hilited_key_symbol_color: hilited_Return_Symbol_color, key_border_color: Return_key_border_color, key_border: *key_border}
     - {width: *曲面屏右}
+    #46
+    - {height: *底部增高, width: 100}
+
+  default_land:
+    name: '横屏键盘' 
+    author: 'x'
+    # width: 8
+    lock: true #切換程序時記憶鍵盤
+    ascii_mode: 0
+    height: 40 #同文已经不需要了
+    key_symbol_offset_x: *符号X偏移 #长按符号x方向偏移量
+    key_symbol_offset_y: *符号Y偏移 #长按符号y方向偏移量
+    key_text_offset_x: *按键x偏移 #按键文本x方向偏移量
+    key_text_offset_y: *按键y偏移 #按键文本y方向偏移量
+    key_hint_offset_x: *助记符号x偏移 #助记符号x方向偏移量（向右为正）
+    key_hint_offset_y: *助记符号y偏移 #助记符号y方向偏移量（向下为正）
+    key_press_offset_x: 0 #按键按下时所有文本x方向偏移量
+    key_press_offset_y: 0 #按键按下时所有文本y方向偏移量
+    label_transform: uppercase #键盘qwerty字母标签大写
+    #auto_height_index: 0 #吸收缩放余数，第一行即0，第二行为1，以此类推；特别的，当值为负数时，为倒序序号（-1即倒数第一个）;当值大于按键行数时，为最后一行。
+    #keyboard_height: 220 #键盘锁定的高度。当style中锁定键盘高度时，如preset_keyboard再次指定键盘高度，则当前键盘以此为准
+    #keyboard_height_land: 200 #横屏下键盘锁定的高度，同上
+    keys:
+    - {height: *空白行, width: 100}
+    - {width: 2.8}
+    - {width: 6.8, click: q, long_click: '', swipe_up: '1', key_back_color: Q_kb, hilited_key_back_color: Q_ka, key_text_color: Q_tb, hilited_key_text_color: Q_ta, key_symbol_color: Q_sb, hilited_key_symbol_color: Q_sa, key_border_color: Q_bk, key_border: *key_border}
+    - {width: 6.8, click: w, long_click: '', swipe_up: '2', key_back_color: W_kb, hilited_key_back_color: W_ka, key_text_color: W_tb, hilited_key_text_color: W_ta, key_symbol_color: W_sb, hilited_key_symbol_color: W_sa, key_border_color: W_bk, key_border: *key_border}
+    - {width: 6.8, click: e, long_click: '', swipe_up: '3', key_back_color: E_kb, hilited_key_back_color: E_ka, key_text_color: E_tb, hilited_key_text_color: E_ta, key_symbol_color: E_sb, hilited_key_symbol_color: E_sa, key_border_color: E_bk, key_border: *key_border}
+    - {width: 6.8, click: r, long_click: '', swipe_up: '4', key_back_color: R_kb, hilited_key_back_color: R_ka, key_text_color: R_tb, hilited_key_text_color: R_ta, key_symbol_color: R_sb, hilited_key_symbol_color: R_sa, key_border_color: R_bk, key_border: *key_border}
+    - {width: 6.8, click: t, long_click: '', swipe_up: '5', key_back_color: T_kb, hilited_key_back_color: T_ka, key_text_color: T_tb, hilited_key_text_color: T_ta, key_symbol_color: T_sb, hilited_key_symbol_color: T_sa, key_border_color: T_bk, key_border: *key_border}
+    - {width: 4.35}
+    - {width: 5.8, click: 1, long_click: '', swipe_up: '6', key_back_color: Y_kb, hilited_key_back_color: Y_ka, key_text_color: Y_tb, hilited_key_text_color: Y_ta, key_symbol_color: Y_sb, hilited_key_symbol_color: Y_sa, key_border_color: Y_bk, key_border: *key_border}
+    - {width: 5.8, click: 2, long_click: '', swipe_up: '7', key_back_color: U_kb, hilited_key_back_color: U_ka, key_text_color: U_tb, hilited_key_text_color: U_ta, key_symbol_color: U_sb, hilited_key_symbol_color: U_sa, key_border_color: U_bk, key_border: *key_border}
+    - {width: 5.8, click: 3, long_click: '', swipe_up: '8', key_back_color: I_kb, hilited_key_back_color: I_ka, key_text_color: I_tb, hilited_key_text_color: I_ta, key_symbol_color: I_sb, hilited_key_symbol_color: I_sa, key_border_color: I_bk, key_border: *key_border}
+    - {width: 1.65}
+    - {width: 6.8, click: y, long_click: '', swipe_up: '6', key_back_color: Y_kb, hilited_key_back_color: Y_ka, key_text_color: Y_tb, hilited_key_text_color: Y_ta, key_symbol_color: Y_sb, hilited_key_symbol_color: Y_sa, key_border_color: Y_bk, key_border: *key_border}
+    - {width: 6.8, click: u, long_click: '', swipe_up: '7', key_back_color: U_kb, hilited_key_back_color: U_ka, key_text_color: U_tb, hilited_key_text_color: U_ta, key_symbol_color: U_sb, hilited_key_symbol_color: U_sa, key_border_color: U_bk, key_border: *key_border}
+    - {width: 6.8, click: i, long_click: '', swipe_up: '8', key_back_color: I_kb, hilited_key_back_color: I_ka, key_text_color: I_tb, hilited_key_text_color: I_ta, key_symbol_color: I_sb, hilited_key_symbol_color: I_sa, key_border_color: I_bk, key_border: *key_border}
+    - {width: 6.8, click: o, long_click: '', swipe_up: '9', key_back_color: O_kb, hilited_key_back_color: O_ka, key_text_color: O_tb, hilited_key_text_color: O_ta, key_symbol_color: O_sb, hilited_key_symbol_color: O_sa, key_border_color: O_bk, key_border: *key_border}
+    - {width: 6.8, click: p, long_click: '', swipe_up: '0', swipe_down: "/", hint: '/',  key_back_color: P_kb, hilited_key_back_color: P_ka, key_text_color: P_tb, hilited_key_text_color: P_ta, key_symbol_color: P_sb, hilited_key_symbol_color: P_sa, key_border_color: P_bk, key_border: *key_border}
+    - {width: 2.8}
+
+    - {width: 5}
+    - {width: 6.8, click: a, long_click: select_all, swipe_up: Home, swipe_down: "@", hint: "@", key_back_color: A_kb, hilited_key_back_color: A_ka, key_text_color: A_tb, hilited_key_text_color: A_ta, key_symbol_color: A_sb, hilited_key_symbol_color: A_sa, key_border_color: A_bk, key_border: *key_border}
+    - {width: 6.8, click: s, long_click: "-", swipe_up: lua_script_all, key_back_color: S_kb, hilited_key_back_color: S_ka, key_text_color: S_tb, hilited_key_text_color: S_ta, key_symbol_color: S_sb, hilited_key_symbol_color: S_sa, key_border_color: S_bk, key_border: *key_border}
+    - {width: 6.8, click: d, long_click: "'", swipe_up: Date, hilited_key_back_color: D_ka, key_text_color: D_tb, hilited_key_text_color: D_ta, key_symbol_color: D_sb, hilited_key_symbol_color: D_sa, key_border_color: D_bk, key_border: *key_border}
+    - {width: 6.8, click: f, long_click: "+", swipe_up: Time, key_back_color: F_kb, hilited_key_back_color: F_ka, key_text_color: F_tb, hilited_key_text_color: F_ta, key_symbol_color: F_sb, hilited_key_symbol_color: F_sa, key_border_color: F_bk, key_border: *key_border}
+    - {width: 6.8, click: g, long_click: "=", swipe_up: _Keyboard_edit, key_back_color: G_kb, hilited_key_back_color: G_ka, key_text_color: G_tb, hilited_key_text_color: G_ta, key_symbol_color: G_sb, hilited_key_symbol_color: G_sa, key_border_color: G_bk, key_border: *key_border}
+    - {width: 2.2}
+    - {width: 5.8, click: 4, long_click: '', swipe_up: '6', key_back_color: Y_kb, hilited_key_back_color: Y_ka, key_text_color: Y_tb, hilited_key_text_color: Y_ta, key_symbol_color: Y_sb, hilited_key_symbol_color: Y_sa, key_border_color: Y_bk, key_border: *key_border}
+    - {width: 5.8, click: 5, long_click: '', swipe_up: '7', key_back_color: U_kb, hilited_key_back_color: U_ka, key_text_color: U_tb, hilited_key_text_color: U_ta, key_symbol_color: U_sb, hilited_key_symbol_color: U_sa, key_border_color: U_bk, key_border: *key_border}
+    - {width: 5.8, click: 6, long_click: '', swipe_up: '8', key_back_color: I_kb, hilited_key_back_color: I_ka, key_text_color: I_tb, hilited_key_text_color: I_ta, key_symbol_color: I_sb, hilited_key_symbol_color: I_sa, key_border_color: I_bk, key_border: *key_border}
+    - {width: 5.8}
+    - {width: 6.8, click: h, long_click: "#", key_back_color: H_kb, hilited_key_back_color: H_ka, key_text_color: H_tb, hilited_key_text_color: H_ta, key_symbol_color: H_sb, hilited_key_symbol_color: H_sa, key_border_color: H_bk, key_border: *key_border}
+    - {width: 6.8, click: j, long_click: '&', swipe_up: _Keyboard_clip, swipe_down: _Keyboard_clip_script, hint: '⏍', key_back_color: J_kb, hilited_key_back_color: J_ka, key_text_color: J_tb, hilited_key_text_color: J_ta, key_symbol_color: J_sb, hilited_key_symbol_color: J_sa, key_border_color: J_bk, key_border: *key_border}
+    - {width: 6.8, width: 6.8, click: k, long_click: "*", key_back_color: K_kb, hilited_key_back_color: K_ka, key_text_color: K_tb, hilited_key_text_color: K_ta, key_symbol_color: K_sb, hilited_key_symbol_color: K_sa, key_border_color: K_bk, key_border: *key_border}
+    - {width: 6.8, click: l, long_click: '\', swipe_up: End, key_back_color: L_kb, hilited_key_back_color: L_ka, key_text_color: L_tb, hilited_key_text_color: L_ta, key_symbol_color: L_sb, hilited_key_symbol_color: L_sa, key_border_color: L_bk, key_border: *key_border}
+    - {width: 5}
+
+    - {width: 5}
+    - {width: 8, click: Shift_L, shift_lock : long, composing: Escape, swipe_up: Candidate_switch, swipe_down: Keyboard_defaultmd}
+    - {width: 6.8, click: z, swipe_up: _Keyboard_emoji, long_click: '`', key_back_color: Z_kb, hilited_key_back_color: Z_ka, key_text_color: Z_tb, hilited_key_text_color: Z_ta, key_symbol_color: Z_sb, hilited_key_symbol_color: Z_sa, key_border_color: Z_bk, key_border: *key_border}
+    - {width: 6.8, click: x, long_click: cut, swipe_up: SXZT, key_back_color: X_kb, hilited_key_back_color: X_ka, key_text_color: X_tb, hilited_key_text_color: X_ta, key_symbol_color: X_sb, hilited_key_symbol_color: X_sa, key_border_color: X_bk, key_border: *key_border}
+    - {width: 6.8, click: c, swipe_up: q_fhjq, long_click: copy, key_back_color: C_kb, hilited_key_back_color: C_ka, key_text_color: C_tb, hilited_key_text_color: C_ta, key_symbol_color: C_sb, hilited_key_symbol_color: C_sa, key_border_color: C_bk, key_border: *key_border}
+    - {width: 6.8, click: v, long_click: paste, key_back_color: V_kb, hilited_key_back_color: V_ka, key_text_color: V_tb, hilited_key_text_color: V_ta, key_symbol_color: V_sb, hilited_key_symbol_color: V_sa, key_border_color: V_bk, key_border: *key_border}
+    - {width: 1}
+    - {width: 5.8, click: 7, long_click: '', swipe_up: '6', key_back_color: Y_kb, hilited_key_back_color: Y_ka, key_text_color: Y_tb, hilited_key_text_color: Y_ta, key_symbol_color: Y_sb, hilited_key_symbol_color: Y_sa, key_border_color: Y_bk, key_border: *key_border}
+    - {width: 5.8, click: 8, long_click: '', swipe_up: '7', key_back_color: U_kb, hilited_key_back_color: U_ka, key_text_color: U_tb, hilited_key_text_color: U_ta, key_symbol_color: U_sb, hilited_key_symbol_color: U_sa, key_border_color: U_bk, key_border: *key_border}
+    - {width: 5.8, click: 9, long_click: '', swipe_up: '8', key_back_color: I_kb, hilited_key_back_color: I_ka, key_text_color: I_tb, hilited_key_text_color: I_ta, key_symbol_color: I_sb, hilited_key_symbol_color: I_sa, key_border_color: I_bk, key_border: *key_border}
+    - {width: 4}
+    - {width: 6.8, click: b, long_click: '"', key_back_color: B_kb, hilited_key_back_color: B_ka, key_text_color: B_tb, hilited_key_text_color: B_ta, key_symbol_color: B_sb, hilited_key_symbol_color: B_sa, key_border_color: B_bk, key_border: *key_border}
+    - {width: 6.8, click: n, long_click: ':', swipe_up: _Keyboard_phrase, swipe_down: _lua_phrase, hint: '♨', key_back_color: N_kb, hilited_key_back_color: N_ka, key_text_color: N_tb, hilited_key_text_color: N_ta, key_symbol_color: N_sb, hilited_key_symbol_color: N_sa, key_border_color: N_bk, key_border: *key_border}
+    - {width: 6.8, click: m, long_click: ";", swipe_up: keyboard_jisuan, key_back_color: M_kb, hilited_key_back_color: M_ka, key_text_color: M_tb, hilited_key_text_color: M_ta, key_symbol_color: M_sb, hilited_key_symbol_color: M_sa, key_border_color: M_bk, key_border: *key_border}
+    - {width: 12, click: BackSpace1, swipe_up: Clear, swipe_down: DelH, swipe_left: CommitComment, key_back_color: Back_back_color, hilited_key_back_color: hilited_Back_back_color, key_text_color: Back_text_color, hilited_key_text_color: hilited_Back_text_color, key_border_color: Back_key_border_color, key_border: *key_border}
+    - {width: 5}
+
+    - {width: 5}
+    - {width: 8, click: Keyboard_symbols, composing: SSX, swipe_right: Menu, long_click: Mode_switch, swipe_up: Keyboard_menu, key_symbol_offset_x: 0, key_back_color: Symbol_back_color, hilited_key_back_color: hilited_Symbol_back_color, key_text_color: Symbol_text_color, hilited_key_text_color: hilited_Symbol_text_color, key_symbol_color: Symbol_symbol_color, hilited_key_symbol_color: hilited_Symbol_Symbol_color, key_border_color: Symbol_key_border_color, key_border: *key_border}
+    - {width: 8, click: Keyboard_number,  composing: SX, long_click: VOICE_ASSIST_Ch, swipe_up: Keyboard_defaultzj, swipe_down: Keyboard_defaultzj, key_symbol_offset_x: 0, key_back_color: Symbol2_back_color, hilited_key_back_color: hilited_Symbol2_back_color, key_text_color: Symbol2_text_color, hilited_key_text_color: hilited_Symbol2_text_color, key_symbol_color: Symbol2_symbol_color, hilited_key_symbol_color: hilited_Symbol2_Symbol_color, key_border_color: Symbol2_key_border_color, key_border: *key_border}
+    - {width: 8,click: ',', composing: SX2, long_click: '!', swipe_up: '!', key_symbol_offset_x: 0, key_symbol_offset_y: 10, key_back_color: Comma_back_color, key_text_color: Comma_text_color, key_symbol_color: Comma_symbol_color, hilited_key_back_color: hilited_Comma_back_color, hilited_key_text_color: hilited_Comma_text_color, hilited_key_symbol_color: hilited_Comma_Symbol_color, key_border_color: Comma_key_border_color, key_border: *key_border}
+    - {width: 15.6, click: Space, long_click: Mode_switch, swipe_left: Left, swipe_right: Right,  swipe_up: Up, swipe_down: Down, key_text_size: 10, key_text_offset_y: *空格文字y偏移, key_symbol_offset_y: *空格符号y偏移, key_symbol_offset_x: 0, key_back_color: Space_back_color, key_text_color: Space_text_color, key_symbol_color: Space_symbol_color, hilited_key_back_color: hilited_Space_back_color, hilited_key_text_color: hilited_Space_text_color, hilited_key_symbol_color: hilited_Space_Symbol_color, key_border_color: Space_key_border_color, key_border: *key_border}
+    - {width: 2.5}
+    - {width: 5.8, click: 0, long_click: '', swipe_up: '6', key_back_color: Y_kb, hilited_key_back_color: Y_ka, key_text_color: Y_tb, hilited_key_text_color: Y_ta, key_symbol_color: Y_sb, hilited_key_symbol_color: Y_sa, key_border_color: Y_bk, key_border: *key_border}
+    - {width: 2.5}
+    - {width: 15.6, click: Space, long_click: Mode_switch, swipe_left: Left, swipe_right: Right,  swipe_up: Up, swipe_down: Down, key_text_size: 10, key_text_offset_y: *空格文字y偏移, key_symbol_offset_y: *空格符号y偏移, key_symbol_offset_x: 0, key_back_color: Space_back_color, key_text_color: Space_text_color, key_symbol_color: Space_symbol_color, hilited_key_back_color: hilited_Space_back_color, hilited_key_text_color: hilited_Space_text_color, hilited_key_symbol_color: hilited_Space_Symbol_color, key_border_color: Space_key_border_color, key_border: *key_border}
+    - {width: 8, composing: CX, click: '.', long_click: '?', swipe_up: '?', key_symbol_offset_x: 0, key_symbol_offset_y: 10, key_back_color: Period_back_color, key_text_color: Period_text_color, key_symbol_color: Period_symbol_color, hilited_key_back_color: hilited_Period_back_color, hilited_key_text_color: hilited_Period_text_color, hilited_key_symbol_color: hilited_Period_Symbol_color, key_border_color: Period_key_border_color, key_border: *key_border}
+    - {width: 16, click: Return, swipe_up: Theme_settings, long_click: Color_settings, key_symbol_offset_x: 0, key_back_color: Return_back_color, key_text_color: Return_text_color, key_symbol_color: Return_symbol_color, hilited_key_back_color: hilited_Return_back_color, hilited_key_text_color: hilited_Return_text_color, hilited_key_symbol_color: hilited_Return_Symbol_color, key_border_color: Return_key_border_color, key_border: *key_border}
+    - {width: 5}
     #46
     - {height: *底部增高, width: 100}
 

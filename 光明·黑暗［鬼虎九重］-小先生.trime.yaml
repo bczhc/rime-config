@@ -1105,7 +1105,7 @@ preset_keyboards:
       - {click: l, swipe_up: End, key_text_color: TEX, key_symbol_color: TEX,  key_border_color: BKYS, long_click: '/', swipe_left: q_lssz, key_back_color: LLL}
       - {width: 5}
       # ❸
-      - {click: Shift_L, shift_lock : long, label: Shift, swipe_down: Menu, key_text_size: 12, composing: Escape, swipe_up: Candidate_switch1, key_symbol_color: ssy, key_back_color: shb, key_text_color: SHt, hilited_key_back_color: shift, key_border_color: BKYSS, width: 10}
+      - {click: Shift_L, shift_lock : long, label: Shift, key_text_size: 12, composing: Escape, swipe_up: Candidate_switch1, key_symbol_color: ssy, key_back_color: shb, key_text_color: SHt, hilited_key_back_color: shift, key_border_color: BKYSS, width: 10}
       # - {width: 1}
       - {click: z, swipe_up: _Keyboard_emoji, key_text_color: TEX, key_symbol_color: TEX,  key_border_color: BKYSS, long_click: "`", key_back_color: ZZZ}
       - {click: x, swipe_up: SXZT, key_text_color: TEX, key_symbol_color: TEX,  key_border_color: BKYS, long_click: cut, key_back_color: XXX}

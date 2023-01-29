@@ -1,5 +1,0 @@
-方案切换键 默认是 F4键，我关闭了，改成了 Ctrl+F8
-如想自行修改
-找到 default.custom.yaml 这个文件，搜索 switcher/hotkeys
-	可以自行修改 ，# 是注释符号，注释了就无效了
-	不要忘记重新部署

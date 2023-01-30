@@ -20,10 +20,20 @@ switches:
     states: [ 中文, 西文 ]
   - name: full_shape
     states: [ 半角, 全角 ]
-  - name: simplification
-    states: [ 漢字, 汉字 ]
+  - name: simplification  #简转繁滤镜
+    reset: 1
+    states: [ 繁中, 简中 ]
   - name: ascii_punct
     states: [ 。，, ．， ]
+  - name: emoji_cn  #emoji滤镜
+    reset: 0
+    states: [ 🈚, 🈶 ]
+  - name: charset_comment_filter  #字符集提示
+    reset: 0  
+    states: [ U区关, U区开 ]
+  - name: udpf_switch
+    reset: 0
+    states: [ U编关, U编开]
 
 engine:
   processors:
@@ -52,7 +62,11 @@ engine:
     - lua_translator@calculator_translator # 简易计算器
     - lua_translator@shijian2_translator # 高级时间
   filters:
-    - simplifier
+    - simplifier@simplification
+    - simplifier@pinyin #拼音滤镜
+    - simplifier@emoji_cn #表情滤镜
+    - lua_filter@charset_comment_filter #Unicode分区提示滤镜
+    - lua_filter@lua_unicode_display_filter #Unicode编码显示
     - uniquifier
 
 speller:
@@ -174,11 +188,26 @@ reverse_lookup:
   comment_format:
     - xform/([nl])v/$1ü/
 
+emoji_cn:
+  opencc_config: emoji.json
+  option_name: emoji_cn
+  tips: all
+
+simplification:  #⇩四选一
+  # opencc_config: st_tu.json        # 简 ➡ 繁·异（秃版标准）
+ # opencc_config: s2tw.json    # 简 ➡ 台湾正体
+ # opencc_config: s2hk.json    # 简 ➡ 香港繁体
+ # opencc_config: s2twp.json  # 简 ➡ 台湾正体（含常用词汇如：软体→軟體、鼠标→滑鼠）
+  opencc_config: t2s.json
+  option_name: simplification
+
 punctuator:
   import_preset: symbols
 
 key_binder:
   import_preset: default
+  bindings:
+    - { accept: "Control+p", toggle: pinyin, when: composing }  # PC 拼音开关
 
 recognizer:
   import_preset: default

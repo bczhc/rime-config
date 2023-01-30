@@ -1,0 +1,3 @@
+patch:
+  style/horizontal: false # 默认false竖排显示,改为true横排可显示
+  menu/page_size: 9

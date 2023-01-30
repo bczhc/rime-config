@@ -1,0 +1,95 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: luna_pinyin.sogou
+  name: luna_pinyin.sogou
+  description: |
+    luna_pinyin
+    luna_pinyin.sogou
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: simplification
+    states: [ 漢字, 汉字 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - lua_processor@exe_processor #exe启动器
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - reverse_lookup_translator
+    - script_translator
+    - lua_translator@number_translator # 数字转大写
+    - lua_translator@calculator_translator # 简易计算器
+    - lua_translator@shijian2_translator # 高级时间
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: "zyxwvutsrqponmlkjihgfedcba;"
+  delimiter: " '"
+  algebra:
+    - xform/iu$/Q/
+    - xform/[iu]a$/W/
+    - xform/[uv]an$/R/
+    - xform/[uv]e$/T/
+    - xform/ing$|uai$/Y/
+    - xform/^sh/U/
+    - xform/^ch/I/
+    - xform/^zh/V/
+    - xform/uo$/O/
+    - xform/[uv]n$/P/
+    - xform/i?ong$/S/
+    - xform/[iu]ang$/D/
+    - xform/(.)en$/$1F/
+    - xform/(.)eng$/$1G/
+    - xform/(.)ang$/$1H/
+    - xform/ian$/M/
+    - xform/(.)an$/$1J/
+    - xform/iao$/C/
+    - xform/(.)ao$/$1K/
+    - xform/(.)ai$/$1L/
+    - xform/(.)ei$/$1Z/
+    - xform/ie$/X/
+    - xform/ui$/V/
+    - xform/(.)ou$/$1B/
+    - xform/in$/N/
+    - xlit/QWRTYUIOPSDFGHMJCKLZXVBN/qwrtyuiopsdfghmjcklzxvbn/
+
+translator:
+  dictionary: luna_pinyin.sogou
+  prism: luna_pinyin.sogou
+
+punctuator:
+  import_preset: symbols
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    punct: "^/([0-9]0?|[A-Za-z]+)$"
+    expression: "^=.*$"

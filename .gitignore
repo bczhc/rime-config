@@ -1,4 +1,5 @@
 /build/
-/easy_english.userdb/
+/*.userdb/
 /user.yaml
 /opencc/
+/installation.yaml

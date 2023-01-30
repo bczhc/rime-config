@@ -275,7 +275,7 @@ chaifen:
     - tiger
     - tigress
     - reverse_lookup
-  tips: all #如只想给单字加滤镜，可改为 char
+  tips: all  #只给单字加滤镜，改为 char 。 词也显示，改为 all
 
 
 punctuator:

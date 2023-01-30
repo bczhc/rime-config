@@ -1,6 +1,6 @@
 
 name: tiger
-version: "2023.01.26"
+version: "2023.01.29"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -12450,6 +12450,7 @@ columns:
 畯	qkhh	257
 疁	qzj	257
 疁	qzje	257
+疌	fbsi	257
 疍	tofi	257
 疐	nwq	257
 疐	nwqt	257
@@ -22192,7 +22193,6 @@ columns:
 疇	qgak	0
 疈	fdqq	0
 疉	qqqb	0
-疌	fbsi	0
 疎	txs	0
 疓	avn	0
 疕	avb	0

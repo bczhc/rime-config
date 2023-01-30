@@ -1,5 +1,5 @@
 name: tigress_simp_ci
-version: "2023.01.26"
+version: "2023.01.29"
 sort: by_weight
 use_preset_vocabulary: false
 columns:

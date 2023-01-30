@@ -1,5 +1,5 @@
 name: tigress_ci
-version: "2023.01.26"
+version: "2023.01.29"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -2892,6 +2892,7 @@ encoder:
 险要	3148	tjvb
 祝福	3145	fdff
 八十	3145	hbns
+看下	3144	uqfy
 挫折	3141	ujut
 和谐	3141	xdsv
 展开	3141	clfl
@@ -28112,6 +28113,9 @@ encoder:
 一拳	450	fihh
 每一个人	450	efjj
 只不过是	450	dcko
+躺赢	450	zsfd
+躺输	450	zsyj
+疣猪	450	aomq
 座头鲸	450	xwwg
 罗宾汉	450	ywkr
 使魔	450	jfza
@@ -94213,7 +94217,6 @@ encoder:
 前段时间	144	huoa
 于世	144	fnla
 不经意间	144	cixa
-看下	144	uqfy
 以及其他	144	vczj
 内心深处	144	mhkh
 记忆中	144	shdg

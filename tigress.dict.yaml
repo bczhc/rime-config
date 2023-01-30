@@ -1,5 +1,5 @@
 name: tigress
-version: "2023.01.26"
+version: "2023.01.29"
 sort: by_weight
 columns:
   - text
@@ -12999,6 +12999,7 @@ import_tables:
 畯	257	qkhh
 疁	257	qzj
 疁	257	qzje
+疌	257	fbsi
 疍	257	tofi
 疐	257	nwq
 疐	257	nwqt
@@ -22147,7 +22148,6 @@ import_tables:
 疇	0	qgak
 疈	0	fdqq
 疉	0	qqqb
-疌	0	fbsi
 疎	0	txs
 疓	0	avn
 疕	0	avb

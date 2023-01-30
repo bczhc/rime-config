@@ -5,7 +5,6 @@ schema:
   schema_id: luna_pinyin.sogou
   name: luna_pinyin.sogou
   description: |
-    luna_pinyin
     luna_pinyin.sogou
 
 switches:

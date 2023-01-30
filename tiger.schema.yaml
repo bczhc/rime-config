@@ -149,9 +149,8 @@ reverse_lookup:
 key_binder:
   #  import_preset: default
   bindings:
-    # - { accept: space, send: space, when: has_menu } # 有候选时空格上屏首选
-    # - { accept: space, send: Escape, when: composing } # 无候选(空码）时空格清屏编码
-    - { accept: semicolon, send: 2, when: has_menu } # 分号次选
+    - { accept: space, send: space, when: has_menu } # 有候选时空格上屏首选
+    - { accept: semicolon, send: 2, when: has_menu } # 分号次选〔方案選單〕 
     - { when: has_menu, accept: apostrophe, send: 3 } # 引号三选
     - { when: composing, accept: Tab, send: Escape } # tab清屏
     - { when: has_menu, accept: minus, send: Page_Up } # - 向后翻页
@@ -179,6 +178,7 @@ key_binder:
     - { when: has_menu, accept: Right, send: Down } # 右方向键 向后移动焦点
     - { when: has_menu, accept: Left, send: Up } # 左方向键 向前移动焦点
     - { when: always, accept: "Control+period" , toggle: ascii_punct } # 中英标点切换
+    - { accept: space, send: Escape, when: composing } # 无候选(空码）时空格清屏编码
 
 recognizer:
   import_preset: default

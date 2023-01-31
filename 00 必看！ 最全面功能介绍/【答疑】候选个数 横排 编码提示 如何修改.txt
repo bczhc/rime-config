@@ -1,5 +1,5 @@
 单字版找到  tiger.custom.yaml
-词版找到 tigress.custom.yaml
+字词版找到  tigress.custom.yaml
 
 修改下面三行即可，有写说明的
   style/horizontal: false # 默认false竖排显示,改为true横排可显示

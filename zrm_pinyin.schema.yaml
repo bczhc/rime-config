@@ -204,6 +204,15 @@ simplification:  #⇩四选一
 punctuator:
   import_preset: symbols
 
+pinyin:
+  opencc_config: pinyin.json
+  option_name: pinyin
+  show_in_comment: true #作为注解在后面显示
+  comment_format:
+    - 'xform/&nbsp;/ /'
+    # - "xform/^/ /"
+  tips: char
+
 key_binder:
   import_preset: default
   bindings:

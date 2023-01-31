@@ -10,7 +10,6 @@ schema:
   description: |
     自然码+辅助码方案。
   dependencies:
-    - stroke
     - luna_pinyin
     # - luna_pinyin.sogou
 
@@ -28,6 +27,9 @@ switches:
   - name: emoji_cn  #emoji滤镜
     reset: 0
     states: [ 🈚, 🈶 ]
+  - name: zrm_extra_code_filter
+    reset: 0
+    states: [ 码隐, 码显 ]
   - name: charset_comment_filter  #字符集提示
     reset: 0  
     states: [ U区关, U区开 ]
@@ -54,8 +56,8 @@ engine:
     - fallback_segmentor
   translators:
     - punct_translator
-    - reverse_lookup_translator
     - script_translator
+    - reverse_lookup_translator
     # - script_translator@luna_pinyin
     # - script_translator@luna_pinyin.sogou
     - lua_translator@number_translator # 数字转大写
@@ -65,6 +67,8 @@ engine:
     - simplifier@simplification
     - simplifier@pinyin #拼音滤镜
     - simplifier@emoji_cn #表情滤镜
+    - simplifier@zrm_extra_code_filter
+    # - simplifier@zrm_extra_code_filter
     - lua_filter@charset_comment_filter #Unicode分区提示滤镜
     - lua_filter@lua_unicode_display_filter #Unicode编码显示
     - uniquifier
@@ -143,6 +147,7 @@ speller:
 translator:
   dictionary: zrm_pinyin
   prism: zrm_pinyin
+  enable_completion: true
   preedit_format:
     - xform/(?<!;)([bpmnljqxy])n/$1in/
     - xform/(?<!;)(\w)g/$1eng/
@@ -178,20 +183,31 @@ translator:
     - xform/(?<!;)([nl])v/$1ü/
 
 reverse_lookup:
-  dictionary: stroke
+  dictionary: zrm_pinyin
   enable_completion: true
   prefix: "`"
-  suffix: "'"
-  tips: 〔筆畫〕
-  preedit_format:
-    - xlit/hspnz/一丨丿丶乙/
-  comment_format:
-    - xform/([nl])v/$1ü/
 
 emoji_cn:
   opencc_config: emoji.json
   option_name: emoji_cn
   tips: all
+
+zrm_extra_code_filter:
+  opencc_config: zrm.json
+  option_name: zrm_extra_code_filter
+  show_in_comment: true #作为注解在后面显示
+  comment_format:
+    - 'xform/,/  /'
+  tips: all
+  
+
+# zrm_extra_code_filter:
+  # opencc_config: zrm.json
+  # option_name: zrm_extra_code_filter
+  # show_in_comment: true #作为注解在后面显示
+  # comment_format:
+    # - 'xform/&nbsp;/ /'
+  # tips: all
 
 simplification:  #⇩四选一
   # opencc_config: st_tu.json        # 简 ➡ 繁·异（秃版标准）
@@ -217,9 +233,10 @@ key_binder:
   import_preset: default
   bindings:
     - { accept: "Control+p", toggle: pinyin, when: composing }  # PC 拼音开关
-
+    - { accept: "Control+r", toggle: zrm_extra_code_filter, when: composing }
 recognizer:
   import_preset: default
   patterns:
     punct: "^/([0-9]0?|[A-Za-z]+)$"
+    reverse_lookup: "^`[a-z]*'?$"
     expression: "^=.*$"

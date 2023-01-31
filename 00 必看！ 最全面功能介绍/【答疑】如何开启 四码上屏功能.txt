@@ -5,7 +5,7 @@
 
 如果要开启四码自动上屏功能
 	单字版找到  tiger.custom.yaml
-	词版找到 tigress.custom.yaml
+	字词版找到 tigress.custom.yaml
 找到 #speller/auto_select_pattern: ^;\w+|^\w{4}$  这一行
 去掉行首的『#』 ，即可生效
 改完后重新部署

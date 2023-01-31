@@ -1,5 +1,5 @@
-单字版 找 tiger.custom.yaml
-字词版 找 tigress.custom.yaml
+单字版 找 tiger.extended.dict.yaml
+字词版 找 tigress.extended.dict.yaml
 
 直接搜索快符
 

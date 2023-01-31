@@ -211,7 +211,7 @@ pinyin:
   comment_format:
     - 'xform/&nbsp;/ /'
     # - "xform/^/ /"
-  tips: char
+  tips: all
 
 key_binder:
   import_preset: default

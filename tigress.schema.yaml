@@ -172,7 +172,7 @@ key_binder:
     - { accept: "Control+j", toggle: chaifen, when: composing } # PC 拆分滤镜开关
     - { when: composing, accept: '&', toggle: emoji_cn } # 手机 emoji开关
     - { when: composing, accept: '*', toggle: simplification } # 手机 繁简开关
-    - { when: composing, accept: '\', toggle: pinyin } # 手机 拼音开关
+    # - { when: composing, accept: '\', toggle: pinyin } # 手机 拼音开关
     - { when: composing, accept: '^', toggle: charset_comment_filter } # 手机 Unicode分区开关1
     - { when: composing, accept: '#', toggle: charset_comment_filter } # 手机 Unicode分区开关2
     - { accept: "%", toggle: udpf_switch, when: composing }  #手机 Unicode编码开关
@@ -200,25 +200,24 @@ recognizer:
   # alternative_select_labels: [ ㊀, ㊁, ㊂, ㊃, ㊄, ㊅, ㊆, ㊇, ㊈ ]  #自定义候选序号显示符
 
 historySJ:
-  input: z
+  input: f
   size: 1
   initial_quality: 0
 
-historyDM:
-  input: "["
-  size: 1
-  initial_quality: 999
+# historyDM:
+#   input: "["
+#   size: 1
+#   initial_quality: 999
 
+# historyDM2:
+#   input: "'"
+#   size: 1
+#   initial_quality: -999
 
-historyDM2:
-  input: "'"
-  size: 1
-  initial_quality: -999
-
-historyDM3:
-  input: "]"
-  size: 1
-  initial_quality: 999
+# historyDM3:
+#   input: "]"
+#   size: 1
+#   initial_quality: 999
 
 # ↓简繁(+部分异体)滤镜
 simplification:  #⇩四选一

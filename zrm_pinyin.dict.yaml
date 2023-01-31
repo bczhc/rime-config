@@ -7,6 +7,7 @@ sort: by_weight
 use_preset_vocabulary: true
 # sort: original
 import_tables:
+  - zrm_pinyin.custom
   - zrm_pinyin.computer
   - zrm_pinyin.shopping
   - zrm_pinyin.sogou

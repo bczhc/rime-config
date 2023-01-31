@@ -1,0 +1,8 @@
+---
+name: zrm_pinyin.custom
+version: "1.0"
+sort: by_weight
+use_preset_vocabulary: true
+# sort: original
+...
+翟灿	vlcj;hs

@@ -81,32 +81,32 @@ speller:
     - derive/^(\w*);(\w)(\w)$/$1;$2/
     - derive/^(\w*);(\w)(\w)$/$1/
 
-    - xform/iu$/Q/
-    - xform/[iu]a$/W/
-    - xform/[uv]an$/R/
-    - xform/[uv]e$/T/
-    - xform/ing$|uai$/Y/
-    - xform/^sh/U/
-    - xform/^ch/I/
-    - xform/^zh/V/
-    - xform/uo$/O/
-    - xform/[uv]n$/P/
-    - xform/i?ong$/S/
-    - xform/[iu]ang$/D/
-    - xform/(.)en$/$1F/
-    - xform/(.)eng$/$1G/
-    - xform/(.)ang$/$1H/
-    - xform/ian$/M/
-    - xform/(.)an$/$1J/
-    - xform/iao$/C/
-    - xform/(.)ao$/$1K/
-    - xform/(.)ai$/$1L/
-    - xform/(.)ei$/$1Z/
-    - xform/ie$/X/
-    - xform/ui$/V/
-    - xform/(.)ou$/$1B/
-    - xform/in$/N/
-    - xlit/QWRTYUIOPSDFGHMJCKLZXVBN/qwrtyuiopsdfghmjcklzxvbn/
+    # - xform/iu$/Q/
+    # - xform/[iu]a$/W/
+    # - xform/[uv]an$/R/
+    # - xform/[uv]e$/T/
+    # - xform/ing$|uai$/Y/
+    # - xform/^sh/U/
+    # - xform/^ch/I/
+    # - xform/^zh/V/
+    # - xform/uo$/O/
+    # - xform/[uv]n$/P/
+    # - xform/i?ong$/S/
+    # - xform/[iu]ang$/D/
+    # - xform/(.)en$/$1F/
+    # - xform/(.)eng$/$1G/
+    # - xform/(.)ang$/$1H/
+    # - xform/ian$/M/
+    # - xform/(.)an$/$1J/
+    # - xform/iao$/C/
+    # - xform/(.)ao$/$1K/
+    # - xform/(.)ai$/$1L/
+    # - xform/(.)ei$/$1Z/
+    # - xform/ie$/X/
+    # - xform/ui$/V/
+    # - xform/(.)ou$/$1B/
+    # - xform/in$/N/
+    # - xlit/QWRTYUIOPSDFGHMJCKLZXVBN/qwrtyuiopsdfghmjcklzxvbn/
 
 
     # - erase/^xx$/

@@ -9,10 +9,10 @@ use_preset_vocabulary: true
 import_tables:
   - zrm_pinyin.custom
   - zrm_pinyin.computer
-  - zrm_pinyin.shopping
+  # - zrm_pinyin.shopping
   - zrm_pinyin.sogou
   - luna_pinyin.sogou
-  - luna_pinyin
+  # - luna_pinyin
 ...
 一	yi;aa
 一	yi;hh

@@ -11,7 +11,7 @@ import_tables:
   - zrm_pinyin.computer
   # - zrm_pinyin.shopping
   - zrm_pinyin.sogou
-  - luna_pinyin.sogou
+  # - luna_pinyin.sogou
   # - luna_pinyin
 ...
 一	yi;aa

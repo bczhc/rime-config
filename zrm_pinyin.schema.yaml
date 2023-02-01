@@ -58,8 +58,6 @@ engine:
     - punct_translator
     - script_translator
     - reverse_lookup_translator
-    # - script_translator@luna_pinyin
-    # - script_translator@luna_pinyin.sogou
     - lua_translator@number_translator # 数字转大写
     - lua_translator@calculator_translator # 简易计算器
     - lua_translator@shijian2_translator # 高级时间
@@ -68,7 +66,6 @@ engine:
     - simplifier@pinyin #拼音滤镜
     - simplifier@emoji_cn #表情滤镜
     - simplifier@zrm_extra_code_filter
-    # - simplifier@zrm_extra_code_filter
     - lua_filter@charset_comment_filter #Unicode分区提示滤镜
     - lua_filter@lua_unicode_display_filter #Unicode编码显示
     - uniquifier

@@ -11,6 +11,7 @@ schema:
     自然码+辅助码方案。
   dependencies:
     - luna_pinyin
+    # - luna_pinyin.sogou
 
 switches:
   - name: ascii_mode
@@ -55,12 +56,10 @@ engine:
     - fallback_segmentor
   translators:
     - punct_translator
+    - script_translator
     - reverse_lookup_translator
-    - script_translator@translator_zrm
-    - script_translator@translator_zrm_sogou
-    - script_translator@translator_luna_sogou
-    - script_translator@luna_pinyin.sogou
-    - script_translator@luna_pinyin
+    # - script_translator@luna_pinyin
+    # - script_translator@luna_pinyin.sogou
     - lua_translator@number_translator # 数字转大写
     - lua_translator@calculator_translator # 简易计算器
     - lua_translator@shijian2_translator # 高级时间
@@ -145,7 +144,7 @@ speller:
     # - abbrev/^(.).+$/$1/
     - abbrev/^(.{2});+$/$1/
 
-translator_zrm:
+translator:
   dictionary: zrm_pinyin
   prism: zrm_pinyin
   enable_completion: true
@@ -182,16 +181,6 @@ translator_zrm:
     - "xform/(?<!;)(^|[ '])u/$1sh/"
     - xform/(?<!;)([jqxy])v/$1u/
     - xform/(?<!;)([nl])v/$1ü/
-
-translator_zrm_sogou:
-  dictionary: zrm_pinyin.sogou
-  prism: zrm_pinyin.sogou
-  enable_completion: true
-
-translator_luna_sogou:
-  dictionary: luna_pinyin.sogou
-  prism: luna_pinyin.sogou
-  enable_completion: true
 
 reverse_lookup:
   dictionary: zrm_pinyin

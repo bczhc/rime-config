@@ -230,7 +230,7 @@ key_binder:
   import_preset: default
   bindings:
     - { accept: "Control+p", toggle: pinyin, when: composing }  # PC 拼音开关
-    - { accept: "Control+r", toggle: zrm_extra_code_filter, when: composing }
+    - { accept: "Control+f", toggle: zrm_extra_code_filter, when: composing }
 recognizer:
   import_preset: default
   patterns:

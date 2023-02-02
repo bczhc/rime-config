@@ -1,6 +1,6 @@
 ###表內有的字纔會輸出，可自己添加，格式如下
 name: core2022
-version: "2023.01.29"
+version: "2023.02.01"
 sort: original
 use_preset_vocabulary: false
 ...
@@ -7141,6 +7141,7 @@ use_preset_vocabulary: false
 卌	t
 卍	t
 卐	t
+釒	t
 卩	t
 卬	t
 卲	t
@@ -7610,6 +7611,7 @@ use_preset_vocabulary: false
 扆	t
 扊	t
 扌	t
+龵	t
 扞	t
 扠	t
 扤	t
@@ -8144,8 +8146,10 @@ use_preset_vocabulary: false
 玵	t
 玶	t
 玹	t
+瘖	t
 玼	t
 玽	t
+鏇	t
 玿	t
 珅	t
 珇	t
@@ -8417,6 +8421,7 @@ use_preset_vocabulary: false
 籥	t
 籧	t
 籰	t
+粔	t
 籹	t
 籾	t
 粃	t
@@ -9553,3 +9558,5 @@ use_preset_vocabulary: false
 𲉅	t
 𲋤	t
 𲍭	t
+殼	t
+琹	t

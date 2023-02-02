@@ -1,4 +1,5 @@
 /build/
 /*.userdb/
 /user.yaml
+/opencc/
 /installation.yaml

@@ -157,6 +157,8 @@ key_binder:
     - { accept: space, send: space, when: has_menu } # 有候选时空格上屏首选
     - { accept: semicolon, send: 2, when: has_menu } # 分号次选
     - { when: has_menu, accept: apostrophe, send: 3 } # 引号三选
+    - { when: has_menu, accept: bracketleft, send: 4 }
+    - { when: has_menu, accept: bracketright, send: 5 }
     - { when: composing, accept: Tab, send: Escape } # tab清屏
     - { when: has_menu, accept: minus, send: Page_Up } # - 向后翻页
     - { when: has_menu, accept: equal, send: Page_Down } # = 向前翻页

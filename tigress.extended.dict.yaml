@@ -8,7 +8,8 @@ sort: by_weight
 import_tables:
   - tigress
   - tigress_ci
-  #- tigress_simp_ci  # 删掉前面的#号，即可启用简词
+  # - tigress_simp_ci  # 删掉前面的#号，即可启用简词
+  # - tigress_guihu # 九重鬼虎
   
 columns:
   - text

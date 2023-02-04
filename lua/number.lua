@@ -26,7 +26,7 @@ local function decimal_func(str, posMap, valMap)
 	valMap = valMap or {[0]="零"; "壹"; "贰"; "叁" ;"肆"; "伍"; "陆"; "柒"; "捌"; "玖"}
 	if #str>4 then dec = string.sub(tostring(str), 1, 4) else dec =tostring(str) end
 	dec = string.gsub(dec, "0+$", "")
-	
+
 	if dec == "" then return "整" end
 
 	local result = ""
@@ -60,7 +60,7 @@ local function formatNum(num,t)
 end
 
 -- 数值转换为中文
-function number2cnChar(num,flag,digitUnit,wordFigure)    --flag=0中文小写反之为大写
+local function number2cnChar(num,flag,digitUnit,wordFigure)    --flag=0中文小写反之为大写
 	local st,result
 	num=tostring(num) result=""
 	local num1,num2=math.modf(num)
@@ -84,7 +84,7 @@ end
 
 local function number2zh(num,t)
 	local result,wordFigure
-	result="" 
+	result=""
 	if tonumber(t) <1 then
 		wordFigure = {"〇","一","二","三","四","五","六","七","八","九"}
 	else wordFigure = {"零","壹","贰","叁","肆","伍","陆","柒","捌","玖"} end
@@ -96,7 +96,7 @@ local function number2zh(num,t)
 	return result:gsub(wordFigure[1] .. wordFigure[1],wordFigure[1])
 end
 
-function number_translatorFunc(num)
+local function number_translatorFunc(num)
 	local numberPart=splitNumPart(num)
 	local result={}
 	if numberPart.dot~="" then
@@ -112,16 +112,18 @@ function number_translatorFunc(num)
 	return result
 end
 
-function translator(input, seg)
-	local str,num,numberPart
-	if string.match(input,"^(S+%d+)(%.?)(%d*)$")~=nil then
-		str = string.gsub(input,"^(%a+)", "")  numberPart=number_translatorFunc(str)
-		if #numberPart>0 then
-			for i=1,#numberPart do
-				yield(Candidate(input, seg.start, seg._end, numberPart[i][1],numberPart[i][2]))
-			end
-		end
-	end
+local function translator(input, seg)
+    local str, num, numberPart
+    if string.match(input, "^(/num+%d+)(%.?)(%d*)$") == nil then
+        return
+    end
+    local inputNum = string.sub(input, 5)
+    numberPart = number_translatorFunc(inputNum)
+    if #numberPart > 0 then
+        for i = 1, #numberPart do
+            yield(Candidate(input, seg.start, seg._end, numberPart[i][1], numberPart[i][2]))
+        end
+    end
 end
 
 

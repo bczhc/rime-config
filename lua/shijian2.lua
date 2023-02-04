@@ -1831,6 +1831,15 @@ end
 -- 农历倒计时结束
 
 local function translator(input, seg)
+  local yield_candidate = function(value, comment)
+      comment = comment == nil and '' or comment
+      yield(Candidate('', seg.start, seg._end, value, comment))
+  end
+
+  local yield_date = function(format, comment)
+      local date = os.date(format)
+      yield_candidate(date, comment)
+  end
   if (input == "/date" or input == "/frq" or input == "/orzh") then
     date = os.date("%Y.%m.%d")
     num_year = os.date("%j/") .. IsLeap(os.date("%Y"))
@@ -1955,6 +1964,15 @@ local function translator(input, seg)
     djs = "距离下次情人节还有" .. diffDate2(os.date("%Y%m%d"), sth_y .. sth_m .. sth_d) .. "天"
     candidate = Candidate("/djs", seg.start, seg._end, djs, "")
     yield(candidate)
+  elseif input == '/cdt' --[[ compat date and time ]] then
+      yield_date("%Y%m%d", '日期')
+      yield_date("%m%d", '日期')
+      yield_date("%H%M%S", '时间')
+      yield_date("%Y%m%d%H%M%S", '日期时间')
+  elseif input == '/idt' --[[ ISO 8601 date and time ]] then
+      yield_date("%Y-%m-%d %H:%M:%S")
+  elseif input == '/ts' --[[ timestamp ]] then
+      yield_candidate(tostring(os.time()), '时间戳')
   end -- if
 end -- function
 

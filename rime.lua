@@ -8,3 +8,4 @@ exe_processor = require("exe")  -- 网页启动器
 shijian2_translator = require("shijian2") -- 高级时间
 alphabet_mode_translator = require("alphabet_mode")
 unicode_input_translator = require("unicode_input")
+reselect_candidates_processor = require("reselect_candidates")

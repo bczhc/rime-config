@@ -68,6 +68,7 @@ engine:
     - speller
     - punctuator
     - lua_processor@exe_processor #exe启动器
+    - lua_processor@reselect_candidates_processor
     - selector
     - navigator
     - express_editor #计算

@@ -3,19 +3,19 @@
 
 ## 方案列表
 
-- 虎码官方词库（https://tiger-code.com）
+- 虎码官方词库（[https://tiger-code.com](https://tiger-code.com)）
 
-- 虎码官方单字（https://tiger-code.com）
+- 虎码官方单字（[https://tiger-code.com](https://tiger-code.com)）
 
-- 拼音++（https://tiger-code.com）
+- 拼音++（[https://tiger-code.com](https://tiger-code.com)）
 
-- X-SAMPA（https://github.com/rime/rime-ipa）
+- X-SAMPA（[https://github.com/rime/rime-ipa](https://github.com/rime/rime-ipa)）
 
-- 雲龍國際音標（https://github.com/rime/rime-ipa）
+- 雲龍國際音標（[https://github.com/rime/rime-ipa](https://github.com/rime/rime-ipa)）
 
-- 自然码+辅助码（https://github.com/bigshans/rime-zrm，https://github.com/ssnhd/rime）
+- 自然码+辅助码（[https://github.com/bigshans/rime-zrm](https://github.com/bigshans/rime-zrm)，[https://github.com/ssnhd/rime](https://github.com/ssnhd/rime)）
 
-- 朙月拼音（https://github.com/rime/rime-luna-pinyin）
+- 朙月拼音（[https://github.com/rime/rime-luna-pinyin](https://github.com/rime/rime-luna-pinyin)）
 
   注：因为我主要使用的是“虎码官方词库”方案，所以下面的配置都是只为这个方案的。
 

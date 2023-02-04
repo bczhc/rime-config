@@ -1931,8 +1931,10 @@ local function translator(input, seg)
       yield(Candidate("jwql", seg.start, seg._end, jq, "〔节气〕"))
     end
     -- 农历查询
-  elseif string.sub(input, 1, 1) == "N" then
-    local n = string.sub(input, 2)
+  elseif input:find('^/cal') ~= nil then
+    local n = string.sub(input, 5)
+    -- use today
+    if n == '' then n = os.date('%Y%m%d%H%M%S') end
     if tonumber(n) ~= nil then
       if string.match(n, "^(20)%d%d+$") ~= nil or string.match(n, "^(19)%d%d+$") ~= nil then
         lunar = QueryLunarInfo(n)

@@ -1,0 +1,45 @@
+我的Rime配置
+---
+
+## 方案列表
+
+- 虎码官方词库（https://tiger-code.com）
+
+- 虎码官方单字（https://tiger-code.com）
+
+- 拼音++（https://tiger-code.com）
+
+- X-SAMPA（https://github.com/rime/rime-ipa）
+
+- 雲龍國際音標（https://github.com/rime/rime-ipa）
+
+- 自然码+辅助码（https://github.com/bigshans/rime-zrm，https://github.com/ssnhd/rime）
+
+- 朙月拼音（https://github.com/rime/rime-luna-pinyin）
+
+  注：因为我主要使用的是“虎码官方词库”方案，所以下面的配置都是只为这个方案的。
+
+## Lua扩展
+
+- /date 日期输入
+- /time 时间输入
+- /week 星期输入
+- /cal或/cal+日期 日历，公历农历互转
+- =其后跟算式 简易计算器
+- /ts UNIX时间戳
+- /idt 类ISO 8601时间
+- /cdt 袖珍（纯数字）时间与日期yyyyMMdd或HHmmss的格式
+- /num+数字 数字转大写
+- /uni+Unicode码点 输入Unicode
+
+## 输入习惯设定
+
+- 四码唯一自动上屏
+- 五码顶屏
+- 标点符号顶屏
+- 回车清码
+- 空格清除空码
+- 一简二选快符
+- z键二选重复上一次上屏内容
+- 分号引号二三选（我还设置了左右方括号四五选，虽然感觉没什么用）
+- 分号临时字母模式

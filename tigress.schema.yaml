@@ -90,6 +90,8 @@ engine:
     - lua_translator@number_translator # 数字转大写
     - lua_translator@calculator_translator # 简易计算器
     - lua_translator@shijian2_translator # 高级时间
+    - lua_translator@alphabet_mode_translator
+    - lua_translator@unicode_input_translator
 
 
   filters:
@@ -195,7 +197,9 @@ recognizer:
     uppercase: "" #中文状态大写锁定直接上屏
     reverse_lookup: "^`[a-z]*'?$"
     easy_english: "^'[A-Z|a-z]*'?$"
+    alphabet_mode: '^;.*$'
     expression: "^=.*$"
+    unicode: "^/uni[a-zA-Z0-9]+$"
 
 # menu:
   # page_size: 9 #候选数量

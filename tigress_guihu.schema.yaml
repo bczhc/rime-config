@@ -6,10 +6,10 @@ schema:
     - PY_c  # 拼音方案
     - easy_english # 英文
   description: |
-    虎码官方词库
+    九重鬼虎
     敲 ` 鍵進入拼音反查
-  name: "虎码官方词库"
-  schema_id: tigress
+  name: "九重鬼虎"
+  schema_id: tigress_guihu
   version: 0.9
 
 
@@ -122,7 +122,7 @@ speller:
   # 若要添加四码上屏功能，在  ^;\w+ 后面 加上  |^\w{4}$  即可
 
 translator:
-  dictionary: tigress.extended
+  dictionary: tigress_guihu.bootstrap
   enable_charset_filter: false
   enable_encoder: false
   enable_sentence: false

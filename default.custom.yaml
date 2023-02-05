@@ -8,6 +8,7 @@ patch:
   schema_list:
     - schema: tiger
     - schema: tigress
+    - schema: tigress_guihu
     - schema: PY_c
     - schema: zrm_pinyin
     - schema: luna_pinyin

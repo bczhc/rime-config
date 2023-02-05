@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# 使tiger.schema.yaml，tigress_guihu.schema.yaml
+# 与tigress.schema.yaml配置保持一致
+
+cp tigress.schema.yaml tiger.schema.yaml -v
+patch tiger.schema.yaml tiger.patch
+cp tigress.schema.yaml tigress_guihu.schema.yaml -v
+patch tigress_guihu.schema.yaml tigress_guihu.patch

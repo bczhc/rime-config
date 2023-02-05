@@ -1,14 +1,14 @@
 9c9
 <     虎码官方词库
 ---
->     虎码官方单字
+>     九重鬼虎
 11,12c11,12
 <   name: "虎码官方词库"
 <   schema_id: tigress
 ---
->   name: "虎码官方单字"
->   schema_id: tiger
+>   name: "九重鬼虎"
+>   schema_id: tigress_guihu
 125c125
 <   dictionary: tigress.extended
 ---
->   dictionary: tiger
+>   dictionary: tigress_guihu.bootstrap

@@ -2,16 +2,10 @@
 # encoding: utf-8
 
 schema:
-  schema_id: zrm_pinyin
-  name: 自然码+辅助码
-  version: "0.15"
-  author:
-    - aerian
+  schema_id: chaizi
+  name: 拆字
   description: |
-    自然码+辅助码方案。
-  dependencies:
-    - luna_pinyin
-    # - luna_pinyin.sogou
+    拆字
 
 switches:
   - name: ascii_mode
@@ -142,8 +136,8 @@ speller:
     - abbrev/^(.{2});+$/$1/
 
 translator:
-  dictionary: zrm_pinyin
-  prism: zrm_pinyin
+  dictionary: chaizi
+  prism: chaizi
   enable_completion: true
   preedit_format:
     - xform/(?<!;)([bpmnljqxy])n/$1in/
@@ -180,8 +174,8 @@ translator:
     - xform/(?<!;)([nl])v/$1ü/
 
 reverse_lookup:
-  dictionary: chaizi
-  enable_completion: false
+  dictionary: zrm_pinyin
+  enable_completion: true
   prefix: "`"
 
 emoji_cn:

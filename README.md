@@ -7,6 +7,8 @@
 
 - 虎码官方单字（[https://tiger-code.com](https://tiger-code.com)）
 
+- 九重鬼虎（[https://tiger-code.com](https://tiger-code.com)）
+
 - 拼音++（[https://tiger-code.com](https://tiger-code.com)）
 
 - X-SAMPA（[https://github.com/rime/rime-ipa](https://github.com/rime/rime-ipa)）

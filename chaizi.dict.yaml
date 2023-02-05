@@ -1,3 +1,6 @@
+# https://github.com/fcitx/fcitx5-chinese-addons/blob/df605315d305f2713797bca6d9d48b7c038ac94b/im/pinyin/chaizi.txt
+
+---
 name: chaizi
 version: '1'
 sort: original

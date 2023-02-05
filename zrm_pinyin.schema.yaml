@@ -183,6 +183,7 @@ reverse_lookup:
   dictionary: chaizi
   enable_completion: false
   prefix: "`"
+  tips: 〔组字〕
 
 emoji_cn:
   opencc_config: emoji.json

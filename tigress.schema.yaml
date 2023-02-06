@@ -47,9 +47,9 @@ switches: # 0 默认关，1 默认开
   - name: ascii_punct
     reset: 0
     states: [ 。，, ．， ]
-  # - name: dz_ci  #过滤词组
-  #   reset: 0
-  #   states: [ 词组, 单字 ]
+  - name: dz_ci  #过滤词组
+    reset: 0
+    states: [ 词组, 单字 ]
   - options: [_keyboard_default, _keyboard_defaultzj]
     reset: 0
     states: [ 助记关, 助记开 ]
@@ -112,6 +112,7 @@ engine:
     - lua_filter@charset_comment_filter #Unicode分区提示滤镜
     - lua_filter@lua_unicode_display_filter #Unicode编码显示
     - uniquifier #过滤重复
+    - lua_filter@dz_ci
 
 speller:
   auto_clear: max_length # 3种选择， manual|auto|max_length 空码按下一键确认清屏|空码自动清|达到最长码时后码顶上清屏
@@ -171,6 +172,7 @@ key_binder:
     - { accept: "Control+y", toggle: udpf_switch, when: composing }  #PC Unicode编码开关
     - { accept: "Control+h", toggle: extended_char, when: composing } # PC 自定字集开关
     - { accept: "Control+j", toggle: chaifen, when: composing } # PC 拆分滤镜开关
+    - { accept: "Control+d", toggle: dz_ci, when: composing } # 单字与词组切换
     - { when: composing, accept: '&', toggle: emoji_cn } # 手机 emoji开关
     - { when: composing, accept: '*', toggle: simplification } # 手机 繁简开关
     # - { when: composing, accept: '\', toggle: pinyin } # 手机 拼音开关

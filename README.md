@@ -45,6 +45,17 @@
 - z键二选重复上一次上屏内容
 - 分号引号二三选
 - 分号临时字母模式
-- Ctrl+Space重选重码
 - 使用左右方括号代替逗句号
+
+## 快捷键
+
+- Ctrl+Space 重选重码
+- Ctrl+O 繁简转换
+- Ctrl+Y 显示Unicode编码
+- Ctrl+U 显示Unicode分区
+- Ctrl+P 显示拼音
+- Ctrl+J 显示拆分
+- Ctrl+H 常用字与全字集切换
+- Ctrl+period 全半角标点切换
+- Ctrl+E Emoji开关
 

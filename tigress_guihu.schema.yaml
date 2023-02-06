@@ -47,9 +47,9 @@ switches: # 0 默认关，1 默认开
   - name: ascii_punct
     reset: 0
     states: [ 。，, ．， ]
-  # - name: dz_ci  #过滤词组
-  #   reset: 0
-  #   states: [ 词组, 单字 ]
+  - name: dz_ci  #过滤词组
+    reset: 0
+    states: [ 词组, 单字 ]
   - options: [_keyboard_default, _keyboard_defaultzj]
     reset: 0
     states: [ 助记关, 助记开 ]
@@ -66,6 +66,7 @@ engine:
     - recognizer
     - key_binder
     - speller
+    - lua_processor@cancel_input_processor
     - punctuator
     - lua_processor@exe_processor #exe启动器
     - lua_processor@reselect_candidates_processor
@@ -111,12 +112,13 @@ engine:
     - lua_filter@charset_comment_filter #Unicode分区提示滤镜
     - lua_filter@lua_unicode_display_filter #Unicode编码显示
     - uniquifier #过滤重复
+    - lua_filter@dz_ci
 
 speller:
   auto_clear: max_length # 3种选择， manual|auto|max_length 空码按下一键确认清屏|空码自动清|达到最长码时后码顶上清屏
   auto_select: true
   max_code_length: 4
-  alphabet: "[;'zyxwvutsrqponmlkjihgfedcba]"
+  alphabet: ";'zyxwvutsrqponmlkjihgfedcba"
   # initials: "abcdefghijklmnopqrstuvwxyz;'"
   auto_select_pattern: ^;\w+ #自动上屏规则  对 [;] 引导的编码实行候选唯一自动上屏
   # 若要添加四码上屏功能，在  ^;\w+ 后面 加上  |^\w{4}$  即可
@@ -152,16 +154,11 @@ reverse_lookup:
 key_binder:
   #  import_preset: default
   bindings:
-    - { accept: ",", send: ",", when: has_menu }
-    - { accept: ",", send_sequence: "{Escape}{,}", when: composing }
-    - { accept: ".", send: ".", when: has_menu }
-    - { accept: ".", send_sequence: "{Escape}{.}", when: composing }
-
     - { accept: space, send: space, when: has_menu } # 有候选时空格上屏首选
     - { accept: semicolon, send: 2, when: has_menu } # 分号次选
     - { when: has_menu, accept: apostrophe, send: 3 } # 引号三选
-    - { when: has_menu, accept: bracketleft, send: 4 }
-    - { when: has_menu, accept: bracketright, send: 5 }
+    # - { when: has_menu, accept: bracketleft, send: 4 }
+    # - { when: has_menu, accept: bracketright, send: 5 }
     - { when: composing, accept: Tab, send: Escape } # tab清屏
     - { when: has_menu, accept: minus, send: Page_Up } # - 向后翻页
     - { when: has_menu, accept: equal, send: Page_Down } # = 向前翻页
@@ -175,6 +172,7 @@ key_binder:
     - { accept: "Control+y", toggle: udpf_switch, when: composing }  #PC Unicode编码开关
     - { accept: "Control+h", toggle: extended_char, when: composing } # PC 自定字集开关
     - { accept: "Control+j", toggle: chaifen, when: composing } # PC 拆分滤镜开关
+    - { accept: "Control+d", toggle: dz_ci, when: composing } # 单字与词组切换
     - { when: composing, accept: '&', toggle: emoji_cn } # 手机 emoji开关
     - { when: composing, accept: '*', toggle: simplification } # 手机 繁简开关
     # - { when: composing, accept: '\', toggle: pinyin } # 手机 拼音开关

@@ -292,7 +292,7 @@ menu:
   page_size: 5 #候选数量
   # alternative_select_labels: [ ㊀, ㊁, ㊂, ㊃, ㊄, ㊅, ㊆, ㊇, ㊈ ]  #自定义候选序号显示符
   # 以下是备选样式（自行删除#号生效，只能生效一种）
-  #menu/alternative_select_labels: [ 1,➋,3,4,5,6,7,8,9,0 ]
+  # menu/alternative_select_labels: [ 1,2,3,4,5,6,7,8,9,0 ]
   #menu/alternative_select_labels: [ ①,②,③,④,⑤,⑥,⑦,⑧,⑨,⑩ ]
   #menu/alternative_select_labels: [ ❶,❷,❸,❹,❺,❻,❼,❽,❾,❿ ]
   #menu/alternative_select_labels: [ ⓵,⓶,⓷,⓸,⓹,⓺,⓻,⓼,⓽,⓾ ]

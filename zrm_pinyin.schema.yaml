@@ -32,11 +32,11 @@ switches:
     reset: 0
     states: [ 码隐, 码显 ]
   - name: charset_comment_filter  #字符集提示
-    reset: 0  
+    reset: 0
     states: [ U区关, U区开 ]
   - name: udpf_switch
     reset: 0
-    states: [ U编关, U编开]
+    states: [ U编关, U编开 ]
 
 engine:
   processors:
@@ -198,21 +198,21 @@ zrm_extra_code_filter:
   comment_format:
     - 'xform/,/  /'
   tips: all
-  
 
-# zrm_extra_code_filter:
-  # opencc_config: zrm.json
-  # option_name: zrm_extra_code_filter
-  # show_in_comment: true #作为注解在后面显示
-  # comment_format:
-    # - 'xform/&nbsp;/ /'
+
+    # zrm_extra_code_filter:
+    # opencc_config: zrm.json
+    # option_name: zrm_extra_code_filter
+    # show_in_comment: true #作为注解在后面显示
+    # comment_format:
+  # - 'xform/&nbsp;/ /'
   # tips: all
 
-simplification:  #⇩四选一
+simplification: #⇩四选一
   # opencc_config: st_tu.json        # 简 ➡ 繁·异（秃版标准）
- # opencc_config: s2tw.json    # 简 ➡ 台湾正体
- # opencc_config: s2hk.json    # 简 ➡ 香港繁体
- # opencc_config: s2twp.json  # 简 ➡ 台湾正体（含常用词汇如：软体→軟體、鼠标→滑鼠）
+  # opencc_config: s2tw.json    # 简 ➡ 台湾正体
+  # opencc_config: s2hk.json    # 简 ➡ 香港繁体
+  # opencc_config: s2twp.json  # 简 ➡ 台湾正体（含常用词汇如：软体→軟體、鼠标→滑鼠）
   opencc_config: t2s.json
   option_name: simplification
 

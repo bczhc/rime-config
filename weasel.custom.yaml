@@ -1,4 +1,3 @@
-
 patch:
   "preset_color_schemes/eucalyptus":
     author: "ID;Peace B"
@@ -235,7 +234,7 @@ patch:
     label_font_face: "LXGW WenKai GB Screen R, SimSun, SimSun-ExtB, SimSun-ExtG, TH-Tshyn-P0, TH-Tshyn-P1, TH-Tshyn-P2, TH-Tshyn-P16, FSung-1, FSung-2, FSung-3, FSung-F, FSung-X"
     label_font_point: 15
     label_format: "%s."
-    layout: {align_type: bottom, border_width: 2, candidate_spacing: 5, corner_radius: 5, hilited_padding: 2, hilited_spacing: 4, margin_x: 5, margin_y: 5, min_height: 0, min_width: 90, round_corner: 4, shadow_offset_x: 4, shadow_offset_y: 4, shadow_radius: 0, spacing: 10}
+    layout: { align_type: bottom, border_width: 2, candidate_spacing: 5, corner_radius: 5, hilited_padding: 2, hilited_spacing: 4, margin_x: 5, margin_y: 5, min_height: 0, min_width: 90, round_corner: 4, shadow_offset_x: 4, shadow_offset_y: 4, shadow_radius: 0, spacing: 10 }
     # line_spacing: 5
     preedit_type: input
   "style/color_scheme": so_young_qmod_01

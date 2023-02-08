@@ -31,14 +31,14 @@ lua_unicode_display_filter = require("unicode_display")  -- unicode显示滤镜
         io.close(f)
     end
 ]]
-    
+
 local function C2U(char)
     local unicode_d = utf8.codepoint(char)
     local unicode_h = string.format('%x', unicode_d)
     --DEBUG
---    sm("C2U char="..char)
---    sm("C2U d="..unicode_d)
---    sm("C2U h="..unicode_h)
+    --    sm("C2U char="..char)
+    --    sm("C2U d="..unicode_d)
+    --    sm("C2U h="..unicode_h)
     return unicode_h
 end
 
@@ -52,7 +52,7 @@ local function unicode_display_filter(input, env)
             if utf8.len(char) == 1 then
                 local unicode_h = C2U(char)
                 --yield(Candidate(input_text, cand.start, cand._end, cand.text, cand.comment.."["..unicode_h.."]"))    --DEL
-                cand:get_genuine().comment = cand.comment.."[U+"..unicode_h.."]"
+                cand:get_genuine().comment = cand.comment .. "[U+" .. unicode_h .. "]"
             end  --if
         end  --if
         yield(cand)

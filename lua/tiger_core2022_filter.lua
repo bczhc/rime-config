@@ -17,7 +17,7 @@ local charsets = {
   { first = 0x3100, last = 0x312f }, -- 注音
   { first = 0x31a0, last = 0x31bf }, -- 注音扩展
   -- -- 以上为汉字部分
-  -- { first = 0x3040, last = 0x309f }, -- 平假名 
+  -- { first = 0x3040, last = 0x309f }, -- 平假名
   -- { first = 0x30a0, last = 0x30ff }, -- 片假名
   -- { first = 0x31f0, last = 0x31ff }, -- 假名扩展
   -- { first = 0x1b000, last = 0x1b0ff }, -- 假名补充

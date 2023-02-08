@@ -23,7 +23,7 @@ switches: # 0 默认关，1 默认开
     reset: 0
     states: [ 🈚, 🈶 ]
   # - name: chaifen
-  #   reset: 0 
+  #   reset: 0
   #   states: [ 拆隐, 拆显 ]
   # - options: [utf8, gbk, gb2312]
   #   reset: 0
@@ -35,15 +35,15 @@ switches: # 0 默认关，1 默认开
   - name: simplification  #简转繁滤镜
     reset: 0
     states: [ 简中, 繁中 ]
-  - options: [_keyboard_default, _keyboard_defaultbk, _keyboard_defaultwk]
+  - options: [ _keyboard_default, _keyboard_defaultbk, _keyboard_defaultwk ]
     reset: 0
     states: [ 有刻, 半刻, 无刻 ]
   - name: charset_comment_filter  #字符集提示
-    reset: 0  
+    reset: 0
     states: [ U区关, U区开 ]
   - name: udpf_switch
     reset: 0
-    states: [ U编关, U编开]
+    states: [ U编关, U编开 ]
   - name: ascii_punct
     reset: 0
     states: [ 。，, ．， ]
@@ -62,7 +62,7 @@ switches: # 0 默认关，1 默认开
 
 engine:
   processors:
-  # 1.2版本加入的- fluid_editor # 将字符按键记入输入上下文，将输入法连缀成一串
+    # 1.2版本加入的- fluid_editor # 将字符按键记入输入上下文，将输入法连缀成一串
     - ascii_composer # 处理英文模式及中英文切换
     - recognizer # 与 matcher 搭配，处理符合特定规则的输入码，如网址、反查等
     - key_binder # 在特定条件下将按键绑定到其他按键，如重定义逗号、句号为候选翻页键
@@ -90,7 +90,7 @@ engine:
     - history_translator@historyDM # 历史上屏 电脑
     # - history_translator@historyDM2 # 历史上屏 电脑2
     - history_translator@historyDM3 # 历史上屏 电脑3
-    - history_translator@historySJ # 历史上屏 手机  
+    - history_translator@historySJ # 历史上屏 手机
     - lua_translator@number_translator # 数字转大写
     - lua_translator@calculator_translator # 简易计算器
     - lua_translator@shijian2_translator # 高级时间
@@ -113,7 +113,7 @@ engine:
 
 speller:
   alphabet: "['zyxwvutsrqponmlkjihgfedcba]" # 输入范围 码元
-  delimiter: " '" 
+  delimiter: " '"
   # auto_select: true
   # auto_select_pattern: ^;\w+ #自动上屏规则 对 [;] 开头的编码实行候选唯一自动上屏
   algebra:
@@ -151,7 +151,7 @@ translator:
   max_phrase_length: 99  #自动造词的最长字数
   user_dict: PY_c    #在本地生成的用户词典名称
   db_class: tabledb  #用户词典格式，tabledb（文本） 或 userdb （二进制）
-  comment_format:  #提示码自定义
+  comment_format: #提示码自定义
     - "xform/~/ /" #去掉编码提示前的~号
   # disable_user_dict_for_patterns:
   # #  - "^z.*$"  #这是原始默认设置
@@ -240,13 +240,13 @@ reverse_lookup:
 
 
 # ↓简繁(+部分异体)滤镜
-simplification:  #⇩四选一
-  opencc_config: st_tu.json        # 简 ➡ 繁（秃版CC标准） 
- # opencc_config: s2tw.json    # 简 ➡ 台湾正体
- # opencc_config: s2hk.json    # 简 ➡ 香港繁体
- # opencc_config: s2twp.json  # 简 ➡ 台湾正体（含常用词汇如：软体→軟體、鼠标→滑鼠）
+simplification: #⇩四选一
+  opencc_config: st_tu.json        # 简 ➡ 繁（秃版CC标准）
+  # opencc_config: s2tw.json    # 简 ➡ 台湾正体
+  # opencc_config: s2hk.json    # 简 ➡ 香港繁体
+  # opencc_config: s2twp.json  # 简 ➡ 台湾正体（含常用词汇如：软体→軟體、鼠标→滑鼠）
   option_name: simplification
-  tips: all  # # 转换文字段 all字词|char字 
+  tips: all  # # 转换文字段 all字词|char字
 
 # ↓繁简滤镜
 # fanjian:

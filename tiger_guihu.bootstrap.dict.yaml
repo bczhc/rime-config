@@ -9,7 +9,7 @@ import_tables:
   - tiger_zi
   - tiger_ci
   - tiger_guihu # 九重鬼虎
-  
+
 columns:
   - text
   - code

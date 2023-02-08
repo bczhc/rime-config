@@ -1,58 +1,61 @@
 schema:
-  author:
-    - {}
   dependencies:
-    - core2022  #自定义字集工具方案
+    - tiger_core2022  #自定义字集工具方案
     - PY_c  # 拼音方案
     - easy_english # 英文
   description: |
-    虎码官方单字
+    虎码
     敲 ` 鍵進入拼音反查
-  name: "虎码官方单字"
+  name: "虎码"
   schema_id: tiger
-  version: 0.9
+  version: 1
 
 
 switches: # 0 默认关，1 默认开
   - name: ascii_mode
     reset: 0
     states: [ 中文, 西文 ]  #中英文状态
+
   - name: extended_char  #自定义字集
     reset: 1
     states: [ 全字集 , 常用字 ]
+
   - name: pinyin  #拼音滤镜
     reset: 0
     states: [ 拼, pīn ]
+
   - name: emoji_cn  #emoji滤镜
     reset: 0
     states: [ 🈚, 🈶 ]
+
   - name: chaifen
-    reset: 0 
+    reset: 0
     states: [ 拆隐, 拆显 ]
+
   - name: simplification  #简转繁滤镜
     reset: 0
     states: [ 简中, 繁中 ]
-  - options: [_keyboard_default, _keyboard_defaultbk, _keyboard_defaultwk]
-    reset: 0
-    states: [ 有刻, 半刻, 无刻 ]
+
   - name: charset_comment_filter  #字符集提示
-    reset: 0  
+    reset: 0
     states: [ U区关, U区开 ]
+
   - name: udpf_switch
     reset: 0
-    states: [ U编关, U编开]
+    states: [ U编关, U编开 ]
+
   - name: ascii_punct
     reset: 0
     states: [ 。，, ．， ]
+
   - name: dz_ci  #过滤词组
     reset: 0
     states: [ 词组, 单字 ]
-  - options: [_keyboard_default, _keyboard_defaultzj]
-    reset: 0
-    states: [ 助记关, 助记开 ]
+
   - name: full_shape
     reset: 0
     states: [ 半角, 全角 ]
+
 
 engine:
   processors:
@@ -67,7 +70,7 @@ engine:
     - selector
     - navigator
     - express_editor #计算
-  segmentors:  # 分段
+  segmentors: # 分段
     - ascii_segmentor
     - matcher
     - affix_segmentor@easy_english #英文相关
@@ -85,10 +88,8 @@ engine:
     - lua_translator@shijian2_translator # 高级时间
     - lua_translator@alphabet_mode_translator
     - lua_translator@unicode_input_translator
-
-
   filters:
-    - lua_filter@core2022  #自定义字集过滤lua；放在最上面完美解决简繁滤镜出错的问题
+    - lua_filter@tiger_core2022  #自定义字集过滤lua；放在最上面完美解决简繁滤镜出错的问题
     - simplifier@simplification  #简繁滤镜
     - simplifier@pinyin  #拼音滤镜
     - simplifier@chaifen #拆分滤镜
@@ -98,14 +99,12 @@ engine:
     - uniquifier #过滤重复
     - lua_filter@dz_ci
 
+
 speller:
   auto_clear: max_length # 3种选择， manual|auto|max_length 空码按下一键确认清屏|空码自动清|达到最长码时后码顶上清屏
   auto_select: true
   max_code_length: 4
   alphabet: ";'zyxwvutsrqponmlkjihgfedcba"
-  # initials: "abcdefghijklmnopqrstuvwxyz;'"
-  auto_select_pattern: ^;\w+ #自动上屏规则  对 [;] 引导的编码实行候选唯一自动上屏
-  # 若要添加四码上屏功能，在  ^;\w+ 后面 加上  |^\w{4}$  即可
 
 translator:
   dictionary: tiger
@@ -115,8 +114,8 @@ translator:
   encode_commit_history: false
   # max_phrase_length: 4
   enable_user_dict: false
-  enable_completion: false	# 编码提示 true 开启  false 关闭
-  comment_format:  #提示码自定义
+  enable_completion: false    # 编码提示 true 开启  false 关闭
+  comment_format: #提示码自定义
     - "xform/~/ /" #去掉编码提示前的~号
     # - "xform/^/ /" #提示前面 +间距
 
@@ -132,7 +131,6 @@ reverse_lookup:
   comment_format:
     - "xform/^/ /"
   # suffix: "'"
-
 
 
 key_binder:
@@ -156,6 +154,7 @@ key_binder:
     - { accept: space, send: Escape, when: composing } #无候选时(空码)空格清屏
     - { when: composing, accept: Return, send: Escape } # 回车清屏编码
 
+
 recognizer:
   import_preset: default
   patterns:
@@ -169,19 +168,22 @@ recognizer:
     number_chinese: '^/num[0-9]+\.?[0-9]*$'
     calendar: '^/cal[0-9]+$'
 
+
 translator_history:
   input: z
   size: 1
   initial_quality: 0
 
+
 # ↓简繁(+部分异体)滤镜
-simplification:  #⇩四选一
+simplification: #⇩四选一
   opencc_config: st_tu.json        # 简 ➡ 繁·异（秃版标准）
- # opencc_config: s2tw.json    # 简 ➡ 台湾正体
- # opencc_config: s2hk.json    # 简 ➡ 香港繁体
- # opencc_config: s2twp.json  # 简 ➡ 台湾正体（含常用词汇如：软体→軟體、鼠标→滑鼠）
+  # opencc_config: s2tw.json    # 简 ➡ 台湾正体
+  # opencc_config: s2hk.json    # 简 ➡ 香港繁体
+  # opencc_config: s2twp.json  # 简 ➡ 台湾正体（含常用词汇如：软体→軟體、鼠标→滑鼠）
   option_name: simplification
   tips: all  #all字词|char字
+
 
 # ↓拼音滤镜
 pinyin:
@@ -195,7 +197,6 @@ pinyin:
   tags:
     - abc
     - tiger
-    - tigress
     # - reverse_lookup
 
 
@@ -204,6 +205,7 @@ emoji_cn:
   opencc_config: emoji.json
   option_name: emoji_cn
   tips: all
+
 
 # 临时英文
 easy_english:
@@ -219,17 +221,17 @@ easy_english:
   comment_format: #去掉编码提示前的~号
     - "xform/~/ /"
 
+
 # 拆分滤镜
 chaifen:
   opencc_config: hu_cf.json
   option_name: chaifen
-  show_in_comment: true 
-  comment_format:     
+  show_in_comment: true
+  comment_format:
     - "xform/&nbsp;/ /"
-  tags:     
+  tags:
     - abc
     - tiger
-    - tigress
     - reverse_lookup
   tips: all  #只给单字加滤镜，改为 char 。 词也显示，改为 all
 

@@ -1,7 +1,6 @@
 #下面的 #号 是注释符，注释了就无效了，删掉即可生效
 
 patch:
-  translator/dictionary: tiger.extended #引入增补自定词典，这个不要改动
   style/horizontal: false # 默认false竖排显示,改为true横排可显示
   menu/page_size: 9 # 自定义候选个数，主方案默认是9个，这里可修改
   style/mark_text: "" # 编号前自定标志，可在引号内加其他emoji 如：🐯 或 🐮 或 😅

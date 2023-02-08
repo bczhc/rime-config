@@ -97,7 +97,7 @@ engine:
 
 
   filters:
-    # - lua_filter@core2022  #自定义字集过滤lua；放在最上面完美解决简繁滤镜出错的问题
+    # - lua_filter@tiger_core2022  #自定义字集过滤lua；放在最上面完美解决简繁滤镜出错的问题
     # - lua_filter@dz_ci  #过滤词组lua，单字模式
     # - charset_filter@utf8
     # - charset_filter@gbk

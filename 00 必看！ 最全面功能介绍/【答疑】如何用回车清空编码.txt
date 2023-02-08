@@ -1,8 +1,0 @@
-单字版找  tiger.schema.yaml
-字词版找  tigress.schema.yaml
-
-搜索  回车清屏编码
-找到 #- { when: composing, accept: Return, send: Escape } # 回车清屏编码
-将行首的 # 删掉，即可生效
-
-不要忘记重新部署！

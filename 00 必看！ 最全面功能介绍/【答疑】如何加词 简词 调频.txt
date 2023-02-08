@@ -1,4 +1,0 @@
-单字版 找 tigress.extended.dict.yaml
-字词版 找 tigress.extended.dict.yaml
-
-文件内有写详细说明

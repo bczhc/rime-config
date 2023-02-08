@@ -3,9 +3,7 @@
 
 # 方案列表
 
-- 虎码官方词库（[https://tiger-code.com](https://tiger-code.com)）
-
-- 虎码官方单字（[https://tiger-code.com](https://tiger-code.com)）
+- 虎码（[https://tiger-code.com](https://tiger-code.com)）
 
 - 九重鬼虎（[https://tiger-code.com](https://tiger-code.com)）
 
@@ -68,6 +66,7 @@
 - Ctrl+H 常用字与全字集切换
 - Ctrl+period 全半角标点切换
 - Ctrl+E Emoji开关
+- Ctrl+D 单字模式
 
 ## 自然码
 

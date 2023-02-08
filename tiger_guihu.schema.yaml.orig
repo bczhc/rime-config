@@ -5,10 +5,10 @@ schema:
     - easy_english # 英文
     - emoji_shortcode
   description: |
-    九重鬼虎
+    虎码
     敲 ` 鍵進入拼音反查
-  name: "九重鬼虎"
-  schema_id: tiger_guihu
+  name: "虎码"
+  schema_id: tiger
   version: 1
 
 
@@ -110,7 +110,7 @@ speller:
   alphabet: "zyxwvutsrqponmlkjihgfedcba"
 
 translator:
-  dictionary: tiger_guihu.bootstrap
+  dictionary: tiger
   enable_charset_filter: false
   enable_encoder: false
   enable_sentence: false

@@ -1,7 +1,7 @@
 我的Rime配置
 ---
 
-## 方案列表
+# 方案列表
 
 - 虎码官方词库（[https://tiger-code.com](https://tiger-code.com)）
 
@@ -19,7 +19,7 @@
 
 - 朙月拼音（[https://github.com/rime/rime-luna-pinyin](https://github.com/rime/rime-luna-pinyin)）
 
-  注：因为我主要使用的是“虎码官方词库”方案，所以下面的配置都是只为这个方案的。
+# 方案配置
 
 ## 虎码
 
@@ -71,5 +71,5 @@
 - 编码用分号添加辅助码
 - Ctrl+P 显示拼音
 - Ctrl+F 显示辅助码编码
-- 使用Grave（`` ` ``）键组字（编码依然是自然码双拼，比如`曌`使用`` `myks ``）
+- 使用反引号（`` ` ``）引导组字（编码依然是自然码双拼，比如“曌”字使用`` `myks ``）
 

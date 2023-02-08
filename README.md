@@ -35,8 +35,12 @@
 - /cdt 袖珍（纯数字）时间与日期yyyyMMdd或HHmmss的格式
 - /num+数字 数字转大写
 - /uni+Unicode码点 输入Unicode
+- /es+shortcode 输入Emoji
 
-更多可参考https://github.com/bczhc/rime-config/blob/master/symbols.yaml
+可参考：
+
+- https://github.com/bczhc/rime-config/blob/master/symbols.yaml
+- https://github.com/bczhc/rime-config/blob/master/emoji_shortcode.dict.yaml
 
 ### 输入设定
 
@@ -49,6 +53,7 @@
 - z键二选重复上一次上屏内容
 - 分号引号二三选
 - 分号临时字母模式
+- 引号临时英语模式
 - 反引号拼音反查
 - 使用左右方括号输入逗句号
 

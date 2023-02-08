@@ -3,6 +3,7 @@ schema:
     - tiger_core2022  #自定义字集工具方案
     - PY_c  # 拼音方案
     - easy_english # 英文
+    - emoji_shortcode
   description: |
     虎码
     敲 ` 鍵進入拼音反查
@@ -74,6 +75,7 @@ engine:
     - ascii_segmentor
     - matcher
     - affix_segmentor@easy_english #英文相关
+    - affix_segmentor@emoji_shortcode
     - abc_segmentor
     - punct_segmentor
     - fallback_segmentor
@@ -82,6 +84,7 @@ engine:
     - reverse_lookup_translator #拼音反查
     - table_translator
     - table_translator@easy_english #临时英文
+    - table_translator@emoji_shortcode
     - history_translator@translator_history
     - lua_translator@number_translator # 数字转大写
     - lua_translator@calculator_translator # 简易计算器
@@ -158,15 +161,16 @@ key_binder:
 recognizer:
   import_preset: default
   patterns:
-    punct: "^/([0-9]0?|[A-Za-z]+)$"
+    punct: "^/(?!uni)(?!cal)(?!num)(?!es)([0-9]0?|[A-Za-z]+)$"
     uppercase: "" #中文状态大写锁定直接上屏
     reverse_lookup: "^`[a-z]*'?$"
     easy_english: "^'[A-Z|a-z]*'?$"
     alphabet_mode: '^;.*$'
     expression: "^=.*$"
-    unicode: "^/uni[a-zA-Z0-9]+$"
-    number_chinese: '^/num[0-9]+\.?[0-9]*$'
-    calendar: '^/cal[0-9]+$'
+    unicode: "^/uni[a-zA-Z0-9]*$"
+    number_chinese: '^/num([0-9]+\.?[0-9]*)?$'
+    calendar: '^/cal[0-9]*$'
+    emoji_shortcode: '^/es[a-z0-9_\-\+]*$'
 
 
 translator_history:
@@ -221,6 +225,14 @@ easy_english:
   comment_format: #去掉编码提示前的~号
     - "xform/~/ /"
 
+
+emoji_shortcode:
+  dictionary: emoji_shortcode
+  tag: emoji_shortcode
+  tips: 〔Emoji〕
+  prefix: '/es'
+  enable_completion: true
+  enable_sentence: false
 
 # 拆分滤镜
 chaifen:

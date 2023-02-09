@@ -34,12 +34,14 @@
 - **/num**+***数字*** 数字转大写
 - **/uni**+***Unicode码点*** 输入Unicode
 - **/es**+***shortcode*** 输入Emoji
+- **/hc**+***name*** 输入HTML命名字符
 - **/info** 显示软件有关信息
 
 可参考：
 
 - https://github.com/bczhc/rime-config/blob/master/symbols.yaml
 - https://github.com/ikatyang/emoji-cheat-sheet
+- https://html.spec.whatwg.org/multipage/named-characters.html#named-character-references
 
 ### 输入设定
 

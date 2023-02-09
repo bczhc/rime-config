@@ -1,0 +1,7 @@
+schema:
+  schema_id: html_chars
+  name: html_chars
+  version: 1
+
+translator:
+  dictionary: html_chars

@@ -10,3 +10,4 @@ alphabet_mode_translator = require("alphabet_mode") -- 分号字母模式
 unicode_input_translator = require("unicode_input") -- Unicode输入
 reselect_candidates_processor = require("reselect_candidates") -- Ctrl+Space撤销并重新选重
 cancel_input_processor = require('cancel_input') -- 防止空码时把编码上屏
+info_translator = require("info_translator")

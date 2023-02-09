@@ -91,6 +91,7 @@ engine:
     - lua_translator@shijian2_translator # 高级时间
     - lua_translator@alphabet_mode_translator
     - lua_translator@unicode_input_translator
+    - lua_translator@info_translator
   filters:
     - lua_filter@tiger_core2022  #自定义字集过滤lua；放在最上面完美解决简繁滤镜出错的问题
     - simplifier@simplification  #简繁滤镜
@@ -161,7 +162,7 @@ key_binder:
 recognizer:
   import_preset: default
   patterns:
-    punct: "^/(?!uni)(?!cal)(?!num)(?!es)([0-9]0?|[A-Za-z]+)$"
+    punct: "^/(?!uni)(?!cal)(?!num)(?!es)(?!info)([0-9]0?|[A-Za-z]+)$"
     uppercase: "" #中文状态大写锁定直接上屏
     reverse_lookup: "^`[a-z]*'?$"
     easy_english: "^'[A-Z|a-z]*'?$"
@@ -171,6 +172,7 @@ recognizer:
     number_chinese: '^/num([0-9]+\.?[0-9]*)?$'
     calendar: '^/cal[0-9]*$'
     emoji_shortcode: '^/es[a-z0-9_\-\+]*$'
+    info: '^/info$'
 
 
 translator_history:

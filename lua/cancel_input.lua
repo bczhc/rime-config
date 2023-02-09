@@ -1,3 +1,5 @@
+local Rejected, Accepted, Noop = 0, 1, 2
+
 local function log(text)
     os.execute('notify-send "' .. text .. '"')
 end
@@ -33,6 +35,7 @@ local function processor(key, env)
             break
         end
     end
+    return Noop
 end
 
 return processor

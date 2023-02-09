@@ -23,22 +23,23 @@
 
 ### 快捷输入
 
-- /date 日期输入
-- /time 时间输入
-- /week 星期输入
-- /cal或/cal+日期 日历，公历农历互转
-- =其后跟算式 简易计算器
-- /ts UNIX时间戳
-- /idt 类ISO 8601时间
-- /cdt 袖珍（纯数字）时间与日期yyyyMMdd或HHmmss的格式
-- /num+数字 数字转大写
-- /uni+Unicode码点 输入Unicode
-- /es+shortcode 输入Emoji
+- **/date** 日期输入
+- **/time** 时间输入
+- **/week** 星期输入
+- **/cal**或**/cal**+***日期*** 日历与公历农历互转
+- **=**+***算式***  简易计算器
+- **/ts** UNIX时间戳
+- **/idt** 类ISO 8601时间
+- **/cdt** 袖珍（纯数字）时间与日期yyyyMMdd或HHmmss的格式
+- **/num**+***数字*** 数字转大写
+- **/uni**+***Unicode码点*** 输入Unicode
+- **/es**+***shortcode*** 输入Emoji
+- **/info** 显示软件有关信息
 
 可参考：
 
 - https://github.com/bczhc/rime-config/blob/master/symbols.yaml
-- https://github.com/bczhc/rime-config/blob/master/emoji_shortcode.dict.yaml
+- https://github.com/ikatyang/emoji-cheat-sheet
 
 ### 输入设定
 
@@ -57,7 +58,7 @@
 
 ### 快捷键
 
-- Ctrl+Space 重选重码
+- Ctrl+\` 方案选择
 - Ctrl+O 繁简转换
 - Ctrl+Y 显示Unicode编码
 - Ctrl+U 显示Unicode分区
@@ -67,6 +68,7 @@
 - Ctrl+period 全半角标点切换
 - Ctrl+E Emoji开关
 - Ctrl+D 单字模式
+- Ctrl+Space 重选重码（还不稳定）
 
 ## 自然码
 

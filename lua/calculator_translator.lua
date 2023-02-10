@@ -72,7 +72,7 @@ end
 exp = math.exp
 e = exp(1)
 ln = math.log
-log = function(x, base)
+local log = function(x, base)
     base = base or 10
     return ln(x) / ln(base)
 end

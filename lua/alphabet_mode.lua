@@ -1,10 +1,16 @@
 local function translator(input, seg)
-    if string.sub(input, 1, 1) ~= ";" then
+    if not input:match('^[;A-Z]') then
         return
     end
-    local content = string.sub(input, 2)
-    if content ~= '' then
-        yield(Candidate('', seg.start, seg._end, content, ''))
+    local first = string.sub(input, 1, 1)
+    local text = ''
+    if first == ';' then
+        text = string.sub(input, 2)
+    else
+        text = input
+    end
+    if text ~= '' then
+        yield(Candidate('', seg.start, seg._end, text, ''))
     end
 end
 

@@ -6,10 +6,8 @@ local function processor(key, env)
 
     local repr = key:repr()
 
-    --log.info(repr .. ' ')
-
     -- pattern: ^[;A-Z]
-    if repr == 'semicolon' or (string.match(repr, '^Shift.[A-Z]$') and string.sub(repr, 6, 6) == '+') then
+    if not context:is_composing() and (repr == 'semicolon' or (string.match(repr, '^Shift.[A-Z]$') and string.sub(repr, 6, 6) == '+')) then
         in_alphabet_mode = true
         log.info('in alphabet mode: ' .. tostring(in_alphabet_mode))
         return Noop
@@ -29,6 +27,7 @@ local function post_processor(key, env)
     if in_alphabet_mode and key:repr() == 'Return' then
         context:commit()
         in_alphabet_mode = false
+        return Accepted
     end
     return Noop
 end

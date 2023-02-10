@@ -65,9 +65,9 @@ engine:
     - lua_processor@alphabet_mode_processor
     - recognizer
     - lua_processor@enter_clear_input_processor
-    - key_binder
     - speller
     - lua_processor@alphabet_mode_post_speller_processor
+    - key_binder
     - lua_processor@cancel_input_processor
     - punctuator
     - lua_processor@exe_processor #exe启动器

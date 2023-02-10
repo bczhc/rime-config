@@ -66,8 +66,18 @@ local function should_yield(text, option, coredb)
 end
 
 local function filter(input, env)
+  local unicode_input = env.engine.context.input:match('^/uni') ~= nil
+
+    if unicode_input then
+        for cand in input:iter() do
+            yield(cand)
+        end
+        return
+    end
+
   on = env.engine.context:get_option("extended_char")
   for cand in input:iter() do
+
     if should_yield(cand.text, on, env.coredb) then
       yield(cand)
     end

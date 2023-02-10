@@ -22,18 +22,25 @@ local reprs = {
     'Shift+colon',
     'Shift+quotedbl',
     'Shift+question',
+    'semicolon',
 }
 
 local function processor(key, env)
     local repr = key:repr()
     local context = env.engine.context
     local has_menu = context:has_menu()
+    local composing = context:is_composing()
+    local in_key = false
 
     for i = 1, #reprs do
-        if not has_menu and repr == reprs[i] then
-            context.input = ''
+        if repr == reprs[i] then
+            in_key = true
             break
         end
+    end
+
+    if in_key and composing and not has_menu then
+        context.input = ''
     end
     return Noop
 end

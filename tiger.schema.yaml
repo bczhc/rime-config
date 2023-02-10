@@ -62,9 +62,12 @@ switches: # 0 默认关，1 默认开
 engine:
   processors:
     - ascii_composer
+    - lua_processor@alphabet_mode_processor
     - recognizer
+    - lua_processor@enter_clear_input_processor
     - key_binder
     - speller
+    - lua_processor@alphabet_mode_post_speller_processor
     - lua_processor@cancel_input_processor
     - punctuator
     - lua_processor@exe_processor #exe启动器
@@ -159,7 +162,7 @@ key_binder:
     - { accept: "Control+d", toggle: dz_ci, when: composing } # 单字与词组切换
     - { when: always, accept: "Control+period" , toggle: ascii_punct } # 中英标点切换
     - { accept: space, send: Escape, when: composing } #无候选时(空码)空格清屏
-    - { when: composing, accept: Return, send: Escape } # 回车清屏编码
+    # - { when: composing, accept: Return, send: Escape } # 回车清屏编码
 
 
 recognizer:

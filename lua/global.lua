@@ -1,0 +1,1 @@
+_G.Rejected, _G.Accepted, _G.Noop = 0, 1, 2

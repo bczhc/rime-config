@@ -1,0 +1,7 @@
+schema:
+  schema_id: emoji_name
+  name: emoji_name
+  version: 1
+
+translator:
+  dictionary: emoji_name

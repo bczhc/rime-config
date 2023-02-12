@@ -3,8 +3,7 @@ schema:
     - tiger_core2022  #自定义字集工具方案
     - PY_c  # 拼音方案
     - easy_english # 英文
-    - emoji_shortcode
-    - emoji_name
+    - emoji
     - html_chars
   description: |
     虎码
@@ -80,9 +79,8 @@ engine:
     - ascii_segmentor
     - matcher
     - affix_segmentor@easy_english #英文相关
-    - affix_segmentor@emoji_shortcode
+    - affix_segmentor@emoji
     - affix_segmentor@html_chars
-    - affix_segmentor@emoji_name
     - abc_segmentor
     - punct_segmentor
     - fallback_segmentor
@@ -91,8 +89,7 @@ engine:
     - reverse_lookup_translator #拼音反查
     - table_translator
     - table_translator@easy_english #临时英文
-    - table_translator@emoji_shortcode
-    - table_translator@emoji_name
+    - table_translator@emoji
     - table_translator@html_chars
     - history_translator@translator_history
     - lua_translator@number_translator # 数字转大写
@@ -171,7 +168,7 @@ key_binder:
 recognizer:
   import_preset: default
   patterns:
-    punct: "^/(?!uni)(?!cal)(?!num)(?!es)(?!info)(?!hc)(?!em)([0-9]0?|[A-Za-z]+)$"
+    punct: "^/(?!uni)(?!cal)(?!num)(?!info)(?!hc)(?!em)([0-9]0?|[A-Za-z]+)$"
     # uppercase: "" #中文状态大写锁定直接上屏
     reverse_lookup: "^`[a-z]*'?$"
     easy_english: "^'[A-Z|a-z]*'?$"
@@ -180,8 +177,7 @@ recognizer:
     unicode: "^/uni[a-zA-Z0-9]*$"
     number_chinese: '^/num([0-9]+\.?[0-9]*)?$'
     calendar: '^/cal[0-9]*$'
-    emoji_shortcode: '^/es[a-z0-9_\-\+]*$'
-    emoji_name: '^/em[a-zA-Z0-9\-]*$'
+    emoji: '^/em[a-zA-Z0-9\-]*$'
     info: '^/info$'
     html_chars: '^/hc[a-zA-Z0-9]*$'
 
@@ -239,19 +235,9 @@ easy_english:
     - "xform/~/ /"
 
 
-emoji_shortcode:
-  dictionary: emoji_shortcode
-  tag: emoji_shortcode
-  tips: 〔Emoji〕
-  prefix: '/es'
-  enable_completion: true
-  enable_sentence: false
-  enable_user_dict: false
-
-
-emoji_name:
-  dictionary: emoji_name
-  tag: emoji_name
+emoji:
+  dictionary: emoji
+  tag: emoji
   tips: 〔Emoji〕
   prefix: '/em'
   enable_completion: true

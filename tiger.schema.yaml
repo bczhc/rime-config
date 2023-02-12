@@ -210,7 +210,7 @@ pinyin:
   comment_format:
     - 'xform/&nbsp;/ /'
     # - "xform/^/ /"
-  tips: char
+  tips: all
   tags:
     - abc
     - tiger

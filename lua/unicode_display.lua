@@ -34,7 +34,7 @@ lua_unicode_display_filter = require("unicode_display")  -- unicode显示滤镜
 
 local function C2U(char)
     local unicode_d = utf8.codepoint(char)
-    local unicode_h = string.format('%x', unicode_d)
+    local unicode_h = string.format('%04X', unicode_d)
     --DEBUG
     --    sm("C2U char="..char)
     --    sm("C2U d="..unicode_d)
@@ -46,15 +46,18 @@ local function unicode_display_filter(input, env)
     local context = env.engine.context
     local input_text = context.input
     local udpf_switch = context:get_option("udpf_switch")
+
     for cand in input:iter() do
-        if #input_text >= 1 and udpf_switch then
-            local char = cand.text
-            if utf8.len(char) == 1 then
-                local unicode_h = C2U(char)
-                --yield(Candidate(input_text, cand.start, cand._end, cand.text, cand.comment.."["..unicode_h.."]"))    --DEL
-                cand:get_genuine().comment = cand.comment .. "[U+" .. unicode_h .. "]"
-            end  --if
-        end  --if
+        if udpf_switch then
+            local text = cand.text
+            local codepoints = {}
+            for _, c in utf8.codes(text) do
+                local char = utf8.char(c)
+                codepoints[#codepoints + 1] = 'U+' .. C2U(char)
+            end
+            local comment = '[' .. table.concat(codepoints, ' ') .. ']'
+            cand:get_genuine().comment = comment
+        end
         yield(cand)
     end  --for
 end

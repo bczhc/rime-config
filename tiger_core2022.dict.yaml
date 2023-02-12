@@ -1,6 +1,6 @@
 ###表內有的字纔會輸出，可自己添加，格式如下
 name: tiger_core2022
-version: "2023.02.01"
+version: "2023.02.12"
 sort: original
 use_preset_vocabulary: false
 ...
@@ -1177,6 +1177,7 @@ use_preset_vocabulary: false
 纯	t
 申	t
 夺	t
+窌	t
 柳	t
 距	t
 丹	t
@@ -1994,6 +1995,7 @@ use_preset_vocabulary: false
 窝	t
 舌	t
 晴	t
+弘	t
 隶	t
 悠	t
 耕	t
@@ -2621,7 +2623,6 @@ use_preset_vocabulary: false
 辐	t
 娱	t
 淑	t
-弘	t
 淹	t
 窦	t
 呐	t
@@ -4343,6 +4344,7 @@ use_preset_vocabulary: false
 盹	t
 袤	t
 郢	t
+嗐	t
 砥	t
 荚	t
 蚓	t
@@ -4647,7 +4649,6 @@ use_preset_vocabulary: false
 赳	t
 龊	t
 媾	t
-邛	t
 馄	t
 啕	t
 嗵	t
@@ -4687,6 +4688,7 @@ use_preset_vocabulary: false
 矾	t
 馑	t
 馥	t
+凃	t
 劭	t
 昕	t
 昱	t
@@ -4986,6 +4988,7 @@ use_preset_vocabulary: false
 旰	t
 𠕇	t
 玊	t
+帏	t
 嗪	t
 殚	t
 潸	t
@@ -5305,7 +5308,6 @@ use_preset_vocabulary: false
 鳏	t
 鳕	t
 墀	t
-帏	t
 廪	t
 擀	t
 狷	t
@@ -5474,6 +5476,7 @@ use_preset_vocabulary: false
 蟛	t
 饴	t
 鸱	t
+彔	t
 冼	t
 嘏	t
 堇	t
@@ -5500,7 +5503,9 @@ use_preset_vocabulary: false
 醚	t
 髂	t
 鹕	t
+啫	t
 楮	t
+煸	t
 膈	t
 郃	t
 铄	t
@@ -5709,7 +5714,6 @@ use_preset_vocabulary: false
 鬟	t
 孑	t
 嵯	t
-煸	t
 篪	t
 绲	t
 罘	t
@@ -5907,7 +5911,6 @@ use_preset_vocabulary: false
 嵝	t
 糗	t
 蝣	t
-隻	t
 鳚	t
 麇	t
 曛	t
@@ -5947,7 +5950,6 @@ use_preset_vocabulary: false
 酽	t
 鲔	t
 嵛	t
-廣	t
 樘	t
 獍	t
 祆	t
@@ -6129,6 +6131,7 @@ use_preset_vocabulary: false
 疋	t
 豐	t
 撐	t
+殼	t
 蟲	t
 柰	t
 殂	t
@@ -6211,7 +6214,6 @@ use_preset_vocabulary: false
 梃	t
 確	t
 秭	t
-舁	t
 茕	t
 蕞	t
 蝰	t
@@ -6298,6 +6300,7 @@ use_preset_vocabulary: false
 檎	t
 歷	t
 溷	t
+習	t
 蓥	t
 蘧	t
 趑	t
@@ -6619,6 +6622,7 @@ use_preset_vocabulary: false
 鲭	t
 黹	t
 鼢	t
+㞎	t
 佧	t
 傺	t
 冱	t
@@ -6701,16 +6705,17 @@ use_preset_vocabulary: false
 墚	t
 嫜	t
 宀	t
-岊	t
 岍	t
 巯	t
 戤	t
+扌	t
 掭	t
 揞	t
 楱	t
 槠	t
 沲	t
 洚	t
+炘	t
 烀	t
 牿	t
 犏	t
@@ -6719,6 +6724,7 @@ use_preset_vocabulary: false
 疰	t
 痖	t
 瘃	t
+瘖	t
 眾	t
 砟	t
 砼	t
@@ -6767,6 +6773,7 @@ use_preset_vocabulary: false
 迮	t
 鄹	t
 醑	t
+釒	t
 钶	t
 钸	t
 钽	t
@@ -6799,6 +6806,9 @@ use_preset_vocabulary: false
 黪	t
 鼯	t
 齄	t
+𡗗	t
+𤆵	t
+𫟷	t
 𲍿	t
 々	t
 〇	t
@@ -6841,7 +6851,6 @@ use_preset_vocabulary: false
 㝀	t
 㝹	t
 㝿	t
-㞎	t
 㞗	t
 㞘	t
 㞞	t
@@ -6993,8 +7002,8 @@ use_preset_vocabulary: false
 丼	t
 丿	t
 乂	t
+乄	t
 乆	t
-乭	t
 乸	t
 亖	t
 亠	t
@@ -7094,12 +7103,9 @@ use_preset_vocabulary: false
 冫	t
 冮	t
 冴	t
-凃	t
 凊	t
 凓	t
 凘	t
-凢	t
-凣	t
 凵	t
 刂	t
 刌	t
@@ -7141,11 +7147,11 @@ use_preset_vocabulary: false
 卌	t
 卍	t
 卐	t
-釒	t
 卩	t
 卬	t
 卲	t
 卼	t
+厃	t
 厔	t
 厖	t
 厷	t
@@ -7197,7 +7203,6 @@ use_preset_vocabulary: false
 啗	t
 啙	t
 啛	t
-啫	t
 啯	t
 啰	t
 啱	t
@@ -7213,8 +7218,8 @@ use_preset_vocabulary: false
 喰	t
 喺	t
 喼	t
+喿	t
 嗈	t
-嗐	t
 嗙	t
 嗛	t
 嗞	t
@@ -7228,6 +7233,7 @@ use_preset_vocabulary: false
 嘚	t
 嘡	t
 嘢	t
+嘦	t
 噀	t
 噂	t
 噃	t
@@ -7364,6 +7370,7 @@ use_preset_vocabulary: false
 妺	t
 姁	t
 姈	t
+姕	t
 姛	t
 姞	t
 姤	t
@@ -7422,7 +7429,6 @@ use_preset_vocabulary: false
 嫽	t
 嬛	t
 嬢	t
-嬥	t
 嬬	t
 嬿	t
 孃	t
@@ -7447,6 +7453,7 @@ use_preset_vocabulary: false
 屼	t
 屾	t
 岃	t
+岊	t
 岕	t
 岞	t
 岠	t
@@ -7527,9 +7534,9 @@ use_preset_vocabulary: false
 弪	t
 弶	t
 弸	t
+弿	t
 彅	t
 彐	t
-彔	t
 彟	t
 彡	t
 彧	t
@@ -7610,8 +7617,6 @@ use_preset_vocabulary: false
 扅	t
 扆	t
 扊	t
-扌	t
-龵	t
 扞	t
 扠	t
 扤	t
@@ -7697,6 +7702,7 @@ use_preset_vocabulary: false
 昇	t
 昈	t
 昉	t
+昍	t
 昒	t
 昚	t
 昡	t
@@ -7777,6 +7783,7 @@ use_preset_vocabulary: false
 桯	t
 桲	t
 桹	t
+桺	t
 梌	t
 梐	t
 梠	t
@@ -7876,7 +7883,7 @@ use_preset_vocabulary: false
 氉	t
 氕	t
 気	t
-氷	t
+氶	t
 氹	t
 氼	t
 氾	t
@@ -8033,7 +8040,6 @@ use_preset_vocabulary: false
 炁	t
 炆	t
 炌	t
-炘	t
 炟	t
 炣	t
 炤	t
@@ -8105,6 +8111,7 @@ use_preset_vocabulary: false
 犗	t
 犨	t
 犭	t
+犮	t
 犼	t
 犽	t
 狉	t
@@ -8146,10 +8153,8 @@ use_preset_vocabulary: false
 玵	t
 玶	t
 玹	t
-瘖	t
 玼	t
 玽	t
-鏇	t
 玿	t
 珅	t
 珇	t
@@ -8191,6 +8196,7 @@ use_preset_vocabulary: false
 琯	t
 琱	t
 琲	t
+琹	t
 瑀	t
 瑂	t
 瑃	t
@@ -8242,7 +8248,9 @@ use_preset_vocabulary: false
 畤	t
 畬	t
 畯	t
+畺	t
 疁	t
+疌	t
 疍	t
 疐	t
 疒	t
@@ -8382,7 +8390,6 @@ use_preset_vocabulary: false
 穟	t
 窅	t
 窊	t
-窌	t
 窎	t
 窾	t
 竘	t
@@ -8421,11 +8428,11 @@ use_preset_vocabulary: false
 籥	t
 籧	t
 籰	t
-粔	t
 籹	t
 籾	t
 粃	t
 粄	t
+粔	t
 粿	t
 糄	t
 糒	t
@@ -8640,7 +8647,6 @@ use_preset_vocabulary: false
 蛃	t
 蜎	t
 蜐	t
-蜰	t
 蝂	t
 蝄	t
 蝘	t
@@ -8822,9 +8828,11 @@ use_preset_vocabulary: false
 醨	t
 醽	t
 醾	t
+釆	t
 釐	t
 鋬	t
 鍳	t
+鏇	t
 鑒	t
 钆	t
 钖	t
@@ -8869,7 +8877,6 @@ use_preset_vocabulary: false
 隺	t
 雊	t
 雋	t
-雔	t
 雫	t
 雰	t
 霂	t
@@ -8906,7 +8913,6 @@ use_preset_vocabulary: false
 韂	t
 韆	t
 韨	t
-韮	t
 颋	t
 颙	t
 颣	t
@@ -8964,6 +8970,7 @@ use_preset_vocabulary: false
 鬴	t
 鬶	t
 鬷	t
+鬽	t
 魆	t
 魋	t
 鱽	t
@@ -9043,7 +9050,6 @@ use_preset_vocabulary: false
 鼧	t
 鼩	t
 鼫	t
-鼱	t
 鼽	t
 齁	t
 齆	t
@@ -9051,6 +9057,7 @@ use_preset_vocabulary: false
 齉	t
 龁	t
 龂	t
+龵	t
 鿃	t
 鿍	t
 鿎	t
@@ -9062,6 +9069,7 @@ use_preset_vocabulary: false
 鿽	t
 𠀾	t
 𠂉	t
+𠃓	t
 𠄏	t
 𠅤	t
 𠇔	t
@@ -9070,6 +9078,7 @@ use_preset_vocabulary: false
 𠍐	t
 𠙶	t
 𠧚	t
+𠬶	t
 𠰴	t
 𠲎	t
 𠲖	t
@@ -9082,6 +9091,7 @@ use_preset_vocabulary: false
 𡏋	t
 𡐓	t
 𡒄	t
+𡗜	t
 𡘙	t
 𡚦	t
 𡚽	t
@@ -9107,7 +9117,6 @@ use_preset_vocabulary: false
 𣗋	t
 𣨼	t
 𣬂	t
-疌	t
 𣭲	t
 𣱼	t
 𣱾	t
@@ -9117,7 +9126,6 @@ use_preset_vocabulary: false
 𣸣	t
 𣸤	t
 𤆬	t
-𤆵	t
 𤌙	t
 𤘧	t
 𤙖	t
@@ -9129,7 +9137,6 @@ use_preset_vocabulary: false
 𤪌	t
 𤫉	t
 𤭢	t
-𤯕	t
 𤯥	t
 𤯦	t
 𤱙	t
@@ -9173,7 +9180,6 @@ use_preset_vocabulary: false
 𧿹	t
 𨃅	t
 𨐈	t
-𨑨	t
 𨓈	t
 𨙸	t
 𨚕	t
@@ -9280,7 +9286,6 @@ use_preset_vocabulary: false
 𫞩	t
 𫟅	t
 𫟦	t
-𫟷	t
 𫟹	t
 𫟼	t
 𫠆	t
@@ -9525,7 +9530,6 @@ use_preset_vocabulary: false
 𱊳	t
 𱌮	t
 𱎼	t
-𱏱	t
 𱏿	t
 𱑞	t
 𱖇	t
@@ -9558,5 +9562,31 @@ use_preset_vocabulary: false
 𲉅	t
 𲋤	t
 𲍭	t
-殼	t
-琹	t
+𱏱	t
+邛	t
+隻	t
+廣	t
+舁	t
+乭	t
+冡	t
+凢	t
+凣	t
+吅	t
+嬥	t
+氷	t
+罙	t
+蜰	t
+雔	t
+韮	t
+鼱	t
+𡨄	t
+𤯕	t
+𨑨	t
+阰	t
+㐫	t
+㐄	t
+乀	t
+乛	t
+尃	t
+旉	t
+亅	t

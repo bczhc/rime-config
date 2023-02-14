@@ -1,5 +1,5 @@
 name: tiger_zi
-version: "2023.02.01"
+version: "2023.02.13"
 sort: by_weight
 columns:
   - text
@@ -2074,9 +2074,8 @@ encoder:
 申	29684	ogs
 夺	29645	mk
 夺	256	mkc
-柳	29528	eb
-桺	256	ebm
-窌	29527	ebm
+柳	29527	eb
+柳	256	ebm
 距	29474	pnn
 距	395	pnnk
 丹	29369	mzt
@@ -2499,6 +2498,7 @@ encoder:
 播	395	utpq
 零	20379	tjks
 躲	20265	zo
+躲	256	zoe
 躲	256	zoem
 映	20237	om
 映	256	omm
@@ -10989,6 +10989,7 @@ encoder:
 㑌	257	jnnw
 㑩	257	jyl
 㑩	257	jylx
+㒸	257	hjs
 㓥	257	ybp
 㓥	257	ybpd
 㓦	257	fup
@@ -12354,7 +12355,6 @@ encoder:
 桯	257	ednw
 桲	257	enwh
 桹	257	eiig
-桺	257	ebm
 梌	257	ejx
 梌	257	ejxh
 梐	257	evvg
@@ -14628,7 +14628,6 @@ encoder:
 𬭁	257	zkm
 𬭊	257	zeg
 𬭊	257	zegt
-𬭍	257	zoe
 𬭍	257	zoeg
 𬭎	257	zwn
 𬭎	257	zwnk
@@ -15956,6 +15955,7 @@ encoder:
 摻	1	ukke
 旡	1	du
 曏	1	oiit
+柫	1	etf
 棲	1	efbb
 沵	1	kxyx
 滯	1	klwr
@@ -19907,7 +19907,6 @@ encoder:
 柧	0	eyg
 柨	0	enrj
 柪	0	eisl
-柫	0	etf
 柭	0	enri
 柲	0	ehtp
 柵	0	eic
@@ -19986,6 +19985,7 @@ encoder:
 桵	0	eybn
 桸	0	ebn
 桸	0	ebnr
+桺	0	ebm
 桻	0	eha
 桻	0	ehaf
 桼	0	ejks
@@ -23033,6 +23033,7 @@ encoder:
 窇	0	envs
 窉	0	efmj
 窋	0	esmk
+窌	0	ebm
 窏	0	ekf
 窏	0	ekfn
 窐	0	eggt
@@ -30008,7 +30009,6 @@ encoder:
 㒶	0	hub
 㒷	0	mjh
 㒷	0	mjhb
-㒸	0	hjs
 㒹	0	nqhh
 㒺	0	mhfw
 㒻	0	oej
@@ -112040,9 +112040,6 @@ encoder:
 ㆽ	0	fbi
 ㆾ	0	afi
 ㆿ	0	hb
-躲	395	zoe
-法	256	kgk
-实	256	wwm
 汩	100	korg
 汨	100	korm
 隶	500	bksj

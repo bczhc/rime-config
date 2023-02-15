@@ -1,4 +1,17 @@
-_G.in_alphabet_mode = false
+--- pattern: ^[;A-Z]
+function check_alphabet_mode(env)
+    local context = env.engine.context
+    local input = context.input
+    local candidate = context:get_selected_candidate()
+    if candidate == nil then
+        return false
+    end
+    candidate = candidate.text
+    if candidate == input or (';' .. candidate) == input then
+        return true
+    end
+    return false
+end
 
 local function processor(key, env)
     local engine = env.engine
@@ -6,14 +19,7 @@ local function processor(key, env)
 
     local repr = key:repr()
 
-    -- pattern: ^[;A-Z]
-    if not context:is_composing() and (repr == 'semicolon' or (string.match(repr, '^Shift.[A-Z]$') and string.sub(repr, 6, 6) == '+')) then
-        in_alphabet_mode = true
-        log.info('in alphabet mode: ' .. tostring(in_alphabet_mode))
-        return Noop
-    end
-
-    if repr == 'space' and in_alphabet_mode then
+    if repr == 'space' and check_alphabet_mode(env) then
         context.input = context.input .. ' '
         return Accepted
     end
@@ -24,9 +30,8 @@ end
 local function post_processor(key, env)
     local context = env.engine.context
 
-    if in_alphabet_mode and key:repr() == 'Return' then
+    if key:repr() == 'Return' and check_alphabet_mode(env) then
         context:commit()
-        in_alphabet_mode = false
         return Accepted
     end
     return Noop

@@ -13,7 +13,7 @@ patch:
     - schema: luna_pinyin
     - schema: ipa_xsampa
     - schema: ipa_yunlong
-    # - schema: luna_pinyin.sogou
+    - schema: latin_international
   "switcher/hotkeys": # 将默认的 F4热键 更改为ctrl+~
     - "Control+grave"
     - "Control+F8"

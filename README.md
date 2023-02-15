@@ -4,18 +4,13 @@
 # 方案列表
 
 - 虎码（[https://tiger-code.com](https://tiger-code.com)）
-
 - 九重鬼虎（[https://tiger-code.com](https://tiger-code.com)）
-
 - 拼音++（[https://tiger-code.com](https://tiger-code.com)）
-
 - X-SAMPA（[https://github.com/rime/rime-ipa](https://github.com/rime/rime-ipa)）
-
 - 雲龍國際音標（[https://github.com/rime/rime-ipa](https://github.com/rime/rime-ipa)）
-
 - 自然码+辅助码（[https://github.com/bigshans/rime-zrm](https://github.com/bigshans/rime-zrm)，[https://github.com/ssnhd/rime](https://github.com/ssnhd/rime)）
-
 - 朙月拼音（[https://github.com/rime/rime-luna-pinyin](https://github.com/rime/rime-luna-pinyin)）
+- 拉丁字母（[https://github.com/biopolyhedron/rime-latin-international](https://github.com/biopolyhedron/rime-latin-international)）
 
 # 方案配置
 
@@ -35,6 +30,7 @@
 - **/uni**+***Unicode码点*** 输入Unicode
 - **/em**+***name*** 输入Emoji
 - **/hc**+***name*** 输入HTML命名字符
+- **/lt**+***code*** 输入拉丁
 - **/info** 显示软件有关信息
 
 可参考：
@@ -42,6 +38,7 @@
 - https://github.com/bczhc/rime-config/blob/master/symbols.yaml
 - https://github.com/ikatyang/emoji-cheat-sheet
 - https://html.spec.whatwg.org/multipage/named-characters.html#named-character-references
+- https://github.com/biopolyhedron/rime-latin-international/blob/master/latin_international.schema.yaml#L10-L16
 
 ### 输入设定
 

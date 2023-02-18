@@ -6,6 +6,7 @@ schema:
     - emoji
     - html_chars
     - latin_international
+    - ipa_yunlong
   description: |
     虎码
     敲 ` 鍵進入拼音反查
@@ -83,6 +84,7 @@ engine:
     - affix_segmentor@emoji
     - affix_segmentor@html_chars
     - affix_segmentor@latin_input
+    - affix_segmentor@ipa_input
     - abc_segmentor
     - punct_segmentor
     - fallback_segmentor
@@ -94,6 +96,7 @@ engine:
     - table_translator@emoji
     - table_translator@html_chars
     - table_translator@latin_input
+    - table_translator@ipa_input
     - history_translator@translator_history
     - lua_translator@number_translator # 数字转大写
     - lua_translator@calculator_translator # 简易计算器
@@ -171,7 +174,7 @@ key_binder:
 recognizer:
   import_preset: default
   patterns:
-    punct: "^/(?!uni)(?!cal)(?!num)(?!info)(?!hc)(?!em)(?!lt)([0-9]0?|[A-Za-z]+)$"
+    punct: "^/(?!uni)(?!cal)(?!num)(?!info)(?!hc)(?!em)(?!lt)(?!ipa)([0-9]0?|[A-Za-z]+)$"
     # uppercase: "" #中文状态大写锁定直接上屏
     reverse_lookup: "^`[a-z]*'?$"
     easy_english: "^'[A-Z|a-z]*'?$"
@@ -184,6 +187,7 @@ recognizer:
     info: '^/info$'
     html_chars: '^/hc[a-zA-Z0-9]*$'
     latin_input: '^/lt[A-Za-z0-9`\-=\[\];'',\.\/~!\^\*\(\)\+:\"<>\?]*$'
+    ipa_input: '^/ipa.*$'
 
 
 translator_history:
@@ -270,6 +274,14 @@ latin_input:
   comment_format:
     - xform/^~(.*)$/$1/
 
+ipa_input:
+  dictionary: ipa_yunlong
+  tag: ipa_input
+  tips: 〔IPA〕
+  prefix: '/ipa'
+  enable_completion: true
+  enable_sentence: false
+  enable_user_dict: false
 
 # 拆分滤镜
 chaifen:

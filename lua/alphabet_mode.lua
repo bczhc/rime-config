@@ -7,7 +7,7 @@ function check_alphabet_mode(env)
         return false
     end
     candidate = candidate.text
-    if candidate == input or (';' .. candidate) == input then
+    if (candidate == input and input:match('^[A-Z].*$')) or (';' .. candidate) == input then
         return true
     end
     return false

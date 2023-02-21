@@ -13,3 +13,4 @@ cancel_input_processor = require('cancel_input') -- 防止空码时把编码上�
 info_translator = require("info_translator") -- 显示信息
 require("alphabet_mode") -- 字母模式 alphabet_mode_processor, alphabet_mode_translator, alphabet_mode_post_speller_processor
 enter_clear_input_processor = require('enter_clear_input')
+require('short_punct_pre_speller_processor') -- 使用引号键输入快符，自动上屏

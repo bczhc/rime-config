@@ -1,9 +1,5 @@
 local Rejected, Accepted, Noop = 0, 1, 2
 
-local function log(text)
-    os.execute('notify-send "' .. text .. '"')
-end
-
 local reprs = {
     'comma',
     'period',
@@ -23,6 +19,7 @@ local reprs = {
     'Shift+quotedbl',
     'Shift+question',
     'semicolon',
+    'Tab',
 }
 
 local function processor(key, env)

@@ -1,9 +1,5 @@
 local Rejected, Accepted, Noop = 0, 1, 2
 
-local function log(text)
-    os.execute('notify-send "' .. text .. '"')
-end
-
 local input = {}
 local commit_notifier_init = false
 local last_commit_text = ''

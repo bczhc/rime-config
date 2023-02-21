@@ -1,0 +1,7 @@
+schema:
+  schema_id: short_punct
+  name: short_punct
+  version: 1
+
+translator:
+  dictionary: short_punct

@@ -6,6 +6,7 @@ schema:
     - html_chars
     - latin_international
     - ipa_yunlong
+    - short_punct
   description: |
     虎码
     敲 ` 鍵進入拼音反查
@@ -64,11 +65,11 @@ engine:
   processors:
     - ascii_composer
     - lua_processor@alphabet_mode_processor
+    - lua_processor@short_punct_pre_recognizer_processor
     - recognizer
     - lua_processor@enter_clear_input_processor
     - lua_processor@short_punct_pre_speller_processor
     - speller
-    - lua_processor@short_punct_post_speller_processor
     - lua_processor@alphabet_mode_post_speller_processor
     - key_binder
     - lua_processor@cancel_input_processor

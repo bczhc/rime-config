@@ -1,0 +1,35 @@
+name: short_punct
+version: 1
+sort: original
+...
+
+q	：“
+w	？
+e	。”
+a	！
+s	……
+d	、
+l	；
+
+k	￥
+
+r	（
+t	）
+v	《
+b	》
+
+f	“
+g	”
+h	‘
+j	’
+
+c	】
+i	——
+m	」
+n	「
+o	〖
+p	〗
+#t	→
+u	~
+x	【
+y	·

@@ -186,7 +186,7 @@ recognizer:
     ipa_input: '^/ipa.*$'
 
 translator_history:
-  input: z
+  input: f
   size: 1
   initial_quality: 0
 

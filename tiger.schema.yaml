@@ -187,9 +187,8 @@ recognizer:
 
 translator_history:
   input: f
-  size: 1
+  size: 2
   initial_quality: 0
-
 
 # ↓简繁(+部分异体)滤镜
 simplification: #⇩四选一

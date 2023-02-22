@@ -15,3 +15,4 @@ require("alphabet_mode") -- 字母模式 alphabet_mode_processor, alphabet_mode_
 enter_clear_input_processor = require('enter_clear_input')
 require('short_punct_pre_speller_processor') -- 使用引号键输入快符，自动上屏
 sys_env_translator = require('sys_env')
+help_translator = require('help')

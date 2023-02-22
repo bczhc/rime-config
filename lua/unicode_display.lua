@@ -56,7 +56,7 @@ local function unicode_display_filter(input, env)
                 codepoints[#codepoints + 1] = 'U+' .. C2U(char)
             end
             local comment = '[' .. table.concat(codepoints, ' ') .. ']'
-            cand:get_genuine().comment = comment
+            cand:get_genuine().comment = cand.comment .. ' ' .. comment
         end
         yield(cand)
     end  --for

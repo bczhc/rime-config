@@ -1,0 +1,54 @@
+# named common IPA diacritics
+---
+name: named_ipa_diacritics
+version: 1
+sort: original
+...
+
+̥	voiceless
+̊	voiceless
+̬	voiced
+ʰ	aspirated
+̹	more-rounded
+̜	less-rounded
+̟	advanced
+̠	retracted
+̈	centralized
+̽	mid-centralized
+̩	syllabic
+̯	non-syllabic
+̑	non-syllabic
+˞	rhoticity
+̤	breathy-voiced
+̰	creaky-voiced
+̼	linguolabial
+ʷ	labalized
+ʲ	palatalized
+ˠ	velarized
+ˤ	pharyngealized
+̴	velarized-or-pharyngealized
+̝	raised
+̞	lowered
+̘	advanced-tongue-root
+̙	retracted-tongue-root
+̪	dental
+̺	apical
+̻	laminal
+̃	nasalized
+ⁿ	nasal-release
+ˡ	lateral-release
+̚	no-audible-release
+ˈ	primary-stress
+ˌ	secondary-stress
+̆	extra-short
+ː	long
+ˑ	half-long
+‿	linking
+͡	tie-bar
+͜	tie-bar
+	minor-group
+‖	major-group
+ꜜ	downstep
+ꜛ	upstep
+↘︎	global-fall
+↗︎	global-rise

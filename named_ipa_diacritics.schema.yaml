@@ -1,0 +1,7 @@
+schema:
+  schema_id: named_ipa_diacritics
+  name: named_ipa_diacritics
+  version: 1
+
+translator:
+  dictionary: named_ipa_diacritics

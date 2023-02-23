@@ -7,6 +7,7 @@ schema:
     - latin_international
     - ipa_yunlong
     - short_punct
+    - named_ipa_diacritics
   description: |
     虎码
     敲 ` 鍵進入拼音反查
@@ -88,6 +89,7 @@ engine:
     - affix_segmentor@ipa_input
     - affix_segmentor@sys_env
     - affix_segmentor@help_translator
+    - affic_segmentor@named_ipa_diacritics
     - abc_segmentor
     - punct_segmentor
     - fallback_segmentor
@@ -99,6 +101,7 @@ engine:
     - table_translator@html_chars
     - table_translator@latin_input
     - table_translator@ipa_input
+    - table_translator@named_ipa_diacritics
     - history_translator@translator_history
     - lua_translator@number_translator # 数字转大写
     - lua_translator@calculator_translator # 简易计算器
@@ -176,7 +179,7 @@ key_binder:
 recognizer:
   import_preset: default
   patterns:
-    punct: "^/(?!uni)(?!cal)(?!num)(?!info)(?!hc)(?!em)(?!lt)(?!ipa)(?!/env/)(?!/help)([0-9]0?|[A-Za-z]+)$"
+    punct: "^/(?!uni)(?!cal)(?!num)(?!info)(?!hc)(?!em)(?!lt)(?!ipa)(?!env/)(?!help)(?!nipa)([0-9]0?|[A-Za-z]+)$"
     # uppercase: "" #中文状态大写锁定直接上屏
     reverse_lookup: "^`[a-z]*'?$"
     alphabet_mode: '^[;A-Z].*$'
@@ -191,6 +194,7 @@ recognizer:
     ipa_input: '^/ipa.*$'
     sys_env: '^/env/.*$'
     help: '^/help$'
+    named_ipa_diacritics: '^/nipa[a-zA-Z0-9\-]*$'
 
 translator_history:
   input: f
@@ -268,6 +272,17 @@ ipa_input:
   enable_completion: true
   enable_sentence: false
   enable_user_dict: false
+
+
+named_ipa_diacritics:
+  dictionary: named_ipa_diacritics
+  tag: named_ipa_diacritics
+  tips: 〔IPA〕
+  prefix: '/nipa'
+  enable_completion: true
+  enable_sentence: false
+  enable_user_dict: false
+
 
 # 拆分滤镜
 chaifen:

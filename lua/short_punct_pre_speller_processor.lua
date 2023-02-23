@@ -1,4 +1,6 @@
 local punct_db
+local apostrophe_pressed = false
+local long_press_used = false
 
 local function processor_pre_speller(key, env)
     local repr = key:repr()
@@ -17,13 +19,30 @@ end
 
 local function processor_pre_recognizer(key, env)
     local context = env.engine.context
-    if context.input == '\'' and key:repr():match('^[a-z]$') then
+    local repr = key:repr()
+    if repr == 'apostrophe' then
+        apostrophe_pressed = true
+    elseif repr == 'Release+apostrophe' then
+        apostrophe_pressed = false
+    end
+
+    if repr == 'Release+apostrophe' and long_press_used then
+        context.input = ''
+        long_press_used = false
+        return kAccepted
+    end
+
+    if context.input == '\'' and repr:match('^[a-z]$') then
         local punct = punct_db:lookup(key:repr())
         if punct == nil then
             return kNoop
         end
         env.engine:commit_text(punct)
-        context.input = ''
+        if apostrophe_pressed then
+            long_press_used = true
+        else
+            context.input = ''
+        end
         return kAccepted
     end
     return kNoop

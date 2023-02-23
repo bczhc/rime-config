@@ -174,6 +174,8 @@ key_binder:
     - { accept: "Control+d", toggle: dz_ci, when: composing } # 单字与词组切换
     - { when: always, accept: "Control+period" , toggle: ascii_punct } # 中英标点切换
     - { accept: space, send: Escape, when: composing } #无候选时(空码)空格清屏
+    - { accept: Tab, send: apostrophe, when: always }
+    - { accept: Release+Tab, send: Release+apostrophe, when: always }
 
 
 recognizer:

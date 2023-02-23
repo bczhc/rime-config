@@ -89,7 +89,7 @@ engine:
     - affix_segmentor@ipa_input
     - affix_segmentor@sys_env
     - affix_segmentor@help_translator
-    - affic_segmentor@named_ipa_diacritics
+    - affix_segmentor@named_ipa_diacritics
     - abc_segmentor
     - punct_segmentor
     - fallback_segmentor

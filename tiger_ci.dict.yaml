@@ -5441,7 +5441,7 @@ encoder:
 说实话	1893	swsa
 说她	1893	shbe
 油瓶	1892	kdhl
-诉说	1892	stsh
+诉说	999999	stsh
 证券	1892	sfhh
 签名	1892	rjld
 小脸	1892	yxvj
@@ -7196,7 +7196,7 @@ encoder:
 常态	1510	srmi
 他用	1510	jety
 做起	1510	jcpv
-一天	1507	fifm
+一天	15079999	fifm
 直播	1507	nqut
 瞎子	1507	qwhi
 而非	1507	lerf
@@ -9471,7 +9471,7 @@ encoder:
 人脸	1188	jrvj
 俗话说	1188	jssh
 就做	1188	gyjc
-明知	1187	ovod
+明知	9999999	ovod
 成名	1187	nald
 女婿	1187	bnbt
 化身	1187	jvzs
@@ -11911,7 +11911,7 @@ encoder:
 大堆	970	mdgu
 芯片	967	lhap
 顾问	967	xzad
-值班	967	jnnp
+值班	999999	jnnp
 漏洞	967	kckm
 勾勒	967	nkts
 出错	967	smzl
@@ -12074,7 +12074,7 @@ encoder:
 隐秘	958	txxh
 表妹	958	atba
 蔚蓝	958	lclp
-慵懒	958	hxhx
+慵懒	958999	hxhx
 和服	958	xdvz
 惊雷	958	hgtq
 模范	958	ellk
@@ -32187,7 +32187,7 @@ encoder:
 列队	400	gptj
 座右铭	400	xnzl
 弱智	400	bwod
-甜品	400	azdd
+甜品	400999	azdd
 爆棚	400	coev
 小门	400	yxam
 板车	400	exyc
@@ -59258,7 +59258,7 @@ encoder:
 血案	288	tawb
 外逃	288	lypw
 气门	288	vqam
-独树一帜	288	mefr
+独树一帜	99999	mefr
 委任	288	xbjt
 孤寡	288	hyww
 班组	288	npif
@@ -76959,7 +76959,7 @@ encoder:
 河西区	223	kvnb
 采购员	223	yodo
 跳蚤市场	223	przg
-急症	223	xbaf
+急症	99999	xbaf
 南楼	223	nmep
 打更	223	uafo
 天顺	223	fmow
@@ -160581,3 +160581,4 @@ encoder:
 惨胜	10	hkvl
 
 这一	0	vufi
+减号	99999	wndf

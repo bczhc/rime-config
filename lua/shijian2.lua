@@ -2017,6 +2017,10 @@ local function translator(input, seg)
         yield_date("%Y-%m-%d %H:%M:%S")
     elseif input == '/ts' --[[ timestamp ]] then
         yield_candidate(tostring(os.time()), '时间戳')
+    elseif input == '/datem' then
+        yield_date("%m.%d", '')
+        yield_date("%m-%d", '')
+        yield_date("%m月%d日", '')
     end -- if
 end -- function
 

@@ -162,6 +162,8 @@ key_binder:
     - { accept: space, send: space, when: has_menu } # 有候选时空格上屏首选
     - { accept: semicolon, send: 2, when: has_menu } # 次选
     - { when: has_menu, accept: slash, send: 3 } # 三选
+    - { when: has_menu, accept: period, send: 3 } # 三选
+    - { when: has_menu, accept: comma, send: 4 } # 三选
     - { when: has_menu, accept: minus, send: Page_Up } # - 向后翻页
     - { when: has_menu, accept: equal, send: Page_Down } # = 向前翻页
     - { accept: "Control+o", toggle: simplification, when: composing }  # 简繁开关
@@ -189,7 +191,7 @@ recognizer:
     unicode: "^/uni[a-zA-Z0-9]*$"
     number_chinese: '^/num([0-9]+\.?[0-9]*)?$'
     calendar: '^/cal[0-9]*$'
-    emoji: '^/em[a-zA-Z0-9\-]*$'
+    emoji: '^/em[a-zA-Z0-9\-\+]*$'
     info: '^/info$'
     html_chars: '^/hc[a-zA-Z0-9]*$'
     latin_input: '^/lt[A-Za-z0-9`\-=\[\];'',\.\/~!\^\*\(\)\+:\"<>\?]*$'

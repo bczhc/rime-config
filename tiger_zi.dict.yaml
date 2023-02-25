@@ -11433,9 +11433,9 @@ encoder:
 匼	257	njdk
 卌	257	lxx
 卌	256	lx
-卍	257	aaa
-卍	257	aaaa
-卐	257	aaaa
+卍	0	aaa
+卍	0	aaaa
+卐	0	aaaa
 卩	257	zj
 卬	257	bzj
 卲	257	pdz

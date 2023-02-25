@@ -18,6 +18,17 @@ local function processor(key, env)
     local context = engine.context
 
     local repr = key:repr()
+    if string.sub(repr, 1, 6) == 'Shift+'
+            and string.sub(repr, 7):match('^[A-Z]$')
+            and not check_alphabet_mode(env)
+    then
+        if context:is_composing() and not context:has_menu() then
+            context.input = ''
+        end
+        if context:is_composing() and context:has_menu() then
+            context:commit()
+        end
+    end
 
     if repr == 'space' and check_alphabet_mode(env) then
         context.input = context.input .. ' '

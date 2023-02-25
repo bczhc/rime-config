@@ -21,6 +21,7 @@ local function processor(key, env)
     if string.sub(repr, 1, 6) == 'Shift+'
             and string.sub(repr, 7):match('^[A-Z]$')
             and not check_alphabet_mode(env)
+            and string.sub(context.input, 1, 1) ~= '/'
     then
         if context:is_composing() and not context:has_menu() then
             context.input = ''

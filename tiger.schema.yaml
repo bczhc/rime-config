@@ -295,10 +295,6 @@ chaifen:
   show_in_comment: true
   comment_format:
     - "xform/&nbsp;/ /"
-  tags:
-    - abc
-    - tiger
-    - reverse_lookup
   tips: all  #只给单字加滤镜，改为 char 。 词也显示，改为 all
 
 

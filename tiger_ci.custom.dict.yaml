@@ -1,0 +1,38 @@
+name: tiger_ci.custom
+version: "1"
+sort: by_weight
+use_preset_vocabulary: false
+columns:
+  - text
+  - weight
+  - code
+  - stem
+encoder:
+  rules:
+    - length_equal: 2
+      formula: "AaAbBaBb"
+    - length_equal: 3
+      formula: "AaBaCaCb"
+    - length_in_range: [4, 99]
+      formula: "AaBaCaZa"
+...
+
+#----------自定义词---------#
+减号	999999	wndf
+
+#-----------调频-----------#
+忏悔	999999	hlhe
+分为	999999	hpis
+远比	999999	mpvv
+新时代中国特色社会主义思想	0	ioje
+一天	999999	fifm
+诉说	999999	stsh
+明知	999999	ovod
+值班	999999	jnnp
+慵懒	999999	hxhx
+甜品	999999	azdd
+独树一帜	999999	mefr
+急症	999999	xbaf
+化为	999999	jvis
+煅烧	999999	cucp
+不得不发	0	cwcs

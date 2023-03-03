@@ -5,6 +5,7 @@ set -e
 [ $# == 0 ] && echo 'Usage command <tutu-dir>' && exit 1
 
 tutu_dir="$1"
+
 cp -v "$tutu_dir"/tigress.dict.yaml tiger_zi.dict.yaml
 sed '1s/.*/name: tiger_zi/' tiger_zi.dict.yaml | dos2unix | sponge tiger_zi.dict.yaml
 
@@ -43,5 +44,8 @@ cat > .patch << EOF
 
 EOF
 patch tiger_ci.dict.yaml .patch
+
+cp -v "$tutu_dir"/core2022.dict.yaml tiger_core2022.dict.yaml
+sed '2s/.*/name: tiger_core2022/' tiger_core2022.dict.yaml | dos2unix | sponge tiger_core2022.dict.yaml
 
 rm .patch

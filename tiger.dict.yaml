@@ -2,9 +2,11 @@ name: tiger
 version: "2.0"
 sort: by_weight
 import_tables:
+  - tiger_ci.custom
   - tiger_zi
   - tiger_ci
 
+use_preset_vocabulary: false
 columns:
   - text
   - code
@@ -68,7 +70,8 @@ encoder:
 #例如：将“阳”作为2简，代替原来的“费”，“阳”的字频必须比“费”高
 #阳的全码重码——“衵”，也可提至首选，降重
 
-
+卍	aaaa	0
+卐	aaaa	0
 #阳	to	100000000
 #衵	tor	100000000
 
@@ -129,3 +132,7 @@ encoder:
 #----------注音----------#
 
 #----------其他分区----------#
+
+
+#-----------词频调整/自定义词----------#
+# 忏悔	9999999	hlhe

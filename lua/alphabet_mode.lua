@@ -31,7 +31,7 @@ local function processor(key, env)
         end
     end
 
-    if repr == 'space' and check_alphabet_mode(env) then
+    if (repr == 'space' or repr == 'Shift+space') and check_alphabet_mode(env) then
         context.input = context.input .. ' '
         return Accepted
     end

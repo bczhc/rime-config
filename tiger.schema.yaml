@@ -200,7 +200,7 @@ recognizer:
     named_ipa_diacritics: '^/nipa[a-zA-Z0-9\-]*$'
 
 translator_history:
-  input: f
+  input: h
   size: 2
   initial_quality: 0
 

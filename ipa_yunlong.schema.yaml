@@ -12,23 +12,31 @@ schema:
   description: |
     通過字母、數字和符號轉寫輸入國際音標（IPA）
     https://en.wikipedia.org/wiki/International_Phonetic_Alphabet
+  dependencies:
+    - named_ipa_diacritics
 
 engine:
   processors:
-    - key_binder
+    - recognizer
     - speller
+    - key_binder
+    - punctuator
     - selector
     - navigator
     - express_editor
   segmentors:
+    - ascii_segmentor
+    - matcher
+    - affix_segmentor@named_ipa_diacritics
     - abc_segmentor
     - fallback_segmentor
   translators:
     - table_translator
+    - table_translator@named_ipa_diacritics
 
 speller:
-  alphabet: "!'()+-./0123456789:<=>?HL[\\]^`abcdefghijklmnopqrstuvwxyz|~"
-  initials: "!()/0123456789:?HL\\]abcdefghijklmnopqrstuvwxyz|"
+  alphabet: "!'()+-.0123456789:<=>?HL[\\]^`abcdefghijklmnopqrstuvwxyz|~/"
+  initials: "/!()0123456789:?HL\\]abcdefghijklmnopqrstuvwxyz|"
   auto_select: true
 
 translator:
@@ -38,5 +46,19 @@ translator:
   comment_format:
     - xform/^~//
 
+recognizer:
+  import_preset: default
+  patterns:
+    named_ipa_diacritics: '^/d.*$'
+
 key_binder:
   import_preset: default
+
+named_ipa_diacritics:
+  dictionary: named_ipa_diacritics
+  prefix: '/d'
+  tips: '〔附加符号〕'
+  tag: named_ipa_diacritics
+  enable_completion: true
+  enable_sentence: false
+  enable_user_dict: false

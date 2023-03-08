@@ -11,7 +11,6 @@ patch:
     - schema: PY_c
     - schema: zrm_pinyin
     - schema: luna_pinyin
-    - schema: ipa_xsampa
     - schema: ipa_yunlong
     - schema: latin_international
   "switcher/hotkeys": # 将默认的 F4热键 更改为ctrl+~

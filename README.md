@@ -5,7 +5,6 @@
 - 虎码（[https://tiger-code.com](https://tiger-code.com)）
 - 九重鬼虎（[https://tiger-code.com](https://tiger-code.com)）
 - 拼音++（[https://tiger-code.com](https://tiger-code.com)）
-- X-SAMPA（[https://github.com/rime/rime-ipa](https://github.com/rime/rime-ipa)）
 - 雲龍國際音標（[https://github.com/rime/rime-ipa](https://github.com/rime/rime-ipa)）
 - 自然码+辅助码（[https://github.com/bigshans/rime-zrm](https://github.com/bigshans/rime-zrm)，[https://github.com/ssnhd/rime](https://github.com/ssnhd/rime)）
 - 朙月拼音（[https://github.com/rime/rime-luna-pinyin](https://github.com/rime/rime-luna-pinyin)）
@@ -51,11 +50,11 @@
 - 回车清码
 - 空格清除空码
 - F键次选为上一次上屏内容，三选是上上次上屏内容。
-- 分号次选，句号或斜杠三选，逗号四选
+- 分号次选，句号或右Alt三选，逗号或左Alt四选
 - 分号或大写字母（使用Shift）引导临时字母模式，支持空格，用回车上屏
 - 反引号拼音反查
 - 使用左右方括号输入逗句号
-- 引号或Tab后跟一个字母为快捷符号，可自动上屏+顶屏。并且可连续上屏多个符号
+- 引号或Tab后跟一个字母为快捷符号，可自动上屏+顶屏。并且可连续上屏多个符号（按住引号或Tab不松）
 
 ### 快捷键
 

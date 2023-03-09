@@ -33,6 +33,11 @@ local function processor_pre_recognizer(key, env)
     end
 
     if context.input == '\'' then
+        -- 长按撇号时需拦截住
+        if repr == 'apostrophe' then
+            return kAccepted
+        end
+
         if repr:match('^[a-z]$') then
             local punct = punct_db:lookup(key:repr())
             if punct == nil then

@@ -102,7 +102,6 @@ engine:
     - table_translator@latin_input
     - table_translator@ipa_input
     - table_translator@named_ipa_diacritics
-    - history_translator@translator_history
     - lua_translator@number_translator # 数字转大写
     - lua_translator@calculator_translator # 简易计算器
     - lua_translator@shijian2_translator # 高级时间
@@ -200,11 +199,6 @@ recognizer:
     sys_env: '^/env/.*$'
     help: '^/help$'
     named_ipa_diacritics: '^/nipa[a-zA-Z0-9\-]*$'
-
-translator_history:
-  input: h
-  size: 2
-  initial_quality: 0
 
 # ↓简繁(+部分异体)滤镜
 simplification: #⇩四选一

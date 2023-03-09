@@ -51,7 +51,7 @@ local function processor_pre_recognizer(key, env)
             end
             return kAccepted
         end
-        if repr == 'Multi_key' then
+        if repr == 'space' then
             local history = get_commit_history(context, 0)
             if history ~= nil then
                 env.engine:commit_text(history)
@@ -64,7 +64,7 @@ local function processor_pre_recognizer(key, env)
             end
             return kAccepted
         end
-        if repr == 'Alt_L' then
+        if repr == 'Multi_key' then
             local history = get_commit_history(context, -1)
             if history ~= nil then
                 env.engine:commit_text(history)

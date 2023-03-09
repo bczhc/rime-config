@@ -32,25 +32,53 @@ local function processor_pre_recognizer(key, env)
         return kAccepted
     end
 
-    if context.input == '\'' and repr:match('^[a-z]$') then
-        local punct = punct_db:lookup(key:repr())
-        if punct == nil then
-            return kNoop
+    if context.input == '\'' then
+        if repr:match('^[a-z]$') then
+            local punct = punct_db:lookup(key:repr())
+            if punct == nil then
+                return kNoop
+            end
+            env.engine:commit_text(punct)
+            if apostrophe_pressed then
+                long_press_used = true
+            else
+                context.input = ''
+            end
+            return kAccepted
         end
-        env.engine:commit_text(punct)
-        if apostrophe_pressed then
-            long_press_used = true
-        else
-            context.input = ''
+        if repr == 'Multi_key' then
+            local history = get_commit_history(context, 0)
+            if history ~= nil then
+                env.engine:commit_text(history)
+            end
+
+            if apostrophe_pressed then
+                long_press_used = true
+            else
+                context.input = ''
+            end
+            return kAccepted
         end
-        return kAccepted
+        if repr == 'Alt_L' then
+            local history = get_commit_history(context, -1)
+            if history ~= nil then
+                env.engine:commit_text(history)
+            end
+
+            if apostrophe_pressed then
+                long_press_used = true
+            else
+                context.input = ''
+            end
+            return kAccepted
+        end
     end
     return kNoop
 end
 
 _G.short_punct_pre_speller_processor = processor_pre_speller
 _G.short_punct_pre_recognizer_processor = {
-    init = function(env)
+    init = function(_)
         punct_db = ReverseDb("build/short_punct.reverse.bin")
     end,
     func = processor_pre_recognizer

@@ -7,7 +7,6 @@ schema:
   version: "0.18"
   dependencies:
     - stroke
-    - easy_english
 
 switches: # 0 默认关，1 默认开
   - name: ascii_mode
@@ -75,7 +74,6 @@ engine:
   segmentors:
     - ascii_segmentor
     - matcher
-    - affix_segmentor@easy_english #英文相关
     - abc_segmentor # 标记输入码的类型
     - punct_segmentor # 割界，与前后方的其他编码区分开
     - fallback_segmentor
@@ -85,7 +83,6 @@ engine:
     - script_translator # 脚本表转换
     # - table_translator@custom_phrase
     - table_translator
-    - table_translator@easy_english #临时英文
     - reverse_lookup_translator # 反查翻译器
     - history_translator@historyDM # 历史上屏 电脑
     # - history_translator@historyDM2 # 历史上屏 电脑2
@@ -210,7 +207,6 @@ recognizer:
   import_preset: default
   patterns:
     punct: "^/([0-9]0?|[A-Za-z]+)$"
-    easy_english: "^'[A-Z|a-z]*'?$"
     expression: "^=.*$"
     reverse_lookup: "`[a-z]*'?$"
 
@@ -273,20 +269,6 @@ emoji_cn:
   opencc_config: emoji.json
   option_name: emoji_cn
   tips: all
-
-# 临时英文
-easy_english:
-  dictionary: easy_english
-  tag: easy_english
-  prefix: "'"
-  tips: 〔En〕
-  enable_completion: true
-  enable_sentence: false
-  initial_quality: -1
-  preedit_format:
-    - "xlit|_| |"
-  comment_format: #去掉编码提示前的~号
-    - "xform/~/ /"
 
 menu:
   page_size: 5 #候选数量

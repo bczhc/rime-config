@@ -61,9 +61,14 @@ switches: # 0 默认关，1 默认开
     reset: 0
     states: [ 半角, 全角 ]
 
+  - name: preedit_is_candidate
+    reset: 0
+    states: [ "预览为候选", "预览为编码" ]
+
 
 engine:
   processors:
+    - lua_processor@log_processor
     - ascii_composer
     - lua_processor@alphabet_mode_processor
     - lua_processor@short_punct_pre_recognizer_processor
@@ -102,7 +107,6 @@ engine:
     - table_translator@latin_input
     - table_translator@ipa_input
     - table_translator@named_ipa_diacritics
-    - history_translator@translator_history
     - lua_translator@number_translator # 数字转大写
     - lua_translator@calculator_translator # 简易计算器
     - lua_translator@shijian2_translator # 高级时间
@@ -119,6 +123,7 @@ engine:
     - simplifier@emoji_cn  #表情滤镜
     - lua_filter@charset_comment_filter #Unicode分区提示滤镜
     - lua_filter@lua_unicode_display_filter #Unicode编码显示
+    - lua_filter@preedit_candidate_filter
     - uniquifier #过滤重复
     - lua_filter@dz_ci
 
@@ -163,6 +168,7 @@ key_binder:
     - { accept: semicolon, send: 2, when: has_menu } # 次选
     - { when: has_menu, accept: period, send: 3 } # 三选
     - { when: has_menu, accept: comma, send: 4 } # 四选
+    - { when: has_menu, accept: Alt_R, send: 3 } # 三选
     - { when: has_menu, accept: Multi_key, send: 3 } # 三选
     - { when: has_menu, accept: Alt_L, send: 4 } # 四选
     - { when: has_menu, accept: minus, send: Page_Up } # - 向后翻页
@@ -175,6 +181,7 @@ key_binder:
     - { accept: "Control+h", toggle: extended_char, when: composing } # PC 自定字集开关
     - { accept: "Control+j", toggle: chaifen, when: composing } # PC 拆分滤镜开关
     - { accept: "Control+d", toggle: dz_ci, when: composing } # 单字与词组切换
+    - { accept: "Control+i", toggle: preedit_is_candidate, when: composing } # preedit为候选 开关
     - { when: always, accept: "Control+period" , toggle: ascii_punct } # 中英标点切换
     - { accept: space, send: Escape, when: composing } #无候选时(空码)空格清屏
     - { accept: Tab, send: apostrophe, when: always }
@@ -200,11 +207,6 @@ recognizer:
     sys_env: '^/env/.*$'
     help: '^/help$'
     named_ipa_diacritics: '^/nipa[a-zA-Z0-9\-]*$'
-
-translator_history:
-  input: h
-  size: 2
-  initial_quality: 0
 
 # ↓简繁(+部分异体)滤镜
 simplification: #⇩四选一

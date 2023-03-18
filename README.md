@@ -67,6 +67,7 @@
 - Ctrl+period 全半角标点切换
 - Ctrl+E Emoji开关
 - Ctrl+D 单字模式
+- Ctrl+I preedit为候选
 - Ctrl+Space 重选重码（还不稳定）
 
 ## 自然码

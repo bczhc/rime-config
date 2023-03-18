@@ -44,6 +44,7 @@ local function processor_pre_recognizer(key, env)
                 return kNoop
             end
             env.engine:commit_text(punct)
+            my_log_on_commit(punct)
             if apostrophe_pressed then
                 long_press_used = true
             else
@@ -55,6 +56,7 @@ local function processor_pre_recognizer(key, env)
             local history = get_commit_history(context, 0)
             if history ~= nil then
                 env.engine:commit_text(history)
+                my_log_on_commit(history)
             end
 
             if apostrophe_pressed then
@@ -68,6 +70,7 @@ local function processor_pre_recognizer(key, env)
             local history = get_commit_history(context, -1)
             if history ~= nil then
                 env.engine:commit_text(history)
+                my_log_on_commit(history)
             end
 
             if apostrophe_pressed then

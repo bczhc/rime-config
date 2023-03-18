@@ -15,3 +15,15 @@ function get_commit_history(context, pos)
     end
     return history.text
 end
+
+MY_LOG_TAG = '[bczhc log]'
+
+function my_log(msg)
+    if ENABLE_MY_LOG then
+        log.info(MY_LOG_TAG .. ' ' .. msg)
+    end
+end
+
+function my_log_on_commit(text)
+    my_log('Commit(text=' .. text .. ')')
+end

@@ -17,3 +17,4 @@ require('short_punct_pre_speller_processor') -- 使用引号键输入快符，�
 sys_env_translator = require('sys_env')
 help_translator = require('help')
 preedit_candidate_filter = require('preedit_candidate_filter')
+log_processor = require('log_processor')

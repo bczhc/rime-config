@@ -180,7 +180,7 @@ key_binder:
     - { accept: "Control+h", toggle: extended_char, when: composing } # PC 自定字集开关
     - { accept: "Control+j", toggle: chaifen, when: composing } # PC 拆分滤镜开关
     - { accept: "Control+d", toggle: dz_ci, when: composing } # 单字与词组切换
-    - { accept: "Control+h", toggle: preedit_is_candidate, when: composing } # preedit为候选 开关
+    - { accept: "Control+i", toggle: preedit_is_candidate, when: composing } # preedit为候选 开关
     - { when: always, accept: "Control+period" , toggle: ascii_punct } # 中英标点切换
     - { accept: space, send: Escape, when: composing } #无候选时(空码)空格清屏
     - { accept: Tab, send: apostrophe, when: always }

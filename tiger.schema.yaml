@@ -61,6 +61,10 @@ switches: # 0 默认关，1 默认开
     reset: 0
     states: [ 半角, 全角 ]
 
+  - name: preedit_is_candidate
+    reset: 0
+    states: [ "预览为候选", "预览为编码" ]
+
 
 engine:
   processors:
@@ -118,6 +122,7 @@ engine:
     - simplifier@emoji_cn  #表情滤镜
     - lua_filter@charset_comment_filter #Unicode分区提示滤镜
     - lua_filter@lua_unicode_display_filter #Unicode编码显示
+    - lua_filter@preedit_candidate_filter
     - uniquifier #过滤重复
     - lua_filter@dz_ci
 
@@ -175,6 +180,7 @@ key_binder:
     - { accept: "Control+h", toggle: extended_char, when: composing } # PC 自定字集开关
     - { accept: "Control+j", toggle: chaifen, when: composing } # PC 拆分滤镜开关
     - { accept: "Control+d", toggle: dz_ci, when: composing } # 单字与词组切换
+    - { accept: "Control+h", toggle: preedit_is_candidate, when: composing } # preedit为候选 开关
     - { when: always, accept: "Control+period" , toggle: ascii_punct } # 中英标点切换
     - { accept: space, send: Escape, when: composing } #无候选时(空码)空格清屏
     - { accept: Tab, send: apostrophe, when: always }

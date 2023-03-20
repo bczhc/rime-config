@@ -28,6 +28,7 @@ local help_msg = {
     { 'Ctrl+E', 'Emoji开关' },
     { 'Ctrl+D', '单字模式' },
     { 'Ctrl+I', 'preedit为候选' },
+    { 'Ctrl+S', '全角半角切换' },
 }
 return function(input, seg)
     if input == '/help' then

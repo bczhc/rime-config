@@ -68,6 +68,7 @@
 - Ctrl+E Emoji开关
 - Ctrl+D 单字模式
 - Ctrl+I preedit为候选
+- Ctrl+S 全角半角切换
 - Ctrl+Space 重选重码（还不稳定）
 
 ## 自然码

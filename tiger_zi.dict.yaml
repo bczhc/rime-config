@@ -34,11 +34,8 @@ encoder:
 人	256	jr
 他	2260948	je
 这	2256430	vu
-这	256	vuc
 有	2176533	nv
-有	256	nvy
 个	1485568	jg
-个	256	jgs
 大	1442576	m	md
 大	256	md
 上	1392471	yf
@@ -101,11 +98,8 @@ encoder:
 里	650836	dl
 没	648348	kr
 还	647762	cu
-还	256	cuc
 所	645076	mt
-所	256	mtj
 去	644970	gk
-去	256	gks
 看	641753	uq
 事	620787	fd
 事	256	fdbv
@@ -118,15 +112,11 @@ encoder:
 行	586170	p	px
 行	256	px
 只	576694	dh
-只	256	dhb
 好	575316	bh
 成	575315	na
-成	256	nae
 家	573151	wj
 天	568775	fm
-天	256	fmd
 她	568271	be
-她	256	bey
 方	561645	lf
 然	551922	vm
 然	256	vmch
@@ -149,7 +139,6 @@ encoder:
 同	256	mfdk
 么	498100	tk
 进	496259	qu
-进	256	quc
 学	495306	kw
 学	256	kwhi
 面	486460	bm
@@ -159,11 +148,8 @@ encoder:
 已	474152	vi
 主	473459	in
 从	472039	jj
-从	256	jjr
 动	468252	bs
-动	256	bsl
 分	467535	hp
-分	256	hpd
 把	464490	umb
 开	462277	fl
 军	458790	wyc
@@ -172,7 +158,6 @@ encoder:
 本	448742	ef
 因	447221	rm
 定	445631	wt
-定	256	wts
 部	442129	id
 部	256	idte
 与	438890	fa
@@ -192,9 +177,7 @@ encoder:
 意	408407	xh
 知	406473	od
 此	398839	sv
-此	256	svb
 第	396839	rt
-第	256	rtf
 力	393757	sl
 很	391231	wi
 正	390360	fsi
@@ -203,12 +186,10 @@ encoder:
 什	384020	jns
 身	382810	zs
 被	382478	tr
-被	256	trp
 它	380681	wv
 明	377649	ov
 老	377144	ql
 者	374684	qo
-者	256	qor
 公	373879	hk
 见	372922	ej
 机	371835	eo
@@ -240,7 +221,6 @@ encoder:
 由	331104	dy
 头	329661	wm
 声	325456	gc
-声	256	gcs
 性	324989	hls
 应	323112	xk
 应	256	xkfi
@@ -250,7 +230,6 @@ encoder:
 给	305654	ij
 给	256	ijdk
 美	304782	gm
-美	256	gmd
 业	300091	cy
 物	295512	qne
 物	395	qnes
@@ -265,7 +244,6 @@ encoder:
 几	289446	oj
 内	288066	mj
 利	286441	xp
-利	256	xpd
 打	284602	ua
 走	284217	pz
 新	283608	ie
@@ -292,7 +270,6 @@ encoder:
 才	263134	nt
 门	262849	am
 太	260993	mi
-太	256	mid
 合	259340	jdk
 信	258479	js
 表	258410	ati
@@ -306,9 +283,7 @@ encoder:
 名	255056	ld
 立	252826	il
 比	250599	vv
-比	256	vvb
 代	249263	jp
-代	256	jpi
 四	249044	ys
 斯	248281	zht
 斯	0	zhtj
@@ -343,7 +318,6 @@ encoder:
 少	230382	yt
 处	229982	hy
 平	228467	eh
-平	256	ehb
 常	228172	srj
 解	228122	xt
 解	256	xtpq
@@ -380,7 +354,6 @@ encoder:
 直	210660	nqf
 直	0	nqfi
 必	209875	ht
-必	256	htp
 白	208207	ub
 指	207044	uv
 指	256	uvor
@@ -389,12 +362,9 @@ encoder:
 报	256	uzry
 论	203886	sjl
 员	203877	do
-员	256	dob
 义	203251	ib
 放	202795	lh
-放	256	lhp
 电	202454	oa
-电	256	oae
 至	200722	yi
 五	200272	wu
 系	197617	tis
@@ -405,7 +375,6 @@ encoder:
 尔	196412	xyx
 件	195491	jq
 死	195019	gv
-死	256	gvb
 保	193839	jde
 保	395	jdem
 完	193650	wmp
@@ -417,7 +386,6 @@ encoder:
 场	192172	ga
 场	256	gaes
 空	190600	eu
-空	256	eug
 计	187463	sn
 怎	187039	wh
 光	186962	mg
@@ -455,7 +423,6 @@ encoder:
 住	174914	jin
 住	395	jinw
 即	174732	iz
-即	256	izj
 克	174518	cp
 带	174398	lw
 带	256	lwrj
@@ -465,7 +432,6 @@ encoder:
 区	172883	nb
 李	171517	ehi
 则	171333	op
-则	256	opd
 觉	169198	kwe
 觉	0	kwej
 交	168754	ab
@@ -479,7 +445,6 @@ encoder:
 传	165533	jm
 传	256	jmai
 连	164968	yu
-连	256	yuc
 叫	164919	di
 治	164364	kk
 治	256	kkdk
@@ -490,34 +455,28 @@ encoder:
 呢	162884	dcv
 呢	395	dcvb
 思	162161	qh
-思	256	qhx
 达	160624	mu
-达	256	muc
 记	160304	svj
 转	158526	ym
 转	256	ymai
 望	157887	fv
 望	256	fvnw
 边	157617	su
-边	256	suc
 快	157410	hn
 快	256	hnjr
 风	157370	obi
 色	156975	xm
-色	256	xmb
 该	156331	sk
 界	155600	qjp
 界	395	qjpd
 象	155082	wx
 权	155024	er
-权	256	ery
 拉	154403	ui
 设	154395	srs
 且	153702	fq
 取	153278	qr
 干	152581	eg
 收	151435	ih
-收	256	ihp
 步	151199	ssi
 领	151160	jkw
 领	395	jkwy
@@ -531,7 +490,6 @@ encoder:
 求	256	fkid
 未	149329	aw
 每	149155	ek
-每	256	ekm
 程	147264	xdn
 程	0	xdnw
 式	147073	pug
@@ -550,15 +508,11 @@ encoder:
 城	143620	gna
 城	395	gnae
 虽	142916	dc
-虽	256	dcc
 失	142754	th
-失	256	thf
 格	142741	es
-格	256	esg
 远	142311	mp
 远	256	mpuc
 办	141904	sh
-办	256	shb
 元	141813	mpe
 运	140981	buc
 令	140980	jks
@@ -572,7 +526,6 @@ encoder:
 武	395	fpsi
 士	138835	gs
 改	138819	vh
-改	256	vhp
 英	138132	lm
 英	256	lmmd
 术	137596	eid
@@ -584,7 +537,6 @@ encoder:
 联	395	qhmd
 争	135717	xb
 吗	135700	dn
-吗	256	dnm
 院	135404	tw
 院	256	twmp
 轻	134820	yr
@@ -604,17 +556,14 @@ encoder:
 造	131475	qdu
 造	0	qduc
 组	131373	if
-组	256	ifq
 流	131111	kb
 流	256	kboc
 算	130291	rql
 算	395	rqlc
 布	129291	nrj
 导	128877	vk
-导	256	vkc
 早	128722	on
 找	128596	up
-找	256	upg
 候	128550	jgn
 候	395	jgno
 满	128486	kl
@@ -651,14 +600,12 @@ encoder:
 存	123061	ng
 存	256	nghi
 击	122799	um
-击	256	umk
 精	122091	pa
 精	256	pavy
 济	121778	kqq
 始	121732	bkd
 始	0	bkdk
 台	121708	kd
-台	256	kdk
 黑	121677	ph
 调	121390	smg
 调	395	smgd
@@ -761,7 +708,6 @@ encoder:
 谁	101627	sui
 引	101548	bgs
 须	101515	ew
-须	256	ewy
 七	101221	rq
 息	101068	ohx
 研	100955	mfl
@@ -805,7 +751,6 @@ encoder:
 剑	96432	jkf
 剑	395	jkfp
 攻	96337	uh
-攻	256	uhp
 冷	96227	wjk
 冷	395	wjks
 投	95780	urs
@@ -831,7 +776,6 @@ encoder:
 星	93424	ol
 足	93382	pu
 刘	93158	vp
-刘	256	vpd
 甚	93107	zha
 甚	395	zhae
 严	92675	fcx
@@ -859,7 +803,6 @@ encoder:
 低	395	jbid
 千	90796	lq
 仍	90299	jv
-仍	256	jvn
 急	90238	xbh
 急	395	xbhx
 护	90185	umh
@@ -869,17 +812,14 @@ encoder:
 较	395	yabi
 防	89369	tlf
 列	88726	gp
-列	256	gpd
 讲	88641	sq
 破	88559	mr
-破	256	mrp
 客	88185	ws
 施	88158	le
 施	256	leey
 故	87851	chp
 血	87793	tam
 节	87357	lz
-节	256	lzj
 云	87345	by
 龙	87039	tl
 钱	86708	zf
@@ -905,9 +845,7 @@ encoder:
 威	395	nfbn
 巴	84397	mb
 划	84375	pp
-划	256	ppd
 致	84198	yh
-致	256	yhp
 案	84018	wbe
 案	0	wbem
 革	83970	tg
@@ -941,21 +879,18 @@ encoder:
 衣	80859	ti
 喜	80785	hdk
 独	80499	mc
-独	256	mcc
 效	80388	abh
 效	395	abhp
 斗	80254	jd
 细	80111	iq
 怕	79942	hub
 志	79674	gh
-志	256	ghx
 米	79644	pm
 晚	79451	owp
 晚	395	owpe
 热	79323	uk
 热	256	ukic
 项	79222	uw
-项	256	uwy
 料	79148	pj
 例	79120	jgp
 例	395	jgpd
@@ -1007,14 +942,12 @@ encoder:
 型	74762	flpg
 退	74696	iuc
 友	74312	nr
-友	256	nry
 铁	74279	zt
 铁	256	zthf
 汉	74131	kry
 暗	74046	ox
 状	73992	amq
 左	73933	nu
-左	256	nug
 句	73861	gj
 雷	73670	tqt
 网	73449	mbb
@@ -1039,7 +972,6 @@ encoder:
 药	72282	li
 药	256	lini
 久	72089	xi
-久	256	xid
 印	72033	bfz
 印	395	bfzj
 卫	71988	zfi
@@ -1060,7 +992,6 @@ encoder:
 您	395	jxyh
 预	69947	iw
 刻	69944	kp
-刻	256	kpd
 创	69692	jzp
 创	395	jzpd
 诉	69483	st
@@ -1112,13 +1043,11 @@ encoder:
 忽	395	nehx
 酒	64977	ky
 穿	64717	el
-穿	256	ely
 福	64562	ff
 福	256	ffdq
 弟	64315	htf
 怀	64258	hc
 欢	64250	re
-欢	256	req
 环	64186	nc
 招	63901	upd
 招	0	updk
@@ -1153,12 +1082,10 @@ encoder:
 置	61888	yn
 置	256	ynqf
 右	61816	nd
-右	256	ndk
 压	61725	xgi
 压	395	xgid
 香	61583	xor
 层	61523	cb
-层	256	cby
 略	61442	qsg
 静	61330	avx
 静	395	avxb
@@ -1178,9 +1105,7 @@ encoder:
 闻	60261	aq
 占	60171	ydk
 玉	60067	ni
-玉	256	nid
 哥	59662	zz
-哥	256	zzk
 杨	59402	ea
 杨	256	eaes
 忙	59302	hfw
@@ -1254,7 +1179,6 @@ encoder:
 洲	54809	koo
 洲	0	kooc
 巨	54551	nn
-巨	256	nnk
 免	54521	wp
 检	54469	ejk
 检	0	ejkf
@@ -1282,7 +1206,6 @@ encoder:
 伊	53345	jbt
 伊	395	jbtp
 犯	53297	mz
-犯	256	mzj
 尚	53262	ss
 莫	53203	lom
 莫	395	lomd
@@ -1306,7 +1229,6 @@ encoder:
 宫	51721	wdd
 宫	0	wddk
 魔	51704	za
-魔	256	zag
 耳	51551	qe
 屋	51420	cyi
 永	51330	ik
@@ -1338,9 +1260,7 @@ encoder:
 索	0	nwis
 岛	49578	xv
 贵	49405	co
-贵	256	cob
 顺	49276	ow
-顺	256	owy
 楼	49147	ep
 楼	256	epbn
 遇	49125	qv
@@ -1355,11 +1275,9 @@ encoder:
 烈	48653	gpc
 烈	395	gpch
 闪	48584	aj
-闪	256	ajr
 礼	48524	fae
 艺	48390	lai
 互	48366	fb
-互	256	fbj
 丝	48316	iis
 秘	48303	xht
 秘	0	xhtp
@@ -1436,7 +1354,6 @@ encoder:
 端	0	ivle
 味	45070	da
 杂	45044	ke
-杂	256	kem
 翻	45021	tp
 翻	256	tpqz
 雪	45003	tb
@@ -1452,7 +1369,6 @@ encoder:
 爷	395	hbzj
 核	44829	ekh
 央	44790	mm
-央	256	mmd
 减	44686	wnf
 减	395	wnfd
 阴	44654	tvy
@@ -1487,7 +1403,6 @@ encoder:
 借	43115	jlo
 借	395	jlor
 固	43043	rc
-固	256	rcg
 诗	43036	sgk
 诗	395	sgkc
 镇	42875	znq
@@ -1542,7 +1457,6 @@ encoder:
 避	40103	cdnu
 欲	39937	heq
 弄	39837	nl
-弄	256	nlc
 忍	39831	pih
 忍	395	pihx
 旅	39808	let
@@ -1571,7 +1485,6 @@ encoder:
 虎	38896	zhh
 虎	256	zh
 票	38820	vf
-票	256	vfs
 销	38784	zyv
 销	395	zy
 销	0	zyvy
@@ -1584,7 +1497,6 @@ encoder:
 伸	38331	jog
 伸	395	jogs
 录	38331	bk
-录	256	bks
 遍	38250	miu
 遍	395	miuc
 虑	38244	zhx
@@ -1599,7 +1511,6 @@ encoder:
 谋	37764	sze
 谋	395	szem
 炸	37754	cw
-炸	256	cwa
 督	37744	yfyq
 奥	37727	tmpm
 狂	37615	mnw
@@ -1674,7 +1585,6 @@ encoder:
 透	35591	xvu
 透	395	xvuc
 床	35479	xe
-床	256	xem
 唯	35258	dui
 岸	35223	vxe
 岸	395	vxeg
@@ -1744,7 +1654,6 @@ encoder:
 迷	32626	puc
 典	32595	ihb
 灯	32520	ca
-灯	256	cad
 厉	32428	xfp
 厉	395	xfpd
 秀	32425	xvn
@@ -1865,7 +1774,6 @@ encoder:
 墙	28475	ggh
 墙	0	gghd
 雅	28423	lu
-雅	256	lui
 贸	28406	bo
 沿	28370	kod
 沿	0	kodk
@@ -1953,11 +1861,9 @@ encoder:
 援	26160	uyf
 援	0	uyfr
 汇	26125	kn
-汇	256	knk
 触	26118	xtc
 触	395	xtcc
 售	26114	ud
-售	256	udk
 违	26081	guc
 粮	26036	pii
 粮	395	piig
@@ -2055,7 +1961,6 @@ encoder:
 隔	23543	tng
 尸	23528	cs
 尾	23526	cv
-尾	256	cvm
 仪	23497	jib
 仪	0	jibi
 瞧	23486	quc
@@ -2232,7 +2137,6 @@ encoder:
 悄	0	hyvy
 堆	20460	gui
 鸡	20457	rx
-鸡	256	rxn
 狼	20448	mii
 狼	395	miig
 播	20431	utp
@@ -2255,7 +2159,6 @@ encoder:
 咬	19841	dab
 咬	395	dabi
 码	19839	mn
-码	256	mnm
 猜	19796	mav
 猜	395	mavy
 壁	19764	cdng
@@ -2309,7 +2212,6 @@ encoder:
 巡	18923	ou
 仔	18871	jhi
 欣	18856	te
-欣	256	teq
 偿	18854	jsb
 偿	0	jsby
 愤	18852	hnl
@@ -2332,7 +2234,6 @@ encoder:
 赤	18658	gch
 扶	18585	uhf
 蛋	18579	tc
-蛋	256	tcc
 吐	18571	dg
 返	18557	xru
 返	395	xruc
@@ -2355,7 +2256,6 @@ encoder:
 侯	18294	jno
 侯	395	jnos
 滑	18264	kf
-滑	256	kfg
 润	18221	kan
 润	395	kanw
 胞	18185	vnv
@@ -2381,7 +2281,6 @@ encoder:
 彭	17925	hes
 租	17915	xfq
 晨	17883	of
-晨	256	ofc
 搜	17871	upg
 搜	395	upgr
 昏	17838	bor
@@ -2558,7 +2457,6 @@ encoder:
 惜	15141	hlo
 惜	395	hlor
 朵	15119	oe
-朵	256	oem
 袖	15116	td
 胁	15113	vsh
 胁	395	vshb
@@ -3782,7 +3680,6 @@ encoder:
 坟	6080	gvw
 噢	6068	dtmm
 硕	6060	mw
-硕	256	mwy
 侄	6033	jyi
 蹲	6025	phy
 蹲	395	phyk
@@ -3895,7 +3792,6 @@ encoder:
 虏	5502	zsl
 汝	5483	kbn
 肢	5472	vc
-肢	256	vci
 咕	5468	dcg
 耽	5464	qwp
 耽	395	qwpe
@@ -4247,7 +4143,6 @@ encoder:
 沫	4237	kfe
 沫	395	kfem
 咋	4235	dw
-咋	256	dwa
 屯	4234	fsc
 屑	4232	cyv
 屑	395	cyvy
@@ -5205,7 +5100,6 @@ encoder:
 骡	2134	nqi
 骡	0	nqis
 闽	2132	ac
-闽	395	acc
 秽	2130	xvl
 秽	395	xvlx
 闵	2126	avw

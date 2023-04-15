@@ -169,10 +169,10 @@ key_binder:
     - { accept: Alt_L, send: 4, when: has_menu }
     - { accept: bracketleft, send: 5, when: has_menu }
     - { accept: apostrophe, send: 6, when: has_menu }
-    - { accept: 2, send: 7, when: has_menu }
-    - { accept: 3, send: 8, when: has_menu }
-    - { accept: 8, send: 9, when: has_menu }
-    - { accept: 9, send: 0, when: has_menu }
+      #- { accept: 2, send: 7, when: has_menu }
+      #    - { accept: 3, send: 8, when: has_menu }
+      #    - { accept: 8, send: 9, when: has_menu }
+      #    - { accept: 9, send: 0, when: has_menu }
     - { when: has_menu, accept: minus, send: Page_Up } # - 向后翻页
     - { when: has_menu, accept: equal, send: Page_Down } # = 向前翻页
     - { accept: "Control+o", toggle: simplification, when: composing }  # 简繁开关

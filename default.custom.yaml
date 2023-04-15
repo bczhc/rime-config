@@ -8,7 +8,8 @@ patch:
   schema_list:
     - schema: tiger
     - {schema: clover}
-    - {schema: 092wubi_ci}
+      #- {schema: 092wubi_ci}
+    - schema: 092
 #    - {schema: 092wubi_dz}
 #    - {schema: 092wubi_U}
 #    - {schema: py}

@@ -1,0 +1,107 @@
+# Rime dictionary: 092wubi_ci.extended
+# encoding: utf-8
+# ncz<==>难拆字-过滤字集
+# xsz<==>相似字-过滤字集
+
+---
+name: 092wubi_ci.extended
+version: "2.0"
+sort: by_weight
+import_tables:
+  - 092wubi_ci
+  - 092wubi_U
+columns:
+  - text
+  - code
+  - weight
+  - stem
+encoder:
+  exclude_patterns:
+    - '^z.*$'
+  rules:
+    - length_equal: 2
+      formula: "AaAbBaBb"
+    - length_equal: 3
+      formula: "AaBaCaCb"
+    - length_in_range: [4, 90]
+      formula: "AaBaCaZa"
+...
+#--------快捷键--------#
+Alt+	altu	9000200
+Alt+Ctrl+	acvu	9000190
+Alt+Ctrl+Shift+	acsu	9000180
+Alt+Shift+	asvu	9000170
+Alt+Shift+Ctrl+	ascu	9000160
+Command+	cmdu	9000150
+Ctrl+	ctrl	9000140
+Ctrl+Alt+	cavu	9000130
+Ctrl+Alt+Shift+	casu	9000120
+Ctrl+Shift+	csvu	9000110
+Ctrl+Shift+Alt+	csau	9000100
+Option+	opnu	9000090
+Option+Command+	ocvu	9000080
+Option+Shift+	osvu	9000070
+Option+Shift+Command+	oscu	9000060
+Shift+	shit	9000050
+Shift+Alt+	savu	9000040
+Shift+Alt+Ctrl+	sacu	9000030
+Shift+Command+	scvu	9000020
+Shift+Ctrl+	scvu	9000010
+Shift+Ctrl+Alt+	scau	9000000
+
+#----------核心词
+微信
+抖音
+B站	buuv
+热搜	horv
+
+#----------难拆字
+髙·hkd	ncz
+漢·iqdu	ncz
+龍·ueq	ncz
+爲·etn	ncz
+為·ytb	ncz
+飛·nut	ncz
+馬·c	ncz
+龠·wxk	ncz
+爾·gmb	ncz
+婁·kfk	ncz
+鬥·jgg	ncz
+麗·gys	ncz
+畢·uag	ncz
+鳥·qoi	ncz
+烏·tnq	ncz
+簫·tvf	ncz
+眔·lim	ncz
+臦·aya	ncz
+芈·avk	ncz
+兩·gbt	ncz
+畱·gja	ncz
+亜·gjk	ncz
+𪚴·mgg	ncz
+黽·mgg	ncz
+䍏·mjg	ncz
+亙·knu	ncz
+丱·nth	ncz
+雋·rmgm	ncz
+幵·ffh	ncz
+卐·nnv	ncz
+
+#----------相似字
+# 【F900-FAFF】中日韩兼容表意文字
+凉·凉	xsz
+龠·⿕	xsz
+㬻·䐠	xsz
+墫·壿	xsz
+垚·壵	xsz
+裏·裏	xsz
+币·帀	xsz
+胄·冑	xsz
+口·囗	xsz
+朏·胐	xsz
+脁·朓	xsz
+曶·㫚	xsz
+丨·丨	xsz
+市·巿	xsz
+晚·晩	xsz
+丶·㇔	xsz

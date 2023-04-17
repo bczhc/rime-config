@@ -296,7 +296,7 @@ named_ipa_diacritics:
 
 # 拆分滤镜
 chaifen:
-  opencc_config: hu_cf.json
+  opencc_config: 092_cf.json
   option_name: chaifen
   show_in_comment: true
   comment_format:

@@ -1,6 +1,7 @@
 schema:
   dependencies:
     - 092core
+    - 092chaifen
     - emoji
     - html_chars
     - latin_international
@@ -115,7 +116,7 @@ engine:
     - lua_filter@core092_filter  #自定义字集过滤lua；放在最上面完美解决简繁滤镜出错的问题
     - simplifier@simplification  #简繁滤镜
     - simplifier@pinyin  #拼音滤镜
-    - simplifier@chaifen #拆分滤镜
+    - lua_filter@filter_092chaifen
     - simplifier@emoji_cn  #表情滤镜
     - lua_filter@charset_comment_filter #Unicode分区提示滤镜
     - lua_filter@lua_unicode_display_filter #Unicode编码显示
@@ -291,16 +292,6 @@ named_ipa_diacritics:
   enable_completion: true
   enable_sentence: false
   enable_user_dict: false
-
-
-# 拆分滤镜
-chaifen:
-  opencc_config: 092_cf.json
-  option_name: chaifen
-  show_in_comment: true
-  comment_format:
-    - "xform/&nbsp;/ /"
-  tips: all  #只给单字加滤镜，改为 char 。 词也显示，改为 all
 
 
 punctuator:

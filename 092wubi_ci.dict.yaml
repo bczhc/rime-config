@@ -5482,6 +5482,7 @@ ABS	absu
 英国	al
 范围	al
 苏	al
+功	al
 巭	ala
 辦	ala
 功夫	alaa
@@ -6984,6 +6985,7 @@ Alt	altu
 工业	ao
 哥	ao
 从	ao
+刻	ao
 七	aoa
 工业区	aoa
 蓙	aoa
@@ -46803,8 +46805,9 @@ DVD	dvdu
 刑诉	ejyr
 有的	ek
 靠	ek
-商品	ek
+告	ek
 造	ek
+商品	ek
 膿	eka
 𦡊	ekaa
 商品率	ekac
@@ -52095,6 +52098,7 @@ Excel	excl
 地区	fa
 直到	fa
 塔	fa
+喜	fa
 壾	faa
 塔式	faaa
 𧄓	faaa
@@ -64088,6 +64092,7 @@ GBK	gbku
 不知道	gc
 正	gc
 玛	gc
+政	gc
 㺹	gca
 正式	gcaa
 万圣节	gcab
@@ -70570,6 +70575,7 @@ GNP	gnpu
 不会	go
 政府	go
 亚	go
+严	go
 璞	goa
 㼅	goa
 一会工夫	goaa
@@ -86641,6 +86647,7 @@ IBM	ibmu
 汉	ic
 活动	ic
 游戏	ic
+治	ic
 泾	ica
 㳎	ica
 汗马功劳	icaa
@@ -91330,6 +91337,7 @@ IELTS	iels
 洞	im
 沃	im
 池	im
+觉	im
 没看到	ima
 没见到过	imaf
 𭱜	imaf
@@ -108171,6 +108179,7 @@ JPEG	jpeg
 叶	kf
 赶	kf
 吐	kf
+怎	kf
 喷	kfa
 嘻	kfa
 嘭	kfa
@@ -142446,6 +142455,7 @@ Nokia	noka
 风	nr
 物质	nr
 殿	nr
+司	nr
 风花	nrah
 风范	nrai
 戳到	nraj
@@ -147560,6 +147570,7 @@ OCR	ocru
 庄	of
 社	of
 寿	of
+备	of
 禧	ofa
 数十年	ofa
 各地区	ofa
@@ -161876,10 +161887,11 @@ PrintScreen	prin
 宾语	prys
 容身	pryt
 𪭗	pryu
-农村	ps
 之中	ps
+农村	ps
 宋	ps
 宁	ps
+空	ps
 案牍劳形	psae
 𫁔	psag
 空荡	psai
@@ -201278,6 +201290,7 @@ THU	thuu
 程度	tl
 血	tl
 丢	tl
+务	tl
 衊	tla
 𥰕	tlaa
 𥱅	tlaa
@@ -210804,6 +210817,7 @@ UFO	ufou
 问	uk
 部	uk
 产品	uk
+况	uk
 竞	uk
 闦	uka
 癑	uka
@@ -217232,8 +217246,9 @@ U盾	uurf
 好言	vbyy
 如此	vc
 妈	vc
-灵魂	vc
+始	vc
 专	vc
+灵魂	vc
 㺛	vca
 狂欢节	vcab
 专项	vcad
@@ -228293,6 +228308,7 @@ VOA	voau
 建	wf
 仁	wf
 佳	wf
+什	wf
 僖	wfa
 偾	wfa
 僨	wfa
@@ -231502,6 +231518,7 @@ Windows系统	winx
 俗	wm
 侧	wm
 他	wm
+示	wm
 侖	wma
 他荐	wmad
 合同工	wmag
@@ -247333,9 +247350,10 @@ X射线	xyxg
 谣言	yeyy
 𲂅	yeyy
 认真	yf
+计	yf
+诸	yf
 诗	yf
 射	yf
-诸	yf
 譆	yfa
 𨊆	yfaa
 诸项	yfad
@@ -252284,6 +252302,7 @@ Y染色体	yiqw
 身体	yw
 让人	yw
 夜	yw
+认	yw
 𬣈	ywae
 论著	ywaf
 论丛	ywag
@@ -252977,11 +252996,12 @@ Y染色体	yiqw
 𧦮	yxyy
 认识	yy
 言	yy
-忘记	yy
-讨论	yy
-说话	yy
-设计	yy
+议	yy
 谢	yy
+设计	yy
+讨论	yy
+忘记	yy
+说话	yy
 语言	yy
 评论	yy
 认识到	yya

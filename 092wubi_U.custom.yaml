@@ -1,5 +1,0 @@
-# Squirrel settings
-# encoding: utf-8
-patch:
-  "style/horizontal": true
-  "style/font_face": "092WB-ExtB-H,092WB-ExtA,092WB-Base"

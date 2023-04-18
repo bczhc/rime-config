@@ -1,0 +1,7 @@
+schema:
+  schema_id: 092core
+  name: 092core
+  version: 1
+
+translator:
+  dictionary: 092core

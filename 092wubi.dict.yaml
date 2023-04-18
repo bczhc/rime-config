@@ -1,0 +1,9 @@
+name: 092wubi
+version: "1.0"
+sort: original
+columns:
+  - text
+  - code
+import_tables:
+  - 092wubi_ci
+  - 092wubi_U

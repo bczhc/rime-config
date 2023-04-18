@@ -1,7 +1,0 @@
-#!/bin/bash
-
-# 使tiger_guihu.schema.yaml
-# 与tiger.schema.yaml配置保持一致
-
-cp tiger.schema.yaml tiger_guihu.schema.yaml -v
-patch tiger_guihu.schema.yaml tiger_guihu.patch

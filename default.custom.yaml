@@ -6,8 +6,6 @@
 #   rime_version: 1.7.3
 patch:
   schema_list:
-    - schema: tiger
-    - schema: tiger_guihu
     - schema: 092wubi
     - schema: luna_pinyin
     - schema: ipa_yunlong

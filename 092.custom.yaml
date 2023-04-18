@@ -2,4 +2,4 @@ patch:
   "style/text_orientation": horizontal
   "style/fullscreen": false
     #menu/alternative_select_labels: [ ␣, ；, Ａ, Ａ, ［, ＇, ７, ８, ９, ０]
-  menu/alternative_select_labels: [ ␣, ;, A, A, "[", "'", 7, 8, 9, 0]
+  menu/alternative_select_labels: [ _, ;, A, A, "[", "'", 7, 8, 9, 0]

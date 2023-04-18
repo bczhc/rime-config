@@ -2,15 +2,14 @@
 --
 # 方案列表
 
-- 虎码（[https://tiger-code.com](https://tiger-code.com)）
-- 九重鬼虎（[https://tiger-code.com](https://tiger-code.com)）
+- 092五笔（群7390600）
 - 雲龍國際音標（[https://github.com/rime/rime-ipa](https://github.com/rime/rime-ipa)）
 - 朙月拼音（[https://github.com/rime/rime-luna-pinyin](https://github.com/rime/rime-luna-pinyin)）
 - 拉丁字母（[https://github.com/biopolyhedron/rime-latin-international](https://github.com/biopolyhedron/rime-latin-international)）
 
 # 方案配置
 
-## 虎码
+## 092五笔
 
 ### 命令与快捷输入
 
@@ -40,7 +39,7 @@
 - https://html.spec.whatwg.org/multipage/named-characters.html#named-character-references
 - https://github.com/biopolyhedron/rime-latin-international/blob/master/latin_international.schema.yaml#L10-L16
 
-### 输入设定
+### 输入设定 TODO
 
 - 四码唯一自动上屏
 - 五码顶屏

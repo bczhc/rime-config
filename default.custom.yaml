@@ -8,8 +8,6 @@ patch:
   schema_list:
     - schema: tiger
     - schema: tiger_guihu
-    - schema: PY_c
-    - schema: zrm_pinyin
     - schema: luna_pinyin
     - schema: ipa_yunlong
     - schema: latin_international

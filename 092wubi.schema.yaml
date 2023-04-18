@@ -8,6 +8,7 @@ schema:
     - ipa_yunlong
       #- short_punct TODO
     - named_ipa_diacritics
+    - pinyin_simp
   name: "092修订版"
   schema_id: 092wubi
   version: 1
@@ -146,7 +147,7 @@ translator:
 
 
 reverse_lookup:
-  dictionary: luna_pinyin
+  dictionary: pinyin_simp
   prefix: "`"
   tips: "〔拼音〕"
   preedit_format:

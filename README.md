@@ -4,9 +4,7 @@
 
 - 虎码（[https://tiger-code.com](https://tiger-code.com)）
 - 九重鬼虎（[https://tiger-code.com](https://tiger-code.com)）
-- 拼音++（[https://tiger-code.com](https://tiger-code.com)）
 - 雲龍國際音標（[https://github.com/rime/rime-ipa](https://github.com/rime/rime-ipa)）
-- 自然码+辅助码（[https://github.com/bigshans/rime-zrm](https://github.com/bigshans/rime-zrm)，[https://github.com/ssnhd/rime](https://github.com/ssnhd/rime)）
 - 朙月拼音（[https://github.com/rime/rime-luna-pinyin](https://github.com/rime/rime-luna-pinyin)）
 - 拉丁字母（[https://github.com/biopolyhedron/rime-latin-international](https://github.com/biopolyhedron/rime-latin-international)）
 
@@ -70,13 +68,4 @@
 - Ctrl+I preedit为候选
 - Ctrl+S 全角半角切换
 - Ctrl+Space 重选重码（还不稳定）
-
-## 自然码
-
-### 功能
-
-- 编码用分号添加辅助码
-- Ctrl+P 显示拼音
-- Ctrl+F 显示辅助码编码
-- 使用反引号（`` ` ``）引导组字（编码依然是自然码双拼，比如“曌”字使用`` `myks ``）
 

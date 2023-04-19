@@ -6,7 +6,7 @@ schema:
     - html_chars
     - latin_international
     - ipa_yunlong
-      #- short_punct TODO
+    - short_punct
     - named_ipa_diacritics
     - pinyin_simp
   name: "092修订版"
@@ -69,10 +69,10 @@ engine:
     - lua_processor@log_processor
     - ascii_composer
     - lua_processor@alphabet_mode_processor
-      #- lua_processor@short_punct_pre_recognizer_processor
+    - lua_processor@short_punct_pre_recognizer_processor
     - recognizer
     - lua_processor@enter_clear_input_processor
-      #- lua_processor@short_punct_pre_speller_processor
+    - lua_processor@short_punct_pre_speller_processor
     - speller
     - lua_processor@alphabet_mode_post_speller_processor
     - key_binder

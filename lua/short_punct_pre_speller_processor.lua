@@ -1,17 +1,22 @@
 local punct_db
-local apostrophe_pressed = false
+local short_punct_key_pressed = false
 local long_press_used = false
+
+local short_punct_key = 'z'
+local short_punct_key_release = 'Release+' .. short_punct_key
+local repeat_key = 'space'
+local repeat2_key = 'r'
 
 local function processor_pre_speller(key, env)
     local repr = key:repr()
     local context = env.engine.context
     local has_menu = context:has_menu()
     local composing = context:is_composing()
-    if repr == 'apostrophe' and composing and not has_menu then
+    if repr == short_punct_key and composing and not has_menu then
         context.input = ''
         return kNoop
     end
-    if repr == 'apostrophe' and composing and has_menu then
+    if repr == short_punct_key and composing and has_menu then
         context:commit()
     end
     return kNoop
@@ -20,21 +25,21 @@ end
 local function processor_pre_recognizer(key, env)
     local context = env.engine.context
     local repr = key:repr()
-    if repr == 'apostrophe' then
-        apostrophe_pressed = true
-    elseif repr == 'Release+apostrophe' then
-        apostrophe_pressed = false
+    if repr == short_punct_key then
+        short_punct_key_pressed = true
+    elseif repr == short_punct_key_release then
+        short_punct_key_pressed = false
     end
 
-    if (repr == 'Release+apostrophe' or repr == 'Alt+Release+apostrophe') and long_press_used then
+    if (repr == short_punct_key_release) and long_press_used then
         context.input = ''
         long_press_used = false
         return kAccepted
     end
 
-    if context.input == '\'' then
-        -- 长按撇号时需拦截住
-        if repr == 'apostrophe' then
+    if context.input == short_punct_key then
+        -- 长按short_punct_key时需拦截住
+        if repr == short_punct_key then
             return kAccepted
         end
 
@@ -45,35 +50,36 @@ local function processor_pre_recognizer(key, env)
             end
             env.engine:commit_text(punct)
             my_log_on_commit(punct)
-            if apostrophe_pressed then
+            if short_punct_key_pressed then
                 long_press_used = true
             else
                 context.input = ''
             end
             return kAccepted
         end
-        if repr == 'space' then
+        if repr == repeat_key then
             local history = get_commit_history(context, 0)
             if history ~= nil then
                 env.engine:commit_text(history)
                 my_log_on_commit(history)
             end
 
-            if apostrophe_pressed then
+            if short_punct_key_pressed then
                 long_press_used = true
             else
                 context.input = ''
             end
             return kAccepted
         end
-        if repr == 'Multi_key' or repr == 'Alt_R' then
+        -- FIXME: not working
+        if repr == repeat2_key then
             local history = get_commit_history(context, -1)
             if history ~= nil then
                 env.engine:commit_text(history)
                 my_log_on_commit(history)
             end
 
-            if apostrophe_pressed then
+            if short_punct_key_pressed then
                 long_press_used = true
             else
                 context.input = ''

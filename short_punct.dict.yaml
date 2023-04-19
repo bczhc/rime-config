@@ -2,34 +2,43 @@ name: short_punct
 version: 1
 sort: original
 ...
-
-q	：“
-w	？
-e	。”
-a	！
-s	……
-d	、
 l	；
+u	？
+s	：“
+d	。”
+h	“
+j	”
+f	‘
+g	’
 
-k	￥
 
-r	（
-t	）
-v	《
-b	》
+# q	：“
+# w	？
+# e	。”
+# a	！
+# s	……
+# d	、
+# l	；
 
-f	“
-g	”
-h	‘
-j	’
+# k	￥
 
-c	】
-i	——
-m	」
-n	「
-o	〖
-p	〗
-#t	→
-u	~
-x	【
-y	·
+# r	（
+# t	）
+# v	《
+# b	》
+
+# f	“
+# g	”
+# h	‘
+# j	’
+
+# c	】
+# i	——
+# m	」
+# n	「
+# o	〖
+# p	〗
+# #t	→
+# u	~
+# x	【
+# y	·

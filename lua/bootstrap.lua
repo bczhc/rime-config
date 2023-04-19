@@ -5,7 +5,6 @@ dz_ci = require("dz_ci_filter") --单字模式 这个别用，有问题的
 number_translator = require("number")
 lua_unicode_display_filter = require("unicode_display")  --Unicode编码提示
 calculator_translator = require("calculator_translator")  --简易计算器
-exe_processor = require("exe")  -- 网页启动器
 shijian2_translator = require("shijian2") -- 高级时间
 unicode_input_translator = require("unicode_input") -- Unicode输入
 reselect_candidates_processor = require("reselect_candidates") -- Ctrl+Space撤销并重新选重

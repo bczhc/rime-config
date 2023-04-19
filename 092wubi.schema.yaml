@@ -78,7 +78,6 @@ engine:
     - key_binder
     - lua_processor@cancel_input_processor
     - punctuator
-    - lua_processor@exe_processor #exe启动器
     - lua_processor@reselect_candidates_processor
     - selector
     - navigator

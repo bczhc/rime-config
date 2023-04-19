@@ -4,7 +4,7 @@ require('lib')
 
 ENABLE_MY_LOG = true
 
-function table_to_iter(table)
+function iter(table)
     local i = 0
     return function()
         i = i + 1
@@ -18,5 +18,5 @@ function unicode_chars(text)
         local c = utf8.char(cp)
         table[#table + 1] = c
     end
-    return table_to_iter(table)
+    return table
 end

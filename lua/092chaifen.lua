@@ -5,7 +5,7 @@ local function filter(input, env)
     for cand in input:iter() do
         if switch then
             local text = cand.text
-            for char in unicode_chars(text) do
+            for char in iter(unicode_chars(text)) do
                 local chaifen_lookup = _G._092chaifen_db:lookup(char)
                 local code_lookup = _G._092reverse_db:lookup(char)
                 local comment = '[' .. chaifen_lookup .. '·' .. code_lookup .. ']'

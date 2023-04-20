@@ -166,7 +166,7 @@ key_binder:
 
     - { accept: semicolon, send: 2, when: has_menu } # 次选
     - { accept: Alt_R, send: 3, when: has_menu }
-    - { accept: Alt_L, send: 4, when: has_menu }
+    - { accept: grave, send: 4, when: has_menu }
     - { accept: bracketleft, send: 5, when: has_menu }
     - { accept: apostrophe, send: 6, when: has_menu }
       #- { accept: 2, send: 7, when: has_menu }

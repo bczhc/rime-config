@@ -21,7 +21,7 @@ encoder:
 从	a
 到	a
 比	a
-英文	a
+工作	a
 比较	a
 东西	a
 092修订版	a
@@ -12284,6 +12284,8 @@ AV女优	avvw
 了	b
 被	b
 出	b
+孩子	b
+出来	b
 金融	b
 联系	b
 陈	ba
@@ -21745,9 +21747,9 @@ B超	bukv
 这个	c
 这种	c
 又	c
-难道	c
+这是	c
 知道	c
-知识分子	c
+难道	c
 台湾	c
 劲	ca
 颈	ca
@@ -32219,6 +32221,7 @@ C语言	cyyy
 在	d
 而	d
 今天	d
+而且	d
 研究	d
 大家	d
 达到	d
@@ -52017,9 +52020,11 @@ Excel	excl
 你	f
 都	f
 地	f
-教授	f
+地方	f
+过去	f
 才能	f
 声音	f
+教授	f
 地区	fa
 直到	fa
 塔	fa
@@ -53311,6 +53316,7 @@ Excel	excl
 需	fd
 零	fd
 震	fd
+后面	fd
 霹	fda
 FDA	fda
 埉	fda
@@ -63162,6 +63168,7 @@ FT	futu
 一	g
 责任	g
 理念	g
+现在	g
 正确	g
 一切	ga
 不到	ga
@@ -76045,6 +76052,7 @@ G点	guvo
 发	hd
 很大	hd
 基础	hd
+上面	hd
 矋	hda
 䀹	hda
 䁹	hda
@@ -85450,8 +85458,8 @@ HP	hupu
 小	i
 没有	i
 觉得	i
-学术	i
 小时	i
+当然	i
 满	ia
 江	ia
 深刻	ia
@@ -105748,8 +105756,9 @@ JPEG	jpeg
 的	k
 呢	k
 怎么	k
-哪里	k
+起来	k
 只是	k
+哪里	k
 世界	k
 怎么办	k
 的声音	k
@@ -116311,9 +116320,11 @@ K粉	kuom
 为	l
 去	l
 因为	l
+所以	l
+所有	l
+为什么	l
 国家	l
 国际	l
-为什么	l
 改革开放	l
 力	la
 导致	la
@@ -135636,9 +135647,9 @@ MVP	mvpu
 夭亡	myyy
 以	n
 由	n
-性	n
-以前	n
 情况	n
+特别	n
+以前	n
 特殊	n
 收到	na
 懂	na
@@ -141442,6 +141453,7 @@ Nokia	noka
 必读	noyv
 民族	np
 事实	np
+性	np
 迪	np
 飅	npa
 牲畜	npac
@@ -174881,11 +174893,11 @@ Q点	quvo
 我	r
 把	r
 我们	r
+我的	r
 拒绝	r
-近代	r
-我们的	r
-共产主义	r
 反正	r
+我们的	r
+近代	r
 提到	ra
 找到	ra
 批	ra
@@ -180298,6 +180310,7 @@ RMB	rmbu
 排完	rmpf
 托生	rmpg
 托着	rmph
+揣着	rmph
 𰺸	rmpi
 托养	rmpj
 缺额	rmpo
@@ -226262,8 +226275,9 @@ VOA	voau
 人	w
 他们	w
 位	w
-合作	w
 任何	w
+什么	w
+合作	w
 人家	w
 价值	w
 人口	w
@@ -236024,6 +236038,8 @@ WS	wusu
 或者	x
 强调	x
 竟然	x
+结果	x
+经常	x
 红	xa
 每年	xa
 练	xa

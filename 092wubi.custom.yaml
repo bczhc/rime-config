@@ -3,5 +3,5 @@ patch:
   "style/fullscreen": false
     #menu/alternative_select_labels: [ ␣, ；, Ａ, Ａ, ［, ＇, ７, ８, ９, ０]
   menu:
-    alternative_select_labels: [ _, ;, R, L, "[", "'", 7, 8, 9, 0]
+    alternative_select_labels: [ _, ;, A, C, "[", "'", 7, 8, 9, 0]
     page_size: 10

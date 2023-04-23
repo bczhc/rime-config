@@ -169,7 +169,7 @@ key_binder:
     - { accept: grave, send: 4, when: has_menu }
     - { accept: bracketleft, send: 5, when: has_menu }
     - { accept: apostrophe, send: 6, when: has_menu }
-      #- { accept: 2, send: 7, when: has_menu }
+    - { accept: Shift_L, send: 7, when: has_menu }
       #    - { accept: 3, send: 8, when: has_menu }
       #    - { accept: 8, send: 9, when: has_menu }
       #    - { accept: 9, send: 0, when: has_menu }
@@ -296,3 +296,8 @@ named_ipa_diacritics:
 
 punctuator:
   import_preset: symbols
+
+ascii_composer:
+  switch_key:
+    Shift_L: noop
+    Shift_R: noop

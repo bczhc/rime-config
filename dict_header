@@ -1,0 +1,20 @@
+# Rime dictionary
+# encoding: utf-8
+---
+name: $NAME
+version: "2.0"
+sort: original
+columns:
+  - text
+  - code
+encoder:
+  exclude_patterns:
+    - '^z.*$'
+  rules:
+    - length_equal: 2
+      formula: "AaAbBaBb"
+    - length_equal: 3
+      formula: "AaBaCaCb"
+    - length_in_range: [4, 32]
+      formula: "AaBaCaZa"
+...

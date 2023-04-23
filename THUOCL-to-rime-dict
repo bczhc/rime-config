@@ -1,0 +1,7 @@
+#!/bin/bash
+
+set -e
+
+for i in THUOCL/data/*; do echo "$i"; cat "$i" | sed '1s/^\xEF\xBB\xBF//' | mac2unix; done > ext.txt
+./THUOCL-to-rime-dict.kts ext.txt 092wubi_ext.dict.yaml
+rm -rf ext.txt

@@ -1,3 +1,3 @@
 #!/bin/bash
 
-(cat 092wubi_ci.dict.yaml | tail +21; cat 092wubi_ext.dict.yaml | tail +21; cat 092wubi_U.dict.yaml | tail +25) | awk '{print $2"\t"$1}' > z92.txt
+(cat 092wubi_ci.dict.yaml | tail +21; cat 092wubi_ext.dict.yaml | tail +21; cat dics.dict.yaml | tail +21; cat 092wubi_U.dict.yaml | tail +25) | awk '{print $2"\t"$1}' | ruby -e 'puts STDIN.readlines.uniq'

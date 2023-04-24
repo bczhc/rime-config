@@ -1,3 +1,4 @@
 #!/bin/bash
 
-(cat 092wubi_ci.dict.yaml | tail +21; cat 092wubi_ext.dict.yaml | tail +21; cat 092wubi_U.dict.yaml | tail +25) | awk '{print $1"\t"$2}' > easy-type.txt
+./mk-z92
+cat ./z92.txt | awk '{print $2"\t"$1}' > easy-type.txt

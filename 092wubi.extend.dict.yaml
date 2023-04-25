@@ -1,9 +1,9 @@
-name: 092wubi
+name: 092wubi.extend
 version: "1.0"
 sort: original
 columns:
   - text
   - code
 import_tables:
-  - 092wubi_ci
-  - 092wubi_U
+  - 092wubi_supp1
+  - 092wubi_supp2

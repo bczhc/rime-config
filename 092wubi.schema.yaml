@@ -2,6 +2,7 @@ schema:
   dependencies:
     - 092core
     - 092chaifen
+    - 092wubi_ext
     - emoji
     - html_chars
     - latin_international
@@ -99,6 +100,7 @@ engine:
     - punct_translator
     - reverse_lookup_translator #拼音反查
     - table_translator
+    - table_translator@translator_extend
     - table_translator@emoji
     - table_translator@html_chars
     - table_translator@latin_input
@@ -121,7 +123,8 @@ engine:
     - lua_filter@charset_comment_filter #Unicode分区提示滤镜
     - lua_filter@lua_unicode_display_filter #Unicode编码显示
     - lua_filter@preedit_candidate_filter
-    - uniquifier #过滤重复
+      #- uniquifier #过滤重复
+    - lua_filter@uniquifier_filter
     - lua_filter@dz_ci
 
 
@@ -133,6 +136,19 @@ speller:
 
 translator:
   dictionary: 092wubi
+  enable_charset_filter: false
+  enable_encoder: false
+  enable_sentence: false
+  encode_commit_history: false
+  # max_phrase_length: 4
+  enable_user_dict: false
+  enable_completion: false    # 编码提示 true 开启  false 关闭
+  comment_format: #提示码自定义
+    - "xform/~/ /" #去掉编码提示前的~号
+    # - "xform/^/ /" #提示前面 +间距
+
+translator_extend:
+  dictionary: 092wubi.extend
   enable_charset_filter: false
   enable_encoder: false
   enable_sentence: false

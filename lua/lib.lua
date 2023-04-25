@@ -27,3 +27,41 @@ end
 function my_log_on_commit(text)
     my_log('Commit(text=' .. text .. ')')
 end
+
+function iter(table)
+    local i = 0
+    return function()
+        i = i + 1
+        return table[i]
+    end
+end
+
+function unicode_chars(text)
+    local table = {}
+    for _, cp in utf8.codes(text) do
+        local c = utf8.char(cp)
+        table[#table + 1] = c
+    end
+    return table
+end
+
+function unique(table)
+    local hash = {}
+    local res = {}
+
+    for _, v in ipairs(table) do
+        if (not hash[v]) then
+            res[#res + 1] = v
+            hash[v] = true
+        end
+    end
+    return res
+end
+
+function iter_to_table(iter)
+    local table = {}
+    for x in iter do
+        table[#table + 1] = x
+    end
+    return table
+end

@@ -1,0 +1,7 @@
+schema:
+  schema_id: 092wubi_ext
+  name: 092wubi_ext
+  version: 1
+
+translator:
+  dictionary: 092wubi.extend

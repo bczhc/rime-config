@@ -1,7 +1,7 @@
 schema:
   dependencies:
-    - 092core
     - 092chaifen
+    - 092wubi_U
     - 092wubi_ext
     - emoji
     - html_chars
@@ -21,8 +21,8 @@ switches: # 0 默认关，1 默认开
     states: [ 中文, 西文 ]  #中英文状态
 
   - name: extended_char  #自定义字集
-    reset: 1
-    states: [ 全字集 , 常用字 ]
+    reset: 0
+    states: [ 常用字, 全字集 ]
 
   - name: pinyin  #拼音滤镜
     reset: 0
@@ -106,6 +106,7 @@ engine:
     - table_translator@latin_input
     - table_translator@ipa_input
     - table_translator@named_ipa_diacritics
+    - lua_translator@full_chars_translator
     - lua_translator@number_translator # 数字转大写
     - lua_translator@calculator_translator # 简易计算器
     - lua_translator@shijian2_translator # 高级时间
@@ -115,7 +116,6 @@ engine:
     - lua_translator@sys_env_translator
     - lua_translator@help_translator
   filters:
-    - lua_filter@core092_filter  #自定义字集过滤lua；放在最上面完美解决简繁滤镜出错的问题
     - simplifier@simplification  #简繁滤镜
     - simplifier@pinyin  #拼音滤镜
     - lua_filter@filter_092chaifen

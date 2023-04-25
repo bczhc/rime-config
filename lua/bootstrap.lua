@@ -1,7 +1,6 @@
 require('global')
 charset_comment_filter = require("charset_comment_filter") --Unicode分区提示
-core092_filter = require('092core')
-dz_ci = require("dz_ci_filter") --单字模式 这个别用，有问题的
+dz_ci = require("dz_ci_filter")
 number_translator = require("number")
 lua_unicode_display_filter = require("unicode_display")  --Unicode编码提示
 calculator_translator = require("calculator_translator")  --简易计算器
@@ -19,3 +18,4 @@ preedit_candidate_filter = require('preedit_candidate_filter')
 log_processor = require('log_processor')
 filter_092chaifen = require('092chaifen')
 uniquifier_filter = require('uniquifier_filter')
+full_chars_translator = require('full_chars_translator')

@@ -5,5 +5,5 @@ columns:
   - text
   - code
 import_tables:
-  - 092wubi_supp1
   - 092wubi_supp2
+  - 092wubi_supp1

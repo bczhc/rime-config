@@ -185,7 +185,7 @@ key_binder:
     - { accept: grave, send: 4, when: has_menu }
     - { accept: bracketleft, send: 5, when: has_menu }
     - { accept: apostrophe, send: 6, when: has_menu }
-      #- { accept: Shift_L, send: 7, when: has_menu }
+    - { accept: Tab, send: 7, when: has_menu }
       #    - { accept: 3, send: 8, when: has_menu }
       #    - { accept: 8, send: 9, when: has_menu }
       #    - { accept: 9, send: 0, when: has_menu }
@@ -203,8 +203,6 @@ key_binder:
     - { accept: "Control+s", toggle: full_shape, when: always }
     - { when: always, accept: "Control+period" , toggle: ascii_punct } # 中英标点切换
     - { accept: space, send: Escape, when: composing } #无候选时(空码)空格清屏
-    - { accept: Tab, send: apostrophe, when: always }
-    - { accept: Release+Tab, send: Release+apostrophe, when: always }
 
 
 recognizer:

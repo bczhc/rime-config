@@ -12216,9 +12216,9 @@ B超	bukv
 b	bzzz
 B	bzzz
 这	c
+又	c
 这个	c
 这种	c
-又	c
 知道	c
 难道	c
 劲	ca
@@ -18181,8 +18181,8 @@ c	czzz
 C	czzz
 在	d
 而	d
-今天	d
 大	d
+今天	d
 而且	d
 大家	d
 达到	d
@@ -38768,11 +38768,11 @@ FT	futu
 f	fzzz
 F	fzzz
 不	g
+一	g
 一个	g
 一种	g
 不是	g
 还是	g
-一	g
 责任	g
 理念	g
 现在	g
@@ -89553,6 +89553,7 @@ Nokia	noka
 民族	np
 事实	np
 性	np
+!	np
 牲畜	npac
 民族英雄	npad
 民族区域	npaf
@@ -91793,11 +91794,11 @@ n	nzzz
 N	nzzz
 那	o
 会	o
-个	o
 那个	o
 应该	o
 全世界	o
 精神	o
+个	o
 社会主义	o
 各	oa
 米	oa
@@ -108381,6 +108382,7 @@ QQ群	qqvt
 解决	qu
 重新	qu
 乖	qu
+!	qu
 重	qu
 锂	qua
 儿童节	quab
@@ -141418,8 +141420,8 @@ v	vzzz
 V	vzzz
 他	w
 人	w
-他们	w
 位	w
+他们	w
 任何	w
 什么	w
 合作	w

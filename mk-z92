@@ -4,7 +4,7 @@
 cat 092wubi.dict.yaml | tail +21 | awk '{print $2"\t"$1}'
 cat 092wubi_supp1.dict.yaml | tail +21 | awk '{print $2"\t"$1}'
 cat 092wubi_supp2.dict.yaml | tail +21 | awk '{print $2"\t"$1}'
-cat 092wubi_U.dict.yaml | tail +21 | awk '{print $1"\t"$2}'
+cat 092wubi_U.dict.yaml | tail +21 | awk '{print $2"\t"$1}'
 # cat messy.dict.yaml | tail +21 | awk '{print $1"\t"$2}'
 ) | ruby -e 'puts STDIN.readlines.uniq' > z92.txt
 

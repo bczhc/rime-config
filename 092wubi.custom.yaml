@@ -2,5 +2,5 @@ patch:
   "style/text_orientation": horizontal
   "style/fullscreen": false
   menu:
-    alternative_select_labels: [ _, ;, A, C, "[", "'", T, 8, 9, 0]
+    alternative_select_labels: [ _, ;, "'", C, "[", T, A, 8, 9, "/"]
     page_size: 10

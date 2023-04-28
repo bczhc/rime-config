@@ -21,7 +21,7 @@ switches: # 0 默认关，1 默认开
     states: [ 中文, 西文 ]  #中英文状态
 
   - name: extended_char  #自定义字集
-    reset: 1
+    reset: 0
     states: [ 常用字, 全字集 ]
 
   - name: pinyin  #拼音滤镜

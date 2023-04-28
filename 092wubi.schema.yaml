@@ -21,7 +21,7 @@ switches: # 0 默认关，1 默认开
     states: [ 中文, 西文 ]  #中英文状态
 
   - name: extended_char  #自定义字集
-    reset: 0
+    reset: 1
     states: [ 常用字, 全字集 ]
 
   - name: pinyin  #拼音滤镜
@@ -185,7 +185,6 @@ key_binder:
     - { accept: grave, send: 4, when: has_menu } # CapsLock
     - { accept: bracketleft, send: 5, when: has_menu }
     - { accept: Tab, send: 6, when: has_menu }
-    - { accept: Alt_R, send: 7, when: has_menu }
     - { accept: slash, send: 0, when: has_menu }
       #    - { accept: 3, send: 8, when: has_menu }
       #    - { accept: 8, send: 9, when: has_menu }

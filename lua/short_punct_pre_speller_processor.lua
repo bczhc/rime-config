@@ -43,7 +43,7 @@ local function processor_pre_recognizer(key, env)
             return kAccepted
         end
 
-        if repr:match('^[a-z]$') then
+        if repr ~= repeat_key and repr ~= repeat2_key and repr:match('^[a-z]$') then
             local punct = punct_db:lookup(key:repr())
             if punct == nil then
                 return kNoop
@@ -71,7 +71,6 @@ local function processor_pre_recognizer(key, env)
             end
             return kAccepted
         end
-        -- FIXME: not working
         if repr == repeat2_key then
             local history = get_commit_history(context, -1)
             if history ~= nil then

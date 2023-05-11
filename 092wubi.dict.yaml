@@ -23,6 +23,8 @@ encoder:
 比	a
 工作	a
 比较	a
+⑥	a
+⑦	a
 东西	a
 092修订版	a
 式	aa
@@ -1544,8 +1546,8 @@ ABS	absu
 坐牢	afpp
 坐穿	afpr
 黄埔军校	afps
-甘宁	afps
 落地生根	afps
+甘宁	afps
 落地窗	afpt
 坐定	afpw
 坐成	afpx
@@ -31632,9 +31634,9 @@ E	ezzz
 地	f
 地方	f
 过去	f
-才能	f
-声音	f
 教授	f
+声音	f
+才能	f
 地区	fa
 直到	fa
 塔	fa
@@ -38781,7 +38783,6 @@ F	fzzz
 不是	g
 还是	g
 责任	g
-理念	g
 现在	g
 正确	g
 一切	ga
@@ -47730,8 +47731,8 @@ g	gzzz
 G	gzzz
 上	h
 得	h
-发展	h
 其实	h
+发展	h
 发生	h
 发表	h
 发达国家	h
@@ -67853,7 +67854,6 @@ J	jzzz
 哪里	k
 世界	k
 怎么办	k
-的声音	k
 的东西	ka
 越	ka
 听到	ka
@@ -80156,8 +80156,8 @@ L	lzzz
 也许	m
 也就	m
 也就是	m
-也就是说	m
 父母	m
+也就是说	m
 看到	ma
 同	ma
 见到	ma
@@ -97283,6 +97283,7 @@ OUT了	outb
 烧着	oxph
 全军	oxpl
 全额	oxpo
+神经生物学家	oxpp
 烧穿	oxpr
 神来之笔	oxpt
 神经官能症	oxpu
@@ -97741,8 +97742,9 @@ PageUp	pagp
 成功的	pak
 成功的	pakq
 窃听	pakr
-差异	pala
+差异	pal
 差距	pala
+差异	pala
 窃国	palb
 宽度	palc
 成年累月	pale
@@ -109648,8 +109650,8 @@ Q	qzzz
 我的	r
 拒绝	r
 反正	r
-我们的	r
 近代	r
+我们的	r
 提到	ra
 找到	ra
 批	ra
@@ -125321,6 +125323,7 @@ TF卡	tfmh
 相处	tgth
 算不算	tgth
 第一条	tgti
+相簿	tgti
 管理科学	tgti
 笑一笑十年少	tgti
 算不算是	tgtj
@@ -129102,8 +129105,8 @@ T恤	tunt
 答言	twyy
 第	tx
 系	tx
-系统	tx
 紧	tx
+系统	tx
 升级到	txa
 升级工具	txae
 系花	txah
@@ -129462,8 +129465,8 @@ T	tzzz
 准备	u
 产生	u
 产品	u
-新的	u
 美国	u
+新的	u
 效率	ua
 痛苦	ua
 野	ua
@@ -131964,6 +131967,7 @@ UFO	ufou
 瘟神	ujoj
 间断	ujon
 间房	ujop
+亲爱精诚	ujoy
 阅览室	ujpa
 门巴族	ujpc
 兰州牛肉面	ujpd
@@ -139762,6 +139766,7 @@ VOA	voau
 好久不见	vqgm
 另外一回事	vqgn
 另外一个	vqgo
+点名表扬	vqgr
 另外一种	vqgt
 嫣然一笑	vqgt
 市道不好	vqgv
@@ -148047,9 +148052,9 @@ W	wzzz
 进行	x
 强调	x
 引起	x
-或者	x
 意义	x
 竟然	x
+或者	x
 结果	x
 经常	x
 红	xa

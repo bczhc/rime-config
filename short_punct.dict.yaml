@@ -2,14 +2,33 @@ name: short_punct
 version: 1
 sort: original
 ...
-l	；
-u	？
-s	：“
-d	。”
-h	“
+
+f	“
 j	”
-f	‘
-g	’
+g	‘
+h	’
+
+k	：“
+l	。”
+
+;	；
+
+u	、
+i	？
+o	！
+p	……
+
+y	·
+
+
+# l	；
+# u	？
+# s	：“
+# d	。”
+# h	“
+# j	”
+# f	‘
+# g	’
 
 
 # q	：“

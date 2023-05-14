@@ -85,6 +85,18 @@ local function processor_pre_recognizer(key, env)
             end
             return kAccepted
         end
+        if repr == 'semicolon' then
+            i_semicolon = '；'
+            env.engine:commit_text(i_semicolon)
+            my_log_on_commit(i_semicolon)
+
+            if short_punct_key_pressed then
+                long_press_used = true
+            else
+                context.input = ''
+            end
+            return kAccepted
+        end
     end
     return kNoop
 end

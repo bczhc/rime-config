@@ -39,18 +39,17 @@
 - https://html.spec.whatwg.org/multipage/named-characters.html#named-character-references
 - https://github.com/biopolyhedron/rime-latin-international/blob/master/latin_international.schema.yaml#L10-L16
 
-### 输入设定 TODO
+### 输入设定
 
 - 四码唯一自动上屏
 - 五码顶屏
 - 标点符号顶屏
 - 回车清码
 - 空格清除空码
-- 分号次选，句号或右Alt三选，逗号或左Alt四选
+- 分号次选，撇号三选，`` ` ``（使用CapsLock映射）四选，左方括号五选，Tab六选，斜杠十选
 - 分号或大写字母（使用Shift）引导临时字母模式，支持空格，用回车上屏
 - 反引号拼音反查
-- 使用左右方括号输入逗句号
-- 按一次或一直按住撇号或Tab为撇号模式输入，可顶屏和连续上屏：使用字母输入快捷符号，使用空格重复上一次上屏内容，使用右Alt重复倒数第二次上屏内容。
+- 按一次或一直按住z为快符模式，可顶屏和连续上屏：使用字母输入快捷符号，使用空格重复上一次上屏内容，z+r重复倒数第二次上屏内容，z+;上屏中文分号
 
 ### 快捷键
 
@@ -66,5 +65,6 @@
 - Ctrl+D 单字模式
 - Ctrl+I preedit为候选
 - Ctrl+S 全角半角切换
+- Shift+Space 中西文切换
 - Ctrl+Space 重选重码（还不稳定）
 

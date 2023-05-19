@@ -1524,6 +1524,7 @@ ABS	absu
 某事	afnv
 某段	afnx
 工于心计	afny
+若干个	afo
 哥老会	afoc
 某类	afod
 坐庄	afof
@@ -1532,6 +1533,7 @@ ABS	absu
 某户	afoo
 落地灯	afos
 某个	afot
+若干个	afot
 坐禅	afou
 荸	afp
 荣幸之至	afpa
@@ -6241,8 +6243,8 @@ AV女优	avvw
 年纪轻轻	axll
 刻意为之	axlp
 皆斩	axlr
-比较	axlu
 皆为	axlu
+比较	axlu
 年经国纬	axlx
 警幻所训	axly
 皆已	axly
@@ -16172,8 +16174,8 @@ CPI	cpiu
 这可	cpsk
 肯定可以	cpsn
 这桩	cpso
-这样	cpsp
 运送	cpsp
+这样	cpsp
 手写板	cpsr
 这句	cpst
 这片	cpst
@@ -32151,6 +32153,7 @@ E	ezzz
 博识	fbyk
 喜出望外	fbyq
 教义	fbyr
+教谕	fbyw
 教诲	fbyx
 喜欢	fc
 支	fc
@@ -44158,8 +44161,8 @@ GMP认证	gmpy
 不习惯	gnnx
 不忙	gnny
 理事会	gno
-不会	gnoc
 理事会	gnoc
+不会	gnoc
 不怕神一样的对手，就怕猪一样的队友	gnod
 不备	gnof
 不精	gnog
@@ -44315,6 +44318,7 @@ GNP	gnpu
 不整	gnut
 不立	gnuu
 不前	gnuw
+GNU/Linux	gnux
 不好	gnvb
 不专	gnvc
 不早	gnvh
@@ -55075,6 +55079,7 @@ H	hzzz
 洱	ibg
 学武	ibga
 浑金璞玉	ibgb
+学政	ibgc
 洒了一地	ibgf
 学琴	ibgg
 学画	ibgl
@@ -89151,6 +89156,7 @@ NGO	ngou
 事情	nn
 习惯	nn
 届	nn
+忆	nn
 懒懒散散	nnaa
 牺牲节	nnab
 居心叵测	nnai
@@ -89292,8 +89298,8 @@ NGO	ngou
 心惊肉跳	nnml
 风风雨雨	nnmm
 凤凰网站	nnmu
-忆	nnn
 习惯性	nnn
+忆	nnn
 心慌慌	nnna
 惊心悼胆	nnne
 习惯性地	nnnf
@@ -106076,6 +106082,7 @@ QFII	qfii
 名花	qkah
 铝芯	qkan
 鸟啼花怨	qkaq
+名匠	qkar
 名茶	qkaw
 锦葵	qkaw
 名臣	qkay
@@ -109381,6 +109388,11 @@ Q点	quvo
 外来语	qxys
 久	qy
 留	qy
+③	qy
+④	qy
+⑤	qy
+⑥	qy
+⑦	qy
 首	qy
 首节	qyab
 错误率	qyac
@@ -133085,12 +133097,13 @@ Unix	unix
 旁瓣	upao
 兼容区	upar
 速比	upax
-产生了	upb
+决定了	upb
 啻	upb
 帝	upb
 野鹤孤云	upbc
 旁出	upbm
 产生了	upbn
+决定了	upbn
 帝子	upbo
 美容院	upbp
 疗养院	upbp
@@ -141289,9 +141302,9 @@ VOA	voau
 肆意妄为	vxyl
 狭义	vxyr
 如意郎君	vxyv
-狼	vy
-麻	vy
 忍	vy
+麻	vy
+狼	vy
 猝	vya
 如弃草芥	vyaa
 狼藉	vyad
@@ -145236,8 +145249,9 @@ Windows系统	winx
 人气	woet
 偏胖	woev
 人脸	woew
-人脑	woey
 人脉	woey
+偏航	woey
+人脑	woey
 俦	wof
 什么都	wof
 什么都没有	wofe

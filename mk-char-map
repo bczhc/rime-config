@@ -1,0 +1,32 @@
+#!/bin/env ruby
+
+main_dict_path = "./092wubi.dict.yaml"
+ext_char_dict_path = "./092wubi_U.dict.yaml"
+
+map = {}
+
+# @type [Array<String>]
+lines = [
+  File.open(main_dict_path).readlines(chomp: true).drop_while { |x| x != '...' }.drop(1),
+  File.open(ext_char_dict_path).readlines(chomp: true).drop_while { |x| x != '...' }.drop(1)
+].flatten
+lines.each do |line|
+  split = line.split("\t")
+  next unless split.length == 2
+  word = split[0]
+  next unless word.length == 1
+  next unless split[1].length >= 2
+  code = split[1][0..1]
+  if map[word] == nil
+    map[word] = code
+  else
+    # 有兼容码的字，不放入
+    if map[word] != code
+      map.delete word
+    end
+  end
+end
+
+map.sort_by { |x| x[0] }.each do |pair|
+  puts "#{pair[0]} #{pair[1]}"
+end

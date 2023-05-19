@@ -3,7 +3,7 @@
 $map = {}
 
 File.open("#{File.dirname $0}/char-map").readlines(chomp: true).map do |line|
-  s = line.split("=")
+  s = line.split(' ')
   $map[s[0]] = s[1]
 end
 

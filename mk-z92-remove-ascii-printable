@@ -1,0 +1,4 @@
+#!/bin/env ruby
+
+printable_chars = %{!"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[|]^_abcdefghijklmnopqrstuvwxyz{|}~}.chars
+puts STDIN.readlines(chomp: true).select { |x| not printable_chars.include? x.split("\t")[1] }

@@ -8675,6 +8675,7 @@ BIG5	bigs
 防暴警	bjas
 阳萎	bjat
 向日葵	bjaw
+幌子	bjb
 随时随刻	bjba
 玉堂金马	bjbc
 随时随地	bjbf
@@ -8686,9 +8687,8 @@ BIG5	bigs
 列阵	bjbl
 列出	bjbm
 帽子	bjbo
-幌子	bjbo
 褴褛	bjbo
-列子	bjbo
+幌子	bjbo
 裸聊	bjbq
 列队	bjbw
 奥巴马	bjc
@@ -59705,6 +59705,7 @@ IPO	ipou
 当然	iq
 活	iq
 沟	iq
+④	iq
 逃	iq
 清道夫	iqaa
 逃匿	iqaa
@@ -70303,6 +70304,7 @@ J	jzzz
 的是	kj
 只能	kj
 虽	kj
+的时候	kj
 资本	kj
 的时刻	kja
 唱工	kjag
@@ -83630,6 +83632,8 @@ MMC卡	mmcm
 贴心话	mnyq
 梵语	mnys
 也会	mo
+②	mo
+③	mo
 八	mo
 八节	moab
 同类项	moad
@@ -87848,13 +87852,16 @@ NBA	nbau
 怕不怕	ngnk
 性静情逸	ngnl
 怔忪	ngnm
+以下几个	ngno
 快不快乐	ngnq
 戳一戳	ngnr
 民政局	ngns
 邮政局	ngns
 怔忡	ngns
-情事	ngnv
+以下几种	ngnt
 怀恨	ngnv
+情事	ngnv
+以下几点	ngnv
 愧天怍人	ngnw
 以表心意	ngnx
 几天几夜	ngny
@@ -95452,8 +95459,8 @@ OneNote	onee
 社会进步	ooxc
 炉火纯青	ooxg
 福寿绵长	ooxh
-社会经济	ooxi
 全神贯注	ooxi
+社会经济	ooxi
 煽惑	ooxk
 那个意思	ooxl
 全神戒备	ooxo
@@ -98553,6 +98560,7 @@ PDF	pdfu
 农耕社会	pdoo
 官房	pdop
 官府	pdow
+寄生	pdp
 逭	pdp
 官宦	pdpa
 生存方式	pdpa
@@ -98560,8 +98568,8 @@ PDF	pdfu
 突变	pdpc
 突突	pdpd
 官家	pdpe
-寄生	pdpg
 突兀	pdpg
+寄生	pdpg
 宠着	pdph
 生态旅游	pdpi
 寄养	pdpj
@@ -121283,6 +121291,7 @@ SM卡	smmh
 西凤酒	snis
 椎心泣血	snit
 昏头	sniw
+昏暗	snj
 昏	snj
 可以是	snj
 忠顺	snjd
@@ -139180,6 +139189,7 @@ VIP	vipu
 刀郎	vnyv
 点	vo
 专业	vo
+③	vo
 九	vo
 VOA	voa
 狗爬式	voaa
@@ -151165,7 +151175,7 @@ XML	xmlu
 纯爷们	xmwu
 遗传	xmwv
 意见建议	xmwy
-幽	xmx
+幽	xm
 绯	xmx
 遗骸	xmxa
 绯红	xmxa
@@ -158245,8 +158255,8 @@ Y染色体	yiqw
 详细设计	yxyy
 认识	yy
 言	yy
+③	yy
 议	yy
-谢	yy
 设计	yy
 讨论	yy
 忘记	yy

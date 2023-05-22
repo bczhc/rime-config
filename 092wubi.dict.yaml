@@ -31,9 +31,11 @@ encoder:
 式	aa
 夫	aa
 替	aa
+辛辛苦苦几十年	aaaa
 辛辛苦苦	aaaa
 花花草草	aaaa
 蒹葭苍苍	aaaa
+黄花菜都凉了	aaab
 比葫芦画瓢	aaab
 巫医	aaac
 草莽英雄	aaad
@@ -43,6 +45,7 @@ encoder:
 替工	aaag
 茉莉花	aaah
 劳苦功高	aaah
+芙蕖	aaai
 芳草萋萋鹦鹉洲	aaai
 比比皆是	aaaj
 某年某月某日	aaaj
@@ -51,7 +54,10 @@ encoder:
 苁蓉	aaap
 莺歌燕舞	aaar
 从东到西	aaas
+辛辛苦苦几十年，一朝回到解放前	aaau
 匹夫匹妇	aaav
+莝草	aaav
+菊花茶	aaaw
 功夫茶	aaaw
 莺歌燕语	aaay
 辛苦了	aab
@@ -6615,8 +6621,8 @@ A	azzz
 了	b
 被	b
 出	b
-孩子	b
 出来	b
+孩子	b
 金融	b
 联系	b
 陈	ba
@@ -6983,6 +6989,7 @@ BBS	bbs
 黑桃	bbsi
 帕金森	bbsm
 耿耿忠心	bbsn
+BB机	bbsn
 阴阳术数	bbso
 黑板	bbsr
 耶酥	bbst
@@ -38849,11 +38856,15 @@ F	fzzz
 武职	gabk
 一年被蛇咬	gabk
 弄出	gabm
+一切向前看	gabm
+一切向钱看	gabm
 弄了	gabn
+一切随风	gabn
 豆子	gabo
 琪花玉树	gabs
 武工队	gabw
 弄死	gabx
+一切随缘	gabx
 鹉	gac
 一年又一年	gaca
 武勇	gace
@@ -38876,6 +38887,7 @@ F	fzzz
 武威	gadv
 不药而愈	gadw
 弄碎	gady
+一切形式	gaea
 豆乳	gaeb
 天若有情天亦老	gaef
 天工开物	gaen
@@ -38897,6 +38909,7 @@ F	fzzz
 弄坏	gafg
 不至于	gafh
 不甘于	gafh
+一切都是	gafj
 一切都有可能	gafj
 武后	gafk
 不甘平凡	gafn
@@ -38915,6 +38928,7 @@ F	fzzz
 一夫一妻	gagg
 不茶不饭	gagh
 一比一	gagi
+一切正常	gagj
 下落不明	gagj
 互敬互爱	gagj
 一年一次	gagk
@@ -39041,7 +39055,9 @@ F	fzzz
 不臣之心	gapn
 不甘寂寞	gapp
 王夫之	gapp
+一切成空	gapp
 弄巧成拙	gapr
+一切安好	gapv
 不落窠臼	gapv
 弄成	gapx
 弄错	gaqa
@@ -39174,6 +39190,7 @@ GBA	gbau
 一队队	gbbw
 万金难买	gbcc
 一出手，就知有没有	gbce
+一出手就知有没有	gbce
 一票难求	gbcf
 一出手	gbch
 一顿骚操作	gbcw
@@ -39439,6 +39456,7 @@ GBK	gbku
 一步一步	gcgc
 一举一动	gcgc
 一动不动	gcgc
+一动不敢动	gcgc
 斑斑	gcgc
 不知天高地厚	gcgd
 一手一脚	gcge
@@ -39502,6 +39520,7 @@ GBK	gbku
 不文明	gcj
 正日	gcja
 正常	gcjb
+一些日子	gcjb
 不文明	gcje
 正旦	gcjg
 正本	gcjj
@@ -39520,6 +39539,7 @@ GBK	gbku
 一些的	gck
 正朝	gcke
 吞云吐雾	gckf
+一举超过	gckf
 灭此朝食	gckh
 一举超越	gckk
 不知怎么回事	gckn
@@ -39605,6 +39625,7 @@ GBK	gbku
 政审	gcpj
 正宫	gcpk
 还手之力	gcpl
+一举成为	gcpl
 正赛	gcpm
 不齿之事	gcpn
 政客	gcpo
@@ -39728,6 +39749,7 @@ GBK	gbku
 一些人的	gcwk
 正像	gcwl
 正侧	gcwm
+一些什么	gcwo
 一些人	gcwo
 一手促成	gcwp
 政通人和	gcwt
@@ -40282,6 +40304,7 @@ GDP	gdpu
 一般	ge
 青	ge
 静	ge
+一两年	gea
 青苔	geac
 青菜	geae
 静坐	geaf
@@ -40390,6 +40413,7 @@ GDP	gdpu
 静场	gefv
 天造地设	gefy
 瑗	geg
+一两天	geg
 还有一	geg
 青豆	gega
 还有一些	gegc
@@ -40700,6 +40724,7 @@ GDP	gdpu
 环堵萧然	gfaq
 惠城区	gfar
 一击毙命	gfaw
+一击致命	gfaw
 不过了	gfb
 不孝子孙	gfbb
 琼堆玉砌	gfbd
@@ -40964,6 +40989,7 @@ GDP	gdpu
 不过尔耳	gfqb
 球鞋	gfqf
 不无道理	gfqg
+一元钱	gfqg
 珠零锦粲	gfqh
 玩乐	gfqi
 不喜勿喷	gfqk
@@ -41079,6 +41105,7 @@ GDP	gdpu
 不堪设想	gfyt
 不堪言状	gfyu
 还真说不好	gfyv
+一元论	gfyw
 一场论	gfyw
 不幸身亡	gfyy
 一下	gg
@@ -41104,6 +41131,7 @@ GDP	gdpu
 环艺	ggan
 下一刻	ggao
 一万年太久	ggaq
+一万年太久，只争朝夕	ggaq
 不一致	ggat
 环切	ggav
 一盏茶	ggaw
@@ -41113,6 +41141,7 @@ GDP	gdpu
 表现了	ggb
 邳	ggb
 表现出了	ggbb
+一一列举	ggbc
 下不了台	ggbc
 青青子衿，悠悠我心。但为君故，沉吟至今	ggbd
 王陵	ggbf
@@ -41304,12 +41333,13 @@ GDP	gdpu
 下一轮	ggl
 表现力	ggla
 王国	gglb
-不下去了	gglb
+一一罗列	gglb
 末班车	gglg
 不下去	gglh
 天下为公	gglm
 还不足以	ggln
 环路	gglo
+一不为名，二不为利	gglt
 表现为	gglu
 玩不转	gglv
 下不为例	gglw
@@ -41328,6 +41358,8 @@ GDP	gdpu
 王丹	ggmy
 瑟	ggn
 一不怕苦	ggna
+一不怕苦，二不怕死	ggnb
+一不怕苦二不怕死	ggnb
 下一层	ggnc
 一天以后	ggnf
 静下心	ggni
@@ -41416,6 +41448,7 @@ GDP	gdpu
 不一样了	ggsb
 王权	ggsc
 还不够大	ggsd
+一一核对	ggse
 歪酷	ggse
 王墓	ggsf
 玻璃杯	ggsg
@@ -41484,11 +41517,14 @@ GDP	gdpu
 王命	ggwn
 天下人	ggwo
 下一任	ggwq
+一不偷，二不抢	ggwr
+一不偷二不抢	ggwr
 一表人材	ggws
 环合	ggwt
 王位	ggwu
-王伟	ggwv
+一一作别	ggwv
 歪歪斜斜	ggww
+一不做，二不休	ggww
 一不做二不休	ggww
 武王伐纣	ggwx
 王储	ggwy
@@ -41640,6 +41676,7 @@ GDP	gdpu
 画虎不成反类犬	ghgd
 不得不用	ghge
 焉得不速老	ghgf
+一上一下	ghgg
 下邳	ghgg
 严惩不贷	ghgh
 不得不发	ghgh
@@ -41885,6 +41922,7 @@ GDP	gdpu
 下阙	ghuu
 一代新人	ghuw
 一代新人换旧人	ghuw
+一代新人胜旧人	ghuw
 不得好死	ghvb
 下奶	ghve
 现行犯	ghvl
@@ -42173,6 +42211,7 @@ GDP	gdpu
 一池	giim
 碧油油	giin
 政治学家	giip
+一兆	giiq
 一溜	giiq
 一派	giir
 一潭	giis
@@ -42193,6 +42232,7 @@ GDP	gdpu
 末法时代	gijh
 熬清受淡	giji
 一本	gijj
+一刹	gijj
 一晃	gijk
 一晚	gijl
 一览	gijm
@@ -42899,6 +42939,7 @@ GDP	gdpu
 一日之寒	gjpp
 更富	gjpr
 更牛	gjpt
+一党之私	gjpt
 一时之间	gjpu
 不能容忍	gjpv
 更定	gjpw
@@ -43253,6 +43294,7 @@ GDP	gdpu
 表示	gkwm
 一号人物	gkwn
 一号位	gkwu
+一世人两兄弟	gkwu
 一口价	gkww
 不起来	gkx
 一品红	gkxa
@@ -43296,6 +43338,7 @@ GDP	gdpu
 一力降十会	glbo
 画院	glbp
 画幅	glbr
+一力承担	glbr
 亚足联	glbs
 画帖	glbv
 不畏艰险	glcb
@@ -43579,6 +43622,8 @@ GMAT	gmat
 现予	gmcs
 不同观点	gmcv
 瑞	gmd
+一分耕耘，一分收获	gmda
+一分耕耘一分收获	gmda
 一看而知	gmdc
 一分耕耘	gmdd
 现存	gmdh
@@ -43605,6 +43650,7 @@ GMAT	gmat
 一看二慢三通过	gmff
 瑞士	gmfg
 不同于	gmfh
+一分未得	gmfh
 瓦釜雷鸣	gmfk
 不同地方	gmfp
 天公地道	gmfq
@@ -43619,6 +43665,7 @@ GMAT	gmat
 一岁一枯荣	gmga
 凸凹	gmgb
 武则天	gmgd
+一分一厘	gmgd
 不同一般	gmge
 青山不老	gmgf
 璀璨	gmgh
@@ -44286,6 +44333,7 @@ GNP	gnpu
 不由自主	gntb
 不透	gnte
 不等	gntf
+一事相求	gntf
 不相	gntg
 不算	gnth
 不利	gntj
@@ -44441,6 +44489,7 @@ GNU/Linux	gnux
 灭菌	goal
 一座皆惊	goan
 一个比一个	goao
+一个萝卜一个坑儿	goaq
 亚欧	goar
 一个东西	goas
 严苛	goas
@@ -44468,6 +44517,7 @@ GNU/Linux	gnux
 一个劲儿	gocq
 不会这样	gocs
 下火海	gocu
+一个手都数得过来	gocx
 亚	god
 一个面子	godb
 一个原因	godl
@@ -44477,6 +44527,8 @@ GNU/Linux	gnux
 恶感	godr
 一个愿打	godr
 一个愿挨	godr
+一个愿打，一个愿挨	godr
+一个愿打一个愿挨	godr
 亚太	godu
 青灯古佛	godw
 一炮而红	godx
@@ -44487,6 +44539,7 @@ GNU/Linux	gnux
 一个月	goee
 下个月	goee
 不会有	goef
+一个月后	goef
 严刑	goej
 亚型	goej
 不礼貌	goek
@@ -44529,7 +44582,9 @@ GNU/Linux	gnux
 一房一厅	gogd
 互帮互助	goge
 一个一个地	gogf
+一个天一个地	gogf
 亚瑟	gogg
+一个天上，一个地下	gogg
 一个天上一个地下	gogg
 天底下	gogh
 一个天上	gogh
@@ -44609,6 +44664,7 @@ GNU/Linux	gnux
 不会的	gokq
 不断的	gokq
 政府的	gokq
+一个唾沫一个钉	gokq
 一个世纪	gokx
 下个世纪	gokx
 一会再说	goky
@@ -44623,6 +44679,7 @@ GNU/Linux	gnux
 严办	golm
 一个国家	golp
 一会回来	golx
+一会见	gom
 严峻	gomc
 一个也没有	gome
 严嵩	gomh
@@ -44663,6 +44720,7 @@ Google	gooe
 更糟糕的是	gooj
 一个个的	gook
 一遍遍	goom
+一个礼拜	goom
 一个社会	gooo
 一会会儿	gooq
 灭灯	goos
@@ -44670,6 +44728,7 @@ Google	gooe
 一粒粒	goou
 灭火	gooy
 一个字	gopb
+一个方向	gopb
 灭族	gopc
 一个方面	gopd
 严守	gopf
@@ -44688,6 +44747,8 @@ Google	gooe
 万全之策	gopt
 严寒	gopu
 恶寒	gopu
+一个字也不信	gopw
+一个字也不相信	gopw
 万全之计	gopy
 一会儿	goq
 一个多	goq
@@ -44716,6 +44777,7 @@ Google	gooe
 恶报	gori
 一炮打响	gork
 一个接一个	goro
+一个打十个	goro
 严控	gorp
 严打	gors
 不断提升	gort
@@ -44723,7 +44785,9 @@ Google	gooe
 不断推进	gorx
 琛	gos
 一个模子	gosb
+一个样子	gosb
 灭顶	gosd
+一个概念	gosd
 严酷	gose
 亚丁	gosg
 晋中	gosh
@@ -44731,6 +44795,8 @@ Google	gooe
 恶棍	gosj
 严查	gosj
 一个档次	gosk
+一个模子出来的	gosk
+一个模子刻出来的	gosk
 一个中国	gosl
 一个中心	gosn
 严格	goso
@@ -44741,6 +44807,8 @@ Google	gooe
 一个关系	gost
 一个中心两个基本点	gosv
 一个顶俩	gosw
+一个标点符号都不能信	gosw
+一个标点符号都不能相信	gosw
 亚述	gosy
 晋升	gota
 一个箭步	gotc
@@ -44752,6 +44820,7 @@ Google	gooe
 严管	gotp
 灭种	gots
 亚种	gots
+一个篱笆三个桩	gots
 严冬	gotu
 政府管理部门	gotu
 一个条件	gotw
@@ -44777,6 +44846,7 @@ Google	gooe
 万应灵丹	govm
 严加	govn
 恶灵	govo
+一个好汉三个帮	govo
 恶魔	govq
 恶狗	govs
 灭鼠	govu
@@ -44787,14 +44857,17 @@ Google	gooe
 瑭	gow
 一个例子	gowb
 不会做	gowd
+一个人扛下了所有	gowe
 恶仗	gowg
 一个人的	gowk
 恶俗	gowm
 万户侯	gown
+一个亿	gown
 恶人	gowo
 一应俱全	gowo
 一个人	gowo
 一个人扛	gowr
+一个人的命运啊，当然要靠自我奋斗，但是也要考虑到历史的进程	gowt
 亚伟	gowv
 一个人的时候	goww
 恶斗	gowy
@@ -46371,6 +46444,7 @@ GSM	gsmu
 赘述	gtsy
 不相关	gtsy
 正相关	gtsy
+一丢丢	gtt
 麦季	gttb
 麦秆	gttf
 麦穗	gttg
@@ -46520,6 +46594,7 @@ GSM	gsmu
 理货	guhm
 万里长空	guhp
 理化	guht
+一决高低	guhw
 毒瘾发作	guhw
 不减当年	guia
 理学	guib
@@ -46699,6 +46774,7 @@ G点	guvo
 不好下手	gvgc
 下半天	gvgd
 不好玩	gvgf
+一加一等于二	gvgf
 一点一滴	gvgi
 一九一	gvgi
 不早不晚	gvgj
@@ -46951,6 +47027,7 @@ G点	guvo
 一人有庆	gweo
 恶人先告状	gweu
 一仆二主	gwfb
+一传十，十传百	gwfd
 一传十十传百	gwfd
 不低于	gwfh
 亏你	gwfi
@@ -46981,6 +47058,7 @@ G点	guvo
 不但不	gwgn
 不仅不	gwgn
 不伦不类	gwgo
+一人一个	gwgo
 不人不鬼	gwgq
 不值一提	gwgr
 一人一句	gwgs
@@ -46988,6 +47066,7 @@ G点	guvo
 不合理	gwgu
 瑜珈	gwgv
 不偏不倚	gwgw
+一件一件	gwgw
 不仁不义	gwgy
 一体化	gwh
 不值得	gwh
@@ -47026,6 +47105,8 @@ G点	guvo
 不但是	gwjw
 不仅能	gwjx
 一人吃饱	gwkh
+一人吃饱，全家不饿	gwkh
+一人吃饱全家不饿	gwkh
 一命呜呼	gwkk
 万佛朝宗	gwkp
 不停的	gwkq
@@ -47118,6 +47199,7 @@ G点	guvo
 不作要求	gwsf
 天仙配	gwsl
 不但可以	gwsn
+一体机	gwsn
 不合格	gwso
 不像样	gwsp
 武侠片	gwst
@@ -47537,7 +47619,7 @@ G点	guvo
 理论码长	gydh
 一身大汗	gydi
 不言而喻	gydk
-否认三连	gydl
+一亩三分田	gydl
 不识泰山	gydm
 不许百姓点灯	gydo
 理论研究	gydp
@@ -69559,6 +69641,7 @@ J	jzzz
 走后	kgfk
 走下坡路	kgfl
 走地	kgfm
+的一声	kgfn
 吱一声	kgfn
 皇城	kgfp
 走远	kgfq
@@ -87424,6 +87507,7 @@ NBA	nbau
 心有灵犀一点通	nevc
 心有猛虎	nevh
 心有灵犀	nevn
+〇九	nevo
 心胸狭窄	nevp
 情有独钟	nevq
 民女	nevv
@@ -91204,6 +91288,7 @@ N个	nuot
 慨允	nvcq
 以战止战	nvcv
 特别感动	nvdc
+〇九大法	nvdi
 特别厉害	nvdj
 特别奇怪	nvdn
 事大	nvdo
@@ -91219,12 +91304,16 @@ N个	nuot
 尻脽	nver
 特别喜欢	nvfc
 迟早都得	nvfh
+〇九二	nvfi
 事后	nvfk
 特别地	nvfm
 恨声	nvfn
 迟早都会	nvfo
 迟早都要	nvfs
+092五笔	nvft
+〇九二五笔	nvft
 风鬟雾鬓	nvfv
+092五笔正规闲聊群	nvfv
 风刀霜剑	nvfw
 事过	nvfy
 愤怒青年	nvga
@@ -105456,8 +105545,8 @@ QFII	qfii
 鸟语	qgys
 千不该万不该	qgyy
 外	qh
+与其	qh
 道德	qh
-银行	qh
 首发式	qhaa
 外藩	qhai
 触目皆是	qhaj
@@ -136947,6 +137036,7 @@ VCD	vcdu
 狐朋狗友	vevd
 姐姐	veve
 奶奶	veve
+䰀鬌	veve
 姐妹	vevf
 如胶如漆	vevi
 狐朋狗党	vevj

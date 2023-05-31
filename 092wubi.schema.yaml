@@ -10,7 +10,7 @@ schema:
     - short_punct
     - named_ipa_diacritics
     - pinyin_simp
-  name: "092修订版"
+  name: "五笔"
   schema_id: 092wubi
   version: 1
 

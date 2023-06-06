@@ -1896,6 +1896,8 @@ ABS	absu
 工牌	agsr
 工模	agss
 东一句西一句	agss
+东一榔头西一棒槌	agss
+东一榔头，西一棒槌	agss
 东一句	agst
 东歪西倒	agsw
 苦不可言	agsy
@@ -8603,6 +8605,7 @@ BIG5	bigs
 逊尼	binx
 瓢	bio
 票庄	biof
+孙启	biok
 票房	biop
 函数	biov
 票数	biov
@@ -8941,6 +8944,7 @@ BIG5	bigs
 向	bk
 舒	bk
 帕	bk
+了的	bk
 被吓到了	bkab
 取次花丛懒回顾	bkad
 舒散	bkae
@@ -11902,6 +11906,7 @@ B超	bukv
 襁	bxk
 初来乍到	bxka
 死啊	bxkb
+随意走动	bxkc
 出来走两步	bxkc
 死光	bxkh
 出来吧	bxkj
@@ -27106,6 +27111,7 @@ D	dzzz
 两者皆可抛	efar
 有若	efat
 有致	efat
+肚子	efb
 郁	efb
 脸都黑了	efbb
 有耳	efbg
@@ -27113,8 +27119,8 @@ D	dzzz
 脱壳金蝉	efbj
 有了	efbn
 脖子	efbo
-肚子	efbo
 肘子	efbo
+肚子	efbo
 郁金	efbu
 有限	efbv
 肢障	efbx
@@ -27145,6 +27151,7 @@ D	dzzz
 先声夺人	efdw
 有碍	efdx
 对你而言	efdy
+有用	efe
 有孕	efeb
 肚脐	efec
 有形	efee
@@ -27152,6 +27159,7 @@ D	dzzz
 有冇	efeg
 膨胀	efeh
 肚腩	efeh
+有用	efeh
 肝胆	efej
 有型	efej
 有助	efel
@@ -29555,6 +29563,8 @@ Enter	entr
 形成	ep
 造成	ep
 胜	ep
+⑤	ep
+对方	ep
 膣	epa
 开放式	epaa
 有着落了	epab
@@ -31359,6 +31369,7 @@ Excel	excl
 氟	exj
 股掌	exjc
 股本	exjj
+滕晔	exjm
 有线电	exjn
 有线电视	exjo
 螣蛇	exjp
@@ -31856,19 +31867,23 @@ E	ezzz
 十项全能	faoj
 雪茄烟	faol
 喜糖	faoo
+你若精彩，天自安排	faor
 赍	fap
 十年生死两茫茫	fapa
 喜字	fapb
 老东家	fape
+你若盛开	fape
 你若安好，便是晴天	fapg
 喜宴	fapj
 十年寒窗	fapp
 嘉宾	fapr
+你若盛开，蝴蝶自来，你若精彩，天自安排	fapr
 老黄牛	fapt
 十年之前	fapu
 你若安好	fapv
 嘉定	fapw
 你若盛开，清风自来	fapx
+你若盛开，蝴蝶自来	fapx
 喜迎	faqb
 鼓角	faqe
 埃菲尔铁塔	faqf
@@ -35767,7 +35782,7 @@ Firefox	firx
 无以言说	fnyy
 十	fo
 求	fo
-赫	fo
+幸福	fo
 求医	foac
 后庭花	foah
 二房东	foai
@@ -38524,8 +38539,8 @@ FT	futu
 喜结良缘	fxyx
 你来试试	fxyy
 过	fy
-教育	fy
 无论	fy
+教育	fy
 坑	fy
 过节	fyab
 教育工作者	fyaf
@@ -39806,6 +39821,7 @@ GBK	gbku
 现在	gd
 天	gd
 正在	gd
+下面	gd
 一百年	gda
 表达式	gdaa
 天葬	gdab
@@ -41086,6 +41102,7 @@ GDP	gdpu
 吞声忍气	gfve
 一击即走	gfvk
 晋城市	gfvm
+武士刀	gfvn
 晋城市统计局	gfvn
 一二九	gfvo
 一击即中	gfvs
@@ -43909,6 +43926,7 @@ GMP认证	gmpy
 理性	gn
 理由	gn
 瓦	gn
+珍惜	gn
 不散	gnae
 不甘	gnaf
 不贰	gnaf
@@ -44090,6 +44108,8 @@ GMP认证	gmpy
 恶事行千里	gnhu
 不很	gnhv
 不惜代价	gnhw
+严以律己，宽以待人	gnhw
+严以律己宽以待人	gnhw
 不行	gnhw
 不得	gnhx
 不懂得	gnhx
@@ -44963,6 +44983,7 @@ GPA	gpau
 一方面	gpd
 王安石	gpdd
 下着大雪	gpdf
+王安石变法	gpdi
 还在	gpdj
 一方面是	gpdj
 还原	gpdk
@@ -44995,6 +45016,7 @@ GPA	gpau
 一差两讹	gpey
 不善于	gpf
 一生未娶	gpfb
+一字未动	gpfc
 还需	gpfd
 还真	gpfe
 天成地平	gpff
@@ -45060,6 +45082,7 @@ GPA	gpau
 还行	gphw
 还得	gphx
 还贷	gphy
+一字没动	gpic
 天之涯	gpid
 一定没有	gpie
 还清	gpig
@@ -49242,6 +49265,7 @@ HDTV	hdtv
 南明	heje
 南昌	hejj
 献映	hejm
+高脚蛛	hejt
 南川	hejt
 南归	hejv
 南越	heka
@@ -63035,6 +63059,7 @@ Java	java
 受虐	jchv
 受洗	jcie
 受潮	jcik
+电动汽车	jcil
 受测	jcim
 蚝油	jcin
 蛴	jcj
@@ -63456,6 +63481,7 @@ Java	java
 明子	jebo
 明初	jebv
 盟主	jeby
+明知	jec
 明劲	jeca
 日月参辰	jecd
 明通	jece
@@ -65355,6 +65381,7 @@ J2EE	jfee
 遇	jm
 赏	jm
 愚	jm
+遇见	jm
 愚夫	jmaa
 割韭菜	jmae
 是非功过	jmaf
@@ -65456,8 +65483,8 @@ J2EE	jfee
 巴山楚水	jmmh
 赏赐	jmmj
 映带	jmmp
-遇见	jmms
 愚见	jmms
+遇见	jmms
 蟋	jmn
 党内民主	jmnb
 愚民	jmne
@@ -65535,6 +65562,7 @@ J2EE	jfee
 愚妄	jmyv
 电	jn
 巴	jn
+爱情	jn
 巴萨	jnab
 明尼苏达	jnad
 电工	jnag
@@ -68361,6 +68389,7 @@ J	jzzz
 啊	kb
 响	kb
 吊	kb
+的了	kb
 吨	kba
 朝阳区	kba
 光阴荏苒	kbaa
@@ -68422,6 +68451,7 @@ J	jzzz
 吃了一惊	kbgn
 吵了一架	kbgv
 只出不进	kbgx
+口出恶言	kbgy
 响彻	kbha
 帛书	kbhb
 白玉微瑕	kbhg
@@ -68523,6 +68553,7 @@ J	jzzz
 走了弯路	kbpl
 饕餮盛宴	kbpp
 吊窗	kbpt
+口出善言	kbpy
 的了解	kbq
 吊铺	kbqb
 吊死鬼	kbqc
@@ -68535,6 +68566,7 @@ J	jzzz
 吼道	kbqp
 吊钩	kbqq
 吊钟	kbqs
+口出怨言	kbqy
 吓死我了	kbrb
 吊挂	kbrf
 吊扣	kbrk
@@ -69677,6 +69709,7 @@ J	jzzz
 走	kg
 呈	kg
 皇	kg
+的一个	kg
 的一切	kga
 听不到	kga
 走散	kgae
@@ -72081,6 +72114,7 @@ J	jzzz
 皖南	kphe
 白鹤亮翅	kphf
 吃完饭没	kphi
+白额高脚蛛	kphj
 咬字眼儿	kphq
 史密斯	kphr
 走着瞧	kphr
@@ -75691,6 +75725,7 @@ LED	ledu
 国土局	lfns
 边后卫	lfnx
 团座	lfoa
+跟你烦	lfod
 置备	lfof
 置业	lfoh
 导爆	lfoj
@@ -76457,6 +76492,7 @@ LED	ledu
 四害	lijr
 罗汉果	lijs
 四川	lijt
+跳蛛	lijt
 四是	lijw
 跳越	lika
 圆滑世故	likd
@@ -77078,6 +77114,7 @@ Linux	linx
 回去	ll
 己	ll
 男式	llaa
+男巫	llaa
 团圆节	llab
 罢工	llag
 男工	llag
@@ -79742,6 +79779,7 @@ LP	lupu
 蹓早儿	lvqq
 辎重	lvqu
 转战千里	lvqu
+跟我	lvr
 围捕	lvrb
 围拢	lvrd
 围挡	lvri
@@ -79789,6 +79827,7 @@ LP	lupu
 转递	lvux
 转凉	lvuy
 为她好	lvv
+跟她	lvv
 围猎	lvva
 转好	lvvb
 转磨	lvvd
@@ -79799,6 +79838,7 @@ LP	lupu
 转嫁	lvvp
 男婚女嫁	lvvv
 转战	lvvx
+跟他	lvw
 转借	lvwa
 围住	lvwb
 转企	lvwc
@@ -79882,6 +79922,7 @@ LP	lupu
 置人于死地	lwff
 输于	lwfh
 制作者	lwfj
+软件无线电	lwfj
 蹬地	lwfm
 轮毂	lwfp
 轮埠	lwft
@@ -79997,6 +80038,7 @@ LP	lupu
 轮生	lwpg
 轮着	lwph
 轮养	lwpj
+软件定义无线电	lwpj
 团体赛	lwpm
 因人成事	lwpn
 囚牢	lwpp
@@ -87390,6 +87432,7 @@ NBA	nbau
 心态变了	ndpb
 剧变	ndpc
 司令官	ndpd
+心存善念	ndpd
 居家	ndpe
 心态放平	ndpf
 怀璧之罪	ndpl
@@ -90846,6 +90889,7 @@ Nokia	noka
 几	nt
 几乎	nt
 收入	nt
+几种	nt
 凡夫	ntaa
 几节	ntab
 几率	ntac
@@ -96356,6 +96400,7 @@ OpenOffice	opee
 粪球	orgf
 应接不暇	orgj
 数据表	orgk
+福瑞	orgm
 福晋	orgo
 全副武装	orgu
 祈	orh
@@ -97326,6 +97371,8 @@ OUT了	outb
 腐坏	owfg
 类似于	owfh
 各位老师	owfj
+各位都是	owfj
+业余无线电	owfj
 鹰击	owfm
 府城	owfp
 个人需要	owfs
@@ -98167,9 +98214,9 @@ PageUp	pagp
 成功的	pak
 成功的	pakq
 窃听	pakr
-差异	pal
-差距	pala
+差距	pal
 差异	pala
+差距	pala
 窃国	palb
 宽度	palc
 成年累月	pale
@@ -100795,6 +100842,7 @@ PLMM	plmm
 军婚	plvs
 军嫂	plvv
 冤狱	plvy
+穷人	plw
 穷途	plwi
 穷命	plwn
 军人	plwo
@@ -101279,7 +101327,6 @@ PLMM	plmm
 客户	po
 农业	po
 客	po
-额	po
 安全区域	poaf
 灾年	poak
 宋祖英	poam
@@ -102024,10 +102071,11 @@ PPT	pptu
 方针政策	pqgt
 生刍一束	pqgu
 室外天线	pqgx
+突然发现	pqh
 写上	pqha
 写书	pqhb
-突然发现	pqhg
 成千上万	pqhg
+突然发现	pqhg
 成千上万的	pqhk
 额尔德特	pqhn
 着急上火	pqho
@@ -105944,6 +105992,7 @@ QFII	qfii
 外挂	qhrf
 外拍	qhrk
 外扩	qhro
+外插	qhrq
 外推	qhrr
 外接	qhru
 外扬	qhrv
@@ -121343,8 +121392,8 @@ SIM卡	simm
 松	smc
 松劲	smca
 中华台北队	smcb
-中华文化	smch
 松手	smch
+中华文化	smch
 中华文明	smcj
 中央台	smck
 松动	smcl
@@ -132496,9 +132545,9 @@ UFO	ufou
 产品	uk
 况	uk
 竞	uk
-⑥	uk
-⑦	uk
 背景	uk
+⑦	uk
+⑧	uk
 背越式	ukaa
 盖世英雄	ukad
 背越式跳高	ukah
@@ -138832,6 +138881,7 @@ VIP	vipu
 市辖区	vlar
 努力工作	vlaw
 退思补过	vlbf
+暨阳	vlbj
 君已陌路	vlbl
 娩出	vlbm
 犯了	vlbn
@@ -152480,6 +152530,7 @@ XML	xmlu
 绝俗	xqwm
 绝命	xqwn
 乡镇企业	xqwo
+约合	xqwt
 弥合	xqwt
 绝伦	xqww
 经贸合作	xqww

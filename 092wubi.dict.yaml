@@ -2741,7 +2741,6 @@ ABS	absu
 鹊起	ajkl
 到时再看	ajkm
 到哪	ajko
-蓝的	ajkq
 哥本哈根	ajks
 蓝白	ajkt
 到时再说	ajky
@@ -2946,7 +2945,6 @@ ABS	absu
 年景	akki
 年起	akkl
 年资	akkm
-年的	akkq
 蔫呼呼	akkt
 萨嘛喇	akku
 年号	akkw
@@ -3152,12 +3150,10 @@ ABS	absu
 欧罗巴人种	aljt
 年轻时候	aljw
 功能	aljx
-英国的	alk
 比较的	alk
 茴	alk
 莲叶	alkf
 功勋	alkm
-英国的	alkq
 比较的	alkq
 苏白	alkt
 年轻的时候	alkw
@@ -4245,13 +4241,14 @@ APEC	apec
 黄牛党	apjq
 荣归	apjv
 营	apk
-东方的	apk
+规定的	apk
 荧光	apkh
 荣光	apkh
 营口	apkk
 劳资	apkm
 荣耀	apkn
 荣宗耀祖	apko
+规定的	apkq
 东方的	apkq
 蒙哄	apkr
 莹白	apkt
@@ -8833,6 +8830,7 @@ BIG5	bigs
 阳刚	bjmr
 裂谷	bjmr
 阳煦山立	bjmu
+裸分	bjmv
 承星履草	bjna
 限时特惠	bjng
 聪明懂事	bjnn
@@ -13315,6 +13313,7 @@ CET	cetu
 通过气了	cfeb
 鱼雷艇	cfeq
 通过气	cfet
+这都有词	cfey
 鲑	cff
 圣	cff
 欢声雷动	cffc
@@ -13430,6 +13429,7 @@ CFO	cfou
 这需要	cfsv
 又需要	cfsv
 驳壳枪	cfsw
+止增笑耳	cftb
 疏于管理	cftg
 这才算是	cftj
 这才想起	cftk
@@ -13880,6 +13880,7 @@ CFO	cfou
 台上一分钟	chgq
 手上一抖	chgr
 劲往一处使	chgw
+又得一词	chgy
 肯德基	chh
 手上	chha
 手书	chhb
@@ -15093,6 +15094,7 @@ Chrome	choe
 矫形	cmee
 海峡两岸	cmem
 骄气	cmet
+这也有词	cmey
 鲷	cmf
 短网址	cmfc
 云雨过后	cmff
@@ -17472,6 +17474,7 @@ CT	cutu
 文韬武略	cvgl
 买卖不分	cvgm
 逡巡不前	cvgu
+又加一词	cvgy
 举发	cvhd
 举目	cvhh
 举高	cvhk
@@ -32740,6 +32743,7 @@ FDU	fduu
 真理	fegu
 无商不奸	fegv
 老脸一红	fegx
+真挚	feh
 直上	feha
 赤膊上阵	fehb
 直径	fehc
@@ -38333,9 +38337,7 @@ FT	futu
 老景	fxki
 未来世界	fxkl
 教练员	fxkm
-老的	fxkq
 老兄	fxkq
-后来的	fxkq
 老赵	fxkr
 坳	fxl
 协约国	fxlb
@@ -39099,8 +39101,8 @@ F	fzzz
 弄鬼	gaqc
 班荆道故	gaqd
 豆角	gaqe
-一夫多妻	gaqg
 一落千丈	gaqg
+一夫多妻	gaqg
 班荆道旧	gaqh
 逗乐	gaqi
 天蓝色	gaqj
@@ -43754,6 +43756,7 @@ GMAT	gmat
 武林盟主	gmjb
 青山常在	gmjd
 现时	gmjf
+玛卡巴卡	gmjm
 凸显	gmjo
 瑞星	gmjp
 一看时间	gmju
@@ -70947,6 +70950,7 @@ J	jzzz
 走的时候	kkjw
 咋能	kkjx
 的影响	kkk
+哈哈哈	kkk
 的影响	kkkb
 口嗨	kkkc
 呵呵哒	kkkd
@@ -70981,6 +70985,7 @@ J	jzzz
 咋呼	kkkt
 叨叨叨	kkkv
 口号	kkkw
+哈哈哈	kkkw
 哟哟哟	kkkx
 的世界	kkl
 影响力	kkl
@@ -71355,6 +71360,7 @@ J	jzzz
 世界冠军	klpp
 盗案	klpv
 世界之窗浏览器	klpx
+啰	klq
 起锚	klqa
 喟然	klqd
 起解	klqe
@@ -72515,6 +72521,7 @@ J	jzzz
 呀	kr
 听	kr
 史	kr
+哦	kr
 咬牙切齿	krac
 赵某	kraf
 赵薇	krah
@@ -73334,6 +73341,7 @@ K歌	kuaq
 只愿	kudk
 只含	kudk
 叽哩咕噜	kudk
+嘀嘀咕咕	kudk
 的里面	kudl
 的前面	kudl
 只念	kudn
@@ -73985,6 +73993,7 @@ K粉	kuom
 光合作用	kwwe
 的价值	kwwf
 趁便	kwwg
+哈哈哈哈	kwwk
 喻示	kwwm
 唱作人	kwwo
 的人们	kwwu
@@ -77466,8 +77475,8 @@ Linux	linx
 男同学	lmib
 跋山涉水	lmih
 国内流量	lmij
-办法	lmil
 蹦蹦跳跳	lmil
+办法	lmil
 劫贫济富	lmip
 趴活	lmiq
 轿	lmj
@@ -77820,6 +77829,7 @@ Linux	linx
 路面	lodl
 遮面	lodl
 略大	lodo
+四个大字	lodp
 鹧鸪	lodq
 略感	lodr
 置业顾问	lodu
@@ -84169,6 +84179,7 @@ MMC卡	mmcm
 带	mp
 内容	mp
 财富	mp
+看着	mp
 嵯	mpa
 MPA	mpa
 八宝菜	mpae
@@ -87142,6 +87153,7 @@ NBA	nbau
 怪异	ncla
 以此为荣	ncla
 尾辅	nclb
+怪象	ncle
 惨象	ncle
 尾车	nclg
 飞云掣电	nclj
@@ -95057,6 +95069,7 @@ OICQ	oicq
 那也未必	omfn
 粉坊	omfp
 扁平	omfu
+视场	omfv
 视域	omfx
 扁豆	omga
 数见不鲜	omgc
@@ -95513,7 +95526,7 @@ OneNote	onee
 烩	ooc
 炉龄	oocb
 业业矜矜	oocc
-那么短	oocg
+火烧云	oocg
 精神文化	ooch
 精神文明	oocj
 灯火通明	oocj
@@ -98487,6 +98500,7 @@ Pause	paue
 字多	pbqo
 字儿	pbqq
 生死与共	pbqr
+字重	pbqu
 宝重	pbqu
 突出重点	pbqv
 方向键	pbqw
@@ -103750,7 +103764,7 @@ PVC	pvcu
 变幻无穷	pxfp
 成堆	pxfr
 成才	pxft
-它才	pxft
+生来平等	pxft
 生意场	pxfv
 宽进严出	pxgb
 成天	pxgd
@@ -120906,6 +120920,7 @@ SIM卡	simm
 五世其昌	skhj
 可微	skhm
 可虑	skhn
+可欺	skhq
 可循	skhr
 棉饼	skhu
 杏眼	skhv
@@ -129397,6 +129412,7 @@ T恤	tunt
 自作主张	twbx
 利他主义	twby
 条件艰苦	twca
+筋斗云	twcg
 黏合剂	twcj
 科兴	twco
 答允	twcq
@@ -137845,9 +137861,11 @@ VCD	vcdu
 如期举办	vhcl
 灵长动物	vhcn
 早些	vhcx
+摩斯码	vhd
 另辟	vhda
 如期而至	vhda
 好基友	vhdc
+摩斯码	vhdc
 占压	vhdf
 早慧	vhdh
 另存	vhdh
@@ -137964,6 +137982,7 @@ VCD	vcdu
 占全	vhox
 犯得着	vhp
 狐虎之威	vhpd
+摩斯密码	vhpd
 早完	vhpf
 早生	vhpg
 占着	vhph
@@ -140299,6 +140318,7 @@ VOA	voau
 嫣然一笑	vqgt
 市道不好	vqgv
 另外一个人	vqgw
+摩尔斯电码	vqhd
 猫儿食	vqhh
 狼飧虎咽	vqhk
 刀锯鼎镬	vqhq
@@ -146028,6 +146048,7 @@ WOW	wowu
 伙伴	wowv
 人伦	woww
 傅粉何郎	wowy
+企业级	wox
 创业维艰	woxc
 企业级	woxe
 人彘	woxg
@@ -146037,6 +146058,7 @@ WOW	wowu
 偏贵	woxm
 人意	woxn
 什么来着	woxp
+企业级理解	woxq
 伯祖母	woxs
 人弹	woxu
 人缘	woxx

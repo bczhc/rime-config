@@ -10,6 +10,7 @@ schema:
     - short_punct
     - named_ipa_diacritics
     - pinyin_simp
+    - stroke_full
   name: "五笔"
   schema_id: 092wubi
   version: 1
@@ -207,7 +208,7 @@ key_binder:
 recognizer:
   import_preset: default
   patterns:
-    punct: "^/(?!uni)(?!cal)(?!num)(?!info)(?!hc)(?!em)(?!lt)(?!ipa)(?!env/)(?!help)(?!nipa)([0-9]0?|[A-Za-z]+)$"
+    punct: "^/(?!uni)(?!cal)(?!num)(?!info)(?!hc)(?!em)(?!lt)(?!ipa)(?!env/)(?!help)(?!nipa)(?!sk)([0-9]0?|[A-Za-z]+)$"
     # uppercase: "" #中文状态大写锁定直接上屏
     reverse_lookup: "^`[a-z]*'?$"
     alphabet_mode: '^[;A-Z].*$'
@@ -223,6 +224,7 @@ recognizer:
     sys_env: '^/env/.*$'
     help: '^/help$'
     named_ipa_diacritics: '^/nipa[a-zA-Z0-9\-]*$'
+    stroke_full: '^/sk[tyghn]*$'
 
 # ↓简繁(+部分异体)滤镜
 simplification: #⇩四选一
@@ -302,6 +304,15 @@ named_ipa_diacritics:
   tag: named_ipa_diacritics
   tips: 〔IPA〕
   prefix: '/nipa'
+  enable_completion: true
+  enable_sentence: false
+  enable_user_dict: false
+
+named_ipa_diacritics:
+  dictionary: stroke_full
+  tag: stroke_full
+  tips: 〔笔划〕
+  prefix: '/sk'
   enable_completion: true
   enable_sentence: false
   enable_user_dict: false

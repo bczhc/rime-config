@@ -1,0 +1,7 @@
+schema:
+  schema_id: stroke_full
+  name: stroke_full
+  version: 1
+
+translator:
+  dictionary: stroke_full

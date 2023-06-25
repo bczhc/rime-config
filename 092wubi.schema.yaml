@@ -94,6 +94,7 @@ engine:
     - affix_segmentor@sys_env
     - affix_segmentor@help_translator
     - affix_segmentor@named_ipa_diacritics
+    - affix_segmentor@stroke_full
     - abc_segmentor
     - punct_segmentor
     - fallback_segmentor
@@ -107,6 +108,7 @@ engine:
     - table_translator@latin_input
     - table_translator@ipa_input
     - table_translator@named_ipa_diacritics
+    - table_translator@stroke_full
     - lua_translator@full_chars_translator
     - lua_translator@number_translator # 数字转大写
     - lua_translator@calculator_translator # 简易计算器
@@ -308,7 +310,7 @@ named_ipa_diacritics:
   enable_sentence: false
   enable_user_dict: false
 
-named_ipa_diacritics:
+stroke_full:
   dictionary: stroke_full
   tag: stroke_full
   tips: 〔笔划〕

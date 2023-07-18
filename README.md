@@ -36,10 +36,11 @@
 
 可参考：
 
-- https://github.com/bczhc/rime-config/blob/master/symbols.yaml
-- https://github.com/ikatyang/emoji-cheat-sheet
-- https://html.spec.whatwg.org/multipage/named-characters.html#named-character-references
-- https://github.com/biopolyhedron/rime-latin-international/blob/master/latin_international.schema.yaml#L10-L16
+- 符号：https://github.com/bczhc/rime-config/blob/master/symbols.yaml
+- 快符：https://github.com/bczhc/rime-config/blob/master/short_punct.dict.yaml
+- Emoji：https://github.com/ikatyang/emoji-cheat-sheet
+- HTML字符：https://html.spec.whatwg.org/multipage/named-characters.html#named-character-references
+- 拉丁字母：https://github.com/biopolyhedron/rime-latin-international/blob/master/latin_international.schema.yaml#L10-L16
 
 ### 输入设定
 
@@ -52,6 +53,8 @@
 - 分号或大写字母（使用Shift）引导临时字母模式，支持空格，用回车上屏
 - 反引号拼音反查
 - 按一次或一直按住z为快符模式，可顶屏和连续上屏：使用字母输入快捷符号，使用空格重复上一次上屏内容，z+r重复倒数第二次上屏内容，z+;上屏中文分号
+
+  ![Peek 2023-07-18 13-24](https://github.com/bczhc/rime-config/assets/49330580/ac95c3aa-5950-4eee-891d-216e0903bac1)
 
 ### 快捷键
 

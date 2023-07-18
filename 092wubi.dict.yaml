@@ -24,9 +24,9 @@ encoder:
 ④	a
 比较	a
 ⑥	a
-从来	a
+⑦	a
 东西	a
-092修订版	a
+从来	a
 工作	a
 式	aa
 夫	aa
@@ -407,6 +407,7 @@ ABC	abc
 ABC	abcu
 葬在	abdj
 欧阳夏丹	abdm
+燕子矶	abdn
 蒸碗	abdp
 节奏	abdw
 节令	abdy
@@ -2991,6 +2992,7 @@ ABS	absu
 年成	akpx
 年方	akpy
 到哪儿了	akqb
+巨嘴鸟	akqg
 年销	akqi
 葱白儿	akqq
 年久	akqy
@@ -7300,6 +7302,7 @@ BBS	bbsu
 鄹	bcw
 聚众	bcwa
 取值	bcwf
+取余	bcwi
 取作	bcwk
 聚伙	bcwo
 了些什么	bcwo
@@ -9801,6 +9804,7 @@ BIG5	bigs
 奥	bo
 职业	bo
 幞	boa
+函数式	boaa
 子畜	boac
 孤苦	boad
 玉米花	boah
@@ -11376,7 +11380,7 @@ B站	buv
 黑猫警长	bvah
 初到	bvaj
 初年	bvak
-初哥	bvao
+初七	bvao
 限薪	bvau
 子女玉帛	bvbk
 聚灵阵	bvbl
@@ -32826,8 +32830,8 @@ FDU	fduu
 直上	feha
 赤膊上阵	fehb
 直径	fehc
-真挚	fehc
 真皮	fehc
+真挚	fehc
 二氧化碳	fehd
 二氧化硫	fehd
 二氧化氮	fehe
@@ -33555,6 +33559,7 @@ FDU	fduu
 真理面前	fgdu
 老一套	fgdv
 幸不辱命	fgdw
+霸王龙	fgdx
 霸王硬上弓	fgdx
 干碎	fgdy
 十一月	fge
@@ -37638,6 +37643,7 @@ F1	fugi
 幸甚	fuhn
 平行	fuhw
 幸得	fuhx
+平滑	fui
 平江	fuia
 平湖	fuid
 埋汰	fuid
@@ -40021,6 +40027,7 @@ GBK	gbku
 天干	gdfg
 不在于	gdfh
 还在后头	gdfi
+天塌	gdfj
 不在场证明	gdfj
 天后	gdfk
 天雷	gdfl
@@ -47253,7 +47260,6 @@ G点	guvo
 不偏不倚	gwgw
 一件一件	gwgw
 不仁不义	gwgy
-一体化	gwh
 不值得	gwh
 责任书	gwhb
 亏待	gwhf
@@ -50842,6 +50848,7 @@ HDTV	hdtv
 水房	hiop
 水底	hios
 水火	hioy
+化学家	hip
 化学方程式	hipa
 水帘	hipb
 水族	hipc
@@ -52585,6 +52592,7 @@ Home	home
 热病	houe
 虚症	houg
 行业交流	houi
+虚部	houk
 目视前方	houp
 觑准	hour
 虚立	houu
@@ -57433,6 +57441,7 @@ IELTS	iels
 没得卖	ihvi
 活得好好的	ihvk
 济南市	ihvm
+波妞	ihvn
 泪点	ihvo
 婆媳	ihvt
 洪水猛兽	ihvu
@@ -57871,6 +57880,7 @@ IELTS	iels
 小康	iiow
 小鹰	iiow
 小火	iioy
+小学生	iip
 法学家	iip
 小差	iipa
 小字	iipb
@@ -58607,8 +58617,8 @@ IELTS	iels
 流光词库	ikyo
 满口谎言	ikyy
 法	il
-法国	il
 法制	il
+法国	il
 法式	ilaa
 法医	ilac
 潜踪匿影	ilak
@@ -66819,6 +66829,7 @@ JPEG	jpeg
 暴风	jrnr
 电报局	jrns
 截屏	jrnu
+截断	jro
 割炬	jroa
 暴戾	jrod
 日报社	jrof
@@ -72265,6 +72276,12 @@ J	jzzz
 怎么讲	koyx
 的方法	kp
 迫	kp
+③	kp
+④	kp
+⑤	kp
+⑥	kp
+⑦	kp
+的生活	kp
 的方式	kpa
 的成功	kpa
 嗟	kpa
@@ -72330,8 +72347,6 @@ J	jzzz
 史密斯	kphr
 走着瞧	kphr
 的变化	kpht
-的生活	kpi
-的方法	kpi
 迫	kpi
 超生游击队	kpib
 喝着小酒	kpii
@@ -86388,6 +86403,7 @@ MVP	mvpu
 悲泣	mxiu
 贱骨头	mxiw
 网络小说	mxiy
+网络流行语	mxiy
 蜚	mxj
 非常	mxjb
 非盟	mxje
@@ -87202,7 +87218,7 @@ NBA	nbau
 敢	nbt
 邮币	nbtb
 快追	nbtd
-风险管理	nbtg
+以死相	nbtg
 特殊符号	nbtk
 邮务	nbtl
 邮筒	nbtm
@@ -91791,6 +91807,7 @@ N个	nuot
 心如悬旌	nvep
 事先	nveq
 尻脽	nver
+〇九二	nvf
 特别喜欢	nvfc
 迟早都得	nvfh
 〇九二	nvfi
@@ -91805,6 +91822,7 @@ N个	nuot
 092五笔正规闲聊群	nvfv
 风刀霜剑	nvfw
 事过	nvfy
+〇九一	nvg
 愤怒青年	nvga
 恨天	nvgd
 〇九一	nvgi
@@ -94357,6 +94375,7 @@ Office	offe
 废驰	ohcm
 爬行动物	ohcn
 床上叠床	ohco
+粘上毛比猴都精	ohco
 业海	ohcu
 废柴	ohcx
 废	ohd
@@ -94635,7 +94654,7 @@ OICQ	oicq
 爆裂	ojbj
 神职	ojbk
 爆出	ojbm
-神聊	ojbq
+神隐	ojbq
 神降	ojbt
 焊死	ojbx
 神主	ojby
@@ -98081,6 +98100,7 @@ OUT了	outb
 全校	oxsu
 全要	oxsv
 神意自若	oxta
+全等	oxtf
 断井颓垣	oxtf
 全算	oxth
 粗线条	oxti
@@ -98172,6 +98192,7 @@ OUT了	outb
 会议通知	oycc
 火云	oycg
 神射手	oych
+废话文学	oyci
 那就这样吧	oyck
 火鸡	oycq
 应该知道	oycq
@@ -100521,6 +100542,7 @@ pH值	phwf
 生活里	piua
 生活状态	piud
 实况	piuk
+实部	piuk
 实效	piur
 穷当益坚	piut
 放学别走	pivk
@@ -102717,12 +102739,13 @@ PrintScreen	prin
 富余	prwi
 富人	prwo
 穿件	prwp
+容纳	prx
 容器	prxd
 穿线	prxg
 宁缺毋滥	prxi
 富强	prxk
-容纳	prxm
 富贵	prxm
+容纳	prxm
 塞牙缝	prxt
 塞擦音	prxy
 宣誓就职	pryb
@@ -102999,6 +103022,7 @@ PS2接口	psfk
 空言	psyy
 放	pt
 牛	pt
+③	pt
 窗	pt
 方程式	ptaa
 家务劳动	ptac
@@ -103861,7 +103885,6 @@ PVC	pvcu
 定数	pwov
 家传户诵	pwoy
 宗室	pwpa
-宋体字	pwpb
 生僻字	pwpb
 宗族	pwpc
 旋塞	pwpf
@@ -105782,6 +105805,7 @@ QFII	qfii
 与你同行	qfmh
 乱坟岗	qfmm
 鞋带	qfmp
+魑魅魍魉	qfmq
 觐见	qfms
 多元性	qfn
 勤快	qfnb
@@ -106596,6 +106620,7 @@ QFII	qfii
 乐途	qiwi
 外汇储备	qiwo
 多少人	qiwo
+魃魈魁魅	qiwq
 销假	qiwr
 乐器	qixd
 针头线脑	qixe
@@ -108475,6 +108500,7 @@ QQ空间	qqpu
 急匆匆	qqqr
 铆钉	qqqs
 名垂千秋	qqqt
+千与千寻	qqqv
 铮铮铁骨	qqqx
 锪	qqr
 多多指教	qqrf
@@ -108941,6 +108967,7 @@ QQ群	qqvt
 勤朴忠诚	qssy
 争相	qstg
 争利	qstj
+解析延拓	qstr
 首要条件	qstw
 钉入	qsty
 舐痔	qsuf
@@ -118211,8 +118238,9 @@ RT	rutu
 投送	rxsp
 插线板	rxsr
 指要	rxsv
-指标	rxsw
 投标	rxsw
+提线木偶	rxsw
+指标	rxsw
 投币	rxtb
 挟私	rxtc
 投箸	rxtf
@@ -120816,6 +120844,7 @@ SIM卡	simm
 根深柢固	sisl
 榨汁机	sisn
 五楼	siso
+西泠印社	siso
 桃木	siss
 桃酥	sist
 杪	sit
@@ -121516,6 +121545,7 @@ SIM卡	simm
 橡皮	slhc
 配发	slhd
 配货	slhm
+中国书法家协会	slho
 中国南方	slhp
 配餐	slhq
 中国化	slht
@@ -129272,6 +129302,7 @@ TOSHIBA	tosa
 竹鼠	ttvu
 相符合	ttw
 竹筒倒豆子	ttwb
+自做	ttwd
 自建	ttwf
 自傲	ttwg
 自便	ttwg
@@ -130963,6 +130994,7 @@ T	tzzz
 痴女	ucvv
 普通人	ucw
 瘫倒	ucwa
+瘆人	ucwo
 普通人	ucwo
 亲手促成	ucwp
 痴傻	ucwt
@@ -131812,8 +131844,8 @@ UFO	ufou
 装设	ufyx
 壮言	ufyy
 美	ug
-并不	ug
 并不是	ug
+并不	ug
 盖	ug
 痘	uga
 交互式	ugaa
@@ -133133,6 +133165,7 @@ UFO	ufou
 新的认识	ukyy
 速度	ul
 单	ul
+美国	ul
 前路茫茫	ulaa
 单节	ulab
 兽医	ulac
@@ -135946,6 +135979,7 @@ U盾	uurf
 北面	uxdl
 北大	uxdo
 北碚	uxdu
+慈母龙	uxdx
 背	uxe
 剃须	uxed
 背刺	uxei
@@ -135997,8 +136031,8 @@ U盾	uurf
 北行	uxhw
 疫	uxi
 鸭绿江	uxia
-北漂	uxib
 凝注	uxib
+北漂	uxib
 新经济	uxic
 北溪	uxie
 痛哭流涕	uxii
@@ -138254,6 +138288,7 @@ VCD	vcdu
 嬉皮士	vhfg
 早于	vhfh
 早都	vhfj
+狼行者	vhfj
 鼠目寸光	vhfk
 肆行无忌	vhfl
 占地	vhfm
@@ -138934,11 +138969,12 @@ VIP	vipu
 独木	vjss
 专题片	vjst
 占星术	vjsy
+别处	vjt
 旭日升	vjta
 独秀	vjte
 别等	vjtf
-别处	vjth
 独处	vjth
+别处	vjth
 点蚊香	vjtj
 别和	vjtk
 如果自己	vjtl
@@ -140751,6 +140787,7 @@ VOA	voau
 好久之前	vqpu
 魔方	vqpy
 魔鬼	vqqc
+战争与和平	vqqf
 摩尔多瓦	vqqg
 狠角色	vqqj
 魔道	vqqp
@@ -147696,8 +147733,8 @@ WTO	wtou
 伤亡	wtyy
 合议	wtyy
 们	wu
-建立	wu
 倍	wu
+建立	wu
 位	wu
 俚	wua
 倍式	wuaa
@@ -154831,6 +154868,7 @@ X	xzzz
 离岸	ybmd
 离岗	ybmm
 熟悉	ybmn
+说了也是白说	ybmy
 亨特	ybnf
 离情	ybng
 夜黑风高	ybnh

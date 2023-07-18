@@ -1,0 +1,30 @@
+#!/bin/env ruby
+
+$map = {}
+
+File.open("#{File.dirname $0}/char-map").readlines(chomp: true).map do |line|
+  s = line.split(' ')
+  $map[s[0]] = s[1]
+end
+
+# @param word [String]
+def compose(word)
+  # abort('length should be >= 2') unless word.length >= 2
+  case word.length
+  when 2
+    fail
+  when 3
+    fail
+  else
+    $map[word[0]][0] + $map[word[1]][1] + $map[word[2]][1] + $map[word.chars.last][0]
+  end
+end
+
+STDIN.each_line(chomp: true) do |line|
+  next if line.length < 2
+  begin
+    puts "#{line}\t#{compose(line)}"
+  rescue
+    puts "#{line}\t?"
+  end
+end

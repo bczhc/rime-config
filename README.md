@@ -89,15 +89,15 @@
 
 这类字有：
 
-> 琵琶 gajg
-> 瑟瑟 gnng
-> 琴瑟 gdng
-> 鼹鼠 vjju
-> 鼪鼬 vpnu
-> 鼪鼯 vpsu
-> 龌龊 cnlb
-> 龃龉 cesb
-> 龋齿 cttb
+> 琵琶 gajg\
+> 瑟瑟 gnng\
+> 琴瑟 gdng\
+> 鼹鼠 vjju\
+> 鼪鼬 vpnu\
+> 鼪鼯 vpsu\
+> 龌龊 cnlb\
+> 龃龉 cesb\
+> 龋齿 cttb\
 > 齿龈 cvvb
 
 ![image](https://github.com/bczhc/rime-config/assets/49330580/c1eaf04a-a52b-46e2-9d90-59eddcc34d5f)

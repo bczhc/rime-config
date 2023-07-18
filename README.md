@@ -6,6 +6,7 @@
 - 雲龍國際音標（[https://github.com/rime/rime-ipa](https://github.com/rime/rime-ipa)）
 - 朙月拼音（[https://github.com/rime/rime-luna-pinyin](https://github.com/rime/rime-luna-pinyin)）
 - 拉丁字母（[https://github.com/biopolyhedron/rime-latin-international](https://github.com/biopolyhedron/rime-latin-international)）
+- 全字集笔画（用<b>/sk</b>引导，码表来自092五笔正规闲聊群 摩羯星壹号2842834）
 
 # 方案配置
 
@@ -30,6 +31,7 @@
 - **/env/**+***name*** 显示环境变量
 - **/ipa** 输入IPA（使用的是云龙国际音标）
 - **/nipa** 输入命名的IPA符加符号（名称为官方IPA chart里的）
+- **/sk** 笔划输入（五个笔画为`ghtyn`）
 - **/help** 显示帮助
 
 可参考：
@@ -68,3 +70,31 @@
 - Shift+Space 中西文切换
 - Ctrl+Space 重选重码（还不稳定）
 
+### 自定义重码离散
+
+#### 首根相同的四字词
+
+如“忧心忡忡”，由“nnnn”改为“nisn”。离散规则为：取第一个字的第一码、第二个字的第二码、第三个字的第二码、第四个字的第一码。
+
+效果（部分）：![image](https://github.com/bczhc/rime-config/assets/49330580/5de0b6ce-0a4a-4e9b-b9b6-fd81cad90911)
+
+注意到像“魃魈魁魅”“魑魅魍魉”这样依然无法分离的词组，就继续跳根，做类似的操作。
+
+#### 第一和第二根相同的二字词
+
+如“鼪鼬”，由“vuvu”改成“vpnu”。规则为：取第一个字的首码和第三码，取第二个字的第三码和第二码。
+
+这类字有：
+
+> 琵琶 gajg
+> 瑟瑟 gnng
+> 琴瑟 gdng
+> 鼹鼠 vjju
+> 鼪鼬 vpnu
+> 鼪鼯 vpsu
+> 龌龊 cnlb
+> 龃龉 cesb
+> 龋齿 cttb
+> 齿龈 cvvb
+
+![image](https://github.com/bczhc/rime-config/assets/49330580/c1eaf04a-a52b-46e2-9d90-59eddcc34d5f)

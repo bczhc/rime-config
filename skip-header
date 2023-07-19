@@ -1,0 +1,10 @@
+#!/bin/env ruby
+
+pass = false
+STDIN.each_line(chomp: true) do |line|
+  puts line if pass
+
+  if not pass and line == '...'
+    pass = true
+  end
+end

@@ -102,6 +102,8 @@
 > 龌龊 cnlb\
 > 龃龉 cesb\
 > 龋齿 cttb\
-> 齿龈 cvvb
+> 齿龈 cvvb\
+> 鬼魅 qffq\
+> 魍魉 qmeq
 
 ![image](https://github.com/bczhc/rime-config/assets/49330580/c1eaf04a-a52b-46e2-9d90-59eddcc34d5f)

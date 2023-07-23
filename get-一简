@@ -1,0 +1,3 @@
+#!/bin/bash
+
+cat 092wubi.dict.yaml | ./skip-header | rg '^\p{Han}\t.$' | awk '{print $1}' | paste -sd '' -

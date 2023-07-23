@@ -2021,6 +2021,10 @@ local function translator(input, seg)
         yield_date("%m.%d", '')
         yield_date("%m-%d", '')
         yield_date("%m月%d日", '')
+    elseif input == '/timeb' --[[ time brackets ]] then
+        yield_date("[%H:%M]")
+    elseif input == '/dtb' --[[ date time brackets ]] then
+        yield_date("[%Y.%m.%d %H:%M]")
     end -- if
 end -- function
 

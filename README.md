@@ -73,6 +73,10 @@
 - Shift+Space 中西文切换
 - Ctrl+Space 重选重码（还不稳定）
 
+### 较原版的改动
+
+- 幽 mo 由“纟山纟”改拆为“山𢆶”
+
 ### 自定义重码离散
 
 一些重码会出简，比如`分享 my` `分离 mvyb`；
@@ -107,3 +111,8 @@
 > 魍魉 qmeq
 
 ![image](https://github.com/bczhc/rime-config/assets/49330580/c1eaf04a-a52b-46e2-9d90-59eddcc34d5f)
+
+#### 以及非常少数的无理码，通常都是难以反应过来的字词
+
+> 串 skk（原skd，新规定末笔为竖）\
+> 卐 卍 nnv（原ngh和nhg，新统一都拆成“折折”）

@@ -1,0 +1,3 @@
+#!/bin/bash
+
+cat 092wubi.dict.yaml | ./skip-header | rg '^的\p{Han}{2}\t[a-z]{3}$'

@@ -20,6 +20,7 @@ local reprs = {
     'Shift+question',
     'semicolon',
     'Tab',
+    'backslash',
 }
 
 local function processor(key, env)

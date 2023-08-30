@@ -11,4 +11,7 @@
 ) | ruby -e 'puts STDIN.readlines.uniq' |
   ./mk-z92-remove-ascii-printable >z92.txt
 
+cat z92-extra >>z92.txt
+echo
+
 echo Done

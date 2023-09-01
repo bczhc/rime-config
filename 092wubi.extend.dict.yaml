@@ -6,5 +6,5 @@ columns:
   - code
 import_tables:
   - 092K_ci
-  - 092wubi_supp2
-  - 092wubi_supp1
+    #- 092wubi_supp2
+    #- 092wubi_supp1

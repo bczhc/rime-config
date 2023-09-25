@@ -2,7 +2,7 @@
 
 (
   cat 092wubi.dict.yaml | tail +21 | awk '{print $2"\t"$1}'
-  # cat 092K_ci.dict.yaml | tail +21 | awk '{print $2"\t"$1}'
+  cat 092K_ci.dict.yaml | tail +21 | awk '{print $2"\t"$1}'
   # cat 092wubi_supp2.dict.yaml | tail +21 | awk '{print $2"\t"$1}'
   # cat 092wubi_supp1.dict.yaml | tail +21 | awk '{print $2"\t"$1}'
   cat 092wubi_U.dict.yaml | tail +21 | awk '{print $2"\t"$1}'

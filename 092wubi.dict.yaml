@@ -209,6 +209,7 @@ encoder:
 葡萄园	aalf
 英式足球	aalg
 AA制	aalj
+巫男	aall
 替罪	aalm
 落草为寇	aalp
 七七四十九	aalv
@@ -352,7 +353,7 @@ AA制	aalj
 夫君	aavt
 茕茕独立	aavu
 夫妇	aavv
-芙蓉姐姐	aavv
+巫女	aavv
 芭比娃娃	aavv
 夫婿	aavw
 七匹狼	aavy
@@ -748,6 +749,7 @@ ABS	absu
 畜类	acod
 从这个意义上	acoh
 从这个角度	acol
+从这个角度看	acom
 切齿腐心	acon
 茅庐	acoo
 茅房	acop
@@ -1587,6 +1589,7 @@ ABS	absu
 著名	afqk
 区块链	afql
 七十多岁	afqm
+落霞与孤鹜齐飞	afqn
 坐地铁	afqr
 坐鞧	afqu
 年老色衰	afqy
@@ -3500,7 +3503,9 @@ Alt	altu
 黄	an
 巨	an
 艺	an
+比特率	ana
 哥特式	anaa
+比特率	anac
 黄芩	anad
 黄菜	anae
 巨著	anaf
@@ -4195,6 +4200,7 @@ Alt	altu
 黄旗紫盖	apcu
 东方圣人	apcw
 荣誉	apcy
+某方面	apd
 菅	apd
 菪	apd
 蓝宝石	apdd
@@ -7729,6 +7735,7 @@ Zhai Can <bczhc0@126.com>	bchc
 阴森	besm
 随机	besn
 衫	bet
+出气筒	bet
 随笔	betc
 阴阜	betd
 死脑筋	bete
@@ -12932,6 +12939,7 @@ CCU	ccuu
 参院	cdbp
 斋主	cdby
 鲅	cdc
+手牵手	cdc
 骑手	cdch
 兴奋剂	cdcj
 又大又圆	cdcl
@@ -14359,6 +14367,7 @@ Chrome	choe
 海沸山摇	cimr
 鱼游釜中	cims
 频分	cimv
+文学性	cin
 疏油层	cinc
 步履	cinh
 云淡风清	cini
@@ -15082,6 +15091,7 @@ Chrome	choe
 动情	clng
 难为情	clng
 动心	clni
+手足情深	clni
 动物	clnq
 这回事	clnv
 劝慰	clnw
@@ -21141,6 +21151,7 @@ delphi	deli
 感觉神经	diox
 感觉应该	dioy
 大学生	dip
+领头羊	dip
 三宝	dipb
 三族	dipc
 大法官	dipd
@@ -21627,6 +21638,7 @@ delphi	deli
 历史	dk
 原	dk
 愿	dk
+含	dk
 含蓄	dkaa
 原式	dkaa
 大白菜	dkae
@@ -26326,6 +26338,7 @@ D	dzzz
 两岁	eamq
 气若幽兰	eamu
 两分	eamv
+服从性	ean
 两层	eanc
 两情	eang
 两眉	eanh
@@ -27904,6 +27917,7 @@ D	dzzz
 先行告退	ehev
 有高有低	ehew
 用脑	ehey
+开发者	ehf
 有待于	ehf
 刑期无刑	ehfe
 有眼无珠	ehfg
@@ -27911,6 +27925,7 @@ D	dzzz
 有待于	ehfh
 且未	ehfi
 先行者	ehfj
+开发者	ehfj
 脸上无光	ehfk
 用眼过度	ehfl
 开发地	ehfm
@@ -29986,6 +30001,7 @@ Enter	entr
 有危险	eqbw
 对外联络	eqbx
 先主	eqby
+胜负手	eqc
 先驱	eqca
 选通	eqce
 胸鳍	eqcf
@@ -35909,6 +35925,7 @@ Firefox	firx
 声带	fnmp
 十几分钟	fnmq
 二〇〇	fnn
+喜剧性	fnn
 无尾飞砣	fnnd
 二〇〇	fnne
 境由心造	fnne
@@ -37091,6 +37108,7 @@ FPS	fpsu
 土木工程	fsat
 无比	fsax
 老样子	fsb
+二楞子	fsb
 零丁孤苦	fsba
 无耻	fsbc
 无阻	fsbe
@@ -38982,6 +39000,7 @@ FT	futu
 坑爹	fymq
 过分	fymv
 坑	fyn
+协调性	fyn
 过快	fynb
 坑惨	fync
 无言以对	fyne
@@ -40483,8 +40502,9 @@ GDP	gdpu
 天敌	gdqt
 天煞	gdqv
 不太适合	gdqw
-球面镜	gdqx
 凹面镜	gdqx
+凸面镜	gdqx
+球面镜	gdqx
 不愿多讲	gdqy
 一大批	gdr
 一大把	gdr
@@ -41698,6 +41718,7 @@ GDP	gdpu
 天王山之战	ggmv
 王丹	ggmy
 瑟	ggn
+玻璃心	ggn
 一不怕苦	ggna
 一不怕苦，二不怕死	ggnb
 一不怕苦二不怕死	ggnb
@@ -43321,6 +43342,7 @@ GDP	gdpu
 还是指	gjrx
 不是我说	gjry
 不能够	gjs
+还能够	gjs
 正常模式	gjsa
 更棒	gjsd
 一颗树	gjse
@@ -43539,6 +43561,7 @@ GDP	gdpu
 不光是	gkjw
 不影响	gkk
 一次次	gkk
+恶趣味	gkk
 不影响	gkkb
 一次次地	gkkf
 一起走	gkkg
@@ -43727,6 +43750,7 @@ GDP	gdpu
 一连气儿	gleq
 画商	gler
 画具	gleu
+不囿于	glf
 画坛	glfc
 夷为平地	glff
 不输于	glfh
@@ -48258,7 +48282,7 @@ G	gzzz
 其实	h
 发展	h
 发生	h
-发表	h
+⑥	h
 ⑦	h
 发现	h
 甚至	ha
@@ -49817,6 +49841,7 @@ HDTV	hdtv
 基	hf
 待	hf
 街	hf
+基于	hf
 毫无花巧	hfaa
 上元节	hfab
 眠霜卧雪	hfaf
@@ -50245,7 +50270,6 @@ HDTV	hdtv
 饾饤	hghs
 循环往复	hght
 瞅一眼	hghv
-执行	hghw
 饯行	hghw
 行不行	hghw
 征得	hghx
@@ -50517,6 +50541,11 @@ HDTV	hdtv
 食	hh
 目	hh
 长期	hh
+往往	hh
+微微	hh
+⑥	hh
+⑦	hh
+执行	hh
 期期艾艾	hhaa
 代代花	hhah
 上德若谷	hham
@@ -50763,6 +50792,7 @@ HDTV	hdtv
 敲敲打打	hhrr
 眼皮打架	hhrv
 食指	hhrx
+发行版	hhs
 食醋	hhsa
 食槽	hhse
 食材	hhsf
@@ -50772,6 +50802,7 @@ HDTV	hdtv
 饮水机	hhsn
 高斯模糊	hhso
 目送	hhsp
+发行版	hhsr
 往往要	hhsv
 目标	hhsw
 微微笑	hht
@@ -51268,7 +51299,7 @@ HIV	hivu
 斯巴达	hjdp
 很明确	hjdq
 瞬态	hjdu
-很受用	hje
+基本盘	hje
 旧有	hjef
 桌肚	hjef
 很受用	hjeh
@@ -52867,8 +52898,6 @@ Home	home
 虚言	hoyy
 其它	hp
 馆	hp
-③	hp
-发生	hp
 很成功	hpa
 长宁区	hpa
 得之东隅	hpab
@@ -53682,7 +53711,6 @@ Home	home
 馍馍	hshs
 长眼	hshv
 长行	hshw
-长得	hshx
 衙役	hshx
 长江	hsia
 长满	hsia
@@ -54573,6 +54601,9 @@ HP	hupu
 行	hw
 代价	hw
 徐	hw
+⑤	hw
+⑥	hw
+⑦	hw
 其余	hw
 行住坐卧	hwaa
 长使英雄泪满襟	hwab
@@ -55622,6 +55653,7 @@ H	hzzz
 学文	ibcy
 学友	ibdc
 学硕	ibdd
+头孢克肟	ibde
 学历	ibdl
 满袖春风	ibdn
 学大	ibdo
@@ -56166,6 +56198,7 @@ ICU	icuu
 游戏人间	icwu
 治愈	icww
 涉禽	icwy
+温柔乡	icx
 治疆	icxf
 沧海遗珠	icxg
 涌来	icxi
@@ -57158,6 +57191,7 @@ IELTS	iels
 小环天线	iggx
 清丽	iggy
 当不得	igh
+消毒水	igh
 添上	igha
 活不长了	ighb
 清南	ighe
@@ -57805,6 +57839,7 @@ IELTS	iels
 小戏	iicx
 小文	iicy
 沉浸在	iid
+激活码	iid
 小臂	iida
 滔滔雄辩	iida
 漏洞百出	iidb
@@ -57835,6 +57870,7 @@ IELTS	iels
 小龙	iidx
 滚滚而来	iidx
 泛泛而谈	iidy
+消消气	iie
 活活气死	iieb
 沙县	iiec
 当头对面	iied
@@ -58043,6 +58079,7 @@ IELTS	iels
 波澜起伏	iikw
 小品	iikx
 小汽车	iil
+游泳圈	iil
 小国	iilb
 浅尝辄止	iilc
 温酒斩华雄	iild
@@ -60053,6 +60090,7 @@ iPad	ipad
 温室气体	ipew
 沉着脸	ipew
 浣	ipf
+淤堵	ipff
 IP地址	ipff
 溶于	ipfh
 沉雷	ipfl
@@ -61354,6 +61392,7 @@ IT业	itoh
 湿乎乎	ittu
 省委	ittv
 湿答答	ittw
+法务部	itu
 省里	itua
 少壮	ituf
 泛美	itug
@@ -67378,6 +67417,7 @@ JPEG	jpeg
 杀	jt
 川	jt
 临	jt
+蛛	jt
 最简式	jtaa
 临蓐	jtad
 川菜	jtae
@@ -67519,6 +67559,7 @@ JPEG	jpeg
 杀父	jtmt
 临盆	jtmv
 螅	jtn
+受委屈	jtn
 受委屈了	jtnb
 杀怪	jtnc
 川剧	jtnd
@@ -67561,11 +67602,10 @@ JPEG	jpeg
 临近	jtrp
 杀招	jtrv
 暗箱操作	jtrw
+照相机	jts
 蛛	jts
-最紧要	jts
 临摹	jtsc
 川中	jtsh
-照相机	jtsn
 杀机	jtsn
 临机	jtsn
 旦种暮成	jtsp
@@ -69489,6 +69529,7 @@ J	jzzz
 世乱	kdqn
 喊道	kdqp
 世道	kdqp
+曲面镜	kdqx
 世贸	kdqy
 喊	kdr
 世乒	kdrg
@@ -70207,6 +70248,7 @@ J	jzzz
 吁请	kfyg
 怎就	kfyi
 嘻嘻嚷嚷	kfyk
+吭哧吭哧	kfyk
 怎讲	kfyx
 走	kg
 呈	kg
@@ -71025,6 +71067,7 @@ J	jzzz
 吵着	kiph
 嗜酒成性	kipn
 光学变焦	kipr
+吕洞宾	kipr
 吵成	kipx
 景色	kiqj
 嘴尖舌头快	kiqn
@@ -71553,6 +71596,7 @@ J	jzzz
 咋写	kkpq
 吕宋	kkps
 呼吸之间	kkpu
+喃喃道	kkq
 光耀千古	kkqd
 口角	kkqe
 口外	kkqh
@@ -71769,6 +71813,7 @@ J	jzzz
 起势	klhl
 喂饱	klhq
 喂饭	klhr
+吃软饭	klhr
 走为上策	klht
 喂饼	klhu
 起眼	klhv
@@ -73510,6 +73555,7 @@ J	jzzz
 只可意会	ksxo
 吃进	ksxp
 只可意会，不可言传	ksxw
+资格证	ksy
 唔该	ksya
 呆望	ksye
 吃请	ksyg
@@ -74385,6 +74431,7 @@ K粉	kuom
 再创造	kwek
 咬合肌	kwen
 哈腰	kwes
+喝倒彩	kwes
 哈气	kwet
 号脉	kwey
 咐	kwf
@@ -77828,6 +77875,7 @@ Linux	linx
 跽	lln
 跳跃性	lln
 田园牧歌	llna
+软路由	llna
 田园风光	llnk
 男尸	llnn
 异国风情	llnn
@@ -83122,6 +83170,7 @@ MBA	mbau
 看得清楚	mhim
 也很少	mhit
 卡涩	mhiv
+看水是水	mhjh
 华南师范大学	mhji
 账本	mhjj
 卡巴	mhjn
@@ -84192,6 +84241,7 @@ MMC卡	mmcm
 林林总总	mmdd
 山石	mmdd
 内华达州	mmdj
+山山岭岭	mmdm
 山大	mmdo
 内华达	mmdp
 焚林而猎	mmdv
@@ -84271,8 +84321,11 @@ MMC卡	mmcm
 内分泌失调	mmiy
 峤	mmj
 山盟	mmje
+看山是山，看水是水	mmjh
+看山是山看水是水	mmjh
 山本	mmjj
 山师	mmjk
+看山是山	mmjm
 刚则易折	mmjr
 山川	mmjt
 山崩川竭	mmju
@@ -86519,6 +86572,7 @@ MVP	mvpu
 内屏	mwnu
 内事	mwnv
 禁卫	mwnx
+公倍数	mwo
 非人类	mwod
 内双	mwoe
 内什么	mwog
@@ -89891,6 +89945,7 @@ NGO	ngou
 风吹雨打	nkmr
 情趣内衣	nkmy
 恍	nkn
+怕只怕	nkn
 几起几落	nkna
 情景剧	nknd
 怕怕	nknk
@@ -91965,6 +92020,7 @@ Nokia	noka
 飞行	nuhw
 懒得	nuhx
 习得	nuhx
+性冷淡	nui
 飞鸿	nuia
 懒汉	nuic
 飞沫	nuig
@@ -93798,6 +93854,7 @@ OCR	ocru
 神龙见首	odmq
 庆典	odmr
 个百分点	odmv
+粉碎性	odn
 烦忧	odnd
 双丰收	odnh
 烦心	odni
@@ -94846,6 +94903,7 @@ Office	offe
 业内	ohmw
 粘皮带骨	ohmx
 废丹	ohmy
+腐蚀性	ohn
 憋得慌	ohna
 福斯特	ohnf
 启发性	ohnp
@@ -95190,6 +95248,7 @@ OICQ	oicq
 粑	ojn
 那时快	ojnb
 神怪	ojnc
+神剧	ojnd
 广州恒大	ojnd
 神情	ojng
 神性	ojnp
@@ -95351,10 +95410,10 @@ OICQ	oicq
 启蒙	okap
 精品区	okar
 炸药	okax
-炸裂	okb
 粉白墨黑	okbb
-炽烈	okbj
 炸裂	okbj
+炽烈	okbj
+燥裂	okbj
 祸殃	okbm
 启帆	okbn
 店子	okbo
@@ -98436,6 +98495,7 @@ OUT了	outb
 业绩斐然	oxmq
 全败	oxmt
 全非	oxmx
+迷惑性	oxn
 全屋	oxna
 全怪	oxnc
 全剧	oxnd
@@ -100142,6 +100202,7 @@ PDF	pdfu
 成者王侯	pfgw
 善者不来	pfgx
 宇	pfh
+富二代	pfh
 塞上	pfha
 变声期	pfhe
 之后发现	pfhg
@@ -100386,6 +100447,7 @@ PDF	pdfu
 生理需要	pgfs
 生平	pgfu
 生境	pgfx
+容不下	pgg
 宣武	pgga
 生吞	pggd
 安静一下	pggg
@@ -100656,6 +100718,7 @@ PDF	pdfu
 穿街过巷	phfr
 安卓平板	phfs
 放眼未来	phfx
+容得下	phg
 家长理短	phgc
 变化不大	phgd
 案发现场	phgf
@@ -105036,6 +105099,7 @@ P	pzzz
 甜饼	qahu
 辞行	qahw
 错得	qahx
+包工头	qai
 辞源	qaid
 多年没有	qaie
 垂泪	qaih
@@ -106158,6 +106222,7 @@ P	pzzz
 危地马拉	qfcr
 镇海	qfcu
 堇	qfd
+名场面	qfd
 镇压	qfdf
 名声大噪	qfdk
 勤奋	qfdl
@@ -106990,6 +107055,7 @@ QFII	qfii
 销赃	qimo
 乐购	qimq
 乐见	qims
+外源性	qin
 尔特	qinf
 锁眉	qinh
 多少事情	qinn
@@ -111357,6 +111423,7 @@ RAM	ramu
 掉了下来	rbgx
 副院长	rbh
 投降书	rbhb
+反向代理	rbhg
 捕食	rbhh
 摄食	rbhh
 打了水漂	rbhi
@@ -111657,6 +111724,7 @@ RAM	ramu
 抬眼	rchv
 挤眼	rchv
 反馈	rchx
+反代	rchy
 反动派	rci
 挤满	rcia
 反潜	rcia
@@ -113404,6 +113472,7 @@ RAM	ramu
 扑簌	rhtu
 掉入	rhty
 提高效率	rhua
+扑朔	rhub
 迕逆	rhub
 鹅行鸭步	rhuc
 披阅	rhud
@@ -113588,7 +113657,6 @@ RAM	ramu
 掐头去尾	riln
 挡路	rilo
 报界	rilw
-擦泪斩马谡	rily
 搅	rim
 搞清楚	rim
 搞清楚了	rimb
@@ -115229,6 +115297,7 @@ RNA	rnau
 抽搦	rnrx
 据我	rnry
 接收机	rns
+搅屎棍	rns
 抽印	rnsb
 掘墓	rnsf
 抽丁	rnsg
@@ -116553,6 +116622,7 @@ RPG	rpgu
 携带	rrmp
 挥斥八极	rrms
 拆分	rrmv
+操控性	rrn
 推展	rrna
 拍拍屁股	rrne
 推特	rrnf
@@ -117069,6 +117139,7 @@ RPG	rpgu
 摸牌	rssr
 打榜	rssu
 打枪	rssw
+缺根筋	rst
 摸筐	rsta
 打私	rstc
 抵税	rstd
@@ -118419,6 +118490,7 @@ RT	rutu
 捡拾	rwrw
 抢掠	rwry
 我们要	rws
+提示框	rws
 反斜杠	rwsa
 我们中出了一个叛徒	rwsh
 抓住机遇	rwsj
@@ -118460,6 +118532,7 @@ RT	rutu
 失效	rwur
 我们将要	rwus
 失闪	rwuw
+拉偏架	rwv
 我他妈	rwvc
 抢占	rwvh
 我们如果	rwvj
@@ -125991,6 +126064,7 @@ T型台	teck
 策励	tedq
 愁肠百结	tedx
 相对而言	tedy
+臭脾气	tee
 笑盈盈	teec
 笑脸盈盈	teee
 笑盈盈地	teef
@@ -127011,6 +127085,7 @@ Thinkpad	thid
 乘虚迭出	thrb
 自行摸索	thrf
 乘热打铁	thrq
+秋水共长天一色	thrq
 算我	thry
 稍待片刻	thsa
 篡权	thsc
@@ -127209,6 +127284,7 @@ THU	thuu
 稍见	tims
 想清楚	timw
 科学性	tin
+自洽性	tin
 香港特区	tina
 香港特别行政区	tina
 稍快	tinb
@@ -128396,6 +128472,7 @@ TNND	tnnd
 称心快意	tnnx
 自由心证	tnny
 秘	tno
+第几个	tno
 追悼会	tnoc
 息肩	tnoe
 颓废	tnoh
@@ -130182,6 +130259,7 @@ T恤	tunt
 简繁	tuxt
 香闺绣阁	tuxu
 简单来讲	tuxy
+简词	tuy
 简评	tuyf
 冬训	tuyj
 冬衣	tuyk
@@ -130446,6 +130524,7 @@ T恤	tunt
 签账	twmh
 私人财产	twmu
 自信心	twn
+相似性	twn
 篌	twn
 笑傲风月	twne
 科特	twnf
@@ -133315,8 +133394,8 @@ UFO	ufou
 亲体	uiwj
 新作	uiwk
 新创	uiwl
-亲人	uiwo
 新人	uiwo
+亲人	uiwo
 普渡众生	uiwp
 新任	uiwq
 美酒佳肴	uiwr
@@ -134899,6 +134978,7 @@ UPS	upsu
 将欲	uqmr
 净赚	uqmu
 竞争性	uqn
+普适性	uqn
 将由	uqna
 净心	uqni
 将尽	uqnm
@@ -135354,6 +135434,7 @@ USB	usbu
 北极圈	uslx
 凇	usm
 冲账	usmh
+冲卡	usmh
 尊崇	usmp
 产权保护	usmr
 阍	usn
@@ -141182,6 +141263,7 @@ VOA	voau
 如实招来	vprx
 狞	vps
 半空中	vps
+九宫格	vps
 姓李	vpsb
 半空中	vpsh
 退档	vpsi
@@ -142322,6 +142404,7 @@ VOA	voau
 独占八斗	vvmw
 女贼	vvmx
 犰	vvn
+狠狠心	vvn
 早早收手	vvnc
 好好收拾一下	vvng
 狠心	vvni
@@ -142648,6 +142731,7 @@ VOA	voau
 狼来了	vxbn
 獐子	vxbo
 战袍	vxbq
+如意金箍棒	vxbs
 狭隘	vxbu
 违约金	vxbu
 战队	vxbw
@@ -144427,6 +144511,7 @@ V	vzzz
 侍女	wfvv
 仕女	wfvv
 佳婿	wfvw
+倒霉蛋	wfw
 伎俩	wfwe
 傲霜斗雪	wfwf
 侍候	wfwh
@@ -144734,6 +144819,7 @@ V	vzzz
 介不介意	wgwx
 建不建议	wgwy
 停下来	wgx
+优惠券	wgx
 停下来了	wgxb
 假正经	wgxc
 便器	wgxd
@@ -146148,6 +146234,8 @@ Windows系统	winx
 侨邻	wmdy
 佾	wme
 催乳	wmeb
+信则有，不信则无	wmef
+信则有不信则无	wmef
 人财两得	wmeh
 登山服	wmei
 催肥	wmej
@@ -147689,6 +147777,7 @@ WPS	wpsu
 假山	wrmm
 依我看来	wrmx
 假	wrn
+便捷性	wrn
 儒雅风流	wrni
 使尽	wrnm
 假性	wrnp
@@ -157906,6 +157995,7 @@ Y染色体	yiqw
 躲藏	ynau
 忘忧草	ynav
 亢	ynb
+就怪了	ynb
 忘了	ynbn
 词频	ynci
 良心难安	yncp
@@ -158086,6 +158176,7 @@ Y染色体	yiqw
 记忆犹新	ynvu
 离情别绪	ynvx
 谬	ynw
+话事人	ynw
 记忆合金	ynwb
 忘拿	ynwc
 良心何在	ynwd
@@ -158229,6 +158320,7 @@ Y染色体	yiqw
 设备管理器	yotx
 谁那里	youa
 就业问题	youj
+Youtube	yout
 谁会猜到	yova
 谈好	yovb
 谈婚	yovs
@@ -158892,7 +158984,6 @@ Y染色体	yiqw
 诱致	ytat
 就算了	ytb
 调和阴阳	ytbb
-YouTube	ytbe
 身残	ytbg
 身被	ytbh
 身殒	ytbk
@@ -160026,6 +160117,7 @@ YouTube	ytbe
 说话算数	yyto
 说说笑笑	yytt
 说话算话	yyty
+试衣间	yyu
 议决	yyub
 言状	yyud
 谢病	yyue

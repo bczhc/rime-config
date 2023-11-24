@@ -11,6 +11,7 @@ schema:
     - named_ipa_diacritics
     - pinyin_simp
     - stroke_full
+    - gojuuon
   name: "五笔"
   schema_id: 092wubi
   version: 1
@@ -95,6 +96,7 @@ engine:
     - affix_segmentor@help_translator
     - affix_segmentor@named_ipa_diacritics
     - affix_segmentor@stroke_full
+    - affix_segmentor@gojuuon
     - abc_segmentor
     - punct_segmentor
     - fallback_segmentor
@@ -109,6 +111,7 @@ engine:
     - table_translator@ipa_input
     - table_translator@named_ipa_diacritics
     - table_translator@stroke_full
+    - table_translator@gojuuon
     - lua_translator@full_chars_translator
     - lua_translator@number_translator # 数字转大写
     - lua_translator@calculator_translator # 简易计算器
@@ -210,7 +213,7 @@ key_binder:
 recognizer:
   import_preset: default
   patterns:
-    punct: "^/(?!uni)(?!cal)(?!num)(?!info)(?!hc)(?!em)(?!lt)(?!ipa)(?!env/)(?!help)(?!nipa)(?!sk)([0-9]0?|[A-Za-z]+)$"
+    punct: "^/(?!uni)(?!cal)(?!num)(?!info)(?!hc)(?!em)(?!lt)(?!ipa)(?!env/)(?!help)(?!nipa)(?!sk)(?!jp)([0-9]0?|[A-Za-z]+)$"
     # uppercase: "" #中文状态大写锁定直接上屏
     reverse_lookup: "^`[a-z]*'?$"
     alphabet_mode: '^[;A-Z].*$'
@@ -227,6 +230,7 @@ recognizer:
     help: '^/help$'
     named_ipa_diacritics: '^/nipa[a-zA-Z0-9\-]*$'
     stroke_full: '^/sk[tyghn]*$'
+    gojuuon: '^/jp[a-z]{0,3}$'
 
 # ↓简繁(+部分异体)滤镜
 simplification: #⇩四选一
@@ -315,6 +319,15 @@ stroke_full:
   tag: stroke_full
   tips: 〔笔划〕
   prefix: '/sk'
+  enable_completion: true
+  enable_sentence: false
+  enable_user_dict: false
+
+gojuuon:
+  dictionary: gojuuon
+  tag: gojuuon
+  tips: 〔假名〕
+  prefix: '/jp'
   enable_completion: true
   enable_sentence: false
   enable_user_dict: false

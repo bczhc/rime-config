@@ -1,0 +1,7 @@
+schema:
+  schema_id: gojuuon
+  name: gojuuon
+  version: 1
+
+translator:
+  dictionary: gojuuon

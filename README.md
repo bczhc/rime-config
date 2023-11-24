@@ -32,6 +32,7 @@
 - **/ipa** 输入IPA（使用的是云龙国际音标）
 - **/nipa** 输入命名的IPA符加符号（名称为官方IPA chart里的）
 - **/sk** 笔划输入（五个笔画分别为`ghtyn`）
+- **/jp** 假名输入
 - **/help** 显示帮助
 
 可参考：
@@ -74,7 +75,7 @@
 - Ctrl+I preedit为候选
 - Ctrl+S 全角半角切换
 - Shift+Space 中西文切换
-- Ctrl+Space 重选重码（还不稳定）
+- Ctrl+Space 重选重码（试验性）
 
 ### 较原版的改动
 

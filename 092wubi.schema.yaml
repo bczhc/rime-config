@@ -32,7 +32,7 @@ switches: # 0 默认关，1 默认开
 
   - name: emoji_cn  #emoji滤镜
     reset: 0
-    states: [ 😔, 😀 ] 
+    states: [ 😔, 😀 ]
 
   - name: chaifen
     reset: 0
@@ -70,6 +70,7 @@ switches: # 0 默认关，1 默认开
 engine:
   processors:
     - lua_processor@log_processor
+    - lua_processor@key_rejector
     - ascii_composer
     - lua_processor@alphabet_mode_processor
     - lua_processor@short_punct_pre_recognizer_processor
@@ -188,6 +189,7 @@ key_binder:
     - { accept: semicolon, send: 2, when: has_menu } # 次选
     - { accept: apostrophe, send: 3, when: has_menu }
     - { accept: grave, send: 4, when: has_menu } # CapsLock
+    - { accept: Arabic_switch, send: 4, when: has_menu }
     - { accept: bracketleft, send: 5, when: has_menu }
     - { accept: Tab, send: 6, when: has_menu }
     - { accept: slash, send: 0, when: has_menu }

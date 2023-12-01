@@ -1,4 +1,4 @@
-function filter(input, env)
+local function filter(input, env)
     local hash = {}
     for c in input:iter() do
         local text = c.text

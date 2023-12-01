@@ -82,7 +82,6 @@ engine:
     - key_binder
     - lua_processor@cancel_input_processor
     - punctuator
-    - lua_processor@reselect_candidates_processor
     - selector
     - navigator
     - express_editor #计算

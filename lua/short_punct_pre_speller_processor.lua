@@ -7,6 +7,8 @@ local short_punct_key_release = 'Release+' .. short_punct_key
 local repeat_key = 'space'
 local repeat2_key = 'r'
 
+local undo_input = require('undo_input')
+
 local function processor_pre_speller(key, env)
     local repr = key:repr()
     local context = env.engine.context
@@ -25,6 +27,12 @@ end
 local function processor_pre_recognizer(key, env)
     local context = env.engine.context
     local repr = key:repr()
+
+    if repr == 'Release+Return' and undo_input.prepare_undo then
+        undo_input.prepare_undo = false
+        undo_input.func()
+    end
+
     if repr == short_punct_key then
         short_punct_key_pressed = true
     elseif repr == short_punct_key_release then
@@ -97,14 +105,20 @@ local function processor_pre_recognizer(key, env)
             end
             return kAccepted
         end
+        if repr == 'Return' then
+            undo_input.prepare_undo = true
+            context.input = ''
+            return kAccepted
+        end
     end
     return kNoop
 end
 
 _G.short_punct_pre_speller_processor = processor_pre_speller
 _G.short_punct_pre_recognizer_processor = {
-    init = function(_)
+    init = function(env)
         punct_db = ReverseDb("build/short_punct.reverse.bin")
+        undo_input.init(env)
     end,
     func = processor_pre_recognizer
 }

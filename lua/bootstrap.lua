@@ -6,7 +6,6 @@ lua_unicode_display_filter = require("unicode_display")  --Unicode编码提示
 calculator_translator = require("calculator_translator")  --简易计算器
 shijian2_translator = require("shijian2") -- 高级时间
 unicode_input_translator = require("unicode_input") -- Unicode输入
-reselect_candidates_processor = require("reselect_candidates") -- Ctrl+Space撤销并重新选重
 cancel_input_processor = require('cancel_input') -- 防止空码时把编码上屏
 info_translator = require("info_translator") -- 显示信息
 require("alphabet_mode") -- 字母模式 alphabet_mode_processor, alphabet_mode_translator, alphabet_mode_post_speller_processor

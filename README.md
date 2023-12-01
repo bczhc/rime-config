@@ -75,7 +75,7 @@
 - Ctrl+I preedit为候选
 - Ctrl+S 全角半角切换
 - Shift+Space 中西文切换
-- Ctrl+Space 重选重码（试验性）
+- z+回车 撤销上屏内容（由于librime没有一种和前端之间回删的协议，只能在lua中使用xdotool实现）
 
 ### 较原版的改动
 

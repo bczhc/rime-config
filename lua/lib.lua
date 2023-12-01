@@ -17,10 +17,19 @@ function get_commit_history(context, pos)
 end
 
 MY_LOG_TAG = '[bczhc log]'
+MY_LOG_DEBUG_TAG = '[bczhc debug]'
 
 function my_log(msg)
     if ENABLE_MY_LOG then
         log.info(MY_LOG_TAG .. ' ' .. msg)
+    end
+end
+
+function my_dbg(msg)
+    if ENABLE_MY_DEBUG then
+        -- No `debug` method
+        -- https://github.com/hchunhui/librime-lua/blob/7c297e4d2e08fcdd3e9b2dcae2a42317b9a217ff/src/types.cc#L1332-L1342
+        log.info(MY_LOG_DEBUG_TAG .. ' ' .. msg)
     end
 end
 
@@ -64,4 +73,48 @@ function iter_to_table(iter)
         table[#table + 1] = x
     end
     return table
+end
+
+function create_fixed_length_stack(maxSize)
+    local stack = {}
+    maxSize = maxSize or 20
+
+    function stack:push(item)
+        if #self < maxSize then
+            table.insert(self, item)
+        else
+            table.remove(self, 1)
+            table.insert(self, item)
+        end
+    end
+
+    function stack:pop()
+        if #self > 0 then
+            return table.remove(self)
+        else
+            return nil  -- 返回空值表示堆栈为空
+        end
+    end
+
+    function stack:peek()
+        if #self > 0 then
+            return self[#self]
+        else
+            return nil
+        end
+    end
+
+    function stack:size()
+        return #self
+    end
+
+    function stack:format_debug()
+        local elements = {}
+        for _, item in ipairs(self) do
+            table.insert(elements, tostring(item))
+        end
+        return "[" .. table.concat(elements, ", ") .. "]"
+    end
+
+    return stack
 end

@@ -5,7 +5,8 @@ local long_press_used = false
 local short_punct_key = 'z'
 local short_punct_key_release = 'Release+' .. short_punct_key
 local repeat_key = 'space'
-local repeat2_key = 'r'
+local repeat2_key = 'm'
+local undo_input_key = 'r'
 
 local undo_input = require('undo_input')
 
@@ -28,7 +29,7 @@ local function processor_pre_recognizer(key, env)
     local context = env.engine.context
     local repr = key:repr()
 
-    if repr == 'Release+Return' and undo_input.prepare_undo then
+    if repr == 'Release+' .. undo_input_key and undo_input.prepare_undo then
         undo_input.prepare_undo = false
         undo_input.func()
     end
@@ -51,7 +52,7 @@ local function processor_pre_recognizer(key, env)
             return kAccepted
         end
 
-        if repr ~= repeat_key and repr ~= repeat2_key and repr:match('^[a-z]$') then
+        if repr ~= repeat_key and repr ~= repeat2_key and repr ~= undo_input_key and repr:match('^[a-z]$') then
             local punct = punct_db:lookup(key:repr())
             if punct == nil then
                 return kNoop
@@ -105,7 +106,7 @@ local function processor_pre_recognizer(key, env)
             end
             return kAccepted
         end
-        if repr == 'Return' then
+        if repr == undo_input_key then
             undo_input.prepare_undo = true
             context.input = ''
             return kAccepted

@@ -765,7 +765,6 @@ ABS	absu
 劳动密集型	acpe
 散文家	acpe
 茅塞	acpf
-医生	acpg
 畜生	acpg
 畜养	acpj
 率军	acpl
@@ -1366,7 +1365,6 @@ ABS	absu
 某	af
 至于	af
 坐	af
-著	af
 七十年	afa
 东城区	afa
 落地式	afaa
@@ -1480,6 +1478,7 @@ ABS	absu
 甘当	afiv
 芋头	afiw
 茫无头绪	afix
+著	afj
 某日	afja
 甘受	afjc
 某时	afjf
@@ -2300,7 +2299,7 @@ ABS	absu
 东	ai
 至少	ai
 薄	ai
-范	ai
+④	ai
 落	ai
 蕖	aia
 茳	aia
@@ -2473,6 +2472,7 @@ ABS	absu
 落听	aikr
 蒋沈韩杨	aiks
 从头再来	aikx
+范	ail
 藩国	ailb
 功深力大	aild
 蒲团	ailf
@@ -3326,7 +3326,6 @@ Alt	altu
 年轻就是好	alyv
 规则	am
 英	am
-菲	am
 规	am
 英式	amaa
 𮐨薁	amab
@@ -4159,6 +4158,13 @@ Alt	altu
 规定	ap
 蒙	ap
 芳	ap
+④	ap
+⑤	ap
+⑥	ap
+⑦	ap
+医生	ap
+⑨	ap
+劳	ap
 蒙医	apac
 劳苦	apad
 荤菜	apae
@@ -4291,7 +4297,6 @@ APEC	apec
 蒙哄	apkr
 莹白	apkt
 营养品	apkx
-劳	apl
 荤	apl
 劳力	apla
 蒙恩	apld
@@ -4831,7 +4836,12 @@ APEC	apec
 规模	as
 艺术	as
 敬	as
+④	as
 警	as
+⑥	as
+⑦	as
+⑧	as
+⑨	as
 苟	as
 从西到东	asaa
 艺术节	asab
@@ -5084,7 +5094,6 @@ APEC	apec
 若	at
 工程	at
 致	at
-攻	at
 若夫	ataa
 蓬荜	ataa
 蓬茸	atab
@@ -5329,6 +5338,7 @@ ATM	atmu
 致敏	atxt
 孽缘	atxx
 某种意义	atxy
+攻	aty
 若离	atyb
 若说	atyd
 攻讦	atyf
@@ -5845,7 +5855,6 @@ AV女优	avvw
 巧	aw
 工人	aw
 比例	aw
-茶	aw
 蒜茸	awab
 蒜苔	awac
 苍莽	awad
@@ -5950,6 +5959,7 @@ AV女优	avvw
 工作餐	awhq
 劳伦斯	awhr
 工作目标	awhs
+茶	awi
 荼	awi
 苍洱	awib
 巧学	awib
@@ -9225,7 +9235,6 @@ BIG5	bigs
 出去	bl
 限制	bl
 孟	bl
-阵	bl
 除却巫山不是云	blac
 阵营	blap
 孟获	blav
@@ -9266,6 +9275,7 @@ BIG5	bigs
 死路一条	blgt
 顿足不前	blgu
 出力不讨好	blgv
+阵	blh
 阵发	blhd
 阵基	blhf
 阵势	blhl
@@ -9565,7 +9575,6 @@ BIG5	bigs
 出槽	bmse
 出村	bmsf
 出格	bmso
-出版	bmsr
 出牌	bmsr
 裙带关系	bmst
 出栏	bmsu
@@ -10066,6 +10075,11 @@ BIG5	bigs
 子夜	boyw
 随着	bp
 院	bp
+③	bp
+④	bp
+⑤	bp
+⑥	bp
+⑦	bp
 防	bp
 殡葬	bpab
 出生率	bpac
@@ -10692,8 +10706,8 @@ BP机	bpsn
 隔夜	bryw
 阿	bs
 主要	bs
-出版	bs
 联	bs
+出版	bs
 墨西哥	bsa
 阿甘	bsaf
 墨西哥城	bsaf
@@ -11450,6 +11464,7 @@ B站	buv
 初选	bveq
 初战告捷	bver
 初具	bveu
+孤独无助	bvfe
 限于	bvfh
 初二	bvfi
 初露	bvfl
@@ -30667,7 +30682,6 @@ Esc	escu
 有机结合	esxw
 朕	esy
 貘	esy
-膜	esy
 胶柱调瑟	esyg
 彩衣	esyk
 彩调	esym
@@ -31658,6 +31672,7 @@ Excel	excl
 气绝身亡	exyy
 及	ey
 告诉	ey
+③	ey
 脑	ey
 脱离苦海	eyac
 及至	eyag
@@ -32297,8 +32312,9 @@ E	ezzz
 城隍庙	fbon
 孝廉	fbou
 块料	fbow
-教室	fbpa
+教室	fbp
 博弈	fbpa
+教室	fbpa
 教官	fbpd
 无耻之尤	fbpd
 无耻之徒	fbph
@@ -32611,7 +32627,6 @@ FDA	fda
 坦克大战	fddv
 无大碍	fddx
 零碎	fddy
-震	fde
 需有	fdef
 需用	fdeh
 零用	fdeh
@@ -36060,10 +36075,12 @@ Firefox	firx
 十丈	fogr
 无庸赘述	fogs
 十班	fogv
+远视眼	foh
 求发	fohd
 你会发现	fohg
 赤水	fohi
 赤热	foho
+远视眼	fohv
 十行	fohw
 求得	fohx
 求饶	fohx
@@ -36271,6 +36288,7 @@ Firefox	firx
 无庸讳言	foyy
 地方	fp
 城	fp
+真实	fp
 索	fp
 未成年	fpa
 嘉定区	fpa
@@ -38398,7 +38416,12 @@ FT	futu
 过来	fx
 老	fx
 后来	fx
+④	fx
 境	fx
+⑥	fx
+增强	fx
+未来	fx
+无疑	fx
 耋	fxa
 老式	fxaa
 老夫	fxaa
@@ -43890,6 +43913,7 @@ GDP	gdpu
 不同	gm
 否则	gm
 现	gm
+责	gm
 一看到	gma
 一番功夫	gmaa
 天刚蒙蒙亮	gmah
@@ -44135,7 +44159,6 @@ GMP认证	gmpy
 现管	gmtp
 万分紧急	gmtq
 瑞签	gmtw
-责	gmu
 万公里	gmua
 王八羔子	gmub
 现状	gmud
@@ -47370,7 +47393,6 @@ G点	guvo
 一倡百和	gwdt
 珍禽奇兽	gwdu
 表示感谢	gwdy
-珍	gwe
 不仅有	gwe
 一体两面	gwed
 不仅有	gwef
@@ -48818,7 +48840,6 @@ G	gzzz
 上海	hc
 行动	hc
 很难	hc
-颇	hc
 径	hca
 行止坐卧	hcaa
 眠云卧石	hcad
@@ -49760,10 +49781,10 @@ HDTV	hdtv
 献身	heyt
 南诏	heyv
 豪言	heyy
-基	hf
+基于	hf
 待	hf
 街	hf
-基于	hf
+基	hf
 毫无花巧	hfaa
 上元节	hfab
 眠霜卧雪	hfaf
@@ -50586,13 +50607,14 @@ HDTV	hdtv
 水很深	hhio
 往上涨	hhix
 往往是	hhj
+发行量	hhj
 往往是在	hhjd
 敲敲电脑	hhje
 食堂	hhjf
 彼时	hhjf
-发行量	hhjg
 食量	hhjg
 发热量	hhjg
+发行量	hhjg
 瞌睡虫	hhjh
 目录	hhji
 衢州	hhji
@@ -54989,8 +55011,13 @@ HP	hupu
 上来讲	hxyx
 得意忘言	hxyy
 代	hy
-发言	hy
+上课	hy
+③	hy
 袋	hy
+⑤	hy
+⑥	hy
+⑦	hy
+期望	hy
 代替	hyaa
 高义薄云	hyac
 代工	hyag
@@ -56137,6 +56164,8 @@ ICU	icuu
 源	id
 湖	id
 尖	id
+学历	id
+激励	id
 深感荣幸	idaf
 洗碗工	idag
 淹到	idaj
@@ -58809,6 +58838,7 @@ IELTS	iels
 法	il
 法制	il
 法国	il
+渐	il
 法式	ilaa
 法医	ilac
 潜踪匿影	ilak
@@ -58997,7 +59027,6 @@ IELTS	iels
 洗去铅华	ilqm
 削足适履	ilqn
 渐多	ilqo
-渐	ilr
 渐近	ilrp
 济困扶危	ilrq
 渐逝	ilrr
@@ -60369,6 +60398,7 @@ IPO	ipou
 沃尔玛	iqgc
 浑然不知	iqgc
 浩然正气	iqge
+活下	iqgh
 浑然不觉	iqgi
 当然不是	iqgj
 清辞丽曲	iqgk
@@ -61050,7 +61080,6 @@ ISO	isou
 汀线	isxg
 脊椎骨	isxh
 酒意	isxn
-漠	isy
 沐	isy
 沭	isy
 学术论文	isyc
@@ -62755,8 +62784,8 @@ I	izzz
 日	ja
 受到	ja
 遇到	ja
+④	ja
 尚	ja
-虹	ja
 弑	jaa
 能工巧匠	jaaa
 照葫芦画瓢	jaab
@@ -65876,7 +65905,6 @@ J2EE	jfee
 受贿罪	jmlm
 蟠踞	jmln
 赏罚	jmly
-遇见	jmm
 愚公	jmmc
 巴山楚水	jmmh
 赏赐	jmmj
@@ -67488,7 +67516,6 @@ JPEG	jpeg
 杀招	jtrv
 暗箱操作	jtrw
 照相机	jts
-蛛	jts
 临摹	jtsc
 川中	jtsh
 杀机	jtsn
@@ -73164,7 +73191,6 @@ J	jzzz
 听进	krxp
 白报纸	krxs
 听音	krxy
-哦	kry
 哄	kry
 听译	kryc
 听说	kryd
@@ -74854,8 +74880,8 @@ K	kzzz
 力	la
 导致	la
 回到	la
+④	la
 异	la
-距	la
 轼	laa
 去年年初	laab
 力畜	laac
@@ -80384,6 +80410,7 @@ LP	lupu
 界	lw
 为何	lw
 轮	lw
+男人	lw
 轮式	lwaa
 轮替	lwaa
 路人皆知	lwac
@@ -88611,6 +88638,7 @@ NBA	nbau
 以下	ng
 情	ng
 怀	ng
+几天	ng
 收不到	nga
 几万年	nga
 情夫	ngaa
@@ -93802,7 +93830,7 @@ OCR	ocru
 烦言	odyy
 帮助	oe
 双	oe
-祖	oe
+粗	oe
 应用到	oea
 双节	oeab
 粗率	oeac
@@ -93893,7 +93921,7 @@ OCR	ocru
 双声	oefn
 双十	oefo
 双城	oefp
-粗	oeg
+祖	oeg
 祖玛	oegc
 帮助不大	oegd
 帮助下	oegh
@@ -95275,7 +95303,6 @@ OICQ	oicq
 启航	okey
 祸及	okey
 祚	okf
-炸	okf
 启封	okff
 祝你	okfi
 炸雷	okfl
@@ -96496,6 +96523,8 @@ OneNote	onee
 那么说的话	ooyy
 房	op
 祥	op
+③	op
+迷	op
 数字式	opaa
 迷茫	opai
 房东	opai
@@ -98740,7 +98769,6 @@ O	ozzz
 突然	p
 之所以	p
 生活	p
-生产	p
 方式	pa
 成功	pa
 差	pa
@@ -101103,6 +101131,7 @@ pH值	phwf
 审议	pjyy
 它的	pk
 农	pk
+③	pk
 宫	pk
 农夫	pkaa
 农医	pkac
@@ -103583,8 +103612,12 @@ PS2接口	psfk
 放言	ptyy
 之前	pu
 之间	pu
-善	pu
+③	pu
 完美	pu
+⑤	pu
+⑥	pu
+⑦	pu
+生产	pu
 生产率	pua
 生产率	puac
 善茬	puad
@@ -103744,6 +103777,7 @@ PP	pupu
 寒色	puqj
 安装包	puql
 放尊重点	puqv
+善	pur
 鄯	pur
 窝里反	purc
 善报	puri
@@ -104329,6 +104363,10 @@ PVC	pvcu
 成	px
 成绩	px
 弯	px
+⑤	px
+⑥	px
+⑦	px
+究竟	px
 成荫	pxab
 成年	pxak
 盛年	pxak
@@ -105092,8 +105130,8 @@ P	pzzz
 危险	qb
 儿子	qb
 铺	qb
+④	qb
 迎	qb
-熏	qb
 钝	qba
 熏蒸	qbab
 争取到	qbaj
@@ -107651,7 +107689,6 @@ QFII	qfii
 解释	qm
 负	qm
 铜	qm
-岛	qm
 负荆	qmae
 钢花	qmah
 铜芯	qman
@@ -108422,6 +108459,8 @@ QFII	qfii
 ⑥	qp
 ⑦	qp
 名字	qp
+⑨	qp
+适	qp
 道菜	qpae
 迁至	qpag
 道花	qpah
@@ -108506,8 +108545,6 @@ QFII	qfii
 迎宾馆	qphp
 道长	qphs
 道行	qphw
-适	qpi
-迁	qpi
 廷	qpi
 道学	qpib
 道法	qpil
@@ -109903,7 +109940,6 @@ Q点	quvo
 重点	qv
 急	qv
 钻	qv
-银	qv
 适婚年龄	qvac
 舔狗到最后一无所有	qvae
 钟点工	qvag
@@ -110171,6 +110207,7 @@ Q点	quvo
 钟灵毓秀	qvxt
 银弹	qvxu
 银丝	qvxx
+银	qvy
 钻谋	qvya
 银证	qvyg
 急调	qvym
@@ -111140,6 +111177,7 @@ RAM	ramu
 提出	rb
 指出	rb
 捕	rb
+④	rb
 排除	rb
 拙荆	rbae
 拙著	rbaf
@@ -114204,8 +114242,12 @@ RAM	ramu
 控制	rl
 反思	rl
 副	rl
+⑤	rl
 逼	rl
-舞	rl
+⑦	rl
+⑧	rl
+⑨	rl
+失去	rl
 抽象劳动	rlac
 副项	rlad
 撰著	rlaf
@@ -114291,6 +114333,7 @@ RAM	ramu
 打圆场	rlfv
 指导地位	rlfw
 我跟你讲	rlfy
+舞	rlg
 摆弄	rlga
 捉弄	rlga
 控制不了	rlgb
@@ -115276,6 +115319,7 @@ RNA	rnau
 探班	rogv
 反应不过来	rogx
 批判现实主义	rogy
+近视眼	roh
 打个盹	rohb
 护发	rohd
 护垫	rohf
@@ -115289,6 +115333,7 @@ RNA	rnau
 探长	rohs
 副会长	rohs
 焦化	roht
+护眼	rohv
 近视眼	rohv
 抓得	rohx
 护渔	roic
@@ -118152,7 +118197,6 @@ RT	rutu
 拔剑四顾	rwld
 换位思考	rwlf
 搭便车	rwlg
-失去	rwlh
 失足	rwlh
 捡回	rwlk
 抢劫	rwll
@@ -118365,8 +118409,8 @@ RT	rutu
 失言	rwyy
 找	rx
 指	rx
-持续	rx
 投	rx
+持续	rx
 拉丝工艺	rxaa
 指节	rxab
 投医	rxac
@@ -119269,6 +119313,7 @@ SARS	sars
 样子	sb
 李	sb
 郑	sb
+够了	sb
 印	sb
 柳陌花丛	sbaa
 椰菜	sbae
@@ -120232,7 +120277,6 @@ SD卡	sdmh
 忠孝双全	sfoo
 丁二烯	sfor
 关塔那摩	sfov
-材料	sfow
 杜康	sfow
 标志着	sfp
 墓室	sfpa
@@ -121567,8 +121611,6 @@ SIM卡	simm
 檄文	skcy
 牒	skd
 槔	skd
-串	skd
-可	skd
 可避	skda
 棉布	skdb
 可碜	skdc
@@ -131405,6 +131447,9 @@ T	tzzz
 冷	ud
 状	ud
 减	ud
+⑥	ud
+⑦	ud
+准确	ud
 癖	uda
 准确率	uda
 准确率	udac
@@ -131598,7 +131643,6 @@ T	tzzz
 冰碴儿	udqq
 冷锋	udqt
 减重	udqu
-减	udr
 阅批	udra
 凑拢	udrd
 减持	udrf
@@ -134348,6 +134392,8 @@ Unix	unix
 准备就绪	uoyx
 旁	up
 帝	up
+③	up
+速	up
 瘥	upa
 速率	upac
 旁落	upai
@@ -134429,7 +134475,6 @@ Unix	unix
 闭着眼	uphv
 新官上任	uphw
 新生代	uphy
-速	upi
 立宪派	upi
 旁注	upib
 帝喾	upie
@@ -136341,7 +136386,11 @@ U盾	uurf
 北	ux
 背	ux
 弟	ux
+交给	ux
 将来	ux
+⑥	ux
+⑦	ux
+前进	ux
 北至	uxag
 冀东	uxai
 背到	uxaj
@@ -137410,8 +137459,8 @@ U	uzzz
 如此	vc
 妈	vc
 始	vc
-专	vc
 灵魂	vc
+专	vc
 狂欢节	vcab
 专项	vcad
 专著	vcaf
@@ -142259,7 +142308,7 @@ VOA	voau
 如何	vw
 好像	vw
 即使	vw
-猴	vw
+女人	vw
 群众	vw
 退休年龄	vwac
 战斗英雄	vwad
@@ -142775,7 +142824,6 @@ VOA	voau
 麻疹	vyuw
 狼疮	vyuw
 娘	vyv
-狼	vyv
 狼獾	vyva
 早就如此	vyvc
 狼奶	vyve
@@ -143112,7 +143160,6 @@ V	vzzz
 住	wb
 做出	wb
 例子	wb
-例	wb
 仔畜	wbac
 修补工具	wbae
 作出贡献	wbah
@@ -143172,6 +143219,7 @@ V	vzzz
 人际沟通	wbic
 倾耳注目	wbih
 人初油	wbin
+例	wbj
 例题	wbjw
 伏帷尚飨	wbjx
 作出的	wbk
@@ -148973,7 +149021,6 @@ WS	wusu
 传统	wx
 介绍	wx
 侠	wx
-佛	wx
 人约黄昏后	wxaf
 传统节日	wxaj
 侮蔑	wxal
@@ -149032,6 +149079,7 @@ WS	wusu
 俞敏洪	wxir
 侠少	wxit
 垡头	wxiw
+佛	wxj
 他乡遇故知	wxjc
 佛堂	wxjf
 供给量	wxjg
@@ -149211,6 +149259,7 @@ WS	wusu
 依靠	wyek
 建设用地使用权	wyes
 斗气	wyet
+①	wyey
 建设有中国特色社会主义	wyey
 建设有中国特色的社会主义	wyey
 储	wyf
@@ -149459,6 +149508,7 @@ W	wzzz
 竟然	x
 或者	x
 结果	x
+进来	x
 红	xa
 每年	xa
 练	xa
@@ -150684,7 +150734,6 @@ W	wzzz
 疆独	xfvj
 进寸退尺	xfvn
 结点	xfvo
-结婚	xfvs
 贯众	xfwa
 绝无仅有	xfwe
 章佳	xfwf
@@ -150968,6 +151017,7 @@ W	wzzz
 线谱	xgyu
 张	xh
 引	xh
+强化	xh
 骨	xh
 骨节	xhab
 引荐	xhad
@@ -152393,7 +152443,6 @@ XML	xmlu
 纳福	xmor
 贵庚	xmov
 纳粹	xmoy
-遗	xmp
 贵族	xmpc
 张雨生	xmpg
 骨肉之情	xmpn
@@ -152675,7 +152724,6 @@ XML	xmlu
 弓身	xnyt
 每个	xo
 每个人	xo
-编	xo
 继	xo
 红烧茄子	xoab
 绿视率	xoac
@@ -153121,7 +153169,6 @@ XML	xmlu
 进组	xpxe
 纺线	xpxg
 缩骨	xpxh
-进来	xpxi
 纺纱	xpxi
 纺织	xpxk
 缤纷	xpxm
@@ -154421,6 +154468,7 @@ X线	xuxg
 每	xx
 组织	xx
 继续	xx
+缓缓	xx
 每节	xxab
 缠绕茎	xxac
 每项	xxad
@@ -154962,8 +155010,12 @@ X	xzzz
 说明	y
 该	ya
 调节	ya
+③	ya
+④	ya
+⑤	ya
+⑥	ya
+⑦	ya
 试	ya
-诺	ya
 诬	yaa
 诺夫	yaaa
 该项	yaad
@@ -155210,7 +155262,13 @@ X	xzzz
 谎言	yayy
 离	yb
 郭	yb
+③	yb
+④	yb
+⑤	yb
+⑥	yb
+⑦	yb
 熟	yb
+忘了	yb
 离散	ybae
 享年	ybak
 离歌	ybaq
@@ -155425,6 +155483,9 @@ X	xzzz
 试验	yc
 充	yc
 弃	yc
+⑥	yc
+⑦	yc
+谁知	yc
 弃	yca
 译著	ycaf
 译丛	ycag
@@ -155889,11 +155950,13 @@ X	xzzz
 谣言	yeyy
 认真	yf
 计	yf
-诸	yf
+③	yf
 诗	yf
-射	yf
+⑤	yf
 ⑥	yf
 谢过	yf
+射	yf
+诸	yf
 诸项	yfad
 诸葛	yfaj
 永远年轻	yfal
@@ -156001,7 +156064,6 @@ X	xzzz
 诗酒	yfis
 调过头来	yfix
 射流	yfiy
-诸	yfj
 永远是	yfj
 射日	yfja
 评鉴	yfjb

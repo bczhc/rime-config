@@ -193,6 +193,7 @@ key_binder:
     - { accept: Tab, send: 6, when: has_menu }
     - { accept: slash, send: 0, when: has_menu }
     - { accept: 3, send: 0, when: has_menu }
+    - { accept: 2, send: 3, when: has_menu }
       #    - { accept: 8, send: 9, when: has_menu }
       #    - { accept: 9, send: 0, when: has_menu }
     - { when: has_menu, accept: minus, send: Page_Up } # - 向后翻页

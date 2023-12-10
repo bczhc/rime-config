@@ -21,6 +21,8 @@ local reprs = {
     'semicolon',
     'Tab',
     'backslash',
+    'grave',
+    'apostrophe',
 }
 
 local function processor(key, env)

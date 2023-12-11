@@ -6,7 +6,7 @@ local function processor(key, env)
         return kNoop
     end
 
-    if repr == 'Left' or repr == 'Right' or repr == 'Up' or repr == 'Down' then
+    if repr == 'Left' or repr == 'Right' then
         return kAccepted
     end
     return kNoop

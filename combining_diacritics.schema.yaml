@@ -1,0 +1,7 @@
+schema:
+  schema_id: combining_diacritics
+  name: combining_diacritics
+  version: 1
+
+translator:
+  dictionary: combining_diacritics

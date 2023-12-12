@@ -6,6 +6,7 @@ local enter_to_commit_tags = {
     'latin_input',
     'ipa_input',
     'named_ipa_diacritics',
+    'combining_diacritics',
 }
 
 local function check_tag(context)

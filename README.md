@@ -33,6 +33,7 @@
 - **/nipa** 输入命名的IPA符加符号（名称为官方IPA chart里的）
 - **/sk** 笔划输入（五个笔画分别为`ghtyn`）
 - **/jp** 假名输入
+- **/cb** 组合附加字符（combining diacritics）输入
 - **/help** 显示帮助
 
 可参考：

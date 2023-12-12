@@ -1,9 +1,14 @@
 #!/bin/bash
 
+cat emoji.dict.yaml | tail +10 | awk '{print "/em"$2"\t"$1}'
+cat gojuuon.dict.yaml | tail +9 | awk '{print "/jp"$2"\t"$1}'
+cat enclosed_alphanumerics.dict.yaml | tail +9 | awk '{print "/ec"$2"\t"$1}'
+cat greek.dict.yaml | tail +9 | awk '{print "/gk"$2"\t"$1}'
+cat superscript.dict.yaml | tail +9 | awk '{print "/sup"$2"\t"$1}'
+cat subscript.dict.yaml | tail +9 | awk '{print "/sub"$2"\t"$1}'
+
 cat html_chars.dict.yaml | tail +9 | awk '{print "/hc"$2"\t"$1}'
 cat combining_diacritics.dict.yaml | tail +9 | awk '{print "/cb"$2"\t"$1}'
 cat named_ipa_diacritics.dict.yaml | tail +8 | awk '{print "/nipa"$2"\t"$1}'
 cat ipa_yunlong.dict.yaml | tail +14 | awk '{print "/ipa"$2"\t"$1}'
-cat emoji.dict.yaml | tail +10 | awk '{print "/em"$2"\t"$1}'
 cat latin_international.dict.yaml | tail +23 | awk '{print "/lt"$2"\t"$1}'
-cat gojuuon.dict.yaml | tail +9 | awk '{print "/jp"$2"\t"$1}'

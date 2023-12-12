@@ -1,0 +1,7 @@
+schema:
+  schema_id: subscript
+  name: subscript
+  version: 1
+
+translator:
+  dictionary: subscript

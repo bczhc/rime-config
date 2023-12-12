@@ -1,0 +1,7 @@
+schema:
+  schema_id: greek
+  name: greek
+  version: 1
+
+translator:
+  dictionary: greek

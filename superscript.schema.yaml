@@ -1,0 +1,7 @@
+schema:
+  schema_id: superscript
+  name: superscript
+  version: 1
+
+translator:
+  dictionary: superscript

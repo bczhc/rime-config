@@ -1,0 +1,7 @@
+schema:
+  schema_id: enclosed_alphanumerics
+  name: enclosed_alphanumerics
+  version: 1
+
+translator:
+  dictionary: enclosed_alphanumerics

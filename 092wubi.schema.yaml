@@ -13,6 +13,10 @@ schema:
     - stroke_full
     - gojuuon
     - combining_diacritics
+    - enclosed_alphanumerics
+    - greek
+    - superscript
+    - subscript
   name: "五笔"
   schema_id: 092wubi
   version: 1
@@ -99,6 +103,10 @@ engine:
     - affix_segmentor@stroke_full
     - affix_segmentor@gojuuon
     - affix_segmentor@combining_diacritics
+    - affix_segmentor@enclosed_alphanumerics
+    - affix_segmentor@greek
+    - affix_segmentor@superscript
+    - affix_segmentor@subscript
     - abc_segmentor
     - punct_segmentor
     - fallback_segmentor
@@ -115,6 +123,10 @@ engine:
     - table_translator@stroke_full
     - table_translator@gojuuon
     - table_translator@combining_diacritics
+    - table_translator@enclosed_alphanumerics
+    - table_translator@greek
+    - table_translator@superscript
+    - table_translator@subscript
     - lua_translator@full_chars_translator
     - lua_translator@number_translator # 数字转大写
     - lua_translator@calculator_translator # 简易计算器
@@ -218,7 +230,7 @@ key_binder:
 recognizer:
   import_preset: default
   patterns:
-    punct: "^/(?!uni)(?!cal)(?!num)(?!info)(?!hc)(?!em)(?!lt)(?!ipa)(?!env/)(?!help)(?!nipa)(?!sk)(?!jp)(?!cb)([0-9]0?|[A-Za-z]+)$"
+    punct: "^/(?!uni)(?!cal)(?!num)(?!info)(?!hc)(?!em)(?!lt)(?!ipa)(?!env/)(?!help)(?!nipa)(?!sk)(?!jp)(?!cb)(?!ec)(?!gk)(?!sup)(?!sub)([0-9]0?|[A-Za-z]+)$"
     # uppercase: "" #中文状态大写锁定直接上屏
     reverse_lookup: "^`[a-z]*'?$"
     alphabet_mode: '^[;A-Z].*$'
@@ -237,6 +249,10 @@ recognizer:
     stroke_full: '^/sk[tyghn]*$'
     gojuuon: '^/jp[a-z]{0,3}$'
     combining_diacritics: '^/cb[a-z\-]*$'
+    enclosed_alphanumerics: '^/ec[a-z0-9]*$'
+    greek: '^/gk[a-z]*$'
+    superscript: '^/sup[a-z]$'
+    subscript: '^/sub[a-z]$'
 
 # ↓简繁(+部分异体)滤镜
 simplification: #⇩四选一
@@ -343,6 +359,42 @@ combining_diacritics:
   tag: combining_diacritics
   tips: 〔组合附加符号〕
   prefix: '/cb'
+  enable_completion: true
+  enable_sentence: false
+  enable_user_dict: false
+
+enclosed_alphanumerics:
+  dictionary: enclosed_alphanumerics
+  tag: enclosed_alphanumerics
+  tips: 〔闭合字母与数字〕
+  prefix: '/ec'
+  enable_completion: true
+  enable_sentence: false
+  enable_user_dict: false
+
+greek:
+  dictionary: greek
+  tag: greek
+  tips: 〔希腊字母〕
+  prefix: '/gk'
+  enable_completion: true
+  enable_sentence: false
+  enable_user_dict: false
+
+superscript:
+  dictionary: superscript
+  tag: superscript
+  tips: 〔上标〕
+  prefix: '/sup'
+  enable_completion: true
+  enable_sentence: false
+  enable_user_dict: false
+
+subscript:
+  dictionary: subscript
+  tag: subscript
+  tips: 〔下标〕
+  prefix: '/sub'
   enable_completion: true
   enable_sentence: false
   enable_user_dict: false

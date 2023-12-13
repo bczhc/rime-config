@@ -1,0 +1,21 @@
+#!/bin/env ruby
+
+file = '092wubi.dict.yaml'
+lines = File.open(file).readlines(chomp: true)
+lines = lines.drop_while { |x| x != '...' }.drop 1
+
+map = {}
+lines.each do |line|
+  split = line.split("\t")
+  next if split.length != 2
+  map[split[0]] = split[1]
+end
+
+STDIN.each_line(chomp: true) do |line|
+  lookup = map[line]
+  if lookup != nil
+    puts "#{line}\t#{lookup}"
+  else
+    puts '?'
+  end
+end

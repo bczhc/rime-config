@@ -3,7 +3,6 @@ charset_comment_filter = require("charset_comment_filter") --Unicode分区提示
 dz_ci = require("dz_ci_filter")
 number_translator = require("number")
 lua_unicode_display_filter = require("unicode_display")  --Unicode编码提示
-calculator_translator = require("calculator_translator")  --简易计算器
 shijian2_translator = require("shijian2") -- 高级时间
 unicode_input_translator = require("unicode_input") -- Unicode输入
 cancel_input_processor = require('cancel_input') -- 防止空码时把编码上屏

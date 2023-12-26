@@ -199,33 +199,30 @@ key_binder:
   bindings:
     - { accept: space, send: space, when: has_menu } # 有候选时空格上屏首选
     - { accept: Shift+space, toggle: ascii_mode, when: always }
-    - { accept: semicolon, send: 2, when: has_menu } # 次选
-    - { accept: apostrophe, send: 3, when: has_menu }
-    - { accept: grave, send: 4, when: has_menu } # CapsLock
-    - { accept: Arabic_switch, send: 4, when: has_menu }
-    - { accept: bracketleft, send: 5, when: has_menu }
-    - { accept: Tab, send: 6, when: has_menu }
-    - { accept: slash, send: 0, when: has_menu }
-    - { accept: 3, send: 0, when: has_menu }
-    - { accept: 2, send: 3, when: has_menu }
-    #    - { accept: 8, send: 9, when: has_menu }
-    #    - { accept: 9, send: 0, when: has_menu }
-    - { when: has_menu, accept: minus, send: Page_Up } # - 向后翻页
-    - { when: has_menu, accept: equal, send: Page_Down } # = 向前翻页
+    - { accept: semicolon, send: '2', when: has_menu } # 次选
+    - { accept: apostrophe, send: '3', when: has_menu }
+    - { accept: grave, send: '4', when: has_menu } # CapsLock
+    - { accept: Arabic_switch, send: '4', when: has_menu }
+    - { accept: bracketleft, send: '5', when: has_menu }
+    - { accept: Tab, send: '6', when: has_menu }
+    - { accept: slash, send: '0', when: has_menu }
+    - { accept: '3', send: '0', when: has_menu }
+    - { accept: '2', send: '3', when: has_menu }
+    - { when: has_menu, accept: minus, send: Page_Up } # 向后翻页
+    - { when: has_menu, accept: equal, send: Page_Down } # 向前翻页
     - { accept: "Control+o", toggle: simplification, when: composing }  # 简繁开关
-    - { accept: "Control+p", toggle: pinyin, when: composing }  # PC 拼音开关
-    - { accept: "Control+e", toggle: emoji_cn, when: composing }  # PC emoji开关
-    - { accept: "Control+u", toggle: charset_comment_filter, when: composing }  # PC Unicode分区开关
-    - { accept: "Control+y", toggle: udpf_switch, when: composing }  #PC Unicode编码开关
-    - { accept: "Control+h", toggle: extended_char, when: composing } # PC 自定字集开关
-    - { accept: "Control+b", toggle: chaifen, when: composing } # PC 拆分滤镜开关
+    - { accept: "Control+p", toggle: pinyin, when: composing }  # 拼音开关
+    - { accept: "Control+e", toggle: emoji_cn, when: composing }  # emoji开关
+    - { accept: "Control+u", toggle: charset_comment_filter, when: composing }  # Unicode分区开关
+    - { accept: "Control+y", toggle: udpf_switch, when: composing }  # Unicode编码开关
+    - { accept: "Control+h", toggle: extended_char, when: composing } # 自定字集开关
+    - { accept: "Control+b", toggle: chaifen, when: composing } # 拆分滤镜开关
     - { accept: 'Control+k', send: Up, when: composing } # Vim-style up key bind
     - { accept: 'Control+j', send: Down, when: composing } # Vim-style down key bind
     - { accept: "Control+d", toggle: dz_ci, when: composing } # 单字与词组切换
     - { accept: "Control+i", toggle: preedit_is_candidate, when: composing } # preedit为候选 开关
-    # - { accept: "Control+s", toggle: full_shape, when: always }
     - { when: always, accept: "Control+period" , toggle: ascii_punct } # 中英标点切换
-    - { accept: space, send: Escape, when: composing } #无候选时(空码)空格清屏
+    - { accept: space, send: Escape, when: composing } # 无候选时(空码)空格清屏
 
 
 recognizer:

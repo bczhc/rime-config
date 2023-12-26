@@ -1,5 +1,7 @@
 #!/bin/env ruby
 
+# Use the main dict first
+# since I may change the breakdown of some chars
 main_dict_path = "./092wubi.dict.yaml"
 ext_char_dict_path = "./092wubi_U.dict.yaml"
 
@@ -25,6 +27,14 @@ lines.each do |line|
       map.delete word
     end
   end
+end
+
+('A'..'Z').each do |c|
+  map[c] = "#{c.downcase}z"
+end
+
+('a'..'z').each do |c|
+  map[c] = "#{c}z"
 end
 
 map.sort_by { |x| x[0] }.each do |pair|

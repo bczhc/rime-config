@@ -121,5 +121,6 @@ _G.short_punct_pre_recognizer_processor = {
         punct_db = ReverseDb("build/short_punct.reverse.bin")
         undo_input.init(env)
     end,
-    func = processor_pre_recognizer
+    func = processor_pre_recognizer,
+    fini = undo_input.fini,
 }

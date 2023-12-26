@@ -1,5 +1,5 @@
 local length_stack = create_fixed_length_stack(20)
-local init_flag = false
+local notifier
 
 local function execute_backspace(n)
     if type(n) == "number" and n > 0 then
@@ -21,17 +21,17 @@ local function undo()
 end
 
 return {
-    init = function (env)
-        if not init_flag then
-            init_flag = true
-            local ctx = env.engine.context
-            ctx.commit_notifier:connect(function(c)
-                local commit_text = c:get_commit_text()
-                local length = utf8.len(commit_text)
-                length_stack:push(length)
-                my_dbg("Undo stack: " .. length_stack:format_debug())
-            end)
-        end
+    init = function(env)
+        local ctx = env.engine.context
+        notifier = ctx.commit_notifier:connect(function(c)
+            local commit_text = c:get_commit_text()
+            local length = utf8.len(commit_text)
+            length_stack:push(length)
+            my_dbg("Undo stack: " .. length_stack:format_debug())
+        end)
+    end,
+    fini = function(_)
+        notifier:disconnect()
     end,
     func = undo,
     prepare_undo = false,

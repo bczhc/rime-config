@@ -1,4 +1,4 @@
-local init_flag = false
+local notifier
 
 local function processor(key, _)
     my_log(
@@ -13,12 +13,12 @@ end
 return {
     func = processor,
     init = function(env)
-        if not init_flag then
-            init_flag = true
-            env.engine.context.commit_notifier:connect(function(ctx)
-                local commit_text = ctx:get_commit_text()
-                my_log_on_commit(commit_text)
-            end)
-        end
+        notifier = env.engine.context.commit_notifier:connect(function(ctx)
+            local commit_text = ctx:get_commit_text()
+            my_log_on_commit(commit_text)
+        end)
+    end,
+    fini = function(_)
+        notifier:disconnect()
     end
 }

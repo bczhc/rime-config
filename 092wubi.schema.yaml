@@ -183,7 +183,7 @@ translator_extend:
 
 reverse_lookup:
   dictionary: pinyin_simp
-  prefix: "`"
+  prefix: "|"
   tips: "〔拼音〕"
   preedit_format:
     - "xform/([nl])v/$1ü/"
@@ -230,7 +230,7 @@ recognizer:
   patterns:
     punct: "^/(?!uni)(?!cal)(?!num)(?!info)(?!hc)(?!em)(?!lt)(?!ipa)(?!env/)(?!help)(?!nipa)(?!sk)(?!jp)(?!cb)(?!ec)(?!gk)(?!sup)(?!sub)([0-9]0?|[A-Za-z]+)$"
     # uppercase: "" #中文状态大写锁定直接上屏
-    reverse_lookup: "^`[a-z]*'?$"
+    reverse_lookup: '^\|[a-z]*''?$'
     alphabet_mode: '^[;A-Z].*$'
     unicode: "^/uni[a-zA-Z0-9]*$"
     number_chinese: '^/num([0-9]+\.?[0-9]*)?$'

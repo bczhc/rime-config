@@ -1,0 +1,5 @@
+/.git/
+/ci/target/
+/build/
+/ci-build/
+/sync/

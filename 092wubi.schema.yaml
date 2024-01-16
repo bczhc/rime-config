@@ -202,6 +202,7 @@ key_binder:
     - { accept: semicolon, send: '2', when: has_menu } # 次选
     - { accept: apostrophe, send: '3', when: has_menu }
     - { accept: grave, send: '4', when: has_menu } # CapsLock
+    - { accept: Caps_Lock, send: '4', when: has_menu } # CapsLock config on Android
     - { accept: Arabic_switch, send: '4', when: has_menu }
     - { accept: bracketleft, send: '5', when: has_menu }
     - { accept: Tab, send: '6', when: has_menu }

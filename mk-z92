@@ -14,4 +14,6 @@
 cat z92-extra >>z92.txt
 echo
 
+cat z92.txt | ruby -e 'puts STDIN.readlines.uniq {|x| x.split("\t")[1]}' | sponge z92.txt
+
 echo Done

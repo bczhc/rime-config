@@ -2,7 +2,6 @@
 
 (
   cat 092wubi.dict.yaml | tail +21 | awk '{print $2"\t"$1}'
-  cat 092K_ci.dict.yaml | tail +21 | awk '{print $2"\t"$1}'
   # cat 092wubi_supp2.dict.yaml | tail +21 | awk '{print $2"\t"$1}'
   # cat 092wubi_supp1.dict.yaml | tail +21 | awk '{print $2"\t"$1}'
   cat 092wubi_U.dict.yaml | tail +21 | awk '{print $2"\t"$1}'
@@ -13,7 +12,5 @@
 
 cat z92-extra >>z92.txt
 echo
-
-cat z92.txt | ruby -e 'puts STDIN.readlines.uniq {|x| x.split("\t")[1]}' | sponge z92.txt
 
 echo Done

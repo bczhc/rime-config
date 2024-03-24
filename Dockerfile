@@ -15,7 +15,7 @@ RUN apt update && \
 # Install Rust
 RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs > install && \
     chmod +x install && \
-    ./install --profile minimal --default-toolchain nightly-2023-06-02 -y
+    ./install --profile minimal --default-toolchain nightly-2023-10-02 -y
 
 # Build and run tests
 RUN . ~/.cargo/env && \

@@ -21,4 +21,4 @@ RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs > install && \
 RUN . ~/.cargo/env && \
     RIME_LIB_DIR=/usr/lib/x86_64-linux-gnu \
     cargo build -r --manifest-path=/rime-config/ci/Cargo.toml && \
-    ci/target/release/ci
+    ci/target/release/ci . /usr/share/rime-data ci-build

@@ -4,4 +4,5 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-rime-api = "0.11.0"
+rime-api = "=0.12.1"
+clap = { version = "4.5.3", features = ["derive"] }

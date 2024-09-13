@@ -1,5 +1,5 @@
 use rime_api::{create_session, DeployResult, full_deploy_and_wait, initialize, setup, Traits};
-use ci::Args;
+use tools_rs::Args;
 use clap::Parser;
 
 fn main() {

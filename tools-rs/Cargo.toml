@@ -6,3 +6,15 @@ edition = "2021"
 [dependencies]
 rime-api = "=0.12.1"
 clap = { version = "4.5.3", features = ["derive"] }
+once_cell = "1.18.0"
+unicode-normalization = "0.1.22"
+anyhow = "1.0.89"
+regex = "1.10.6"
+
+[[bin]]
+name = "secret-mkdict"
+path = "src/secret_dict/mkdict.rs"
+
+[[bin]]
+name = "secret-decode"
+path = "src/secret_dict/decode.rs"

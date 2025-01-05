@@ -748,6 +748,7 @@ ABS	absu
 医典	acmr
 年龄段	acn
 茅屋	acna
+玄凤	acnc
 落毛凤凰不如鸡	acnc
 从此以后	acnf
 某些情况下	acng
@@ -8121,6 +8122,7 @@ Zhai Can <bczhc0@126.com>	bchc
 阻击战	bfv
 陆战	bfvx
 阻击战	bfvx
+墨丸	bfvy
 随你便	bfw
 随你便	bfwg
 主场优势	bfwh
@@ -8147,6 +8149,7 @@ Zhai Can <bczhc0@126.com>	bchc
 玉	bg
 耳	bg
 了一个	bg
+了一切	bga
 歼一警百	bgad
 残花	bgah
 残落	bgai
@@ -8820,6 +8823,8 @@ Zhai Can <bczhc0@126.com>	bchc
 孙武	biga
 死活不肯	bigc
 出头天	bigd
+big胆	bige
+big胆！	bige
 飘下	bigh
 出尘不染	bigi
 孤注一掷	bigr
@@ -15159,6 +15164,7 @@ Chrome	choe
 骋嗜奔欲	ckdm
 台大	ckdo
 齿白唇红	ckdx
+手盗龙	ckdx
 动员令	ckdy
 这口气	cke
 知县	ckec
@@ -28421,8 +28427,8 @@ D	dzzz
 豺狼	efvy
 郁佢	efwa
 对坏人太好，对好人太坏	efwf
-有余	efwi
 有偿	efwi
+有余	efwi
 肢体	efwj
 有份	efwm
 有人	efwo
@@ -28983,7 +28989,7 @@ D	dzzz
 两头大中间小	eidi
 刺在	eidj
 刺秦	eidw
-有没有	eie
+棘龙	eidx
 棘	eie
 艄	eie
 有没有到	eiea
@@ -39302,6 +39308,7 @@ FT	futu
 真好吃	fvks
 雪白	fvkt
 城市越野	fvku
+雪鸮	fvkw
 十九世纪	fvkx
 场次	fvky
 雪车	fvlg
@@ -46569,7 +46576,6 @@ Google	gooe
 政府管理部门	gotu
 一个条件	gotw
 严紧	gotx
-一个准	gou
 恶疾	gouc
 恶癖	goud
 不断减少	goui
@@ -62214,6 +62220,7 @@ IPO	ipou
 活	iq
 沟	iq
 ④	iq
+④	iq
 逃	iq
 满负荷	iqa
 清道夫	iqaa
@@ -67428,6 +67435,7 @@ J2EE	jfee
 星光大道	jkdq
 电影厅	jkds
 师太	jkdu
+暴盗龙	jkdx
 晃脑	jkey
 昨	jkf
 蚱	jkf
@@ -67800,6 +67808,7 @@ J2EE	jfee
 螺杆	jlsf
 日已中天	jlsg
 监查	jlsj
+戴森	jlsm
 螺栓	jlso
 载送	jlsp
 电路板	jlsr
@@ -69267,11 +69276,13 @@ JPEG	jpeg
 晒场	jsfv
 晒	jsg
 易中天	jsgd
+戴森球	jsgf
 栽下	jsgh
 照样不是	jsgj
 掌中玩物	jsgn
 能够理解	jsgq
 掌中珠	jsgt
+戴森球计划	jsgx
 冒牌货	jsh
 能够得到	jsha
 果饵	jshb
@@ -69582,7 +69593,6 @@ JPEG	jpeg
 蜂糕	jtou
 本科生	jtp
 本篇完	jtpf
-本科生	jtpg
 杀生	jtpg
 星条旗	jtph
 蜂窝	jtpk
@@ -73876,6 +73886,7 @@ K歌	kaq
 起碇	kldp
 超固态	kldu
 世界大战	kldv
+盗龙	kldx
 喂	kle
 喟	kle
 起腻	klea
@@ -76679,7 +76690,7 @@ K粉	kuom
 吃什么	kwo
 吃什么	kwog
 的什么	kwog
-叫什么叫	kwok
+咯噔咯噔	kwok
 喉炎	kwoo
 叫什么名字	kwop
 号炮	kwoq
@@ -76697,6 +76708,7 @@ K粉	kuom
 听人穿鼻	kwpt
 斡旋	kwpw
 听候差遣	kwpx
+鸮	kwq
 号角	kwqe
 趁钱	kwqg
 号外	kwqh
@@ -86614,8 +86626,8 @@ MBA	mbaz
 看见	mm
 山	mm
 看看	mm
-岗	mm
 爸爸	mm
+刚刚	mm
 刚看到	mma
 岁岁年年	mmaa
 山芋	mmaf
@@ -102803,6 +102815,7 @@ PDF	pdfu
 宠	pdx
 变压器	pdxd
 官级	pdxe
+宠眷	pdxh
 寄来	pdxi
 宏旨	pdxj
 穿壁引光	pdxk
@@ -115022,9 +115035,8 @@ RAM	ramz
 返潮	rcik
 据预测	rcim
 扯淡	rcio
-摊派	rcir
 反派	rcir
-反动派	rcir
+摊派	rcir
 反省	rcit
 抬头	rciw
 拉动消费	rcix
@@ -116852,6 +116864,7 @@ RAM	ramz
 扑上来	rhx
 披红	rhxa
 拨弦	rhxa
+迭代器	rhxd
 掉线	rhxg
 拉斯维加斯	rhxh
 搞来	rhxi
@@ -122661,7 +122674,7 @@ R	rzzz
 可	s
 可以	s
 中国	s
-中文	s
+⑥	s
 概率	s
 关键	s
 检查	s
@@ -126611,6 +126624,7 @@ SOS	sosz
 材料费	soxj
 模糊音	soxy
 要么就	soy
+杰诺	soya
 顶个诸葛亮	soyh
 要么就	soyi
 要么就是	soyj
@@ -128697,6 +128711,7 @@ SUV	suvu
 关外	syqh
 吾谁与归	syqj
 关岛	syqm
+杰诺多兰	syqu
 关键	syqw
 关贸	syqy
 关掉	syrh
@@ -133171,8 +133186,8 @@ TOSHIBA	tosa
 坚持就是胜利	tryt
 稀朗	tryv
 自我评价	tryw
-种	ts
 相关	ts
+种	ts
 积极	ts
 想要	ts
 朱可夫	tsaa
@@ -138745,6 +138760,7 @@ UPS	upsu
 瘀伤	upwt
 帝位	upwu
 亲家母	upx
+逆变器	upxd
 整军经武	upxg
 速来	upxi
 亲生骨肉	upxm
@@ -146411,9 +146427,9 @@ VOA	voaz
 半夜	vuyw
 半部论语	vuyy
 女	vv
-妈妈	vv
-狠	vv
 妇	vv
+狠	vv
+妈妈	vv
 狠狠	vv
 ⑥	vv
 奶奶	vv

@@ -691,6 +691,7 @@ ABS	absu
 医德	achl
 玄德	achl
 玄虚	acho
+荷鲁斯	achr
 茹毛饮血	acht
 医	aci
 荬	aci
@@ -2847,7 +2848,6 @@ ABS	absu
 节日祝福	ajoo
 茧房	ajop
 到庭	ajoq
-到底	ajos
 节能灯	ajos
 辨日炎凉	ajou
 到府	ajow
@@ -8132,6 +8132,7 @@ Zhai Can <bczhc0@126.com>	bchc
 墨斗	bfwy
 主教练	bfx
 主教练	bfxa
+衬线	bfxg
 墨线	bfxg
 了过来	bfxi
 墨绿	bfxj
@@ -11051,6 +11052,7 @@ BP机	bpsn
 聚酰胺	bsep
 出版商	bser
 阿胶	bseu
+主要地	bsf
 阿堵	bsff
 补西墙	bsff
 死中求活	bsfi
@@ -12684,6 +12686,8 @@ B站	buv
 阴谋论	byyw
 主讲	byyx
 阴谋诡计	byyy
+B超	bzk
+B圈	bzl
 b	bzzz
 B	bzzz
 这	c
@@ -13266,7 +13270,6 @@ CCU	ccuu
 步步进逼	ccxr
 毛举细务	ccxt
 骆驼绒	ccxx
-疏	ccy
 驭	ccy
 疏离	ccyb
 通文调武	ccyg
@@ -13772,6 +13775,7 @@ CET	cetu
 参考文献	cfch
 观者云集	cfcm
 又老又丑	cfcn
+驭雷马	cfco
 疏于观察	cfcp
 这才知道	cfcq
 鳕鱼	cfct
@@ -19203,6 +19207,7 @@ C	czzz
 大规模	das
 檗	das
 壁柜	dasa
+厨柜	dasa
 面若桃花	dasa
 左权	dasc
 磺酸	dasc
@@ -27411,6 +27416,7 @@ D	dzzz
 乳鸽	ebwq
 有限合伙	ebww
 腾出来	ebx
+有衬线	ebxg
 脑子进水	ebxh
 腾出来	ebxi
 乳母	ebxs
@@ -28157,7 +28163,6 @@ D	dzzz
 肢障	efbx
 有主	efby
 肢	efc
-有劲	efca
 脖颈	efca
 月地云阶	efcb
 对于这些	efcc
@@ -33404,6 +33409,7 @@ E	ezzz
 露出来	fbx
 教练	fbxa
 孝经	fbxc
+无衬线	fbxg
 后防线	fbxg
 博引	fbxh
 露出来	fbxi
@@ -37764,6 +37770,7 @@ FPS	fpsu
 远矣	fqcc
 无敌手	fqch
 远观	fqcm
+雷角马	fqco
 远海	fqcu
 顽	fqd
 赫然在列	fqdb
@@ -42926,11 +42933,7 @@ GDP	gdpz
 歪头	ggiw
 一不注意	ggix
 环流	ggiy
-还不是	ggj
-还不能	ggj
-更不是	ggj
 不正常	ggj
-不正是	ggj
 琶	ggj
 不正常	ggjb
 王明	ggje
@@ -44518,7 +44521,7 @@ GDP	gdpz
 正是时候	gjjw
 更能	gjjx
 正常的	gjk
-弄明白	gjk
+不明白	gjk
 卅	gjk
 不是啊	gjkb
 不是吗	gjkc
@@ -44532,7 +44535,6 @@ GDP	gdpz
 天杀的	gjkq
 不爱听	gjkr
 还能怎样	gjks
-不明白	gjkt
 弄明白	gjkt
 不是的话	gjky
 不归路	gjl
@@ -45568,6 +45570,7 @@ GMS	gmsz
 一看便知	gmwc
 现做	gmwd
 画公仔画出肠	gmwe
+一分价钱一分货	gmwh
 王八蛋	gmwj
 班集体	gmwj
 不同人的	gmwk
@@ -45597,6 +45600,7 @@ GMS	gmsz
 一番话	gmyq
 天赐良机	gmys
 现身	gmyt
+瑞郎	gmyv
 一见忘俗	gmyw
 一见误终身	gmyy
 理性	gn
@@ -45670,6 +45674,7 @@ GMS	gmsz
 不举	gncv
 不赀	gncx
 琚	gnd
+万事达	gnd
 不避	gnda
 不顾	gndb
 不厌	gndd
@@ -55669,7 +55674,7 @@ HTML	html
 高等植物	htsn
 水利枢纽	htsx
 彳	htt
-热乎乎	httu
+热乎乎	htt
 化简	httu
 很简单	htu
 化冻	htua
@@ -59696,6 +59701,7 @@ IELTS	iels
 小惠	iigj
 当浮一大白	iigk
 沙画	iigl
+泾渭不分	iigm
 波澜不惊	iign
 消灭	iigo
 源源不断	iigo
@@ -60897,6 +60903,7 @@ IELTS	iels
 汽轮机	ilsn
 法国梧桐	ilss
 法槌	ilst
+泗杨	ilsv
 法术	ilsy
 没曾想	ilt
 法币	iltb
@@ -62853,6 +62860,7 @@ IPO	ipou
 消极因素	islg
 深根固本	islj
 渣男	isll
+泗杨路	islo
 河边	islp
 渴慕已久	islq
 河图	islt
@@ -66625,7 +66633,7 @@ J2EE	jfee
 明天就做窝	jgyp
 量身	jgyt
 晴朗	jgyv
-时代	jh
+日期	jh
 时期	jh
 曰	jh
 虫	jh
@@ -74431,8 +74439,8 @@ K歌	kaq
 叫床	knos
 哪几个	knot
 的几个	knot
-的民族	knp
 的事实	knp
+的民族	knp
 囔	knp
 起居室	knpa
 哈尼族	knpc
@@ -77840,11 +77848,10 @@ LCD	lcdz
 轻呼	lckt
 轻叱	lckx
 轻哼	lcky
-四驱车	lcl
+轻度	lcl
 蹂躏	lcla
 踟躇	lcla
 轻轻	lclc
-轻度	lclc
 踟蹰	lcld
 蹑手蹑脚	lcle
 轻手轻脚	lcle
@@ -87732,10 +87739,10 @@ MP5	mpsi
 公道话	mqyq
 公尔忘私	mqyt
 保重身体	mqyw
-刚	mr
+公共	mr
 保持	mr
 保护	mr
-公共	mr
+刚	mr
 谷	mr
 典	mr
 贩夫	mraa
@@ -89689,6 +89696,7 @@ M	mzzz
 居功至伟	naaw
 收到了	nab
 屡获殊荣	naba
+屁孩	naba
 心若死灰	nabd
 惜阴	nabe
 慢工出细活	nabi
@@ -109792,8 +109800,8 @@ QFII	qfii
 鸟语	qgys
 千不该万不该	qgyy
 外	qh
-与其	qh
 道德	qh
+与其	qh
 首发式	qha
 首发式	qhaa
 外藩	qhai
@@ -113146,8 +113154,8 @@ QQ群	qqvt
 舐痈吮痔	quku
 重号	qukw
 重新再来	qukx
+重度	qul
 重力	qula
-重度	qulc
 角速度	qulc
 重蹈	qule
 重置	qulf
@@ -117667,7 +117675,7 @@ RAM	ramz
 捐物	rknq
 探口风	rknr
 操习	rknu
-我怎么	rko
+我嘞个	rko
 按次序	rkoc
 捐精	rkog
 我怎么	rkog
@@ -121095,8 +121103,8 @@ RTS	rtsu
 接活	ruiq
 拦河	ruis
 押当	ruiv
-接洽	ruiw
 接头	ruiw
+接洽	ruiw
 卸妆液	ruiy
 共产党	ruj
 接受	rujc
@@ -146432,8 +146440,8 @@ VOA	voaz
 妈妈	vv
 狠狠	vv
 ⑥	vv
-奶奶	vv
 姐姐	vv
+奶奶	vv
 妹妹	vv
 姐妹花	vva
 女式	vvaa
@@ -147339,6 +147347,7 @@ V	vzzz
 ④	wa
 众	wa
 倒替	waaa
+依葫芦画瓢	waab
 储蓄率	waac
 倒茬	waad
 倒落	waai
@@ -151456,6 +151465,7 @@ Word	word
 人梯	wosu
 偏要	wosv
 什么样的人	wosw
+偏移	wot
 偏私	wotc
 偏逢	wotd
 倒数第二	wotf
@@ -154011,6 +154021,7 @@ WS	wusu
 斗图	wylt
 他认为	wylu
 舆论界	wylw
+借记卡	wym
 人身保险	wymb
 人设崩塌	wymf
 借记卡	wymh
@@ -158886,7 +158897,6 @@ XML	xmlz
 X光	xukh
 弹唱	xukj
 弹起	xukl
-弹	xul
 约束力	xul
 约束力	xula
 弹力	xula

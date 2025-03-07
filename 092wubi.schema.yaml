@@ -198,7 +198,6 @@ key_binder:
   #  import_preset: default
   bindings:
     - { accept: space, send: space, when: has_menu } # 有候选时空格上屏首选
-    - { accept: Shift+space, toggle: ascii_mode, when: always }
     - { accept: semicolon, send: '2', when: has_menu } # 次选
     - { accept: apostrophe, send: '3', when: has_menu }
     - { accept: grave, send: '4', when: has_menu } # CapsLock

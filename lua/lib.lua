@@ -118,3 +118,16 @@ function create_fixed_length_stack(maxSize)
 
     return stack
 end
+
+function udxf_time_format()
+    -- 获取当前UTC时间
+    local time = os.time(os.date("!*t"))
+
+    local date_str = os.date("%d%b%y", time)
+    local time_str = os.date("%H%M", time)
+
+    local result = string.format("(%s %s) (zc)", date_str, time_str)
+
+    -- print(result)  -- 输出类似：(08Mar25 当前UTC时间) (zc)
+    return result
+end

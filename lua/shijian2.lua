@@ -1928,6 +1928,11 @@ local function translator(input, seg)
         candidate = Candidate("date", seg.start, seg._end, date, "")
         yield(candidate)
         -- 时间
+    elseif (input == '/ut') then
+        -- UDXF Log time format
+        local time = udxf_time_format()
+        local candidate = Candidate("udxf time", seg.start, seg._end, time, "")
+        yield(candidate)
     elseif (input == "/time" or input == "/fsj" or input == "/fuj" or input == "/okao") then
         time = string.gsub(os.date("%H:%M"), "", "")
         time_discrpt = GetLunarSichen(os.date("%H"), 1)

@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-rime-api = "=0.12.1"
+rime-api = "=0.12.2"
 clap = { version = "4.5.3", features = ["derive"] }
 once_cell = "1.18.0"
 unicode-normalization = "0.1.22"

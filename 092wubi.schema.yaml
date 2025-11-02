@@ -223,7 +223,7 @@ key_binder:
     - { accept: "Control+i", toggle: preedit_is_candidate, when: composing } # preedit为候选 开关
     - { when: always, accept: "Control+period" , toggle: ascii_punct } # 中英标点切换
     - { accept: space, send: Escape, when: composing } # 无候选时(空码)空格清屏
-    #- { accept: 'Shift+space', toggle: ascii_mode, when: always } # 平板上使用
+    #- { accept: 'Shift+space', toggle: ascii_mode, when: always } # 安卓上使用
 
 
 recognizer:

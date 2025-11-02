@@ -4,7 +4,7 @@ use std::fs::File;
 use std::io::{BufRead, BufReader, Seek, SeekFrom, Write};
 use std::sync::Mutex;
 use anyhow::anyhow;
-use tools_rs::secret_dict::{encode_pua, CHARS_MAP, PINYIN_INITIAL_TABLE, RIME_ROOT};
+use obfuscate_dict::{encode_pua, CHARS_MAP, PINYIN_INITIAL_TABLE, RIME_ROOT};
 use unicode_normalization::UnicodeNormalization;
 
 fn main() -> anyhow::Result<()> {

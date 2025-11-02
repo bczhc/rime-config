@@ -1,5 +1,0 @@
-#!/bin/bash
-
-set -e
-
-for i in THUOCL/data/*; do echo "$i" 1>&2; cat "$i" | sed '1s/^\xEF\xBB\xBF//' | mac2unix; done | awk '{print $1}' | ./dict-compose-code

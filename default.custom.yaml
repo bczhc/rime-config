@@ -10,6 +10,7 @@ patch:
     - schema: luna_pinyin
     - schema: ipa_yunlong
     - schema: latin_international
+    - schema: 092wubi_secret
   "switcher/hotkeys": # 将默认的 F4热键 更改为ctrl+~
     - "Control+grave"
     - "Control+F8"

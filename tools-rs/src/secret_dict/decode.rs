@@ -1,5 +1,5 @@
 use std::io::{stdin, Read};
-use obfuscate_dict::decode;
+use tools_rs::secret_dict::decode;
 
 fn main() {
     let mut text = String::new();

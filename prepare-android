@@ -1,8 +1,0 @@
-#!/bin/bash
-
-set -e
-
-./create-secret-dict
-
-patch 092wubi.schema.yaml android.diff
-patch 092wubi_secret.schema.yaml

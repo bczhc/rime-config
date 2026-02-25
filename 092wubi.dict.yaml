@@ -31394,7 +31394,7 @@ ERP	erpu
 有概率	esa
 开幕式	esaa
 膝关节	esab
-有概率	esac
+采样率	esac
 采花	esah
 采薇	esah
 采到	esaj
@@ -39529,7 +39529,6 @@ FT	futu
 考量	fwjg
 封建时代	fwjh
 无人能当	fwji
-坏蛋是怎样炼成的	fwjk
 颠倒是非	fwjm
 老人星	fwjp
 无人能敌	fwjq
@@ -48658,8 +48657,6 @@ G点	guvo
 还君明珠双泪垂	gvjq
 一点时间	gvju
 一点是一点	gvjv
-不好的	gvk
-更加的	gvk
 更好的	gvk
 弄点啥	gvkb
 不好吗	gvkc
@@ -48668,9 +48665,6 @@ G点	guvo
 天狗吃月亮	gvkh
 不好吧	gvkj
 不忍再看	gvkm
-更好的	gvkq
-不好的	gvkq
-更加的	gvkq
 不好听	gvkr
 不好吃	gvks
 班白	gvkt
@@ -50888,9 +50882,10 @@ G	gzzz
 发烧	hdox
 发火	hdoy
 发廊	hdoy
-很丰富	hdp
+御三家	hdp
 基础差	hdpa
 发家	hdpe
+御三家	hdpe
 发完	hdpf
 发生	hdpg
 基础之上	hdph
@@ -53939,6 +53934,7 @@ HIV	hivz
 彪马	hnco
 甚欢	hncq
 勘验	hncw
+虎鲸	hncy
 颅	hnd
 卢布	hndb
 虎码	hndc
@@ -78463,6 +78459,7 @@ LED	ledz
 度过了	lfbn
 园子	lfbo
 置于死地而后生	lfbp
+导联	lfbs
 团队	lfbw
 车填马隘	lfcb
 导通	lfce
@@ -91160,6 +91157,7 @@ NBA	nbaz
 愤激	nfik
 特派	nfir
 屠	nfj
+属于是	nfj
 牡蛎	nfjd
 丑时	nfjf
 事无常师	nfjj
@@ -97931,6 +97929,7 @@ OICQ	oicq
 爆裂	ojbj
 神职	ojbk
 爆出	ojbm
+神了	ojbn
 神隐	ojbq
 神降	ojbt
 焊死	ojbx
@@ -102852,7 +102851,9 @@ PDF	pdfu
 宠辱偕忘	pdwy
 安达信	pdwy
 宠	pdx
+寄存器	pdx
 变压器	pdxd
+寄存器	pdxd
 官级	pdxe
 宠眷	pdxh
 寄来	pdxi
@@ -124820,7 +124821,7 @@ Shit	shit
 根深蒂固	sial
 五七	siao
 五荤	siap
-枕头芯儿	siaq
+西湖苑	siaq
 杨浦区	siar
 松江区	siar
 中小规模	sias
@@ -141345,6 +141346,7 @@ U	uzzz
 媒妁	vavq
 猎狗	vavs
 奶茶妹妹	vavv
+猎狼	vavy
 半工半读	vavy
 半卧位	vaw
 如花似玉	vawb
@@ -143181,6 +143183,7 @@ VCD	vcdz
 独得之见	vhpm
 早恋	vhpn
 另行安排	vhpr
+占空	vhps
 点睛之笔	vhpt
 早安	vhpv
 另案	vhpv
@@ -143733,6 +143736,7 @@ VIP	vipz
 别收	vjnh
 别怕	vjnk
 好害怕	vjnk
+独属	vjnt
 别忙	vjny
 加盟店	vjo
 加盟店	vjok
@@ -145272,6 +145276,7 @@ VOA	voaz
 占着茅坑不拉屎	vpan
 九宗七祖	vpao
 巡警	vpas
+占空比	vpax
 帚	vpb
 姓陈	vpba
 嫁娶	vpbc
@@ -148386,10 +148391,10 @@ V	vzzz
 仍	we
 作用	we
 俩	we
-创造	we
+优先	we
 ⑥	we
 ⑦	we
-优先	we
+创造	we
 俩	wea
 使用年限	weab
 使用率	weac
@@ -154152,6 +154157,7 @@ WS	wusu
 斗栱	wysr
 人身权利	wyst
 估计要	wysv
+信标	wysw
 建设中国特色社会主义	wysy
 传话筒	wyt
 仁言利博	wytf
@@ -163130,6 +163136,7 @@ Youtube	yout
 谋定而后动	ypdc
 身家丰厚	ypdd
 访古	ypdg
+访存	ypdh
 诸善奉行	ypdh
 诗家三昧	ypdj
 说实在的	ypdk

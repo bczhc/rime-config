@@ -18,3 +18,26 @@ filter_092chaifen = require('092chaifen')
 uniquifier_filter = require('uniquifier_filter')
 full_chars_translator = require('full_chars_translator')
 key_rejector = require('key_rejector')
+
+local test_processor_enable = false
+
+local test_processor_counter = 0
+
+local function test_processor_fn(key, env)
+    if not test_processor_enable then
+        return kNoop
+    end
+
+    local engine = env.engine
+    if key:repr() == "period" and key:repr() ~= "Release+period" then
+        local commit_text = '(' .. tostring(test_processor_counter) .. ')'
+        engine:commit_text(commit_text)
+        test_processor_counter = test_processor_counter + 1
+        return kAccepted
+    end
+    return kNoop
+end
+
+test_processor = {
+    func = test_processor_fn
+}

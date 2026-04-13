@@ -75,6 +75,7 @@ switches: # 0 默认关，1 默认开
 engine:
   processors:
     - lua_processor@log_processor
+    - lua_processor@test_processor
     - lua_processor@key_rejector
     - ascii_composer
     - lua_processor@alphabet_mode_processor

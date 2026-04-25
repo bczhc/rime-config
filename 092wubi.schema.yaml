@@ -86,6 +86,7 @@ engine:
     - speller
     - lua_processor@alphabet_mode_post_speller_processor
     - key_binder
+    - lua_processor@fixed_punctuation_processor
     - lua_processor@cancel_input_processor
     - punctuator
     - selector

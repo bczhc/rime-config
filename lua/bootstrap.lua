@@ -18,6 +18,7 @@ filter_092chaifen = require('092chaifen')
 uniquifier_filter = require('uniquifier_filter')
 full_chars_translator = require('full_chars_translator')
 key_rejector = require('key_rejector')
+fixed_punctuation_processor = require('fixed_punctuation_processor')
 
 local test_processor_enable = false
 
